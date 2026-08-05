@@ -12,12 +12,12 @@
         <string>/Users/god/workspace/rewards/scripts/daily-update.sh</string>
     </array>
 
-    <!-- Runs once a day at 09:00 local time. launchd catches up on missed
+    <!-- Runs once a day at 02:00 local time. launchd catches up on missed
          runs if the machine was asleep, but this Mac mini doesn't sleep. -->
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
-        <integer>9</integer>
+        <integer>2</integer>
         <key>Minute</key>
         <integer>0</integer>
     </dict>

@@ -23,7 +23,7 @@ This assumes: the repo is cloned locally, `claude` CLI is installed and logged i
    cp scripts/com.rewards.daily-update.plist ~/Library/LaunchAgents/
    launchctl load ~/Library/LaunchAgents/com.rewards.daily-update.plist
    ```
-   This runs the job daily at 09:00 local time (edit the plist's `StartCalendarInterval` before installing if you want a different time).
+   This runs the job daily at 02:00 local time (edit the plist's `StartCalendarInterval` before installing if you want a different time).
 
 3. **To trigger a run immediately** (for testing, without waiting for the scheduled time):
    ```bash
