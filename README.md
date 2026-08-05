@@ -60,7 +60,7 @@ npm install
 npm run validate
 ```
 
-Checks: every file against its JSON Schema, `card.issuerId` resolves in `issuers.json`, `bonus.cardId` resolves to a file in `data/cards/`, filenames match internal ids, and `index.json` stays in sync with the files on disk. CI runs this on every push and PR — a PR that fails validation should not be merged.
+Checks: every file against its JSON Schema, `card.issuerId` resolves in `issuers.json`, `bonus.cardId` resolves to a file in `data/cards/`, filenames match internal ids, and `index.json` stays in sync with the files on disk — both which cards exist and that `name`/`issuerId`/`status` haven't drifted from the card file (e.g. a card flipped to `discontinued` in its own file but not in `index.json`). CI runs this on every push and PR — a PR that fails validation should not be merged.
 
 ## Contributing / updating data
 

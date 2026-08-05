@@ -62,6 +62,7 @@ for (const issuer of issuers) {
 // --- data/cards/*.json ---
 const cardsDir = path.join(DATA_DIR, "cards");
 const cardIds = new Set();
+const cardsById = new Map();
 for (const file of fs.readdirSync(cardsDir)) {
   if (!file.endsWith(".json")) continue;
   const filePath = path.join(cardsDir, file);
@@ -79,6 +80,7 @@ for (const file of fs.readdirSync(cardsDir)) {
     fail(`${label}: issuerId "${card.issuerId}" not found in issuers.json`);
   }
   cardIds.add(card.id);
+  cardsById.set(card.id, card);
 }
 
 // --- data/bonuses/*.json ---
@@ -102,14 +104,30 @@ for (const file of fs.readdirSync(bonusesDir)) {
 }
 
 // --- index.json in sync with data/cards/*.json ---
+// Checks both presence (every card file has an index entry and vice versa)
+// and that the denormalized fields index.json carries (name, issuerId,
+// status) haven't drifted from the card file, which is the actual source of
+// truth. A status flip (e.g. a card going discontinued) is exactly the kind
+// of edit that's easy to make in one file and forget in the other.
 const indexPath = path.join(DATA_DIR, "index.json");
 const index = readJson(indexPath);
 const indexIds = new Set(index.cards.map((c) => c.id));
 for (const id of cardIds) {
   if (!indexIds.has(id)) fail(`index.json: missing entry for card "${id}"`);
 }
-for (const id of indexIds) {
-  if (!cardIds.has(id)) fail(`index.json: references card "${id}" with no file in data/cards/`);
+for (const entry of index.cards) {
+  if (!cardIds.has(entry.id)) {
+    fail(`index.json: references card "${entry.id}" with no file in data/cards/`);
+    continue;
+  }
+  const card = cardsById.get(entry.id);
+  for (const field of ["name", "issuerId", "status"]) {
+    if (entry[field] !== card[field]) {
+      fail(
+        `index.json: card "${entry.id}" has ${field}="${entry[field]}" but data/cards/${entry.id}.json has ${field}="${card[field]}"`
+      );
+    }
+  }
 }
 
 if (errorCount > 0) {

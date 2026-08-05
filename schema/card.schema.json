@@ -48,7 +48,7 @@
     "discontinuedDate": {
       "type": "string",
       "format": "date",
-      "description": "Only set when status = discontinued."
+      "description": "Only set when status = discontinued. May be a future date: issuers sometimes announce a discontinuation/conversion ahead of the effective date (e.g. a co-brand card converting to a different issuer's product on a known future date). Set status = discontinued as soon as the discontinuation is announced/confirmed, with this date reflecting when it takes effect — don't wait until the date has passed."
     },
     "benefits": {
       "type": "array",
