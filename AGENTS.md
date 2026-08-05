@@ -14,6 +14,8 @@ Two kinds of data, updated on different cadences, in different files — do not 
 
 `data/issuers.json` changes essentially never — only when a new issuer appears or issuer-level metadata (support phone, Guide to Benefits URL) needs correcting.
 
+**This repo runs a daily automated pass for standing task 2** (filling in `benefits[]`/`earningRates[]`, 5 cards/day) via `scripts/daily-update.sh` on a schedule — see `scripts/README.md` for how it's wired up and how to adjust batch size/cadence. If you're an agent invoked by that job specifically, your actual task prompt is `scripts/daily-update-prompt.md`, not this file directly (though it points back here for the underlying rules).
+
 ## Standing task 1: refresh sign-up bonuses (`data/bonuses/*.json`)
 
 Run this on the configured cadence (daily/monthly).
