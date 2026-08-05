@@ -54,6 +54,11 @@
       "type": "array",
       "items": { "$ref": "#/$defs/benefit" }
     },
+    "earningRates": {
+      "type": "array",
+      "description": "Permanent point/cashback multipliers by spend category — the card's base earning structure, applied automatically at purchase (no enrollment, no per-cycle reset, nothing for a user to redeem or track usage of). Kept separate from benefits[], which is reserved for things a user enrolls in, redeems, or tracks consumption of. This array is what powers 'which card should I use for this purchase' recommendations.",
+      "items": { "$ref": "#/$defs/earningRate" }
+    },
     "sourceMeta": { "$ref": "#/$defs/sourceMeta" },
     "_scaffoldHints": {
       "type": "object",
@@ -147,6 +152,40 @@
           "then": { "not": { "required": ["renewalPeriod"] } }
         }
       ]
+    },
+
+    "earningRate": {
+      "type": "object",
+      "description": "A permanent point/cashback multiplier for a spend category. No renewal period, no enrollment, no tracking — it's just the card's earning structure. Use this (not benefits[]/bonus_category) for base category bonuses like '3x on dining'.",
+      "required": ["multiplier", "rewardUnit", "eligibleCategories"],
+      "properties": {
+        "multiplier": { "type": "number", "description": "e.g. 3 for 3x points or 3% cashback." },
+        "rewardUnit": {
+          "type": "string",
+          "enum": ["points", "cashback_percent", "miles"]
+        },
+        "eligibleCategories": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "e.g. [\"dining\"], [\"chase_travel\"]. Use consistent category slugs across cards so the app can compare 'best card for category X' across issuers."
+        },
+        "spendCap": {
+          "type": "object",
+          "properties": {
+            "amount": { "type": "number" },
+            "period": { "$ref": "shared/period.schema.json" }
+          },
+          "additionalProperties": false,
+          "description": "Only set if this rate has a spend cap before dropping to the base rate (uncommon for permanent rates, common for some cashback cards)."
+        },
+        "requiresActivation": {
+          "type": "boolean",
+          "description": "True for the rare permanent rate that still needs one-time enrollment (uncommon — most activation-gated multipliers belong in benefits[] as bonus_category instead, since 'requires activation' is usually a sign it's not truly a no-touch permanent rate)."
+        },
+        "terms": { "type": "string" },
+        "sourceUrl": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
     },
 
     "statementCreditDetail": {

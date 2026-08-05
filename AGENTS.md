@@ -26,11 +26,16 @@ Run this on the configured cadence (daily/monthly).
 3. If a card's offer could not be confirmed (page unreachable, ambiguous, paywalled), **leave the existing record untouched** — do not blank it out or guess. Silence is safer than a wrong write here.
 4. Validate (`npm run validate`) and open a PR. See "Output: always a PR" below.
 
-## Standing task 2: fill in / verify recurring benefits (`data/cards/*.json`)
+## Standing task 2: fill in / verify recurring benefits and earning rates (`data/cards/*.json`)
 
-This is the bigger, slower-moving task — most cards currently have `benefits: []` and a `_scaffoldHints` key with unverified leads from the bootstrap import.
+This is the bigger, slower-moving task — most cards currently have `benefits: []`, `earningRates: []`, and a `_scaffoldHints` key with unverified leads from the bootstrap import. `chase-sapphire-preferred.json` and `american-express-platinum.json` are filled-in reference examples — read one before starting your first card.
 
-1. Pick a card. If it has `_scaffoldHints`, read `raw` as a *lead list only* — a hint that a "Hotel Credit" or "Companion Pass" benefit probably exists, nothing more. Its `value`/`weight` numbers are not reliable and must not be copied into the real record.
+**`benefits[]` vs `earningRates[]` — decide which array a perk belongs in first:**
+- `earningRates[]`: a permanent, no-enrollment, no-tracking point/cashback multiplier on a spend category (e.g. "3x on dining, forever"). Nothing for a user to redeem or run out of. Uses the `earningRate` shape (`multiplier`/`rewardUnit`/`eligibleCategories`/optional `spendCap`).
+- `benefits[]`: anything a user enrolls in, redeems, or should track consumption/expiration of (a $100 credit, a rotating 5% category with `requiresActivation`, lounge access, elite status). Uses the full `benefit` shape with `benefitType`.
+- A rotating/limited-time bonus category (needs activation, resets, or has an end date) is a `benefits[]` entry with `benefitType: bonus_category` — NOT an `earningRates[]` entry, even though the detail fields look similar. `earningRates[]` is only for the truly permanent, automatic base structure.
+
+1. Pick a card. If it has `_scaffoldHints`, read `raw` as a *lead list only* — a hint that a "Hotel Credit" or "Companion Pass" benefit probably exists, nothing more. Its `value`/`weight` numbers are not reliable and must not be copied into the real record. Some leads won't pan out at all (e.g. a benefit that existed when the bootstrap source was scraped but has since been discontinued) — verify against a current source, don't assume the hint is still accurate.
 2. Find the authoritative source:
    - The issuer's own product page (marketing summary — usually incomplete for insurance-type benefits).
    - The **Guide to Benefits** PDF, when `issuers.json[].benefitsGuideUrl` is set or discoverable — this is usually the actual authoritative text for things like purchase protection, trip delay insurance, rental car coverage.
@@ -45,6 +50,7 @@ This is the bigger, slower-moving task — most cards currently have `benefits: 
      - Multi-year perks (Global Entry every 4 years, etc.) → same shape, just `unit: "year", count: 4` (or whatever the real interval is).
    - Set `sourceUrl` and `lastVerified` on the benefit itself.
    - Set card-level `sourceMeta.lastReviewedDate`, `sourceMeta.sourceUrls`, `sourceMeta.updatedBy: "agent"`.
+4. For each permanent category multiplier found, add an entry to `earningRates[]`. Use consistent, reusable category slugs across cards (e.g. `dining`, `gas_stations`, `online_groceries`) rather than inventing a new slug per card — the point is cross-card comparability for "which card should I use here" recommendations.
 4. Once `benefits[]` is populated and verified for a card, **delete its `_scaffoldHints` key**. A card.json with `_scaffoldHints` still present is a signal to everyone else that it's unreviewed.
 5. If you cannot verify a lead against a real source, leave it out rather than including an unverified guess. An empty `benefits[]` is honest; a wrong one is actively harmful (a user might rely on it and miss a real benefit, or plan around one that doesn't exist).
 
