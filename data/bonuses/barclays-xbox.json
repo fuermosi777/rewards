@@ -1,0 +1,27 @@
+{
+  "cardId": "barclays-xbox",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 5000,
+      "rewardUnit": "points",
+      "spendRequirement": 0.01,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 5000,
+      "rewardUnit": "points",
+      "spendRequirement": 0.01,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/cards/xbox-mastercard/"
+    ],
+    "updatedBy": "agent"
+  }
+}

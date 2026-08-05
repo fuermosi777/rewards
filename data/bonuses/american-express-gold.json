@@ -1,0 +1,27 @@
+{
+  "cardId": "american-express-gold",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 60000,
+      "rewardUnit": "points",
+      "spendRequirement": 6000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 90000,
+      "rewardUnit": "points",
+      "spendRequirement": 4000,
+      "observedDate": "2024-03-01"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

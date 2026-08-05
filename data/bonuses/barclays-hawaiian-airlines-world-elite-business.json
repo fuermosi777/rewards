@@ -1,0 +1,45 @@
+{
+  "cardId": "barclays-hawaiian-airlines-world-elite-business",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 50000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 70000,
+      "rewardUnit": "miles",
+      "spendRequirement": 0.01,
+      "observedDate": "2026-08-04"
+    },
+    {
+      "rewardAmount": 50000,
+      "rewardUnit": "miles",
+      "spendRequirement": 2000,
+      "observedDate": "2026-08-04"
+    },
+    {
+      "rewardAmount": 90000,
+      "rewardUnit": "miles",
+      "spendRequirement": 10000,
+      "observedDate": "2026-08-04"
+    },
+    {
+      "rewardAmount": 45000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/combo-app/hawaiian-bha-boh---combo-app/"
+    ],
+    "updatedBy": "agent"
+  }
+}

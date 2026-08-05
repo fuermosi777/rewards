@@ -1,0 +1,27 @@
+{
+  "cardId": "first-national-bank-of-omaha-best-western-rewards-premium",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 80000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 100000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.bestwestern.com/en_US/offers/hotel-discounts/best-western-rewards-visa.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

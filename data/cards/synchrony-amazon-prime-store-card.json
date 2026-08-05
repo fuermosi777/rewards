@@ -1,0 +1,21 @@
+{
+  "id": "synchrony-amazon-prime-store-card",
+  "issuerId": "synchrony",
+  "name": "Amazon Prime Store Card",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.amazon.com/Synchrony-Bank-Amazon-com-Store-Card/dp/B008A0GNA8"
+    ],
+    "updatedBy": "agent"
+  }
+}

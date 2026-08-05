@@ -1,0 +1,41 @@
+{
+  "id": "bank-of-america-premium-rewards-elite",
+  "issuerId": "bank-of-america",
+  "name": "Premium Rewards Elite",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 550,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "PreCheck Credit",
+        "value": 100,
+        "weight": 0.4
+      },
+      {
+        "description": "Incidental Airline Statement Credits",
+        "value": 300,
+        "weight": 0.3
+      },
+      {
+        "description": "Annaul $150 streaming, delivery, fitness, and transit credit",
+        "value": 150,
+        "weight": 0.8
+      }
+    ]
+  }
+}

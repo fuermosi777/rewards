@@ -1,0 +1,39 @@
+{
+  "cardId": "american-express-delta-skymiles-reserve-business",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 80000,
+      "rewardUnit": "miles",
+      "spendRequirement": 10000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 125000,
+      "rewardUnit": "miles",
+      "spendRequirement": 10000,
+      "observedDate": "2026-04-01"
+    },
+    {
+      "rewardAmount": 80000,
+      "rewardUnit": "miles",
+      "spendRequirement": 10000,
+      "observedDate": "2026-03-21"
+    },
+    {
+      "rewardAmount": 110000,
+      "rewardUnit": "miles",
+      "spendRequirement": 12000,
+      "observedDate": "2025-10-29"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/"
+    ],
+    "updatedBy": "agent"
+  }
+}

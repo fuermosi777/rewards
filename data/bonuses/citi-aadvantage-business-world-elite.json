@@ -1,0 +1,34 @@
+{
+  "cardId": "citi-aadvantage-business-world-elite",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 75000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "timeframeDays": 120
+    },
+    {
+      "offerType": "public",
+      "rewardAmount": 65000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "timeframeDays": 120
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 65000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "observedDate": "2026-04-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.aa.com/credit-cards/citi-business-card-american-airlines-direct/"
+    ],
+    "updatedBy": "agent"
+  }
+}

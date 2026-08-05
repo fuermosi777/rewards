@@ -1,0 +1,21 @@
+{
+  "id": "american-express-everyday-preferred",
+  "issuerId": "american-express",
+  "name": "Everyday Preferred",
+  "network": "Amex",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "discontinued",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/amex-everyday-preferred/"
+    ],
+    "updatedBy": "agent"
+  }
+}

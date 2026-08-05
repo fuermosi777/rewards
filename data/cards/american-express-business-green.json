@@ -1,0 +1,21 @@
+{
+  "id": "american-express-business-green",
+  "issuerId": "american-express",
+  "name": "Business Green",
+  "network": "Amex",
+  "variant": "business",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-green-card-amex/"
+    ],
+    "updatedBy": "agent"
+  }
+}

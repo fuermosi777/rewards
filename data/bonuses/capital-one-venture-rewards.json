@@ -1,0 +1,27 @@
+{
+  "cardId": "capital-one-venture-rewards",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 75000,
+      "rewardUnit": "points",
+      "spendRequirement": 4000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 75000,
+      "rewardUnit": "points",
+      "spendRequirement": 4000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.capitalone.com/credit-cards/venture/"
+    ],
+    "updatedBy": "agent"
+  }
+}

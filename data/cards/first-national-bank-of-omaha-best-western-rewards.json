@@ -1,0 +1,21 @@
+{
+  "id": "first-national-bank-of-omaha-best-western-rewards",
+  "issuerId": "first-national-bank-of-omaha",
+  "name": "Best Western Rewards",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.bestwestern.com/en_US/offers/hotel-discounts/best-western-rewards-visa.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

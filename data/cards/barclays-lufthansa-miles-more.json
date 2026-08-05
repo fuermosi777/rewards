@@ -1,0 +1,21 @@
+{
+  "id": "barclays-lufthansa-miles-more",
+  "issuerId": "barclays",
+  "name": "Lufthansa Miles & More",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 89,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/cards/lufthansa-miles-more-world-elite-mastercard"
+    ],
+    "updatedBy": "agent"
+  }
+}

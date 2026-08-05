@@ -1,0 +1,27 @@
+{
+  "cardId": "chase-sapphire-preferred",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 75000,
+      "rewardUnit": "points",
+      "spendRequirement": 5000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 100000,
+      "rewardUnit": "points",
+      "spendRequirement": 5000,
+      "observedDate": "2025-05-15"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred"
+    ],
+    "updatedBy": "agent"
+  }
+}

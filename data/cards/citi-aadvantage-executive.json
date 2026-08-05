@@ -1,0 +1,21 @@
+{
+  "id": "citi-aadvantage-executive",
+  "issuerId": "citi",
+  "name": "AAdvantage Executive",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 595,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.aa.com/citi-executive-card-american-airlines-direct/"
+    ],
+    "updatedBy": "agent"
+  }
+}

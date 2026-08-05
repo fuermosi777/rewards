@@ -1,0 +1,27 @@
+{
+  "cardId": "bank-of-america-platinum-plus-business",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 300,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 3000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 300,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.bankofamerica.com/smallbusiness/credit-cards/products/platinum-plus-business-credit-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

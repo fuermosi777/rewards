@@ -1,0 +1,27 @@
+{
+  "cardId": "first-national-bank-of-omaha-amtrak-guest-rewards",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 12000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 20000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "observedDate": "2025-05-01"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.amtrak.com/Apply"
+    ],
+    "updatedBy": "agent"
+  }
+}

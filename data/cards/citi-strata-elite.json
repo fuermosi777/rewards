@@ -1,0 +1,56 @@
+{
+  "id": "citi-strata-elite",
+  "issuerId": "citi",
+  "name": "Strata Elite",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 595,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.citi.com/credit-cards/citi-strata-elite-credit-card"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "PreCheck Credit",
+        "value": 100,
+        "weight": 0.4
+      },
+      {
+        "description": "Lounge Access",
+        "value": 469,
+        "weight": 0.25
+      },
+      {
+        "description": "American Airlines Lounge Access",
+        "value": 150,
+        "weight": 0.25
+      },
+      {
+        "description": "Hotel Credit",
+        "value": 300,
+        "weight": 0.9
+      },
+      {
+        "description": "\"Splurge\" Credit (1stDibs, American Airlines, Best Buy, Future Personal Training, Live Nation)",
+        "value": 200,
+        "weight": 0.3
+      },
+      {
+        "description": "Blacklane Credit",
+        "value": 200,
+        "weight": 0.2
+      }
+    ]
+  }
+}

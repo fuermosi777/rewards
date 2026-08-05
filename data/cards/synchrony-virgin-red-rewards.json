@@ -1,0 +1,21 @@
+{
+  "id": "synchrony-virgin-red-rewards",
+  "issuerId": "synchrony",
+  "name": "Virgin Red Rewards",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 99,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.virgin.com/en-us/virgin-red/rewards-credit-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

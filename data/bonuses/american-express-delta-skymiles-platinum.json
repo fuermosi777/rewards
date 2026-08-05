@@ -1,0 +1,39 @@
+{
+  "cardId": "american-express-delta-skymiles-platinum",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 60000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 100000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "observedDate": "2026-04-01"
+    },
+    {
+      "rewardAmount": 60000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "observedDate": "2026-03-21"
+    },
+    {
+      "rewardAmount": 90000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "observedDate": "2025-10-29"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "cardId": "american-express-delta-skymiles-reserve",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 70000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 125000,
+      "rewardUnit": "miles",
+      "spendRequirement": 6000,
+      "observedDate": "2026-04-01"
+    },
+    {
+      "rewardAmount": 70000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "observedDate": "2026-03-21"
+    },
+    {
+      "rewardAmount": 125000,
+      "rewardUnit": "miles",
+      "spendRequirement": 6000,
+      "observedDate": "2025-10-29"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

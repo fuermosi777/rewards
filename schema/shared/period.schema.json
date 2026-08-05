@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/fuermosi777/rewards/main/schema/shared/period.schema.json",
+  "title": "RenewalPeriod",
+  "description": "Generic recurrence descriptor used by any benefit that resets on a schedule. Covers monthly credits, quarterly rotating categories, and multi-year perks (Global Entry every 4 years, free night award every membership year) with the same shape.",
+  "type": "object",
+  "required": ["unit", "count", "anchor"],
+  "properties": {
+    "unit": {
+      "type": "string",
+      "enum": ["day", "month", "quarter", "year"]
+    },
+    "count": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "How many units make one cycle. Monthly = unit:month,count:1. Every 4 years = unit:year,count:4."
+    },
+    "anchor": {
+      "type": "string",
+      "enum": ["calendar", "card_anniversary", "membership_year", "fixed_dates"],
+      "description": "calendar = natural month/quarter/year boundaries. card_anniversary = counted from the cardholder's account-open date. membership_year = issuer-defined membership year (e.g. some Amex benefits). fixed_dates = irregular, issuer-announced dates (e.g. rotating 5% categories) — see fixedDates."
+    },
+    "fixedDates": {
+      "type": "array",
+      "items": { "type": "string", "format": "date" },
+      "description": "Only used when anchor = fixed_dates. List of actual effective start dates as announced by the issuer, since these don't always align with calendar quarters."
+    }
+  },
+  "additionalProperties": false
+}

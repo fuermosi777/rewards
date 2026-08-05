@@ -1,0 +1,21 @@
+{
+  "id": "u-s-bank-shopper-cash-rewards",
+  "issuerId": "u-s-bank",
+  "name": "Shopper Cash Rewards",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD",
+    "waivedFirstYear": true
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

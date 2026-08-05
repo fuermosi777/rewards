@@ -1,0 +1,27 @@
+{
+  "cardId": "wells-fargo-attune",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 100,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 500,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 100,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 500,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.wellsfargo.com/attune-world-elite-mastercard-credit-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

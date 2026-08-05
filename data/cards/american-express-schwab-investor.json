@@ -1,0 +1,21 @@
+{
+  "id": "american-express-schwab-investor",
+  "issuerId": "american-express",
+  "name": "Schwab Investor",
+  "network": "Amex",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.schwab.com/public/schwab/investing/accounts_products/credit_cards"
+    ],
+    "updatedBy": "agent"
+  }
+}

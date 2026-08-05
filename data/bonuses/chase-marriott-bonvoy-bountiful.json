@@ -1,0 +1,27 @@
+{
+  "cardId": "chase-marriott-bonvoy-bountiful",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 85000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 85000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "observedDate": "2023-12-01"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bountiful"
+    ],
+    "updatedBy": "agent"
+  }
+}

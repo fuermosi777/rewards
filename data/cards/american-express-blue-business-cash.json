@@ -1,0 +1,21 @@
+{
+  "id": "american-express-blue-business-cash",
+  "issuerId": "american-express",
+  "name": "Blue Business Cash",
+  "network": "Amex",
+  "variant": "business",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/en-us/business/credit-cards/blue-business-cash/"
+    ],
+    "updatedBy": "agent"
+  }
+}

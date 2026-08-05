@@ -1,0 +1,46 @@
+{
+  "id": "bank-of-america-atmos-rewards-summit",
+  "issuerId": "bank-of-america",
+  "name": "Atmos Rewards Summit",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 395,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.alaskaair.com/atmosrewards/content/credit-cards"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "Multiple Checked Bags",
+        "value": 120,
+        "weight": 0.75
+      },
+      {
+        "description": "PreCheck Credit",
+        "value": 100,
+        "weight": 0.4
+      },
+      {
+        "description": "Lounge Access",
+        "value": 300,
+        "weight": 0.25
+      },
+      {
+        "description": "Wifi Passes",
+        "value": 60,
+        "weight": 0.5
+      }
+    ]
+  }
+}

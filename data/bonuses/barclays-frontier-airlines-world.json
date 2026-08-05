@@ -1,0 +1,27 @@
+{
+  "cardId": "barclays-frontier-airlines-world",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 50000,
+      "rewardUnit": "miles",
+      "spendRequirement": 500,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 60000,
+      "rewardUnit": "miles",
+      "spendRequirement": 2000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/cards/frontier-airlines-world-mastercard/"
+    ],
+    "updatedBy": "agent"
+  }
+}

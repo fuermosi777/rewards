@@ -1,0 +1,21 @@
+{
+  "id": "american-express-hilton-honors-surpass",
+  "issuerId": "american-express",
+  "name": "Hilton Honors Surpass",
+  "network": "Amex",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+    ],
+    "updatedBy": "agent"
+  }
+}

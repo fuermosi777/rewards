@@ -1,0 +1,27 @@
+{
+  "cardId": "american-express-business-green",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 15000,
+      "rewardUnit": "points",
+      "spendRequirement": 3000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 25000,
+      "rewardUnit": "points",
+      "spendRequirement": 3000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-green-card-amex/"
+    ],
+    "updatedBy": "agent"
+  }
+}

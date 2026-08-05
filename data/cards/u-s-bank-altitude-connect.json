@@ -1,0 +1,21 @@
+{
+  "id": "u-s-bank-altitude-connect",
+  "issuerId": "u-s-bank",
+  "name": "Altitude Connect",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": true
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.usbank.com/credit-cards/altitude-connect-visa-signature-credit-card.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

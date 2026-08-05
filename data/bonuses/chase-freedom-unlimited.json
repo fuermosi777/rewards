@@ -1,0 +1,40 @@
+{
+  "cardId": "chase-freedom-unlimited",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 25000,
+      "rewardUnit": "points",
+      "spendRequirement": 500,
+      "timeframeDays": 90
+    },
+    {
+      "offerType": "public",
+      "rewardAmount": 20000,
+      "rewardUnit": "points",
+      "spendRequirement": 500,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 30000,
+      "rewardUnit": "points",
+      "spendRequirement": 500,
+      "observedDate": "2026-03-21"
+    },
+    {
+      "rewardAmount": 25000,
+      "rewardUnit": "points",
+      "spendRequirement": 500,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited"
+    ],
+    "updatedBy": "agent"
+  }
+}

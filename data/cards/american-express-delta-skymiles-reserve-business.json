@@ -1,0 +1,21 @@
+{
+  "id": "american-express-delta-skymiles-reserve-business",
+  "issuerId": "american-express",
+  "name": "Delta SkyMiles Reserve Business",
+  "network": "Amex",
+  "variant": "business",
+  "annualFee": {
+    "amount": 550,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/"
+    ],
+    "updatedBy": "agent"
+  }
+}

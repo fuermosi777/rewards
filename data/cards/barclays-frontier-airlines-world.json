@@ -1,0 +1,21 @@
+{
+  "id": "barclays-frontier-airlines-world",
+  "issuerId": "barclays",
+  "name": "Frontier Airlines World",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 89,
+    "currency": "USD",
+    "waivedFirstYear": true
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/cards/frontier-airlines-world-mastercard/"
+    ],
+    "updatedBy": "agent"
+  }
+}

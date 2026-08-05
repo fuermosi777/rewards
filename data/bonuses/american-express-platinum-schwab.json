@@ -1,0 +1,27 @@
+{
+  "cardId": "american-express-platinum-schwab",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 80000,
+      "rewardUnit": "points",
+      "spendRequirement": 8000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 125000,
+      "rewardUnit": "points",
+      "spendRequirement": 8000,
+      "observedDate": "2025-01-08"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.schwab.com/credit-cards/platinum-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

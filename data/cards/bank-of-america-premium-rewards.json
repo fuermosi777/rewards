@@ -1,0 +1,21 @@
+{
+  "id": "bank-of-america-premium-rewards",
+  "issuerId": "bank-of-america",
+  "name": "Premium Rewards",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

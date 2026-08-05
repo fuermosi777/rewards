@@ -1,0 +1,86 @@
+{
+  "id": "american-express-business-platinum",
+  "issuerId": "american-express",
+  "name": "Business Platinum",
+  "network": "Amex",
+  "variant": "business",
+  "annualFee": {
+    "amount": 695,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "PreCheck Credit",
+        "value": 100,
+        "weight": 0.4
+      },
+      {
+        "description": "Lounge Access",
+        "value": 850,
+        "weight": 0.25
+      },
+      {
+        "description": "Hotel Credit (2x/yr $300)",
+        "value": 600,
+        "weight": 0.9
+      },
+      {
+        "description": "Misc. Hotel Perks",
+        "value": 550,
+        "weight": 0.4
+      },
+      {
+        "description": "Hilton Credit",
+        "value": 200,
+        "weight": 0.75
+      },
+      {
+        "description": "Airline Fee Credit",
+        "value": 200,
+        "weight": 0.25
+      },
+      {
+        "description": "Hotel Collection Credit",
+        "value": 100,
+        "weight": 0.9
+      },
+      {
+        "description": "Marriott/Hilton Gold Status",
+        "value": 200,
+        "weight": 0.5
+      },
+      {
+        "description": "Dell Credit ($150/yr). Also comes w/ $1k bonus on $5k in spend.",
+        "value": 150,
+        "weight": 0.25
+      },
+      {
+        "description": "Adobe Credit ($250 w/ $600 purchase).",
+        "value": 250,
+        "weight": 0.25
+      },
+      {
+        "description": "Indeed Credit ($90/qtr).",
+        "value": 90,
+        "weight": 0.25
+      },
+      {
+        "description": "Wireless Credit ($10/mo).",
+        "value": 120,
+        "weight": 0.25
+      }
+    ]
+  }
+}

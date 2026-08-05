@@ -1,0 +1,31 @@
+{
+  "id": "american-express-delta-skymiles-platinum",
+  "issuerId": "american-express",
+  "name": "Delta SkyMiles Platinum",
+  "network": "Amex",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 350,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "Companion Pass",
+        "value": 500,
+        "weight": 0.7
+      }
+    ]
+  }
+}

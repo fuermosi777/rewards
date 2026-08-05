@@ -1,0 +1,27 @@
+{
+  "cardId": "penfed-credit-union-platinum-rewards",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 15000,
+      "rewardUnit": "points",
+      "spendRequirement": 1500,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 15000,
+      "rewardUnit": "points",
+      "spendRequirement": 1500,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.penfed.org/credit-cards/platinum-rewards-visa"
+    ],
+    "updatedBy": "agent"
+  }
+}

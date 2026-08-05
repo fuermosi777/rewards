@@ -1,0 +1,21 @@
+{
+  "id": "american-express-delta-skymiles-gold-business",
+  "issuerId": "american-express",
+  "name": "Delta SkyMiles Gold Business",
+  "network": "Amex",
+  "variant": "business",
+  "annualFee": {
+    "amount": 150,
+    "currency": "USD",
+    "waivedFirstYear": true
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/"
+    ],
+    "updatedBy": "agent"
+  }
+}

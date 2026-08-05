@@ -1,0 +1,19 @@
+{
+  "cardId": "american-express-lowes-business",
+  "currentOffers": [],
+  "history": [
+    {
+      "rewardAmount": 0,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 0,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+    ],
+    "updatedBy": "agent"
+  }
+}

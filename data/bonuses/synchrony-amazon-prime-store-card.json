@@ -1,0 +1,27 @@
+{
+  "cardId": "synchrony-amazon-prime-store-card",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 60,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 0.01,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 60,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 0.01,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.amazon.com/Synchrony-Bank-Amazon-com-Store-Card/dp/B008A0GNA8"
+    ],
+    "updatedBy": "agent"
+  }
+}

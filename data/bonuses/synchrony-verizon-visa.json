@@ -1,0 +1,40 @@
+{
+  "cardId": "synchrony-verizon-visa",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 50,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 0.01,
+      "timeframeDays": 90
+    },
+    {
+      "offerType": "public",
+      "rewardAmount": 100,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 1500,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 50,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 0.01,
+      "observedDate": "2026-08-04"
+    },
+    {
+      "rewardAmount": 100,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 1500,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.verizon.com/financial-services/verizon-visa-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "first-national-bank-of-omaha-amtrak-guest-rewards-preferred",
+  "issuerId": "first-national-bank-of-omaha",
+  "name": "Amtrak Guest Rewards Preferred",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 99,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.amtrak.com/Apply"
+    ],
+    "updatedBy": "agent"
+  }
+}

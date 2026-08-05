@@ -1,0 +1,27 @@
+{
+  "cardId": "u-s-bank-business-triple-cash-rewards",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 750,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 4500,
+      "timeframeDays": 150
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 750,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 6000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.usbank.com/business-banking/business-credit-cards/business-triple-cash-back-credit-card.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

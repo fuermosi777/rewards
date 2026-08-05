@@ -1,0 +1,33 @@
+{
+  "cardId": "chase-united-explorer",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 85000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 70000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "observedDate": "2026-04-04"
+    },
+    {
+      "rewardAmount": 80000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.theexplorercard.com/rewards-cards/explorer-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

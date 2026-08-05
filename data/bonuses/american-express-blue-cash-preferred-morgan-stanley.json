@@ -1,0 +1,27 @@
+{
+  "cardId": "american-express-blue-cash-preferred-morgan-stanley",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 250,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 3000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 400,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 3000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred"
+    ],
+    "updatedBy": "agent"
+  }
+}

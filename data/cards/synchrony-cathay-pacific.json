@@ -1,0 +1,21 @@
+{
+  "id": "synchrony-cathay-pacific",
+  "issuerId": "synchrony",
+  "name": "Cathay Pacific",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 99,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://pay.cathaypacific.com/en_US/offers/uscreditcard.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

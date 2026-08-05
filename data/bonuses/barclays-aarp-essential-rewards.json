@@ -1,0 +1,27 @@
+{
+  "cardId": "barclays-aarp-essential-rewards",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 100,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 500,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 200,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.aarp.org/membership/benefits/finance/aarp-essential-rewards-mastercard-from-barclays/"
+    ],
+    "updatedBy": "agent"
+  }
+}

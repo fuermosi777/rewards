@@ -1,0 +1,21 @@
+{
+  "id": "barclays-aarp-essential-rewards",
+  "issuerId": "barclays",
+  "name": "AARP Essential Rewards",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.aarp.org/membership/benefits/finance/aarp-essential-rewards-mastercard-from-barclays/"
+    ],
+    "updatedBy": "agent"
+  }
+}

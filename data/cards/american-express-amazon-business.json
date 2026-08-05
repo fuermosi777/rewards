@@ -1,0 +1,21 @@
+{
+  "id": "american-express-amazon-business",
+  "issuerId": "american-express",
+  "name": "Amazon Business",
+  "network": "Amex",
+  "variant": "business",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amazon-business-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

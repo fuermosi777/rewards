@@ -1,0 +1,21 @@
+{
+  "id": "barclays-hawaiian-airlines-world-elite",
+  "issuerId": "barclays",
+  "name": "Hawaiian Airlines World Elite",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 99,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/child/hawaiian-hcl-inflight-landing-page/"
+    ],
+    "updatedBy": "agent"
+  }
+}

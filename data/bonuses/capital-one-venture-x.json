@@ -1,0 +1,33 @@
+{
+  "cardId": "capital-one-venture-x",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 75000,
+      "rewardUnit": "points",
+      "spendRequirement": 4000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 90000,
+      "rewardUnit": "points",
+      "spendRequirement": 4000,
+      "observedDate": "2023-12-01"
+    },
+    {
+      "rewardAmount": 75000,
+      "rewardUnit": "points",
+      "spendRequirement": 4000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.capitalone.com/credit-cards/venture-x/"
+    ],
+    "updatedBy": "agent"
+  }
+}

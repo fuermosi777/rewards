@@ -1,0 +1,21 @@
+{
+  "id": "capital-one-spark-2-cash-plus-business",
+  "issuerId": "capital-one",
+  "name": "Spark 2% Cash Plus",
+  "network": "Visa",
+  "variant": "business",
+  "annualFee": {
+    "amount": 150,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/"
+    ],
+    "updatedBy": "agent"
+  }
+}

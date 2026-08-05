@@ -1,0 +1,27 @@
+{
+  "cardId": "wells-fargo-choice-privileges",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 60000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 70000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards"
+    ],
+    "updatedBy": "agent"
+  }
+}

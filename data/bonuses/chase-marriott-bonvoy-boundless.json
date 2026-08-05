@@ -1,0 +1,27 @@
+{
+  "cardId": "chase-marriott-bonvoy-boundless",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 200000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "timeframeDays": 120
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 250000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless"
+    ],
+    "updatedBy": "agent"
+  }
+}

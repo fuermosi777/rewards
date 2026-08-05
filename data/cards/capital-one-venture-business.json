@@ -1,0 +1,41 @@
+{
+  "id": "capital-one-venture-business",
+  "issuerId": "capital-one",
+  "name": "Venture Business",
+  "network": "Visa",
+  "variant": "business",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.capitalone.com/small-business/credit-cards/venture-business/"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "PreCheck Credit",
+        "value": 100,
+        "weight": 0.4
+      },
+      {
+        "description": "Capital One Business Travel Credit",
+        "value": 50,
+        "weight": 0.9
+      },
+      {
+        "description": "Advertising/Software Credit",
+        "value": 50,
+        "weight": 0.3
+      }
+    ]
+  }
+}

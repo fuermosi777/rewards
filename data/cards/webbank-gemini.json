@@ -1,0 +1,21 @@
+{
+  "id": "webbank-gemini",
+  "issuerId": "webbank",
+  "name": "Gemini",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.gemini.com/credit-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

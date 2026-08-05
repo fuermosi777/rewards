@@ -1,0 +1,34 @@
+{
+  "cardId": "american-express-platinum",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 100000,
+      "rewardUnit": "points",
+      "spendRequirement": 8000,
+      "timeframeDays": 180
+    },
+    {
+      "offerType": "public",
+      "rewardAmount": 75000,
+      "rewardUnit": "points",
+      "spendRequirement": 8000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 175000,
+      "rewardUnit": "points",
+      "spendRequirement": 8000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+    ],
+    "updatedBy": "agent"
+  }
+}

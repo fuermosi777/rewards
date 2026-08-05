@@ -1,0 +1,40 @@
+{
+  "cardId": "american-express-marriott-bonvoy-brilliant",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 200000,
+      "rewardUnit": "miles",
+      "spendRequirement": 6000,
+      "timeframeDays": 180
+    },
+    {
+      "offerType": "public",
+      "rewardAmount": 100000,
+      "rewardUnit": "miles",
+      "spendRequirement": 6000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 100000,
+      "rewardUnit": "miles",
+      "spendRequirement": 6000,
+      "observedDate": "2026-03-21"
+    },
+    {
+      "rewardAmount": 200000,
+      "rewardUnit": "miles",
+      "spendRequirement": 6000,
+      "observedDate": "2023-07-01"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/"
+    ],
+    "updatedBy": "agent"
+  }
+}

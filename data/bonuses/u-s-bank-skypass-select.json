@@ -1,0 +1,27 @@
+{
+  "cardId": "u-s-bank-skypass-select",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 60000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 60000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.skypassvisa.com/credit/visaSelectCard.do"
+    ],
+    "updatedBy": "agent"
+  }
+}

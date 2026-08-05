@@ -1,0 +1,27 @@
+{
+  "cardId": "barclays-emirates-skywards-premium-world-elite",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 70000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 70000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/cards/emirates-skywards-premium-world-elite-mastercard/"
+    ],
+    "updatedBy": "agent"
+  }
+}

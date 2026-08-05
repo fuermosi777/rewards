@@ -1,0 +1,21 @@
+{
+  "id": "chase-marriott-bonvoy-bold",
+  "issuerId": "chase",
+  "name": "Marriott Bonvoy Bold",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
+    ],
+    "updatedBy": "agent"
+  }
+}

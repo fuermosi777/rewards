@@ -1,0 +1,21 @@
+{
+  "id": "american-express-business-gold",
+  "issuerId": "american-express",
+  "name": "Business Gold",
+  "network": "Amex",
+  "variant": "business",
+  "annualFee": {
+    "amount": 375,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/"
+    ],
+    "updatedBy": "agent"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chase-british-airways-signature",
+  "issuerId": "chase",
+  "name": "British Airways Signature",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/travel-credit-cards/avios/british-airways"
+    ],
+    "updatedBy": "agent"
+  }
+}

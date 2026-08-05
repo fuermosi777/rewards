@@ -1,0 +1,39 @@
+{
+  "cardId": "american-express-delta-skymiles-gold",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 50000,
+      "rewardUnit": "miles",
+      "spendRequirement": 2000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 90000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "observedDate": "2026-04-01"
+    },
+    {
+      "rewardAmount": 50000,
+      "rewardUnit": "miles",
+      "spendRequirement": 2000,
+      "observedDate": "2026-03-21"
+    },
+    {
+      "rewardAmount": 80000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "observedDate": "2025-10-29"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

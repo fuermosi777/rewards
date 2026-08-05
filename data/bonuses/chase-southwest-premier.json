@@ -1,0 +1,27 @@
+{
+  "cardId": "chase-southwest-premier",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 30000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 100000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "observedDate": "2025-09-17"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/travel-credit-cards/southwest/premier"
+    ],
+    "updatedBy": "agent"
+  }
+}

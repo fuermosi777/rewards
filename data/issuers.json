@@ -1,0 +1,66 @@
+[
+  {
+    "id": "american-express",
+    "name": "American Express"
+  },
+  {
+    "id": "bank-of-america",
+    "name": "Bank of America"
+  },
+  {
+    "id": "barclays",
+    "name": "Barclays"
+  },
+  {
+    "id": "brex",
+    "name": "Brex"
+  },
+  {
+    "id": "capital-one",
+    "name": "Capital One"
+  },
+  {
+    "id": "chase",
+    "name": "Chase"
+  },
+  {
+    "id": "citi",
+    "name": "Citi"
+  },
+  {
+    "id": "comenity",
+    "name": "Comenity"
+  },
+  {
+    "id": "discover",
+    "name": "Discover"
+  },
+  {
+    "id": "first-national-bank-of-omaha",
+    "name": "First National Bank of Omaha"
+  },
+  {
+    "id": "penfed-credit-union",
+    "name": "PenFed Credit Union"
+  },
+  {
+    "id": "pnc-bank",
+    "name": "PNC Bank"
+  },
+  {
+    "id": "synchrony",
+    "name": "Synchrony"
+  },
+  {
+    "id": "u-s-bank",
+    "name": "U.S. Bank"
+  },
+  {
+    "id": "webbank",
+    "name": "WebBank"
+  },
+  {
+    "id": "wells-fargo",
+    "name": "Wells Fargo"
+  }
+]

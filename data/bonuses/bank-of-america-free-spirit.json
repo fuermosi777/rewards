@@ -1,0 +1,39 @@
+{
+  "cardId": "bank-of-america-free-spirit",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 65000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 50000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    },
+    {
+      "rewardAmount": 60000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    },
+    {
+      "rewardAmount": 50000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.bankofamerica.com/credit-cards/products/spirit-airlines-credit-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

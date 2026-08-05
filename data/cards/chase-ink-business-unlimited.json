@@ -1,0 +1,21 @@
+{
+  "id": "chase-ink-business-unlimited",
+  "issuerId": "chase",
+  "name": "Ink Business Unlimited",
+  "network": "Visa",
+  "variant": "business",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/business-credit-cards/ink/unlimited"
+    ],
+    "updatedBy": "agent"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "barclays-emirates-skywards-premium-world-elite",
+  "issuerId": "barclays",
+  "name": "Emirates Skywards Premium World Elite",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 499,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/cards/emirates-skywards-premium-world-elite-mastercard/"
+    ],
+    "updatedBy": "agent"
+  }
+}

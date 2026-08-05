@@ -1,0 +1,27 @@
+{
+  "cardId": "synchrony-walmart-onepay-cashrewards",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 35,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 75,
+      "timeframeDays": 30
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 35,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 75,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.walmart.com/cp/onepay-cashrewards-mastercard/9569366376"
+    ],
+    "updatedBy": "agent"
+  }
+}

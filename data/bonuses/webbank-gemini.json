@@ -1,0 +1,27 @@
+{
+  "cardId": "webbank-gemini",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 200,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 3000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 200,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 3000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.gemini.com/credit-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

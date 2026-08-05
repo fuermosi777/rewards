@@ -1,0 +1,32 @@
+{
+  "id": "american-express-hilton-honors-business",
+  "issuerId": "american-express",
+  "name": "Hilton Honors Business",
+  "network": "Amex",
+  "variant": "business",
+  "annualFee": {
+    "amount": 175,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "$60 Hilton credit per quarter.",
+        "value": 240,
+        "weight": 0.5,
+        "currency": "HILTON"
+      }
+    ]
+  }
+}

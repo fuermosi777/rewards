@@ -1,0 +1,33 @@
+{
+  "cardId": "american-express-blue-business-plus",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 15000,
+      "rewardUnit": "points",
+      "spendRequirement": 3000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 15000,
+      "rewardUnit": "points",
+      "spendRequirement": 3000,
+      "observedDate": "2026-08-04"
+    },
+    {
+      "rewardAmount": 50000,
+      "rewardUnit": "points",
+      "spendRequirement": 8000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/"
+    ],
+    "updatedBy": "agent"
+  }
+}

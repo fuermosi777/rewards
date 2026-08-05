@@ -1,0 +1,27 @@
+{
+  "cardId": "bank-of-america-premium-rewards",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 60000,
+      "rewardUnit": "points",
+      "spendRequirement": 4000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 60000,
+      "rewardUnit": "points",
+      "spendRequirement": 5000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

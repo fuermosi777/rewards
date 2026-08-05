@@ -1,0 +1,37 @@
+{
+  "id": "chase-southwest-premier",
+  "issuerId": "chase",
+  "name": "Southwest Premier",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 149,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/travel-credit-cards/southwest/premier"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "Free Checked Bag",
+        "value": 100,
+        "weight": 0.75
+      },
+      {
+        "description": "Anniversary Points",
+        "value": 6000,
+        "weight": 1,
+        "currency": "SOUTHWEST"
+      }
+    ]
+  }
+}

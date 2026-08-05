@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/fuermosi777/rewards/main/schema/issuer.schema.json",
+  "title": "Issuer",
+  "description": "A card-issuing bank or institution. Kept as a flat list separate from cards so bank-level metadata (support phone, benefits administrator PDF) isn't duplicated per card.",
+  "type": "object",
+  "required": ["id", "name"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Stable lowercase-dash id referenced by cards[].issuerId, e.g. 'chase', 'american-express'."
+    },
+    "name": {
+      "type": "string",
+      "description": "Official display name, e.g. 'American Express'."
+    },
+    "customerServicePhone": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "benefitsGuideUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Link to the issuer/underwriter's 'Guide to Benefits' document, when publicly available. This is often the authoritative source for insurance-type benefit terms (rental car coverage, purchase protection, trip delay), which are usually NOT fully described on the marketing pages agents will otherwise crawl."
+    }
+  },
+  "additionalProperties": false
+}

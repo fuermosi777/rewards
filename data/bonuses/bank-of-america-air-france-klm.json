@@ -1,0 +1,46 @@
+{
+  "cardId": "bank-of-america-air-france-klm",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 70000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "timeframeDays": 90
+    },
+    {
+      "offerType": "public",
+      "rewardAmount": 50000,
+      "rewardUnit": "miles",
+      "spendRequirement": 2000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 50000,
+      "rewardUnit": "miles",
+      "spendRequirement": 2000,
+      "observedDate": "2026-04-18"
+    },
+    {
+      "rewardAmount": 70000,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "observedDate": "2026-08-04"
+    },
+    {
+      "rewardAmount": 70000,
+      "rewardUnit": "miles",
+      "spendRequirement": 2000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://wwws.airfrance.us/information/flyingblue/carte-bancaire-partenaire"
+    ],
+    "updatedBy": "agent"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "barclays-jetblue-business",
+  "issuerId": "barclays",
+  "name": "JetBlue Business",
+  "network": "Mastercard",
+  "variant": "business",
+  "annualFee": {
+    "amount": 99,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "Free checked bag",
+        "value": 50,
+        "weight": 0.5
+      }
+    ]
+  }
+}

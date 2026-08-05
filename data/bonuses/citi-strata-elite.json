@@ -1,0 +1,33 @@
+{
+  "cardId": "citi-strata-elite",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 75000,
+      "rewardUnit": "points",
+      "spendRequirement": 6000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 75000,
+      "rewardUnit": "points",
+      "spendRequirement": 4000,
+      "observedDate": "2026-08-04"
+    },
+    {
+      "rewardAmount": 100000,
+      "rewardUnit": "points",
+      "spendRequirement": 5000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.citi.com/credit-cards/citi-strata-elite-credit-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

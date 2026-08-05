@@ -1,0 +1,19 @@
+{
+  "cardId": "barclays-aadvantage-aviator-red-world-elite",
+  "currentOffers": [],
+  "history": [
+    {
+      "rewardAmount": 75000,
+      "rewardUnit": "miles",
+      "spendRequirement": 99.01,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/cards/aadvantage-aviator-red-world-elite-mastercard/"
+    ],
+    "updatedBy": "agent"
+  }
+}

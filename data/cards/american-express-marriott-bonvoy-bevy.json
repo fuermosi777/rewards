@@ -1,0 +1,21 @@
+{
+  "id": "american-express-marriott-bonvoy-bevy",
+  "issuerId": "american-express",
+  "name": "Marriott Bonvoy Bevy",
+  "network": "Amex",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 250,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/"
+    ],
+    "updatedBy": "agent"
+  }
+}

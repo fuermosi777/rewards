@@ -1,0 +1,27 @@
+{
+  "cardId": "american-express-green",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 40000,
+      "rewardUnit": "points",
+      "spendRequirement": 3000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 40000,
+      "rewardUnit": "points",
+      "spendRequirement": 3000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/green/"
+    ],
+    "updatedBy": "agent"
+  }
+}

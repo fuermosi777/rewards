@@ -1,0 +1,27 @@
+{
+  "cardId": "penfed-credit-union-pathfinder",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 50000,
+      "rewardUnit": "points",
+      "spendRequirement": 3000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 50000,
+      "rewardUnit": "points",
+      "spendRequirement": 1500,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.penfed.org/credit-cards/pathfinder-rewards"
+    ],
+    "updatedBy": "agent"
+  }
+}

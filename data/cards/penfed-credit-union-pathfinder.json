@@ -1,0 +1,31 @@
+{
+  "id": "penfed-credit-union-pathfinder",
+  "issuerId": "penfed-credit-union",
+  "name": "Pathfinder",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.penfed.org/credit-cards/pathfinder-rewards"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "Incidental travel credit (yearly)",
+        "value": 100,
+        "weight": 0.6
+      }
+    ]
+  }
+}

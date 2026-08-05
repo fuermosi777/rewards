@@ -1,0 +1,61 @@
+{
+  "id": "chase-united-club-business",
+  "issuerId": "chase",
+  "name": "United Club Business",
+  "network": "Visa",
+  "variant": "business",
+  "annualFee": {
+    "amount": 695,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.theexplorercard.com/business-rewards-cards/club-card"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "2x Checked Bags",
+        "value": 150,
+        "weight": 0.8
+      },
+      {
+        "description": "United Credit",
+        "value": 125,
+        "weight": 0.8
+      },
+      {
+        "description": "United Hotels",
+        "value": 200,
+        "weight": 0.8
+      },
+      {
+        "description": "Rideshare",
+        "value": 150,
+        "weight": 0.5
+      },
+      {
+        "description": "Instacart",
+        "value": 240,
+        "weight": 0.5
+      },
+      {
+        "description": "Avis/Budget",
+        "value": 100,
+        "weight": 0.5
+      },
+      {
+        "description": "United Lounge",
+        "value": 750,
+        "weight": 0.25
+      }
+    ]
+  }
+}

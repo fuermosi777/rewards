@@ -1,0 +1,27 @@
+{
+  "cardId": "chase-ink-business-premier",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 1000,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 10000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 1000,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 10000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/business-credit-cards/ink/premier"
+    ],
+    "updatedBy": "agent"
+  }
+}

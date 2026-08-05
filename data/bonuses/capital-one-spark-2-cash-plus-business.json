@@ -1,0 +1,25 @@
+{
+  "cardId": "capital-one-spark-2-cash-plus-business",
+  "currentOffers": [],
+  "history": [
+    {
+      "rewardAmount": 500,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 5000,
+      "observedDate": "2026-08-04"
+    },
+    {
+      "rewardAmount": 1200,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 30000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/"
+    ],
+    "updatedBy": "agent"
+  }
+}

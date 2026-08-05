@@ -1,0 +1,106 @@
+{
+  "id": "american-express-platinum",
+  "issuerId": "american-express",
+  "name": "Platinum",
+  "network": "Amex",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 895,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "PreCheck Credit",
+        "value": 100,
+        "weight": 0.4
+      },
+      {
+        "description": "Lounge Access",
+        "value": 850,
+        "weight": 0.25
+      },
+      {
+        "description": "Hotel Credit (2x/yr $300)",
+        "value": 600,
+        "weight": 0.9
+      },
+      {
+        "description": "Misc. Hotel Perks",
+        "value": 250,
+        "weight": 0.4
+      },
+      {
+        "description": "Marriott/Hilton Gold Status",
+        "value": 200,
+        "weight": 0.5
+      },
+      {
+        "description": "Avis/Hertz/National Gold Status",
+        "value": 100,
+        "weight": 0.5
+      },
+      {
+        "description": "$15/mo Uber Cash",
+        "value": 200,
+        "weight": 0.5
+      },
+      {
+        "description": "Uber One Membership",
+        "value": 120,
+        "weight": 0.5
+      },
+      {
+        "description": "Airline Fee Credit",
+        "value": 200,
+        "weight": 0.25
+      },
+      {
+        "description": "Resy Credit ($100/qtr)",
+        "value": 400,
+        "weight": 0.8
+      },
+      {
+        "description": "Digital Entertainment Credit ($25/mo)",
+        "value": 300,
+        "weight": 0.25
+      },
+      {
+        "description": "Lululemon Credit",
+        "value": 300,
+        "weight": 0.2
+      },
+      {
+        "description": "Walmart+ Credit",
+        "value": 155,
+        "weight": 0.3
+      },
+      {
+        "description": "Saks Credit",
+        "value": 100,
+        "weight": 0.2
+      },
+      {
+        "description": "Oura Ring Credit",
+        "value": 200,
+        "weight": 0.2
+      },
+      {
+        "description": "Equinox Credit",
+        "value": 300,
+        "weight": 0.2
+      }
+    ]
+  }
+}

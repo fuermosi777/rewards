@@ -1,0 +1,40 @@
+{
+  "cardId": "american-express-marriott-bonvoy-bevy",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 175000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "timeframeDays": 180
+    },
+    {
+      "offerType": "public",
+      "rewardAmount": 85000,
+      "rewardUnit": "miles",
+      "spendRequirement": 7000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 85000,
+      "rewardUnit": "miles",
+      "spendRequirement": 7000,
+      "observedDate": "2026-03-21"
+    },
+    {
+      "rewardAmount": 175000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "observedDate": "2023-07-01"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/"
+    ],
+    "updatedBy": "agent"
+  }
+}

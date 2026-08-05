@@ -1,0 +1,21 @@
+{
+  "id": "barclays-breeze",
+  "issuerId": "barclays",
+  "name": "Breeze",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 89,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/cards/breeze-airways/"
+    ],
+    "updatedBy": "agent"
+  }
+}

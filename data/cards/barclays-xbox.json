@@ -1,0 +1,21 @@
+{
+  "id": "barclays-xbox",
+  "issuerId": "barclays",
+  "name": "Xbox",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/cards/xbox-mastercard/"
+    ],
+    "updatedBy": "agent"
+  }
+}

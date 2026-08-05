@@ -1,0 +1,21 @@
+{
+  "id": "chase-ink-business-premier",
+  "issuerId": "chase",
+  "name": "Ink Business Premier",
+  "network": "Visa",
+  "variant": "business",
+  "annualFee": {
+    "amount": 195,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/business-credit-cards/ink/premier"
+    ],
+    "updatedBy": "agent"
+  }
+}

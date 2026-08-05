@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/fuermosi777/rewards/main/schema/bonus.schema.json",
+  "title": "CardBonus",
+  "description": "High-churn sign-up offer record for a card, kept separate from card.schema.json so daily/monthly agent updates to offers don't create noisy diffs on the much more stable benefits data.",
+  "type": "object",
+  "required": ["cardId", "currentOffers", "sourceMeta"],
+  "properties": {
+    "cardId": {
+      "type": "string",
+      "description": "Must match a card id in data/cards/."
+    },
+    "currentOffers": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/offer" }
+    },
+    "history": {
+      "type": "array",
+      "description": "Archive of past observed offers, useful for spotting trends (is this card's offer getting better or worse over time).",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rewardAmount": { "type": "number" },
+          "rewardUnit": { "type": "string" },
+          "spendRequirement": { "type": "number" },
+          "observedDate": { "type": "string", "format": "date" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sourceMeta": {
+      "type": "object",
+      "required": ["lastReviewedDate"],
+      "properties": {
+        "lastReviewedDate": { "type": "string", "format": "date" },
+        "sourceUrls": {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" }
+        },
+        "updatedBy": {
+          "type": "string",
+          "enum": ["agent", "human"]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+
+  "$defs": {
+    "offer": {
+      "type": "object",
+      "required": ["rewardAmount", "rewardUnit", "spendRequirement", "timeframeDays"],
+      "properties": {
+        "offerType": {
+          "type": "string",
+          "enum": ["public", "referral", "in_branch", "targeted"]
+        },
+        "rewardAmount": { "type": "number" },
+        "rewardUnit": {
+          "type": "string",
+          "enum": ["points", "miles", "cashback_usd", "statement_credit_usd"]
+        },
+        "spendRequirement": { "type": "number" },
+        "timeframeDays": { "type": "integer" },
+        "additionalPerks": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "One-time perks bundled with the offer itself, distinct from the card's recurring benefits."
+        },
+        "expirationDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Known expiration of this specific offer, if published. Leave unset if evergreen/unknown."
+        },
+        "sourceUrl": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

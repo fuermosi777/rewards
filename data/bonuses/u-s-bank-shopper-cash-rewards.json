@@ -1,0 +1,27 @@
+{
+  "cardId": "u-s-bank-shopper-cash-rewards",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 250,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 2000,
+      "timeframeDays": 120
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 300,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 2000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

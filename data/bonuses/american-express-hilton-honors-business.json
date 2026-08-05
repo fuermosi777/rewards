@@ -1,0 +1,33 @@
+{
+  "cardId": "american-express-hilton-honors-business",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 130000,
+      "rewardUnit": "miles",
+      "spendRequirement": 6000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 175000,
+      "rewardUnit": "miles",
+      "spendRequirement": 8000,
+      "observedDate": "2026-04-15"
+    },
+    {
+      "rewardAmount": 175000,
+      "rewardUnit": "miles",
+      "spendRequirement": 6000,
+      "observedDate": "2026-02-28"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+    ],
+    "updatedBy": "agent"
+  }
+}

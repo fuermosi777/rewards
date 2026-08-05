@@ -1,0 +1,19 @@
+{
+  "cardId": "pnc-bank-cash-rewards-visa-signature-business",
+  "currentOffers": [],
+  "history": [
+    {
+      "rewardAmount": 600,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 6000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.pnc.com/en/small-business/borrowing/business-credit-cards/pnc-cash-rewards-visa-signature-business-credit-card.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

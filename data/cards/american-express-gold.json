@@ -1,0 +1,46 @@
+{
+  "id": "american-express-gold",
+  "issuerId": "american-express",
+  "name": "Gold",
+  "network": "Amex",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 350,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "$10/mo credit for Uber",
+        "value": 120,
+        "weight": 0.5
+      },
+      {
+        "description": "$10/mo credit for Grubhub, Cheesecake Factory, Gold Belly, Wine.com, Milk, Shake Shack",
+        "value": 120,
+        "weight": 0.5
+      },
+      {
+        "description": "$7/mo credit for Dunkin",
+        "value": 84,
+        "weight": 0.4
+      },
+      {
+        "description": "Semi-annual $50 Resy credit",
+        "value": 100,
+        "weight": 0.8
+      }
+    ]
+  }
+}

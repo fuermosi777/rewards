@@ -1,0 +1,27 @@
+{
+  "cardId": "american-express-business-platinum",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 200000,
+      "rewardUnit": "points",
+      "spendRequirement": 20000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 250000,
+      "rewardUnit": "points",
+      "spendRequirement": 30000,
+      "observedDate": "2024-03-01"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
+    ],
+    "updatedBy": "agent"
+  }
+}

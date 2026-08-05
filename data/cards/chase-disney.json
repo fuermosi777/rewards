@@ -1,0 +1,21 @@
+{
+  "id": "chase-disney",
+  "issuerId": "chase",
+  "name": "Disney",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/rewards-credit-cards/disney/rewards"
+    ],
+    "updatedBy": "agent"
+  }
+}

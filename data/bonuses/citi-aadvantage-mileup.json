@@ -1,0 +1,27 @@
+{
+  "cardId": "citi-aadvantage-mileup",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 15000,
+      "rewardUnit": "miles",
+      "spendRequirement": 500,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 15000,
+      "rewardUnit": "miles",
+      "spendRequirement": 500,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.aa.com/citi-mileup-card-american-airlines-direct/"
+    ],
+    "updatedBy": "agent"
+  }
+}

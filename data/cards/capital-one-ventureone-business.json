@@ -1,0 +1,21 @@
+{
+  "id": "capital-one-ventureone-business",
+  "issuerId": "capital-one",
+  "name": "VentureOne Business",
+  "network": "Visa",
+  "variant": "business",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.capitalone.com/small-business/credit-cards/ventureone-business/"
+    ],
+    "updatedBy": "agent"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/fuermosi777/rewards/main/schema/card.schema.json",
+  "title": "Card",
+  "description": "Low-churn card record: identity + ongoing (recurring) benefits. Sign-up bonuses live in a separate bonus.schema.json record keyed by the same cardId, because bonuses change far more often than benefit terms and would otherwise pollute this file's git history.",
+  "type": "object",
+  "required": ["id", "issuerId", "name", "network", "variant", "annualFee", "status", "benefits", "sourceMeta"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Stable lowercase-dash id, e.g. 'chase-sapphire-preferred'. Matches the filename (without .json) and the cardId used in data/bonuses/."
+    },
+    "issuerId": {
+      "type": "string",
+      "description": "References an id in data/issuers.json."
+    },
+    "name": {
+      "type": "string",
+      "description": "Official full card name as printed on the issuer's site."
+    },
+    "network": {
+      "type": "string",
+      "enum": ["Visa", "Mastercard", "Amex", "Discover"]
+    },
+    "variant": {
+      "type": "string",
+      "enum": ["personal", "business"]
+    },
+    "annualFee": {
+      "type": "object",
+      "required": ["amount", "currency"],
+      "properties": {
+        "amount": { "type": "number", "minimum": 0 },
+        "currency": { "const": "USD" },
+        "waivedFirstYear": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "foreignTransactionFee": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "discontinued", "invite_only"],
+      "description": "active = currently open to new applicants. discontinued = no longer offered, but existing cardholders may still carry it (keep the record, don't delete). invite_only = not publicly applyable."
+    },
+    "discontinuedDate": {
+      "type": "string",
+      "format": "date",
+      "description": "Only set when status = discontinued."
+    },
+    "benefits": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/benefit" }
+    },
+    "sourceMeta": { "$ref": "#/$defs/sourceMeta" },
+    "_scaffoldHints": {
+      "type": "object",
+      "description": "Temporary, non-authoritative leads left by the scaffold generator (e.g. raw unstructured hints from a bootstrap data source) to help whoever fills in benefits[] next. Must be deleted once the card's benefits[] has been populated and verified — a card.json with this key present is signal that benefits[] is still scaffold/incomplete, not reviewed data."
+    }
+  },
+  "additionalProperties": false,
+
+  "$defs": {
+    "benefit": {
+      "type": "object",
+      "description": "One recurring or one-time perk. benefitType selects which *Detail sub-object is required, so wildly different perks (a flat statement credit vs. a rotating 5% category vs. lounge access vs. a free night award) share one array and one tracking model in the app.",
+      "required": ["id", "name", "benefitType", "category"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique within this card, e.g. 'csp-annual-hotel-credit'."
+        },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "benefitType": {
+          "type": "string",
+          "enum": [
+            "statement_credit",
+            "bonus_category",
+            "lounge_access",
+            "elite_status",
+            "free_night_award",
+            "trusted_traveler_credit",
+            "insurance",
+            "membership",
+            "companion_ticket",
+            "points_multiplier",
+            "other"
+          ]
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "travel", "dining", "transportation", "entertainment",
+            "shopping", "wellness", "airline", "hotel", "streaming",
+            "wireless", "other"
+          ]
+        },
+        "renewalPeriod": {
+          "$ref": "shared/period.schema.json",
+          "description": "Omit entirely when isOneTime is true."
+        },
+        "isOneTime": {
+          "type": "boolean",
+          "default": false,
+          "description": "True for perks that don't recur (most one-time welcome perks live in bonus.schema.json instead; this is for the rare one-time perk tied to the core card record). When true, renewalPeriod must be omitted."
+        },
+
+        "statementCreditDetail": { "$ref": "#/$defs/statementCreditDetail" },
+        "bonusCategoryDetail": { "$ref": "#/$defs/bonusCategoryDetail" },
+        "loungeAccessDetail": { "$ref": "#/$defs/loungeAccessDetail" },
+        "freeNightAwardDetail": { "$ref": "#/$defs/freeNightAwardDetail" },
+
+        "terms": {
+          "type": "string",
+          "description": "Free-text key conditions, e.g. enrollment requirements, caps, exclusions."
+        },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "lastVerified": {
+          "type": "string",
+          "format": "date",
+          "description": "Date this specific benefit's terms were last confirmed against a source. Distinct from the card-level sourceMeta.lastReviewedDate."
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": { "properties": { "benefitType": { "const": "statement_credit" } }, "required": ["benefitType"] },
+          "then": { "required": ["statementCreditDetail"] }
+        },
+        {
+          "if": { "properties": { "benefitType": { "const": "bonus_category" } }, "required": ["benefitType"] },
+          "then": { "required": ["bonusCategoryDetail"] }
+        },
+        {
+          "if": { "properties": { "benefitType": { "const": "lounge_access" } }, "required": ["benefitType"] },
+          "then": { "required": ["loungeAccessDetail"] }
+        },
+        {
+          "if": { "properties": { "benefitType": { "const": "free_night_award" } }, "required": ["benefitType"] },
+          "then": { "required": ["freeNightAwardDetail"] }
+        },
+        {
+          "if": { "properties": { "isOneTime": { "const": true } }, "required": ["isOneTime"] },
+          "then": { "not": { "required": ["renewalPeriod"] } }
+        }
+      ]
+    },
+
+    "statementCreditDetail": {
+      "type": "object",
+      "required": ["amount", "currency"],
+      "properties": {
+        "amount": { "type": "number" },
+        "currency": { "const": "USD" },
+        "eligibleMerchants": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "e.g. [\"Lululemon\"] for a merchant-locked credit. Omit or leave empty for a general-purpose credit (e.g. Amex Platinum's $200 travel credit, usable across many travel merchants)."
+        },
+        "splitEligible": {
+          "type": "boolean",
+          "description": "True when the annual amount is actually disbursed in smaller recurring chunks (e.g. Amex Uber Cash paid monthly) — pair with renewalPeriod set to the smaller cycle."
+        }
+      },
+      "additionalProperties": false
+    },
+    "bonusCategoryDetail": {
+      "type": "object",
+      "required": ["multiplier", "rewardUnit"],
+      "properties": {
+        "multiplier": { "type": "number", "description": "e.g. 5 for 5x points or 5% cashback." },
+        "rewardUnit": {
+          "type": "string",
+          "enum": ["points", "cashback_percent", "miles"]
+        },
+        "eligibleCategories": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "e.g. [\"gas_stations\", \"grocery_stores\"]. For rotating categories, pair with renewalPeriod.anchor = fixed_dates."
+        },
+        "spendCap": {
+          "type": "object",
+          "properties": {
+            "amount": { "type": "number" },
+            "period": { "$ref": "shared/period.schema.json" }
+          },
+          "additionalProperties": false,
+          "description": "e.g. $1,500 per quarter, after which the multiplier drops back to the base rate."
+        },
+        "requiresActivation": {
+          "type": "boolean",
+          "description": "True if the cardholder must manually opt in each cycle (common for rotating categories)."
+        }
+      },
+      "additionalProperties": false
+    },
+    "loungeAccessDetail": {
+      "type": "object",
+      "properties": {
+        "networks": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "e.g. [\"Priority Pass\", \"Centurion Lounge\", \"Chase Sapphire Lounge\"]."
+        },
+        "guestPolicy": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "freeNightAwardDetail": {
+      "type": "object",
+      "properties": {
+        "maxPointValue": { "type": "number" },
+        "hotelProgram": { "type": "string", "description": "e.g. 'Marriott Bonvoy', 'World of Hyatt'." }
+      },
+      "additionalProperties": false
+    },
+
+    "sourceMeta": {
+      "type": "object",
+      "required": ["lastReviewedDate"],
+      "properties": {
+        "lastReviewedDate": { "type": "string", "format": "date" },
+        "sourceUrls": {
+          "type": "array",
+          "items": { "type": "string", "format": "uri" }
+        },
+        "updatedBy": {
+          "type": "string",
+          "enum": ["agent", "human"],
+          "description": "Tracks who last touched this record, for auditing agent update quality over time."
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

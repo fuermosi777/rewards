@@ -1,0 +1,27 @@
+{
+  "cardId": "bank-of-america-atmos-rewards-ascent",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 85000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "timeframeDays": 120
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 80000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "observedDate": "2026-04-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.alaskaair.com/atmosrewards/content/credit-cards"
+    ],
+    "updatedBy": "agent"
+  }
+}

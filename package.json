@@ -1,0 +1,13 @@
+{
+  "name": "rewards-db",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open-ended database of US credit card issuers, cards, ongoing benefits, and sign-up bonuses. See README.md and AGENTS.md before editing.",
+  "scripts": {
+    "validate": "node scripts/validate.js"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

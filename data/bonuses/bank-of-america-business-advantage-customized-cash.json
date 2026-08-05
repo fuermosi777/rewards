@@ -1,0 +1,33 @@
+{
+  "cardId": "bank-of-america-business-advantage-customized-cash",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 500,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 5000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 300,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 3000,
+      "observedDate": "2026-03-21"
+    },
+    {
+      "rewardAmount": 300,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.bankofamerica.com/smallbusiness/credit-cards/products/cash-rewards-business-credit-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

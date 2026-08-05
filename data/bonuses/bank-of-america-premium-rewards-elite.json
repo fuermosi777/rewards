@@ -1,0 +1,27 @@
+{
+  "cardId": "bank-of-america-premium-rewards-elite",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 75000,
+      "rewardUnit": "points",
+      "spendRequirement": 5000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 75000,
+      "rewardUnit": "points",
+      "spendRequirement": 5000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

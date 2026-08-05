@@ -1,0 +1,33 @@
+{
+  "cardId": "citi-at-t-points-plus",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 250,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 500,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 200,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 1000,
+      "observedDate": "2026-04-20"
+    },
+    {
+      "rewardAmount": 100,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.att.com/deals/att-points-plus-citi/"
+    ],
+    "updatedBy": "agent"
+  }
+}

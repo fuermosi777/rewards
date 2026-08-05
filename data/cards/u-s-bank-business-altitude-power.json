@@ -1,0 +1,21 @@
+{
+  "id": "u-s-bank-business-altitude-power",
+  "issuerId": "u-s-bank",
+  "name": "Business Altitude Power",
+  "network": "Mastercard",
+  "variant": "business",
+  "annualFee": {
+    "amount": 195,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.usbank.com/business-banking/business-credit-cards/business-altitude-power-world-elite-mastercard.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

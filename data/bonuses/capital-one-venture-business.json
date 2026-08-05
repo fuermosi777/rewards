@@ -1,0 +1,34 @@
+{
+  "cardId": "capital-one-venture-business",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 150000,
+      "rewardUnit": "points",
+      "spendRequirement": 30000,
+      "timeframeDays": 180
+    },
+    {
+      "offerType": "public",
+      "rewardAmount": 75000,
+      "rewardUnit": "points",
+      "spendRequirement": 7500,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 50000,
+      "rewardUnit": "points",
+      "spendRequirement": 4500,
+      "observedDate": "2026-04-14"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.capitalone.com/small-business/credit-cards/venture-business/"
+    ],
+    "updatedBy": "agent"
+  }
+}

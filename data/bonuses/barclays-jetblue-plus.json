@@ -1,0 +1,34 @@
+{
+  "cardId": "barclays-jetblue-plus",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 75000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "timeframeDays": 90
+    },
+    {
+      "offerType": "public",
+      "rewardAmount": 70000,
+      "rewardUnit": "miles",
+      "spendRequirement": 6000,
+      "timeframeDays": 365
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 80000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/cards/jetblue-plus-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

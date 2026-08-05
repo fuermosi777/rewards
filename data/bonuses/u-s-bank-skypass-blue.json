@@ -1,0 +1,27 @@
+{
+  "cardId": "u-s-bank-skypass-blue",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 10000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 10000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.skypassvisa.com/credit/visaSkyBlueCard.do"
+    ],
+    "updatedBy": "agent"
+  }
+}

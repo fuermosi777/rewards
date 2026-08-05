@@ -1,0 +1,27 @@
+{
+  "cardId": "capital-one-ventureone",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 20000,
+      "rewardUnit": "points",
+      "spendRequirement": 500,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 40000,
+      "rewardUnit": "points",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.capitalone.com/credit-cards/ventureone/"
+    ],
+    "updatedBy": "agent"
+  }
+}

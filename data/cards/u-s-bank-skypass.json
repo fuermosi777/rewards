@@ -1,0 +1,31 @@
+{
+  "id": "u-s-bank-skypass",
+  "issuerId": "u-s-bank",
+  "name": "Skypass",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.skypassvisa.com/credit/visaSignatureCard.do"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "$50 Korean Air credit",
+        "value": 50,
+        "weight": 0.8
+      }
+    ]
+  }
+}

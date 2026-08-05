@@ -1,0 +1,46 @@
+{
+  "id": "citi-aadvantage-globe",
+  "issuerId": "citi",
+  "name": "AAdvantage Globe",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 350,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "Lounge Access",
+        "value": 300,
+        "weight": 0.25
+      },
+      {
+        "description": "'Splurge' Credit",
+        "value": 100,
+        "weight": 0.9
+      },
+      {
+        "description": "Turo Credit",
+        "value": 240,
+        "weight": 0.25
+      },
+      {
+        "description": "In-Flight Purchase Credit",
+        "value": 100,
+        "weight": 0.25
+      }
+    ]
+  }
+}

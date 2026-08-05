@@ -1,0 +1,21 @@
+{
+  "id": "u-s-bank-smartly",
+  "issuerId": "u-s-bank",
+  "name": "Smartly",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "discontinued",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

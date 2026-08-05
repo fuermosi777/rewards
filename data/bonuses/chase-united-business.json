@@ -1,0 +1,27 @@
+{
+  "cardId": "chase-united-business",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 100000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 125000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "observedDate": "2025-05-08"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.theexplorercard.com/business-rewards-cards/business-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

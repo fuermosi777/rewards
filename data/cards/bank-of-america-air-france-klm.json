@@ -1,0 +1,21 @@
+{
+  "id": "bank-of-america-air-france-klm",
+  "issuerId": "bank-of-america",
+  "name": "Air France KLM",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 89,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://wwws.airfrance.us/information/flyingblue/carte-bancaire-partenaire"
+    ],
+    "updatedBy": "agent"
+  }
+}

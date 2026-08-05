@@ -1,0 +1,21 @@
+{
+  "id": "chase-world-of-hyatt",
+  "issuerId": "chase",
+  "name": "World of Hyatt",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/travel-credit-cards/world-of-hyatt-credit-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

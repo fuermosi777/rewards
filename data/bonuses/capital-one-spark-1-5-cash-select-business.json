@@ -1,0 +1,27 @@
+{
+  "cardId": "capital-one-spark-1-5-cash-select-business",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 750,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 6000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 750,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 6000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.capitalone.com/small-business/credit-cards/spark-cash-select"
+    ],
+    "updatedBy": "agent"
+  }
+}

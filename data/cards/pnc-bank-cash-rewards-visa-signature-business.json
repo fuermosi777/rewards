@@ -1,0 +1,21 @@
+{
+  "id": "pnc-bank-cash-rewards-visa-signature-business",
+  "issuerId": "pnc-bank",
+  "name": "Cash Rewards Visa Signature Business",
+  "network": "Visa",
+  "variant": "business",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.pnc.com/en/small-business/borrowing/business-credit-cards/pnc-cash-rewards-visa-signature-business-credit-card.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

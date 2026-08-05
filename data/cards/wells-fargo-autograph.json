@@ -1,0 +1,21 @@
+{
+  "id": "wells-fargo-autograph",
+  "issuerId": "wells-fargo",
+  "name": "Autograph",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.wellsfargo.com/autograph-visa-credit-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

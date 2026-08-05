@@ -1,0 +1,31 @@
+{
+  "id": "barclays-hawaiian-airlines-world-elite-business",
+  "issuerId": "barclays",
+  "name": "Hawaiian Airlines World Elite Business",
+  "network": "Mastercard",
+  "variant": "business",
+  "annualFee": {
+    "amount": 99,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/combo-app/hawaiian-bha-boh---combo-app/"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "Hawaiian statement credit",
+        "value": 99,
+        "weight": 0.8
+      }
+    ]
+  }
+}

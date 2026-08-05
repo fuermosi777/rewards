@@ -1,0 +1,40 @@
+{
+  "cardId": "chase-united-club",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 110000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "timeframeDays": 90
+    },
+    {
+      "offerType": "public",
+      "rewardAmount": 90000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 90000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "observedDate": "2026-04-04"
+    },
+    {
+      "rewardAmount": 95000,
+      "rewardUnit": "miles",
+      "spendRequirement": 5000,
+      "observedDate": "2025-05-08"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.theexplorercard.com/rewards-cards/club-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "cardId": "american-express-amazon-business",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 100,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 0.01,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 200,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 0.01,
+      "observedDate": "2026-08-04"
+    },
+    {
+      "rewardAmount": 400,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 4000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amazon-business-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

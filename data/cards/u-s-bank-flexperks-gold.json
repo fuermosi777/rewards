@@ -1,0 +1,21 @@
+{
+  "id": "u-s-bank-flexperks-gold",
+  "issuerId": "u-s-bank",
+  "name": "FlexPerks Gold",
+  "network": "Amex",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 85,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "discontinued",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.usbank.com/credit-cards/flexperks-gold-american-express-credit-card.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

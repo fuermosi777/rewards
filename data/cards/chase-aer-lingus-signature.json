@@ -1,0 +1,21 @@
+{
+  "id": "chase-aer-lingus-signature",
+  "issuerId": "chase",
+  "name": "Aer Lingus Signature",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.chase.com/travel-credit-cards/avios/aer-lingus"
+    ],
+    "updatedBy": "agent"
+  }
+}

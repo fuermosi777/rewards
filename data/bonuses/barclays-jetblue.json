@@ -1,0 +1,27 @@
+{
+  "cardId": "barclays-jetblue",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 10000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 20000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://cards.barclaycardus.com/banking/cards/jetblue-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

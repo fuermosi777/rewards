@@ -1,0 +1,27 @@
+{
+  "cardId": "wells-fargo-expedia-one-key-2",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 350,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 600,
+      "rewardUnit": "miles",
+      "spendRequirement": 3000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.expedia.com/one-key-cards"
+    ],
+    "updatedBy": "agent"
+  }
+}

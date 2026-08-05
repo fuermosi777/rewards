@@ -1,0 +1,76 @@
+{
+  "id": "chase-united-explorer",
+  "issuerId": "chase",
+  "name": "United Explorer",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 150,
+    "currency": "USD",
+    "waivedFirstYear": true
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.theexplorercard.com/rewards-cards/explorer-card"
+    ],
+    "updatedBy": "agent"
+  },
+  "_scaffoldHints": {
+    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
+    "raw": [
+      {
+        "description": "PreCheck Credit",
+        "value": 100,
+        "weight": 0.4
+      },
+      {
+        "description": "Free Checked Bag",
+        "value": 100,
+        "weight": 0.8
+      },
+      {
+        "description": "2x Lounge Pass",
+        "value": 100,
+        "weight": 0.4
+      },
+      {
+        "description": "Rideshare Credits",
+        "value": 60,
+        "weight": 0.5
+      },
+      {
+        "description": "10k award flight discount",
+        "value": 10000,
+        "weight": 0.75,
+        "currency": "UNITED"
+      },
+      {
+        "description": "United Travel",
+        "value": 100,
+        "weight": 0.8,
+        "currency": "USD"
+      },
+      {
+        "description": "United Hotels",
+        "value": 100,
+        "weight": 0.5,
+        "currency": "USD"
+      },
+      {
+        "description": "Avis/Budget",
+        "value": 50,
+        "weight": 0.5,
+        "currency": "USD"
+      },
+      {
+        "description": "Instacart+",
+        "value": 120,
+        "weight": 0.4,
+        "currency": "USD"
+      }
+    ]
+  }
+}

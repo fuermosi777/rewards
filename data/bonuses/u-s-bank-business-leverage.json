@@ -1,0 +1,27 @@
+{
+  "cardId": "u-s-bank-business-leverage",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 750,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 7500,
+      "timeframeDays": 120
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 900,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 7500,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "cardId": "capital-one-venture-x-business",
+  "currentOffers": [],
+  "history": [
+    {
+      "rewardAmount": 150000,
+      "rewardUnit": "points",
+      "spendRequirement": 30000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.capitalone.com/small-business/credit-cards/venture-x-business/"
+    ],
+    "updatedBy": "agent"
+  }
+}

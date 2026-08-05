@@ -1,0 +1,27 @@
+{
+  "cardId": "american-express-delta-skymiles-blue",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 10000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "timeframeDays": 180
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 10000,
+      "rewardUnit": "miles",
+      "spendRequirement": 1000,
+      "observedDate": "2026-08-04"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

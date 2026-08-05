@@ -1,0 +1,21 @@
+{
+  "id": "wells-fargo-attune",
+  "issuerId": "wells-fargo",
+  "name": "Attune",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://creditcards.wellsfargo.com/attune-world-elite-mastercard-credit-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "cardId": "chase-united-quest",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 100000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "timeframeDays": 90
+    },
+    {
+      "offerType": "public",
+      "rewardAmount": 80000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "timeframeDays": 90
+    }
+  ],
+  "history": [
+    {
+      "rewardAmount": 80000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "observedDate": "2026-04-04"
+    },
+    {
+      "rewardAmount": 100000,
+      "rewardUnit": "miles",
+      "spendRequirement": 4000,
+      "observedDate": "2025-07-31"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": [
+      "https://www.theexplorercard.com/rewards-cards/quest-card"
+    ],
+    "updatedBy": "agent"
+  }
+}
