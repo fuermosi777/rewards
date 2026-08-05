@@ -10,22 +10,169 @@
     "waivedFirstYear": true
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "msbcp-engaged-investing-credit",
+      "name": "Annual Morgan Stanley Statement Credit",
+      "description": "Up to $100 statement credit each calendar year after spending $15,000 on eligible purchases — a benefit exclusive to Morgan Stanley cardholders.",
+      "benefitType": "statement_credit",
+      "category": "other",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "terms": "Requires $15,000 in eligible purchases per calendar year to trigger the credit. Exclusive to the Morgan Stanley version of the card.",
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "msbcp-disney-streaming-credit",
+      "name": "Disney Streaming Credit",
+      "description": "Up to $10 back each month in statement credits after spending on an eligible Disney+, Hulu, or ESPN subscription with the enrolled card.",
+      "benefitType": "statement_credit",
+      "category": "streaming",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": ["DisneyPlus.com", "Hulu.com", "Stream.ESPN.com"],
+        "splitEligible": true
+      },
+      "terms": "Enrollment required. Credits do not carry over month to month. Totals up to $120 per year if used every month. This credit was increased from a previous $7/month Disney Bundle credit — confirm the current amount before relying on it.",
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "msbcp-equinox-credit",
+      "name": "Equinox+ Credit",
+      "description": "Up to $10 in statement credits per month, up to $120 per calendar year, on an Equinox+ subscription.",
+      "benefitType": "statement_credit",
+      "category": "wellness",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": ["Equinox+"],
+        "splitEligible": true
+      },
+      "terms": "Enrollment required. Credits do not carry over month to month. Totals up to $120 per calendar year.",
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "msbcp-return-protection",
+      "name": "Return Protection",
+      "description": "Reimbursement for eligible items in working condition that the merchant will not accept for return within 90 days of purchase, up to $300 per item and $1,000 per calendar year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "msbcp-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible purchases against theft or accidental damage for 90 days from the purchase date, up to $1,000 per occurrence and $50,000 per card member account per calendar year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "msbcp-extended-warranty",
+      "name": "Extended Warranty",
+      "description": "Adds up to one additional year to eligible original manufacturer warranties of five years or less, up to $10,000 per item and $50,000 per calendar year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "msbcp-car-rental-loss-damage",
+      "name": "Car Rental Loss and Damage Insurance",
+      "description": "Secondary coverage up to $50,000 per rental for collision damage or theft of most rental vehicles.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage. Must pay for the entire rental with the card and decline the rental company's collision damage waiver. Does not include liability coverage.",
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "msbcp-global-assist-hotline",
+      "name": "Global Assist Hotline",
+      "description": "24/7 emergency referral and coordination service for medical, legal, financial, and travel emergencies when traveling more than 100 miles from home.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Referral and coordination only — third-party costs incurred are the cardholder's responsibility.",
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "msbcp-amex-presale-tickets",
+      "name": "Amex Presale Tickets",
+      "description": "Access to presale and cardmember-only ticket offers for concerts, theater, and sporting events.",
+      "benefitType": "other",
+      "category": "entertainment",
+      "isOneTime": true,
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred",
+      "lastVerified": "2026-08-04"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["us_supermarkets"],
+      "spendCap": {
+        "amount": 6000,
+        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+      },
+      "terms": "6% cash back at U.S. supermarkets on up to $6,000 per year in purchases, then 1%.",
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred"
+    },
+    {
+      "multiplier": 6,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["streaming"],
+      "terms": "6% cash back on select U.S. streaming subscriptions. No annual spend cap on this category.",
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["gas_stations"],
+      "terms": "3% cash back at U.S. gas stations.",
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["transit"],
+      "terms": "3% cash back on transit, including taxis, rideshare, parking, tolls, trains, and buses.",
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["everything_else"],
+      "terms": "1% cash back on all other eligible purchases, and at U.S. supermarkets after the $6,000 annual cap. Cash back is received as Reward Dollars redeemable as a statement credit or at Amazon.com checkout.",
+      "sourceUrl": "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred"
+    }
+  ],
   "sourceMeta": {
     "lastReviewedDate": "2026-08-04",
     "sourceUrls": [
-      "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred"
+      "https://us.etrade.com/l/morgan-stanley-blue-cash-preferred",
+      "https://upgradedpoints.com/news/morgan-stanley-amex-blue-cash-preferred-card-launches/",
+      "https://upgradedpoints.com/news/amex-blue-cash-cards-disney-streaming-credit/",
+      "https://wallethub.com/edu/cc/amex-blue-cash-preferred-benefits/146174"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "$7/mo Disney Bundle Credit",
-        "value": 84,
-        "weight": 0.25
-      }
-    ]
   }
 }

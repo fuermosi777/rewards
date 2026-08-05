@@ -10,11 +10,111 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "bbp-car-rental-loss-damage",
+      "name": "Car Rental Loss and Damage Insurance",
+      "description": "Secondary coverage up to $50,000 for theft of or damage to most rental vehicles on rentals of up to 30 consecutive days.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage — personal auto insurance applies first. Must reserve and pay for the entire rental with the card and decline the rental company's collision damage waiver. Does not include liability coverage. Excludes Australia, Italy, and New Zealand, and peer-to-peer rentals.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "bbp-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible purchases against theft or accidental damage for 90 days from the purchase date, up to $1,000 per occurrence and $50,000 per calendar year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "No deductible. Excludes mysterious disappearance, motorized vehicles, and perishables.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "bbp-extended-warranty",
+      "name": "Extended Warranty",
+      "description": "Adds up to one additional year to eligible original manufacturer warranties of five years or less, up to $10,000 per item and $50,000 per calendar year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "bbp-baggage-insurance",
+      "name": "Baggage Insurance Plan",
+      "description": "Coverage for lost, damaged, or stolen baggage: up to $1,250 for carry-on baggage and up to $500 for checked baggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Applies when the airline ticket is charged to the card. Electronics, cameras, and computers are capped at $250 per item. Trip cancellation, trip interruption, trip delay, and baggage delay coverage are not included on this card.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "bbp-global-assist-hotline",
+      "name": "Global Assist Hotline",
+      "description": "24/7 emergency referral and coordination service for medical, legal, and travel emergencies when traveling more than 100 miles from home.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Referral and coordination only — third-party costs incurred are the cardholder's responsibility.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "bbp-expanded-buying-power",
+      "name": "Expanded Buying Power",
+      "description": "Ability to spend above the credit limit without an over-limit fee; the flexible amount adjusts with payment history, credit record, and other factors.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "terms": "Not unlimited — the amount Amex allows above the limit varies and is not disclosed in advance.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "bbp-free-employee-cards",
+      "name": "Free Employee Cards",
+      "description": "Add employee cards at no additional annual fee, with the ability to set individual spending limits and track employee purchases.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/",
+      "lastVerified": "2026-08-04"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": ["everything_else"],
+      "spendCap": {
+        "amount": 50000,
+        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+      },
+      "terms": "2x Membership Rewards points on all eligible business purchases, with no category restrictions, on the first $50,000 of purchases per calendar year. 1x thereafter.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": ["everything_else"],
+      "terms": "Base rate on all purchases after the $50,000 annual 2x cap is reached.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/"
+    }
+  ],
   "sourceMeta": {
     "lastReviewedDate": "2026-08-04",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/"
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/",
+      "https://www.nerdwallet.com/business/credit-cards/reviews/amex-blue-business-plus",
+      "https://upgradedpoints.com/credit-cards/reviews/amex-blue-business-plus-card/benefits/",
+      "https://hellosafe.com/credit-card-insurance/united-states/american-express/blue-business-plus"
     ],
     "updatedBy": "agent"
   }

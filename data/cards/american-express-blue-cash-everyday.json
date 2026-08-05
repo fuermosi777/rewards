@@ -10,11 +10,133 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "bce-disney-streaming-credit",
+      "name": "Disney Streaming Credit",
+      "description": "Up to $7 back each month in statement credits after spending on an eligible Disney+, Hulu, or ESPN subscription with the enrolled card.",
+      "benefitType": "statement_credit",
+      "category": "streaming",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 7,
+        "currency": "USD",
+        "eligibleMerchants": ["DisneyPlus.com", "Hulu.com", "Stream.ESPN.com"],
+        "splitEligible": true
+      },
+      "terms": "Enrollment required. Credits do not carry over month to month — an unused month is forfeited. Valid only on subscriptions purchased directly at DisneyPlus.com, Hulu.com, or Stream.ESPN.com. Totals up to $84 per year if used every month.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/amex-blue-cash-everyday-benefits/",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "bce-home-chef-credit",
+      "name": "Home Chef Credit",
+      "description": "Up to $15 back each month in statement credits on Home Chef meal kit purchases with the enrolled card.",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 15,
+        "currency": "USD",
+        "eligibleMerchants": ["Home Chef"],
+        "splitEligible": true
+      },
+      "terms": "Enrollment required. Credits do not carry over month to month — an unused month is forfeited. Totals up to $180 per year if used every month.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/amex-blue-cash-everyday-benefits/",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "bce-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible purchases against theft or accidental damage for 90 days from the purchase date, up to $1,000 per purchase and $50,000 per card per calendar year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "bce-car-rental-loss-damage",
+      "name": "Car Rental Loss and Damage Insurance",
+      "description": "Secondary coverage for theft of or damage to most rental vehicles when the rental is reserved and paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage — personal auto insurance applies first. Must decline the rental company's collision damage waiver. Does not include liability coverage. A separate opt-in Premium Car Rental Protection product is available for a flat per-rental fee.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "bce-global-assist-hotline",
+      "name": "Global Assist Hotline",
+      "description": "24/7 emergency referral and coordination service for medical, legal, and travel emergencies when traveling more than 100 miles from home.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Referral and coordination only — third-party costs incurred are the cardholder's responsibility.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+      "lastVerified": "2026-08-04"
+    },
+    {
+      "id": "bce-amex-experiences",
+      "name": "American Express Experiences",
+      "description": "Access to presale tickets and cardmember-only events across music, theater, film, and sports.",
+      "benefitType": "other",
+      "category": "entertainment",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+      "lastVerified": "2026-08-04"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["us_supermarkets"],
+      "spendCap": {
+        "amount": 6000,
+        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+      },
+      "terms": "3% cash back at U.S. supermarkets on up to $6,000 per calendar year in purchases, then 1%. Excludes superstores, specialty stores, and warehouse clubs.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["online_retail"],
+      "spendCap": {
+        "amount": 6000,
+        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+      },
+      "terms": "3% cash back on U.S. online retail purchases on up to $6,000 per calendar year in purchases, then 1%.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["gas_stations"],
+      "spendCap": {
+        "amount": 6000,
+        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+      },
+      "terms": "3% cash back at U.S. gas stations on up to $6,000 per calendar year in purchases, then 1%.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["everything_else"],
+      "terms": "1% cash back on all other eligible purchases, and on bonus-category purchases after each $6,000 annual cap is reached. Cash back is received as Reward Dollars redeemable as a statement credit.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
+    }
+  ],
   "sourceMeta": {
     "lastReviewedDate": "2026-08-04",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
+      "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+      "https://www.americanexpress.com/en-us/credit-cards/credit-intel/amex-blue-cash-everyday-benefits/",
+      "https://upgradedpoints.com/credit-cards/reviews/blue-cash-everyday-card-american-express/benefits/"
     ],
     "updatedBy": "agent"
   }
