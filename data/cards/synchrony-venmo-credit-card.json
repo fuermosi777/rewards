@@ -1,0 +1,43 @@
+{
+  "id": "synchrony-venmo-credit-card",
+  "issuerId": "synchrony",
+  "name": "Venmo Credit Card",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["top_spend_category"],
+      "spendCap": { "amount": 10000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "terms": "3% on the cardholder's single highest-spend category each billing cycle, automatically detected — not a fixed category. 3%/2% tiers combined are capped at $10,000 of spend per year, then drop to 1%.",
+      "sourceUrl": "https://venmo.com/about/creditcard"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["second_highest_spend_category"],
+      "spendCap": { "amount": 10000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "terms": "2% on the cardholder's second-highest-spend category each billing cycle, automatically detected. Shares the same $10,000/year combined cap with the 3% tier.",
+      "sourceUrl": "https://venmo.com/about/creditcard"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["everything_else"],
+      "sourceUrl": "https://venmo.com/about/creditcard"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": ["https://venmo.com/about/creditcard"],
+    "updatedBy": "agent"
+  }
+}

@@ -26,6 +26,10 @@
       "type": "string",
       "format": "uri",
       "description": "Link to the issuer/underwriter's 'Guide to Benefits' document, when publicly available. This is often the authoritative source for insurance-type benefit terms (rental car coverage, purchase protection, trip delay), which are usually NOT fully described on the marketing pages agents will otherwise crawl."
+    },
+    "_note": {
+      "type": "string",
+      "description": "Free-text flag for a transitional or uncertain situation an update agent should revisit (e.g. an issuer mid-acquisition, a program in transition to a different issuer). Not machine-consumed; delete once the situation resolves and this issuer's fields reflect the settled state."
     }
   },
   "additionalProperties": false

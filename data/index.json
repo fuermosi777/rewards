@@ -1009,6 +1009,30 @@
       "name": "Gemini",
       "issuerId": "webbank",
       "status": "active"
+    },
+    {
+      "id": "coastal-community-bank-robinhood-gold-card",
+      "name": "Robinhood Gold Card",
+      "issuerId": "coastal-community-bank",
+      "status": "active"
+    },
+    {
+      "id": "coastal-community-bank-robinhood-platinum-card",
+      "name": "Robinhood Platinum Card",
+      "issuerId": "coastal-community-bank",
+      "status": "active"
+    },
+    {
+      "id": "synchrony-venmo-credit-card",
+      "name": "Venmo Credit Card",
+      "issuerId": "synchrony",
+      "status": "active"
+    },
+    {
+      "id": "goldman-sachs-apple-card",
+      "name": "Apple Card",
+      "issuerId": "goldman-sachs",
+      "status": "active"
     }
   ]
 }

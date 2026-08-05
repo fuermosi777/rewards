@@ -1,0 +1,9 @@
+{
+  "cardId": "synchrony-venmo-credit-card",
+  "currentOffers": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": ["https://venmo.com/about/creditcard"],
+    "updatedBy": "agent"
+  }
+}

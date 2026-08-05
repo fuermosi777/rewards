@@ -28,6 +28,10 @@
     "name": "Citi"
   },
   {
+    "id": "coastal-community-bank",
+    "name": "Coastal Community Bank"
+  },
+  {
     "id": "comenity",
     "name": "Comenity"
   },
@@ -38,6 +42,11 @@
   {
     "id": "first-national-bank-of-omaha",
     "name": "First National Bank of Omaha"
+  },
+  {
+    "id": "goldman-sachs",
+    "name": "Goldman Sachs",
+    "_note": "As of 2026, Goldman Sachs is mid-transition of the Apple Card program to Chase (announced Jan 2026, ~24-month transition). Goldman remains the operating issuer during this period; revisit apple-card's issuerId once the transition completes."
   },
   {
     "id": "penfed-credit-union",

@@ -1,0 +1,55 @@
+{
+  "id": "goldman-sachs-apple-card",
+  "issuerId": "goldman-sachs",
+  "name": "Apple Card",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "apple-card-uber-one-trial",
+      "name": "Uber One 6-Month Free Trial",
+      "description": "Six-month free trial of Uber One when signing up with Apple Card via Apple Pay.",
+      "benefitType": "membership",
+      "category": "transportation",
+      "isOneTime": true,
+      "terms": "New or returning Uber One subscribers only (not valid for existing subscribers). Must sign up through the exclusive Apple Card offer link, using Apple Pay. Auto-renews at $9.99/month after the trial.",
+      "sourceUrl": "https://learn.applecard.apple/benefits",
+      "lastVerified": "2026-08-04"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["apple", "select_apple_pay_merchants"],
+      "terms": "3% Daily Cash at Apple and select merchants when paying with Apple Pay.",
+      "sourceUrl": "https://learn.applecard.apple/benefits"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["apple_pay"],
+      "terms": "2% Daily Cash on all other Apple Pay purchases.",
+      "sourceUrl": "https://learn.applecard.apple/benefits"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["everything_else"],
+      "terms": "1% Daily Cash on purchases made with the physical titanium card or card number (not Apple Pay).",
+      "sourceUrl": "https://learn.applecard.apple/benefits"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": ["https://learn.applecard.apple/benefits"],
+    "updatedBy": "agent"
+  }
+}

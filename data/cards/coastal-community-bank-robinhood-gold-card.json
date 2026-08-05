@@ -1,0 +1,41 @@
+{
+  "id": "coastal-community-bank-robinhood-gold-card",
+  "issuerId": "coastal-community-bank",
+  "name": "Robinhood Gold Card",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "benefits": [
+    {
+      "id": "rh-gold-card-trip-interruption",
+      "name": "Trip Interruption Protection",
+      "description": "Coverage for trip interruptions on eligible travel purchases.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Requires an active Robinhood Gold subscription; exact coverage limits not yet verified against a Guide to Benefits document.",
+      "sourceUrl": "https://robinhood.com/creditcard/",
+      "lastVerified": "2026-08-04"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["everything_else"],
+      "requiresActivation": true,
+      "terms": "Flat 3% cash back on all spending categories. Requires an active Robinhood Gold membership (separate subscription fee) to earn rewards — the card itself has no annual fee, but the underlying Gold subscription does.",
+      "sourceUrl": "https://robinhood.com/creditcard/"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-04",
+    "sourceUrls": ["https://robinhood.com/creditcard/"],
+    "updatedBy": "agent"
+  }
+}
