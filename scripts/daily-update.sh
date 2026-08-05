@@ -32,9 +32,15 @@ echo "=== $(date '+%Y-%m-%d %H:%M:%S') starting daily update ==="
 
 cd "$REPO_DIR"
 
-if [[ -n "$(git status --porcelain)" ]]; then
-  echo "Working tree is not clean — aborting rather than risk clobbering in-progress work."
-  git status --porcelain
+# --porcelain=v1 with an explicit ignored-files mode still surfaces
+# gitignored files as untracked if they were added before being ignored, but
+# more importantly: don't let OS/editor noise (.DS_Store, swap files, etc.)
+# outside the actual data/schema/scripts tree block an automated run. Only
+# refuse if there's real uncommitted work in the paths this job touches.
+DIRTY="$(git status --porcelain -- data schema scripts package.json package-lock.json README.md AGENTS.md CONSUMING.md)"
+if [[ -n "$DIRTY" ]]; then
+  echo "Working tree is not clean in tracked paths — aborting rather than risk clobbering in-progress work."
+  echo "$DIRTY"
   exit 1
 fi
 
