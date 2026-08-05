@@ -2,7 +2,9 @@
 
 An open-ended, git-versioned database of US credit card issuers, cards, ongoing (recurring) benefits, and sign-up bonuses — meant to be pulled as static JSON by a personal-finance app, and kept up to date by a periodic agent + human-reviewed PRs.
 
-If you're an agent picking up an update task in this repo, read **[AGENTS.md](AGENTS.md)** — it has the exact workflow, output format, and guardrails for making changes here.
+If you're an agent picking up an update task in this repo (crawling issuer sites, filling in benefits), read **[AGENTS.md](AGENTS.md)** — it has the exact workflow, output format, and guardrails for making changes here.
+
+If you're building the app that *consumes* this data, read **[CONSUMING.md](CONSUMING.md)** — it covers how to fetch, cache, and interpret the JSON without a server in front of it.
 
 ## Why this exists
 
