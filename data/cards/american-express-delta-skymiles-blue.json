@@ -10,10 +10,68 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "delta-blue-first-checked-bag",
+      "name": "First Checked Bag Free",
+      "description": "First checked bag free on Delta-operated flights for the Card Member and up to eight companions on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Applies to Delta-operated flights. Card must be used to purchase the ticket. Available to the Card Member and up to eight travel companions on the same reservation.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-blue-priority-boarding",
+      "name": "Zone 5 Priority Boarding",
+      "description": "Main Cabin 1 (Zone 5) priority boarding on Delta-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Applies to Delta-operated flights when the Card Member is included on the reservation.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-blue-inflight-savings",
+      "name": "20% Back on In-Flight Purchases",
+      "description": "20% savings, in the form of a statement credit, on eligible in-flight purchases of food, beverages and audio headsets on Delta-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Delivered as a statement credit after the purchase posts. Applies to eligible in-flight purchases on Delta-operated flights made with the Card.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "lastVerified": "2026-08-05"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["delta_purchases"],
+      "terms": "Purchases made directly with Delta.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["dining"],
+      "terms": "Restaurants worldwide, including takeout and delivery in the U.S.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["everything_else"],
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-05",
     "sourceUrls": [
+      "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
       "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/"
     ],
     "updatedBy": "agent"

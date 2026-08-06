@@ -10,10 +10,136 @@
     "waivedFirstYear": true
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "delta-gold-biz-first-checked-bag",
+      "name": "First Checked Bag Free",
+      "description": "First checked bag free on Delta-operated flights for the Card Member and up to eight companions on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Card must be used to purchase the ticket. Available to the Card Member and up to eight travel companions on the same reservation.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-biz-second-checked-bag",
+      "name": "Second Checked Bag Free",
+      "description": "Second checked bag free on domestic Delta-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-biz-priority-boarding",
+      "name": "Zone 5 Priority Boarding",
+      "description": "Main Cabin 1 (Zone 5) priority boarding on Delta-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-biz-takeoff-15",
+      "name": "TakeOff 15",
+      "description": "15% discount on the miles required when booking Delta award travel on delta.com or the Fly Delta app.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Entire itinerary must be on Delta or Delta Connection carrier-operated flights, booked on delta.com or the Fly Delta app while logged into the SkyMiles account. Discount applies only to the mileage portion, not taxes and fees. Excludes Pay with Miles, Miles + Cash, and post-booking seat upgrades.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/takeoff-15",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-biz-delta-stays-credit",
+      "name": "Delta Stays Credit",
+      "description": "Annual statement credit on eligible prepaid hotel and vacation rental bookings made through Delta Stays.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 150,
+        "currency": "USD",
+        "eligibleMerchants": ["Delta Stays"]
+      },
+      "terms": "Up to $150 per year on eligible prepaid bookings made on the Delta Stays platform.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-biz-rideshare-credit",
+      "name": "Rideshare Credit",
+      "description": "Monthly statement credit for eligible U.S. rideshare purchases.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "splitEligible": true
+      },
+      "terms": "Up to $10 per month ($120/year total). Enrollment required. Unused monthly amounts do not roll over.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-biz-inflight-savings",
+      "name": "20% Back on In-Flight Purchases",
+      "description": "20% savings, in the form of a statement credit, on eligible in-flight purchases on Delta-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
+      "lastVerified": "2026-08-05"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["delta_purchases"],
+      "terms": "Purchases made directly with Delta.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["dining"],
+      "terms": "Restaurants worldwide, including takeout and delivery in the U.S.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["us_shipping"],
+      "spendCap": { "amount": 50000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "terms": "U.S. shipping providers, on up to $50,000 in purchases in this category per calendar year, then 1x.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["us_advertising"],
+      "spendCap": { "amount": 50000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "terms": "U.S. providers for advertising in select media, on up to $50,000 in purchases in this category per calendar year, then 1x.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["everything_else"],
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-05",
     "sourceUrls": [
+      "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
+      "https://www.delta.com/us/en/skymiles/airline-credit-cards/takeoff-15",
       "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/"
     ],
     "updatedBy": "agent"

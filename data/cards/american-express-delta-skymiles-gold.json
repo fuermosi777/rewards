@@ -10,22 +10,170 @@
     "waivedFirstYear": true
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "delta-gold-first-checked-bag",
+      "name": "First Checked Bag Free",
+      "description": "First checked bag free on Delta-operated flights for the Card Member and up to eight companions on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Applies to Delta-operated flights, domestic and international. Card must be used to purchase the ticket. Available to the Card Member and up to eight travel companions on the same reservation.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-second-checked-bag",
+      "name": "Second Checked Bag Free",
+      "description": "Second checked bag free on domestic Delta-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Applies to domestic Delta-operated flights.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-priority-boarding",
+      "name": "Zone 5 Priority Boarding",
+      "description": "Main Cabin 1 (Zone 5) priority boarding on Delta-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-takeoff-15",
+      "name": "TakeOff 15",
+      "description": "15% discount on the miles required when booking Delta award travel on delta.com or the Fly Delta app.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Entire itinerary must be on Delta or Delta Connection carrier-operated flights, booked on delta.com or the Fly Delta app while logged into the SkyMiles account. Discount applies only to the mileage portion, not taxes and fees. Excludes Pay with Miles, Miles + Cash, and post-booking seat upgrades.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/takeoff-15",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-delta-stays-credit",
+      "name": "Delta Stays Credit",
+      "description": "Annual statement credit on eligible prepaid hotel and vacation rental bookings made through Delta Stays.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": ["Delta Stays"]
+      },
+      "terms": "Up to $100 per calendar year on eligible prepaid bookings made on the Delta Stays platform.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-rideshare-credit",
+      "name": "Rideshare Credit",
+      "description": "Monthly statement credit for eligible U.S. rideshare purchases.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "splitEligible": true
+      },
+      "terms": "Up to $10 per month ($120/year total). Enrollment required. Available after Card renewal. Unused monthly amounts do not roll over.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-resy-credit",
+      "name": "Resy Credit",
+      "description": "Monthly statement credit for eligible purchases at qualifying U.S. Resy restaurants.",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": ["participating U.S. Resy restaurants"],
+        "splitEligible": true
+      },
+      "terms": "Up to $10 per month ($100/year as marketed). Enrollment required. Restaurant must be a qualifying U.S. Resy partner.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-flight-credit",
+      "name": "Delta Flight Credit",
+      "description": "Delta Flight Credit toward future travel after reaching an annual spend threshold.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "terms": "Earn a $200 Delta Flight Credit after spending $10,000 in eligible purchases on the Card in a calendar year.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-mqd-headstart",
+      "name": "MQD Headstart",
+      "description": "$2,500 Medallion Qualification Dollars granted at the start of each Medallion Qualification Year toward Delta elite status.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "membership_year" },
+      "terms": "$2,500 MQDs awarded each Medallion Qualification Year. Card Members also earn MQD Boost at a rate of $1 MQD per $20 in eligible purchases.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "delta-gold-inflight-savings",
+      "name": "20% Back on In-Flight Purchases",
+      "description": "20% savings, in the form of a statement credit, on eligible in-flight purchases on Delta-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Delivered as a statement credit after the purchase posts.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "lastVerified": "2026-08-05"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["delta_purchases"],
+      "terms": "Purchases made directly with Delta.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["dining"],
+      "terms": "Restaurants worldwide, including takeout and delivery in the U.S.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["us_supermarkets"],
+      "terms": "Purchases at U.S. supermarkets.",
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["everything_else"],
+      "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-05",
     "sourceUrls": [
+      "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
+      "https://www.delta.com/us/en/skymiles/airline-credit-cards/takeoff-15",
       "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-gold-american-express-card/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "First checked bag free",
-        "value": 50,
-        "weight": 0.5
-      }
-    ]
   }
 }
