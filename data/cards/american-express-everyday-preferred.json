@@ -10,11 +10,97 @@
     "waivedFirstYear": false
   },
   "status": "discontinued",
-  "benefits": [],
+  "discontinuedDate": "2024-09-25",
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "edp-car-rental-insurance",
+      "name": "Car Rental Loss and Damage Insurance",
+      "description": "Secondary coverage for damage or theft when paying with the card and declining the rental company's collision waiver.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "edp-baggage-insurance",
+      "name": "Baggage Insurance Plan",
+      "description": "Coverage for lost, damaged, or stolen baggage on trips paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "edp-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for up to 90 days.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "edp-return-protection",
+      "name": "Return Protection",
+      "description": "Reimbursement up to $300 per item (up to $1,000 per calendar year) if a merchant won't accept an eligible return within 90 days.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "edp-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/",
+      "lastVerified": "2026-08-06"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": ["groceries"],
+      "terms": "U.S. supermarkets, on up to $6,000 in purchases per calendar year (then 1x). Increases to 4.5x when 30+ purchases are made on the card in a billing period.",
+      "spendCap": { "amount": 6000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": ["gas_stations"],
+      "terms": "U.S. gas stations. Increases to 3x when 30+ purchases are made on the card in a billing period.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": ["travel"],
+      "terms": "Prepaid hotels, flights, and other travel booked through AmexTravel.com. Increases to 3x when 30+ purchases are made on the card in a billing period.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": ["everything_else"],
+      "terms": "Increases to 1.5x when 30+ purchases are made on the card in a billing period.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-06",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/amex-everyday-preferred/"
+      "https://www.americanexpress.com/us/credit-cards/card/amex-everyday-preferred/",
+      "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/",
+      "https://upgradedpoints.com/news/amex-discontinues-everyday-preferred-cash-magnet-cards/"
     ],
     "updatedBy": "agent"
   }
