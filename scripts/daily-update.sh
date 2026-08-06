@@ -55,7 +55,14 @@ if [[ "$REMAINING" -eq 0 ]]; then
   exit 0
 fi
 
-claude -p "$(cat "$PROMPT_FILE")" \
+# Deliberately unset for this call only (does not affect the exported value
+# in the parent shell/other tools that rely on it): if ANTHROPIC_API_KEY is
+# set, the claude CLI bills against that API key's own credit balance
+# instead of your claude.ai subscription/plan usage — a separate balance
+# that can run out independently and silently (see log entry from
+# 2026-08-05's manual run: "Credit balance is too low"). This job should
+# always run against the logged-in claude.ai session, not a metered API key.
+env -u ANTHROPIC_API_KEY claude -p "$(cat "$PROMPT_FILE")" \
   --permission-mode acceptEdits \
   --allowedTools "Read,Write,Edit,Bash(git *),Bash(node *),Bash(npm *),Bash(gh *),WebSearch,WebFetch" \
   --add-dir "$REPO_DIR"
