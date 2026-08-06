@@ -10,11 +10,123 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "biz-gold-flexible-business-credit",
+      "name": "Flexible Business Credit",
+      "description": "Monthly statement credit for U.S. purchases at Grubhub and office supply stores (FedEx is also eligible through Oct. 1, 2026).",
+      "benefitType": "statement_credit",
+      "category": "shopping",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 20,
+        "currency": "USD",
+        "eligibleMerchants": ["FedEx (through Oct. 1, 2026)", "Grubhub", "U.S. office supply stores"],
+        "splitEligible": true
+      },
+      "terms": "Up to $20/month ($240/year total), one credit per month regardless of how many eligible merchants are used. Enrollment required. FedEx eligibility ends Oct. 1, 2026 per current terms; confirm before relying on it.",
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/view-all/business-gold",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "biz-gold-walmart-plus-credit",
+      "name": "Walmart+ Membership Credit",
+      "description": "Monthly statement credit covering a Walmart+ auto-renewing membership.",
+      "benefitType": "membership",
+      "category": "shopping",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 12.95,
+        "currency": "USD",
+        "eligibleMerchants": ["Walmart+"]
+      },
+      "terms": "Enrollment required. Covers the monthly Walmart+ membership fee (up to $155/year).",
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/view-all/business-gold",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "biz-gold-chatgpt-credit",
+      "name": "ChatGPT Business Credit",
+      "description": "Statement credits for U.S. purchases of ChatGPT Business.",
+      "benefitType": "statement_credit",
+      "category": "other",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 300,
+        "currency": "USD",
+        "eligibleMerchants": ["ChatGPT Business"]
+      },
+      "terms": "Up to $300 per calendar year. Enrollment required.",
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/view-all/business-gold",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "biz-gold-squarespace-credit",
+      "name": "Squarespace Credit",
+      "description": "Statement credits for eligible U.S. purchases at Squarespace.",
+      "benefitType": "statement_credit",
+      "category": "other",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 150,
+        "currency": "USD",
+        "eligibleMerchants": ["Squarespace"]
+      },
+      "terms": "Up to $150 per calendar year. Enrollment required.",
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/view-all/business-gold",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "biz-gold-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible purchases against accidental damage or theft for 90 days from purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Up to $1,000 per covered purchase, up to $50,000 per card member account per calendar year.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/features-benefits/policies/purchase-protection-terms.html",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "biz-gold-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 5 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/features-benefits/policies/extended-warranty-terms.html",
+      "lastVerified": "2026-08-05"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": ["airfare", "us_advertising", "us_shipping", "us_gas_stations", "us_restaurants", "us_technology_providers"],
+      "spendCap": { "amount": 150000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "terms": "4x on the top 2 spending categories each month out of: airfare purchased from airlines, U.S. advertising in select media, U.S. shipping, U.S. gas stations, U.S. restaurants, and U.S. purchases from select technology providers. Combined cap of $150,000/year across the top 2 categories, then 1x.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": ["flights", "prepaid_hotels_amex_travel"],
+      "terms": "Flights and prepaid hotels booked through amextravel.com or the Amex Travel app.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": ["everything_else"],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-05",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/"
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/",
+      "https://global.americanexpress.com/card-benefits/view-all/business-gold"
     ],
     "updatedBy": "agent"
   }
