@@ -10,11 +10,83 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "biz-green-baggage-insurance",
+      "name": "Baggage Insurance Plan",
+      "description": "Coverage for lost, damaged, or stolen carry-on and checked baggage while traveling on a common carrier when the full fare is charged to the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Up to $1,250 for carry-on baggage, up to $500 for checked baggage.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/green/uncover-your-benefits",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "biz-green-global-assist",
+      "name": "Global Assist Hotline",
+      "description": "24/7 medical, legal, financial, or other select emergency coordination and assistance while traveling more than 100 miles from home.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Assistance/referral service; cardholder is responsible for the cost of any third-party services rendered.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/green/uncover-your-benefits",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "biz-green-car-rental-loss-damage",
+      "name": "Car Rental Loss & Damage Insurance",
+      "description": "Secondary coverage for damage or theft of most rental vehicles.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Up to $50,000 in coverage. Secondary coverage (not primary). Requires reserving and paying for the entire rental with this card and declining the rental company's collision damage waiver.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/features-benefits/policies/car-rental-loss-and-damage-insurance-terms.html",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "biz-green-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible items against accidental damage or theft for 90 days from purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Up to $1,000 per claim, up to $50,000 per calendar year.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/green/uncover-your-benefits",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "biz-green-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 5 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/green/uncover-your-benefits",
+      "lastVerified": "2026-08-05"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": ["flights", "prepaid_hotels_amex_travel"],
+      "terms": "Flights and prepaid hotels booked on AmexTravel.com.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-green-card-amex/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": ["everything_else"],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-green-card-amex/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-05",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-green-card-amex/"
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-green-card-amex/",
+      "https://www.americanexpress.com/en-us/account/get-started/green/uncover-your-benefits"
     ],
     "updatedBy": "agent"
   }

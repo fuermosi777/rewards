@@ -9,12 +9,59 @@
     "currency": "USD",
     "waivedFirstYear": false
   },
-  "status": "active",
-  "benefits": [],
+  "status": "discontinued",
+  "discontinuedDate": "2024-09-25",
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "cash-magnet-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible purchases against accidental damage, theft, or loss for 90 days from purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Up to $10,000 per occurrence, up to $50,000 per card member account per calendar year.",
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/detail/purchase-protection/cash-magnet",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "cash-magnet-return-protection",
+      "name": "Return Protection",
+      "description": "Refund for eligible items the retailer won't accept for return within 90 days of purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Up to $300 per item, up to $1,000 per calendar year.",
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/detail/purchase-protection/cash-magnet",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "cash-magnet-car-rental-loss-damage",
+      "name": "Car Rental Loss & Damage Insurance",
+      "description": "Secondary coverage for damage or theft of most rental vehicles.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Up to $50,000 in coverage. Secondary coverage (not primary). Requires reserving and paying for the entire rental with this card and declining the rental company's collision damage waiver.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/cash-magnet/",
+      "lastVerified": "2026-08-05"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["everything_else"],
+      "terms": "Flat 1.5% cash back on all eligible purchases, no categories, no cap.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/cash-magnet/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-05",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/cash-magnet/"
+      "https://www.americanexpress.com/us/credit-cards/card/cash-magnet/",
+      "https://global.americanexpress.com/card-benefits/detail/purchase-protection/cash-magnet",
+      "https://upgradedpoints.com/news/amex-discontinues-everyday-preferred-cash-magnet-cards/"
     ],
     "updatedBy": "agent"
   }

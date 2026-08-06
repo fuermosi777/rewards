@@ -10,22 +10,93 @@
     "waivedFirstYear": true
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "bcp-disney-streaming-credit",
+      "name": "Disney Streaming Credit",
+      "description": "Statement credit for Disney+, Hulu, or ESPN+ subscriptions (including bundles) purchased on their U.S. websites.",
+      "benefitType": "statement_credit",
+      "category": "streaming",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": ["Disney+", "Hulu", "ESPN+"],
+        "splitEligible": true
+      },
+      "terms": "Up to $10/month ($120/year total). Enrollment required. No minimum purchase requirement. Unused monthly amounts do not roll over.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/bcp/uncover-your-benefits",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "bcp-return-protection",
+      "name": "Return Protection",
+      "description": "Refund for eligible items the retailer won't accept for return within 90 days of purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Up to $300 per item, up to $1,000 per calendar year.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/bcp/uncover-your-benefits",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "bcp-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 5 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/bcp/uncover-your-benefits",
+      "lastVerified": "2026-08-05"
+    },
+    {
+      "id": "bcp-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against accidental damage or theft for 90 days from purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/bcp/uncover-your-benefits",
+      "lastVerified": "2026-08-05"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["online_groceries", "us_supermarkets"],
+      "spendCap": { "amount": 6000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "terms": "6% at U.S. supermarkets on up to $6,000/year in purchases, then 1%. Excludes superstores, warehouse clubs, and gas stations that also sell groceries.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
+    },
+    {
+      "multiplier": 6,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["streaming"],
+      "terms": "6% on select U.S. streaming subscriptions. No spend cap.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["gas_stations", "transit"],
+      "terms": "3% at U.S. gas stations (stand-alone stations only) and on transit (including taxis/rideshare, parking, tolls, trains, buses). No spend cap.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["everything_else"],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-05",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
+      "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
+      "https://www.americanexpress.com/en-us/account/get-started/bcp/uncover-your-benefits"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "$7/mo Disney Bundle Credit",
-        "value": 84,
-        "weight": 0.25
-      }
-    ]
   }
 }
