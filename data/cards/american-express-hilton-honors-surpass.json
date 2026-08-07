@@ -5,16 +5,147 @@
   "network": "Amex",
   "variant": "personal",
   "annualFee": {
-    "amount": 95,
+    "amount": 150,
     "currency": "USD",
-    "waivedFirstYear": false
+    "waivedFirstYear": true
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "surpass-hilton-credit",
+      "name": "Hilton Statement Credit",
+      "description": "Quarterly statement credit for purchases made directly with a property in the Hilton portfolio.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Hilton portfolio properties"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $50 per quarter ($200/year total). Direct purchases with Hilton portfolio properties. Unused quarterly amounts do not roll over.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "surpass-free-night-award",
+      "name": "Free Night Reward",
+      "description": "One Free Night Reward after reaching an annual spending threshold.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "freeNightAwardDetail": {
+        "hotelProgram": "Hilton Honors"
+      },
+      "terms": "Earned after $15,000 in eligible purchases on the card in a calendar year.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "surpass-gold-status",
+      "name": "Hilton Honors Gold Status",
+      "description": "Complimentary Hilton Honors Gold status, including an 80% bonus on base points, space-available room upgrades, and daily food & beverage credit or continental breakfast (varies by property).",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Enrollment is automatic/complimentary via linking a Hilton Honors account.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "surpass-diamond-upgrade",
+      "name": "Hilton Honors Diamond Status Upgrade",
+      "description": "Upgrade to Hilton Honors Diamond status through the end of the next calendar year after reaching an annual spending threshold.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires $40,000+ in eligible purchases on the card in a calendar year.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "surpass-national-car-rental-status",
+      "name": "National Car Rental Emerald Club Executive Status",
+      "description": "Complimentary Emerald Club Executive status with National Car Rental.",
+      "benefitType": "elite_status",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Enrollment required through the American Express account.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "surpass-global-assist",
+      "name": "Global Assist Hotline",
+      "description": "24/7 emergency assistance for cardholders traveling 100+ miles from home.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+      "lastVerified": "2026-08-07"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 12,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hilton_portfolio"
+      ],
+      "terms": "Purchases made directly with hotels and resorts in the Hilton portfolio.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/"
+    },
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "grocery_stores",
+        "gas_stations"
+      ],
+      "terms": "U.S. restaurants, U.S. supermarkets, and U.S. gas stations.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "online_retail"
+      ],
+      "terms": "U.S. online retail purchases.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-07",
     "sourceUrls": [
-      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+      "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-surpass/",
+      "https://www.dailydrop.com/credit-cards/hilton-honors-american-express-surpass-card",
+      "https://thriftytraveler.com/news/credit-card/hilton-aspire-surpass-card-changes/"
     ],
     "updatedBy": "agent"
   },

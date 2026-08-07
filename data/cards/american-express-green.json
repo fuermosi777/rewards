@@ -10,28 +10,107 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amex-green-clear-credit",
+      "name": "CLEAR Plus Credit",
+      "description": "Statement credit covering a CLEAR Plus auto-renewing membership for expedited airport/venue security screening.",
+      "benefitType": "membership",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 209,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "CLEAR Plus"
+        ]
+      },
+      "terms": "Up to $209 per calendar year. Enrollment required. Auto-renewing membership only.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/green/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "amex-green-trip-delay-insurance",
+      "name": "Trip Delay Insurance",
+      "description": "Reimbursement for reasonable expenses when a covered trip is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/green/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "amex-green-baggage-insurance",
+      "name": "Baggage Insurance Plan",
+      "description": "Coverage for lost, damaged, or stolen baggage on trips paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/green/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "amex-green-car-rental-loss-damage",
+      "name": "Car Rental Loss & Damage Insurance",
+      "description": "Secondary coverage for damage or theft of most rental vehicles.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage (not primary).",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/green/",
+      "lastVerified": "2026-08-07"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "travel"
+      ],
+      "terms": "Airfare, hotels, tours, campgrounds, car rentals, cruises, and vacation rentals.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/green/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "transportation"
+      ],
+      "terms": "Trains, taxicabs, rideshare, ferries, tolls, parking, buses, and subways.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/green/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Restaurants worldwide, including takeout and delivery in the U.S.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/green/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/green/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-07",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/green/"
+      "https://www.americanexpress.com/us/credit-cards/card/green/",
+      "https://www.dailydrop.com/credit-cards/american-express-green-card",
+      "https://upgradedpoints.com/news/amex-green-card-removing-loungebuddy-benefit/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "PreCheck Credit",
-        "value": 100,
-        "weight": 0.4
-      },
-      {
-        "description": "Lounge Access Credit",
-        "value": 100,
-        "weight": 0.25
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/american-express-green.png"
 }
