@@ -1,0 +1,22 @@
+{
+  "id": "td-bank-double-up",
+  "imageUrl": "data/assets/cards/td-bank-double-up.png",
+  "issuerId": "td-bank",
+  "name": "TD Double Up\u2120 Credit Card",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD"
+  },
+  "foreignTransactionFee": true,
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-07",
+    "sourceUrls": [
+      "https://www.td.com/us/en/personal-banking/credit-cards/double-up-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

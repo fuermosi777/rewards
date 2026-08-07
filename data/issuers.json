@@ -1,5 +1,10 @@
 [
   {
+    "id": "alliant-credit-union",
+    "name": "Alliant Credit Union",
+    "website": "https://www.alliantcreditunion.org/"
+  },
+  {
     "id": "american-express",
     "name": "American Express"
   },
@@ -40,6 +45,11 @@
     "name": "Discover"
   },
   {
+    "id": "fidelity",
+    "name": "Fidelity",
+    "website": "https://www.fidelity.com/"
+  },
+  {
     "id": "first-national-bank-of-omaha",
     "name": "First National Bank of Omaha"
   },
@@ -47,6 +57,11 @@
     "id": "goldman-sachs",
     "name": "Goldman Sachs",
     "_note": "As of 2026, Goldman Sachs is mid-transition of the Apple Card program to Chase (announced Jan 2026, ~24-month transition). Goldman remains the operating issuer during this period; revisit apple-card's issuerId once the transition completes."
+  },
+  {
+    "id": "navy-federal-credit-union",
+    "name": "Navy Federal Credit Union",
+    "website": "https://www.navyfederal.org/"
   },
   {
     "id": "penfed-credit-union",
@@ -57,12 +72,27 @@
     "name": "PNC Bank"
   },
   {
+    "id": "sofi",
+    "name": "SoFi",
+    "website": "https://www.sofi.com/"
+  },
+  {
     "id": "synchrony",
     "name": "Synchrony"
   },
   {
+    "id": "td-bank",
+    "name": "TD Bank",
+    "website": "https://www.td.com/"
+  },
+  {
     "id": "u-s-bank",
     "name": "U.S. Bank"
+  },
+  {
+    "id": "usaa",
+    "name": "USAA",
+    "website": "https://www.usaa.com/"
   },
   {
     "id": "webbank",

@@ -1,0 +1,22 @@
+{
+  "id": "sofi-unlimited-2",
+  "imageUrl": "data/assets/cards/sofi-unlimited-2.png",
+  "issuerId": "sofi",
+  "name": "SoFi Unlimited 2% Credit Card",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD"
+  },
+  "foreignTransactionFee": false,
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-07",
+    "sourceUrls": [
+      "https://www.sofi.com/credit-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

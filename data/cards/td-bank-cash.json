@@ -1,0 +1,22 @@
+{
+  "id": "td-bank-cash",
+  "imageUrl": "data/assets/cards/td-bank-cash.png",
+  "issuerId": "td-bank",
+  "name": "TD Cash Credit Card",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD"
+  },
+  "foreignTransactionFee": true,
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-07",
+    "sourceUrls": [
+      "https://www.td.com/us/en/personal-banking/credit-cards/cash-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

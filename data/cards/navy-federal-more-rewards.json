@@ -1,0 +1,22 @@
+{
+  "id": "navy-federal-more-rewards",
+  "imageUrl": "data/assets/cards/navy-federal-more-rewards.png",
+  "issuerId": "navy-federal-credit-union",
+  "name": "Navy Federal More Rewards American Express\u00ae Credit Card",
+  "network": "Amex",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD"
+  },
+  "foreignTransactionFee": false,
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-07",
+    "sourceUrls": [
+      "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html"
+    ],
+    "updatedBy": "agent"
+  }
+}

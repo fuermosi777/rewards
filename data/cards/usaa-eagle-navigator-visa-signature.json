@@ -1,0 +1,22 @@
+{
+  "id": "usaa-eagle-navigator-visa-signature",
+  "imageUrl": "data/assets/cards/usaa-eagle-navigator-visa-signature.png",
+  "issuerId": "usaa",
+  "name": "USAA Eagle Navigator\u2122 Visa Signature\u00ae Credit Card",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD"
+  },
+  "foreignTransactionFee": false,
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-07",
+    "sourceUrls": [
+      "https://www.usaa.com/inet/wc/bank-credit-card-eagle-navigator"
+    ],
+    "updatedBy": "agent"
+  }
+}

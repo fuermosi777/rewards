@@ -1,0 +1,22 @@
+{
+  "id": "bank-of-america-alaska-airlines-business",
+  "imageUrl": "data/assets/cards/bank-of-america-alaska-airlines-business.png",
+  "issuerId": "bank-of-america",
+  "name": "Alaska Airlines Visa\u00ae Business credit card",
+  "network": "Visa",
+  "variant": "business",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD"
+  },
+  "foreignTransactionFee": false,
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-07",
+    "sourceUrls": [
+      "https://www.bankofamerica.com/smallbusiness/credit-cards/products/alaska-airlines-business-credit-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

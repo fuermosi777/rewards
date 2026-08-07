@@ -1,60 +1,43 @@
 {
-  "version": "0.1.0",
-  "lastUpdated": "2026-08-04",
   "cards": [
     {
-      "id": "american-express-delta-skymiles-blue",
-      "name": "Delta SkyMiles Blue",
-      "issuerId": "american-express",
+      "id": "alliant-credit-union-visa-signature",
+      "name": "Alliant Visa\u00ae Signature Card",
+      "issuerId": "alliant-credit-union",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD"
+      },
       "status": "active",
-      "imageUrl": "data/assets/cards/american-express-delta-skymiles-blue.png"
+      "imageUrl": "data/assets/cards/alliant-credit-union-visa-signature.png"
     },
     {
-      "id": "american-express-delta-skymiles-gold",
-      "name": "Delta SkyMiles Gold",
+      "id": "american-express-amazon-business",
+      "name": "Amazon Business",
       "issuerId": "american-express",
-      "status": "active",
-      "imageUrl": "data/assets/cards/american-express-delta-skymiles-gold.png"
-    },
-    {
-      "id": "american-express-delta-skymiles-gold-business",
-      "name": "Delta SkyMiles Gold Business",
-      "issuerId": "american-express",
-      "status": "active",
-      "imageUrl": "data/assets/cards/american-express-delta-skymiles-gold-business.png"
-    },
-    {
-      "id": "american-express-delta-skymiles-platinum",
-      "name": "Delta SkyMiles Platinum",
-      "issuerId": "american-express",
-      "status": "active",
-      "imageUrl": "data/assets/cards/american-express-delta-skymiles-platinum.png"
-    },
-    {
-      "id": "american-express-delta-skymiles-platinum-business",
-      "name": "Delta SkyMiles Platinum Business",
-      "issuerId": "american-express",
-      "status": "active",
-      "imageUrl": "data/assets/cards/american-express-delta-skymiles-platinum-business.png"
-    },
-    {
-      "id": "american-express-delta-skymiles-reserve",
-      "name": "Delta SkyMiles Reserve",
-      "issuerId": "american-express",
-      "status": "active",
-      "imageUrl": "data/assets/cards/american-express-delta-skymiles-reserve.png"
-    },
-    {
-      "id": "american-express-delta-skymiles-reserve-business",
-      "name": "Delta SkyMiles Reserve Business",
-      "issuerId": "american-express",
-      "status": "active",
-      "imageUrl": "data/assets/cards/american-express-delta-skymiles-reserve-business.png"
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/american-express-amazon-business.png"
     },
     {
       "id": "american-express-blue-business-cash",
       "name": "Blue Business Cash",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-blue-business-cash.png"
     },
@@ -62,6 +45,13 @@
       "id": "american-express-blue-business-plus",
       "name": "Blue Business Plus",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-blue-business-plus.png"
     },
@@ -69,27 +59,55 @@
       "id": "american-express-blue-cash-everyday",
       "name": "Blue Cash Everyday",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-blue-cash-everyday.png"
-    },
-    {
-      "id": "american-express-blue-cash-preferred",
-      "name": "Blue Cash Preferred",
-      "issuerId": "american-express",
-      "status": "active",
-      "imageUrl": "data/assets/cards/american-express-blue-cash-preferred.png"
     },
     {
       "id": "american-express-blue-cash-preferred-morgan-stanley",
       "name": "Blue Cash Preferred (Morgan Stanley)",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-blue-cash-preferred-morgan-stanley.png"
+    },
+    {
+      "id": "american-express-blue-cash-preferred",
+      "name": "Blue Cash Preferred",
+      "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-blue-cash-preferred.png"
     },
     {
       "id": "american-express-business-gold",
       "name": "Business Gold",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 375,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-business-gold.png"
     },
@@ -97,6 +115,13 @@
       "id": "american-express-business-green",
       "name": "Business Green",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-business-green.png"
     },
@@ -104,6 +129,13 @@
       "id": "american-express-business-platinum",
       "name": "Business Platinum",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 695,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-business-platinum.png"
     },
@@ -111,27 +143,153 @@
       "id": "american-express-cash-magnet",
       "name": "Cash Magnet",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "discontinued",
       "imageUrl": "data/assets/cards/american-express-cash-magnet.png"
     },
     {
-      "id": "american-express-everyday",
-      "name": "Everyday",
+      "id": "american-express-delta-skymiles-blue",
+      "name": "Delta SkyMiles Blue",
       "issuerId": "american-express",
-      "status": "discontinued",
-      "imageUrl": "data/assets/cards/american-express-everyday.png"
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-blue.png"
+    },
+    {
+      "id": "american-express-delta-skymiles-gold-business",
+      "name": "Delta SkyMiles Gold Business",
+      "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 150,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-gold-business.png"
+    },
+    {
+      "id": "american-express-delta-skymiles-gold",
+      "name": "Delta SkyMiles Gold",
+      "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 150,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-gold.png"
+    },
+    {
+      "id": "american-express-delta-skymiles-platinum-business",
+      "name": "Delta SkyMiles Platinum Business",
+      "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 350,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-platinum-business.png"
+    },
+    {
+      "id": "american-express-delta-skymiles-platinum",
+      "name": "Delta SkyMiles Platinum",
+      "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 350,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-platinum.png"
+    },
+    {
+      "id": "american-express-delta-skymiles-reserve-business",
+      "name": "Delta SkyMiles Reserve Business",
+      "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 550,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-reserve-business.png"
+    },
+    {
+      "id": "american-express-delta-skymiles-reserve",
+      "name": "Delta SkyMiles Reserve",
+      "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 650,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-reserve.png"
     },
     {
       "id": "american-express-everyday-preferred",
       "name": "Everyday Preferred",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "discontinued",
       "imageUrl": "data/assets/cards/american-express-everyday-preferred.png"
+    },
+    {
+      "id": "american-express-everyday",
+      "name": "Everyday",
+      "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/american-express-everyday.png"
     },
     {
       "id": "american-express-gold",
       "name": "Gold",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 325,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-gold.png"
     },
@@ -139,20 +297,27 @@
       "id": "american-express-green",
       "name": "Green",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 150,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-green.png"
-    },
-    {
-      "id": "american-express-hilton-honors",
-      "name": "Hilton Honors",
-      "issuerId": "american-express",
-      "status": "active",
-      "imageUrl": "data/assets/cards/american-express-hilton-honors.png"
     },
     {
       "id": "american-express-hilton-honors-aspire",
       "name": "Hilton Honors Aspire",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 550,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-hilton-honors-aspire.png"
     },
@@ -160,6 +325,13 @@
       "id": "american-express-hilton-honors-business",
       "name": "Hilton Honors Business",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 175,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-hilton-honors-business.png"
     },
@@ -167,13 +339,69 @@
       "id": "american-express-hilton-honors-surpass",
       "name": "Hilton Honors Surpass",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-hilton-honors-surpass.png"
+    },
+    {
+      "id": "american-express-hilton-honors",
+      "name": "Hilton Honors",
+      "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-hilton-honors.png"
+    },
+    {
+      "id": "american-express-lowes-business",
+      "name": "Lowes",
+      "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-lowes-business.png"
+    },
+    {
+      "id": "american-express-marriott-bonvoy-bevy",
+      "name": "Marriott Bonvoy Bevy",
+      "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 250,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-marriott-bonvoy-bevy.png"
     },
     {
       "id": "american-express-marriott-bonvoy-brilliant",
       "name": "Marriott Bonvoy Brilliant",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 650,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-marriott-bonvoy-brilliant.png"
     },
@@ -181,97 +409,304 @@
       "id": "american-express-marriott-bonvoy-business",
       "name": "Marriott Bonvoy Business",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 125,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-marriott-bonvoy-business.png"
-    },
-    {
-      "id": "american-express-platinum",
-      "name": "Platinum",
-      "issuerId": "american-express",
-      "status": "active",
-      "imageUrl": "data/assets/cards/american-express-platinum.png"
-    },
-    {
-      "id": "american-express-platinum-schwab",
-      "name": "Platinum (Schwab)",
-      "issuerId": "american-express",
-      "status": "active",
-      "imageUrl": "data/assets/cards/american-express-platinum-schwab.png"
     },
     {
       "id": "american-express-platinum-morgan-stanley",
       "name": "Platinum (Morgan Stanley)",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 895,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-platinum-morgan-stanley.png"
     },
     {
-      "id": "american-express-marriott-bonvoy-bevy",
-      "name": "Marriott Bonvoy Bevy",
+      "id": "american-express-platinum-schwab",
+      "name": "Platinum (Schwab)",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 895,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
-      "imageUrl": "data/assets/cards/american-express-marriott-bonvoy-bevy.png"
+      "imageUrl": "data/assets/cards/american-express-platinum-schwab.png"
     },
     {
-      "id": "american-express-lowes-business",
-      "name": "Lowes",
+      "id": "american-express-platinum",
+      "name": "Platinum",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 895,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
-      "imageUrl": "data/assets/cards/american-express-lowes-business.png"
-    },
-    {
-      "id": "american-express-schwab-investor",
-      "name": "Schwab Investor",
-      "issuerId": "american-express",
-      "status": "active",
-      "imageUrl": "data/assets/cards/american-express-schwab-investor.png"
-    },
-    {
-      "id": "american-express-amazon-business",
-      "name": "Amazon Business",
-      "issuerId": "american-express",
-      "status": "discontinued",
-      "imageUrl": "data/assets/cards/american-express-amazon-business.png"
+      "imageUrl": "data/assets/cards/american-express-platinum.png"
     },
     {
       "id": "american-express-rakuten-business",
       "name": "Rakuten",
       "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/american-express-rakuten-business.png"
+    },
+    {
+      "id": "american-express-schwab-investor",
+      "name": "Schwab Investor",
+      "issuerId": "american-express",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-schwab-investor.png"
     },
     {
       "id": "bank-of-america-air-france-klm",
       "name": "Air France KLM",
       "issuerId": "bank-of-america",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 89,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/bank-of-america-air-france-klm.png"
+    },
+    {
+      "id": "bank-of-america-alaska-airlines-business",
+      "name": "Alaska Airlines Visa\u00ae Business credit card",
+      "issuerId": "bank-of-america",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD"
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-alaska-airlines-business.png"
+    },
+    {
+      "id": "bank-of-america-alaska-airlines-visa-signature",
+      "name": "Alaska Airlines Visa Signature\u00ae credit card",
+      "issuerId": "bank-of-america",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD"
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-alaska-airlines-visa-signature.png"
+    },
+    {
+      "id": "bank-of-america-asiana-visa-signature",
+      "name": "Asiana Visa Signature\u00ae Credit Card",
+      "issuerId": "bank-of-america",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD"
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-asiana-visa-signature.png"
+    },
+    {
+      "id": "bank-of-america-atmos-rewards-ascent",
+      "name": "Atmos Rewards Ascent",
+      "issuerId": "bank-of-america",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-atmos-rewards-ascent.png"
+    },
+    {
+      "id": "bank-of-america-atmos-rewards-business",
+      "name": "Atmos Rewards Business",
+      "issuerId": "bank-of-america",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-atmos-rewards-business.png"
+    },
+    {
+      "id": "bank-of-america-atmos-rewards-summit",
+      "name": "Atmos Rewards Summit",
+      "issuerId": "bank-of-america",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 395,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-atmos-rewards-summit.png"
+    },
+    {
+      "id": "bank-of-america-business-advantage-customized-cash",
+      "name": "Business Advantage Customized Cash",
+      "issuerId": "bank-of-america",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-business-advantage-customized-cash.png"
+    },
+    {
+      "id": "bank-of-america-business-advantage-travel-rewards",
+      "name": "Business Advantage Travel Rewards",
+      "issuerId": "bank-of-america",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-business-advantage-travel-rewards.png"
+    },
+    {
+      "id": "bank-of-america-business-advantage-unlimited-cash",
+      "name": "Business Advantage Unlimited Cash",
+      "issuerId": "bank-of-america",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-business-advantage-unlimited-cash.png"
     },
     {
       "id": "bank-of-america-customized-cash-rewards",
       "name": "Customized Cash Rewards",
       "issuerId": "bank-of-america",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/bank-of-america-customized-cash-rewards.png"
     },
     {
-      "id": "bank-of-america-premium-rewards",
-      "name": "Premium Rewards",
+      "id": "bank-of-america-free-spirit",
+      "name": "Free Spirit",
       "issuerId": "bank-of-america",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 79,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
       "status": "active",
-      "imageUrl": "data/assets/cards/bank-of-america-premium-rewards.png"
+      "imageUrl": "data/assets/cards/bank-of-america-free-spirit.png"
+    },
+    {
+      "id": "bank-of-america-platinum-plus-business",
+      "name": "Platinum Plus",
+      "issuerId": "bank-of-america",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-platinum-plus-business.png"
     },
     {
       "id": "bank-of-america-premium-rewards-elite",
       "name": "Premium Rewards Elite",
       "issuerId": "bank-of-america",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 550,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/bank-of-america-premium-rewards-elite.png"
+    },
+    {
+      "id": "bank-of-america-premium-rewards",
+      "name": "Premium Rewards",
+      "issuerId": "bank-of-america",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-premium-rewards.png"
     },
     {
       "id": "bank-of-america-travel-rewards",
       "name": "Travel Rewards",
       "issuerId": "bank-of-america",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/bank-of-america-travel-rewards.png"
     },
@@ -279,69 +714,40 @@
       "id": "bank-of-america-unlimited-cash-rewards",
       "name": "Unlimited Cash Rewards",
       "issuerId": "bank-of-america",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/bank-of-america-unlimited-cash-rewards.png"
     },
     {
-      "id": "bank-of-america-business-advantage-customized-cash",
-      "name": "Business Advantage Customized Cash",
+      "id": "bank-of-america-virgin-atlantic-world-elite",
+      "name": "Virgin Atlantic World Elite Mastercard\u00ae",
       "issuerId": "bank-of-america",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 90,
+        "currency": "USD"
+      },
       "status": "active",
-      "imageUrl": "data/assets/cards/bank-of-america-business-advantage-customized-cash.png"
-    },
-    {
-      "id": "bank-of-america-business-advantage-unlimited-cash",
-      "name": "Business Advantage Unlimited Cash",
-      "issuerId": "bank-of-america",
-      "status": "active",
-      "imageUrl": "data/assets/cards/bank-of-america-business-advantage-unlimited-cash.png"
-    },
-    {
-      "id": "bank-of-america-business-advantage-travel-rewards",
-      "name": "Business Advantage Travel Rewards",
-      "issuerId": "bank-of-america",
-      "status": "active",
-      "imageUrl": "data/assets/cards/bank-of-america-business-advantage-travel-rewards.png"
-    },
-    {
-      "id": "bank-of-america-platinum-plus-business",
-      "name": "Platinum Plus",
-      "issuerId": "bank-of-america",
-      "status": "active",
-      "imageUrl": "data/assets/cards/bank-of-america-platinum-plus-business.png"
-    },
-    {
-      "id": "bank-of-america-free-spirit",
-      "name": "Free Spirit",
-      "issuerId": "bank-of-america",
-      "status": "active",
-      "imageUrl": "data/assets/cards/bank-of-america-free-spirit.png"
-    },
-    {
-      "id": "bank-of-america-atmos-rewards-ascent",
-      "name": "Atmos Rewards Ascent",
-      "issuerId": "bank-of-america",
-      "status": "active",
-      "imageUrl": "data/assets/cards/bank-of-america-atmos-rewards-ascent.png"
-    },
-    {
-      "id": "bank-of-america-atmos-rewards-summit",
-      "name": "Atmos Rewards Summit",
-      "issuerId": "bank-of-america",
-      "status": "active",
-      "imageUrl": "data/assets/cards/bank-of-america-atmos-rewards-summit.png"
-    },
-    {
-      "id": "bank-of-america-atmos-rewards-business",
-      "name": "Atmos Rewards Business",
-      "issuerId": "bank-of-america",
-      "status": "active",
-      "imageUrl": "data/assets/cards/bank-of-america-atmos-rewards-business.png"
+      "imageUrl": "data/assets/cards/bank-of-america-virgin-atlantic-world-elite.png"
     },
     {
       "id": "barclays-aadvantage-aviator-red-world-elite",
       "name": "AAdvantage Aviator Red World Elite",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-aadvantage-aviator-red-world-elite.png"
     },
@@ -349,6 +755,13 @@
       "id": "barclays-aadvantage-aviator-world-elite-business",
       "name": "AAdvantage Aviator World Elite Business",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-aadvantage-aviator-world-elite-business.png"
     },
@@ -356,6 +769,13 @@
       "id": "barclays-aarp-essential-rewards",
       "name": "AARP Essential Rewards",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-aarp-essential-rewards.png"
     },
@@ -363,13 +783,41 @@
       "id": "barclays-aarp-travel-rewards",
       "name": "AARP Travel Rewards",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-aarp-travel-rewards.png"
+    },
+    {
+      "id": "barclays-breeze",
+      "name": "Breeze",
+      "issuerId": "barclays",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 89,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-breeze.png"
     },
     {
       "id": "barclays-carnival-world-mastercard",
       "name": "Carnival World Mastercard",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-carnival-world-mastercard.png"
     },
@@ -377,6 +825,13 @@
       "id": "barclays-emirates-skywards-premium-world-elite",
       "name": "Emirates Skywards Premium World Elite",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 499,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-emirates-skywards-premium-world-elite.png"
     },
@@ -384,6 +839,13 @@
       "id": "barclays-emirates-skywards-rewards-world-elite",
       "name": "Emirates Skywards Rewards World Elite",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-emirates-skywards-rewards-world-elite.png"
     },
@@ -391,27 +853,55 @@
       "id": "barclays-frontier-airlines-world",
       "name": "Frontier Airlines World",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 89,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-frontier-airlines-world.png"
+    },
+    {
+      "id": "barclays-hawaiian-airlines-world-elite-business",
+      "name": "Hawaiian Airlines World Elite Business",
+      "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-hawaiian-airlines-world-elite-business.png"
     },
     {
       "id": "barclays-hawaiian-airlines-world-elite",
       "name": "Hawaiian Airlines World Elite",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-hawaiian-airlines-world-elite.png"
-    },
-    {
-      "id": "barclays-jetblue",
-      "name": "JetBlue",
-      "issuerId": "barclays",
-      "status": "active",
-      "imageUrl": "data/assets/cards/barclays-jetblue.png"
     },
     {
       "id": "barclays-jetblue-business",
       "name": "JetBlue Business",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-jetblue-business.png"
     },
@@ -419,6 +909,13 @@
       "id": "barclays-jetblue-plus",
       "name": "JetBlue Plus",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-jetblue-plus.png"
     },
@@ -426,13 +923,41 @@
       "id": "barclays-jetblue-premier",
       "name": "JetBlue Premier",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 499,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-jetblue-premier.png"
+    },
+    {
+      "id": "barclays-jetblue",
+      "name": "JetBlue",
+      "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-jetblue.png"
     },
     {
       "id": "barclays-lufthansa-miles-more",
       "name": "Lufthansa Miles & More",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 89,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-lufthansa-miles-more.png"
     },
@@ -440,20 +965,27 @@
       "id": "barclays-upromise",
       "name": "Upromise",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-upromise.png"
-    },
-    {
-      "id": "barclays-wyndham-rewards-earner",
-      "name": "Wyndham Rewards Earner",
-      "issuerId": "barclays",
-      "status": "active",
-      "imageUrl": "data/assets/cards/barclays-wyndham-rewards-earner.png"
     },
     {
       "id": "barclays-wyndham-rewards-earner-business",
       "name": "Wyndham Rewards Earner Business",
       "issuerId": "barclays",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-wyndham-rewards-earner-business.png"
     },
@@ -461,27 +993,41 @@
       "id": "barclays-wyndham-rewards-earner-plus",
       "name": "Wyndham Rewards Earner Plus",
       "issuerId": "barclays",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 75,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-wyndham-rewards-earner-plus.png"
     },
     {
-      "id": "barclays-hawaiian-airlines-world-elite-business",
-      "name": "Hawaiian Airlines World Elite Business",
+      "id": "barclays-wyndham-rewards-earner",
+      "name": "Wyndham Rewards Earner",
       "issuerId": "barclays",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
-      "imageUrl": "data/assets/cards/barclays-hawaiian-airlines-world-elite-business.png"
-    },
-    {
-      "id": "barclays-breeze",
-      "name": "Breeze",
-      "issuerId": "barclays",
-      "status": "active",
-      "imageUrl": "data/assets/cards/barclays-breeze.png"
+      "imageUrl": "data/assets/cards/barclays-wyndham-rewards-earner.png"
     },
     {
       "id": "barclays-xbox",
       "name": "Xbox",
       "issuerId": "barclays",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/barclays-xbox.png"
     },
@@ -489,258 +1035,27 @@
       "id": "brex-brex",
       "name": "Brex",
       "issuerId": "brex",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/brex-brex.png"
-    },
-    {
-      "id": "chase-marriott-bonvoy-bountiful",
-      "name": "Marriott Bonvoy Bountiful",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-marriott-bonvoy-bountiful.png"
-    },
-    {
-      "id": "chase-marriott-bonvoy-bold",
-      "name": "Marriott Bonvoy Bold",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-marriott-bonvoy-bold.png"
-    },
-    {
-      "id": "chase-marriott-bonvoy-boundless",
-      "name": "Marriott Bonvoy Boundless",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-marriott-bonvoy-boundless.png"
-    },
-    {
-      "id": "chase-southwest-performance-business",
-      "name": "Southwest Performance Business",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-southwest-performance-business.png"
-    },
-    {
-      "id": "chase-southwest-plus",
-      "name": "Southwest Plus",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-southwest-plus.png"
-    },
-    {
-      "id": "chase-southwest-premier",
-      "name": "Southwest Premier",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-southwest-premier.png"
-    },
-    {
-      "id": "chase-southwest-premier-business",
-      "name": "Southwest Premier Business",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-southwest-premier-business.png"
-    },
-    {
-      "id": "chase-southwest-priority",
-      "name": "Southwest Priority",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-southwest-priority.png"
-    },
-    {
-      "id": "chase-united-business",
-      "name": "United Business",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-united-business.png"
-    },
-    {
-      "id": "chase-united-club",
-      "name": "United Club",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-united-club.png"
-    },
-    {
-      "id": "chase-united-club-business",
-      "name": "United Club Business",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-united-club-business.png"
-    },
-    {
-      "id": "chase-united-explorer",
-      "name": "United Explorer",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-united-explorer.png"
-    },
-    {
-      "id": "chase-united-gateway",
-      "name": "United Gateway",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-united-gateway.png"
-    },
-    {
-      "id": "chase-united-quest",
-      "name": "United Quest",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-united-quest.png"
-    },
-    {
-      "id": "chase-ink-business-cash",
-      "name": "Ink Business Cash",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-ink-business-cash.png"
-    },
-    {
-      "id": "chase-ink-business-preferred",
-      "name": "Ink Business Preferred",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-ink-business-preferred.png"
-    },
-    {
-      "id": "chase-ink-business-unlimited",
-      "name": "Ink Business Unlimited",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-ink-business-unlimited.png"
-    },
-    {
-      "id": "chase-ink-business-premier",
-      "name": "Ink Business Premier",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-ink-business-premier.png"
-    },
-    {
-      "id": "chase-ihg-premier",
-      "name": "IHG Premier",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-ihg-premier.png"
-    },
-    {
-      "id": "chase-ihg-premier-business",
-      "name": "IHG Premier Business",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-ihg-premier-business.png"
-    },
-    {
-      "id": "chase-ihg-traveler",
-      "name": "IHG Traveler",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-ihg-traveler.png"
-    },
-    {
-      "id": "chase-sapphire-preferred",
-      "name": "Sapphire Preferred",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-sapphire-preferred.png"
-    },
-    {
-      "id": "chase-sapphire-reserve",
-      "name": "Sapphire Reserve",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-sapphire-reserve.png"
-    },
-    {
-      "id": "chase-sapphire-reserve-business",
-      "name": "Sapphire Reserve Business",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-sapphire-reserve-business.png"
-    },
-    {
-      "id": "chase-aer-lingus-signature",
-      "name": "Aer Lingus Signature",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-aer-lingus-signature.png"
-    },
-    {
-      "id": "chase-aeroplan",
-      "name": "Aeroplan",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-aeroplan.png"
-    },
-    {
-      "id": "chase-british-airways-signature",
-      "name": "British Airways Signature",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-british-airways-signature.png"
-    },
-    {
-      "id": "chase-disney-premier",
-      "name": "Disney Premier",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-disney-premier.png"
-    },
-    {
-      "id": "chase-disney",
-      "name": "Disney",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-disney.png"
-    },
-    {
-      "id": "chase-freedom-flex",
-      "name": "Freedom Flex",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-freedom-flex.png"
-    },
-    {
-      "id": "chase-freedom-unlimited",
-      "name": "Freedom Unlimited",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-freedom-unlimited.png"
-    },
-    {
-      "id": "chase-iberia-signature",
-      "name": "Iberia Signature",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-iberia-signature.png"
-    },
-    {
-      "id": "chase-world-of-hyatt",
-      "name": "World of Hyatt",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-world-of-hyatt.png"
-    },
-    {
-      "id": "chase-world-of-hyatt-business",
-      "name": "World of Hyatt Business",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-world-of-hyatt-business.png"
-    },
-    {
-      "id": "chase-amazon-prime",
-      "name": "Amazon Prime",
-      "issuerId": "chase",
-      "status": "active",
-      "imageUrl": "data/assets/cards/chase-amazon-prime.png"
     },
     {
       "id": "capital-one-quicksilver",
       "name": "Quicksilver",
       "issuerId": "capital-one",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/capital-one-quicksilver.png"
     },
@@ -748,6 +1063,13 @@
       "id": "capital-one-savor",
       "name": "Savor",
       "issuerId": "capital-one",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/capital-one-savor.png"
     },
@@ -755,20 +1077,27 @@
       "id": "capital-one-spark-1-5-cash-select-business",
       "name": "Spark 1.5% Cash Select",
       "issuerId": "capital-one",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/capital-one-spark-1-5-cash-select-business.png"
-    },
-    {
-      "id": "capital-one-ventureone-business",
-      "name": "VentureOne Business",
-      "issuerId": "capital-one",
-      "status": "active",
-      "imageUrl": "data/assets/cards/capital-one-ventureone-business.png"
     },
     {
       "id": "capital-one-spark-2-cash-plus-business",
       "name": "Spark 2% Cash Plus",
       "issuerId": "capital-one",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 150,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/capital-one-spark-2-cash-plus-business.png"
     },
@@ -776,6 +1105,13 @@
       "id": "capital-one-venture-business",
       "name": "Venture Business",
       "issuerId": "capital-one",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/capital-one-venture-business.png"
     },
@@ -783,41 +1119,615 @@
       "id": "capital-one-venture-rewards",
       "name": "Venture Rewards",
       "issuerId": "capital-one",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/capital-one-venture-rewards.png"
-    },
-    {
-      "id": "capital-one-venture-x",
-      "name": "Venture X",
-      "issuerId": "capital-one",
-      "status": "active",
-      "imageUrl": "data/assets/cards/capital-one-venture-x.png"
     },
     {
       "id": "capital-one-venture-x-business",
       "name": "Venture X Business",
       "issuerId": "capital-one",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 395,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/capital-one-venture-x-business.png"
+    },
+    {
+      "id": "capital-one-venture-x",
+      "name": "Venture X",
+      "issuerId": "capital-one",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 395,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/capital-one-venture-x.png"
+    },
+    {
+      "id": "capital-one-ventureone-business",
+      "name": "VentureOne Business",
+      "issuerId": "capital-one",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/capital-one-ventureone-business.png"
     },
     {
       "id": "capital-one-ventureone",
       "name": "VentureOne",
       "issuerId": "capital-one",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/capital-one-ventureone.png"
+    },
+    {
+      "id": "chase-aer-lingus-signature",
+      "name": "Aer Lingus Signature",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-aer-lingus-signature.png"
+    },
+    {
+      "id": "chase-aeroplan",
+      "name": "Aeroplan",
+      "issuerId": "chase",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-aeroplan.png"
+    },
+    {
+      "id": "chase-amazon-prime",
+      "name": "Amazon Prime",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-amazon-prime.png"
+    },
+    {
+      "id": "chase-british-airways-signature",
+      "name": "British Airways Signature",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-british-airways-signature.png"
+    },
+    {
+      "id": "chase-disney-premier",
+      "name": "Disney Premier",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 49,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-disney-premier.png"
+    },
+    {
+      "id": "chase-disney",
+      "name": "Disney",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-disney.png"
+    },
+    {
+      "id": "chase-freedom-flex",
+      "name": "Freedom Flex",
+      "issuerId": "chase",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-freedom-flex.png"
+    },
+    {
+      "id": "chase-freedom-unlimited",
+      "name": "Freedom Unlimited",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-freedom-unlimited.png"
+    },
+    {
+      "id": "chase-iberia-signature",
+      "name": "Iberia Signature",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-iberia-signature.png"
+    },
+    {
+      "id": "chase-ihg-premier-business",
+      "name": "IHG Premier Business",
+      "issuerId": "chase",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ihg-premier-business.png"
+    },
+    {
+      "id": "chase-ihg-premier",
+      "name": "IHG Premier",
+      "issuerId": "chase",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ihg-premier.png"
+    },
+    {
+      "id": "chase-ihg-traveler",
+      "name": "IHG Traveler",
+      "issuerId": "chase",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ihg-traveler.png"
+    },
+    {
+      "id": "chase-ink-business-cash",
+      "name": "Ink Business Cash",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ink-business-cash.png"
+    },
+    {
+      "id": "chase-ink-business-preferred",
+      "name": "Ink Business Preferred",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ink-business-preferred.png"
+    },
+    {
+      "id": "chase-ink-business-premier",
+      "name": "Ink Business Premier",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 195,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ink-business-premier.png"
+    },
+    {
+      "id": "chase-ink-business-unlimited",
+      "name": "Ink Business Unlimited",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ink-business-unlimited.png"
+    },
+    {
+      "id": "chase-marriott-bonvoy-bold",
+      "name": "Marriott Bonvoy Bold",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-marriott-bonvoy-bold.png"
+    },
+    {
+      "id": "chase-marriott-bonvoy-boundless",
+      "name": "Marriott Bonvoy Boundless",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-marriott-bonvoy-boundless.png"
+    },
+    {
+      "id": "chase-marriott-bonvoy-bountiful",
+      "name": "Marriott Bonvoy Bountiful",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 250,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-marriott-bonvoy-bountiful.png"
+    },
+    {
+      "id": "chase-sapphire-preferred",
+      "name": "Sapphire Preferred",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-sapphire-preferred.png"
+    },
+    {
+      "id": "chase-sapphire-reserve-business",
+      "name": "Sapphire Reserve Business",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 795,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-sapphire-reserve-business.png"
+    },
+    {
+      "id": "chase-sapphire-reserve",
+      "name": "Sapphire Reserve",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 795,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-sapphire-reserve.png"
+    },
+    {
+      "id": "chase-southwest-performance-business",
+      "name": "Southwest Performance Business",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 299,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-southwest-performance-business.png"
+    },
+    {
+      "id": "chase-southwest-plus",
+      "name": "Southwest Plus",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-southwest-plus.png"
+    },
+    {
+      "id": "chase-southwest-premier-business",
+      "name": "Southwest Premier Business",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 149,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-southwest-premier-business.png"
+    },
+    {
+      "id": "chase-southwest-premier",
+      "name": "Southwest Premier",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 149,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-southwest-premier.png"
+    },
+    {
+      "id": "chase-southwest-priority",
+      "name": "Southwest Priority",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 229,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-southwest-priority.png"
+    },
+    {
+      "id": "chase-united-business",
+      "name": "United Business",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 150,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-united-business.png"
+    },
+    {
+      "id": "chase-united-club-business",
+      "name": "United Club Business",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 695,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-united-club-business.png"
+    },
+    {
+      "id": "chase-united-club",
+      "name": "United Club",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 695,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-united-club.png"
+    },
+    {
+      "id": "chase-united-explorer",
+      "name": "United Explorer",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 150,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-united-explorer.png"
+    },
+    {
+      "id": "chase-united-gateway",
+      "name": "United Gateway",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-united-gateway.png"
+    },
+    {
+      "id": "chase-united-quest",
+      "name": "United Quest",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 350,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-united-quest.png"
+    },
+    {
+      "id": "chase-world-of-hyatt-business",
+      "name": "World of Hyatt Business",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 199,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-world-of-hyatt-business.png"
+    },
+    {
+      "id": "chase-world-of-hyatt",
+      "name": "World of Hyatt",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-world-of-hyatt.png"
+    },
+    {
+      "id": "citi-aadvantage-business-world-elite",
+      "name": "AAdvantage Business World Elite",
+      "issuerId": "citi",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-aadvantage-business-world-elite.png"
     },
     {
       "id": "citi-aadvantage-executive",
       "name": "AAdvantage Executive",
       "issuerId": "citi",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 595,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/citi-aadvantage-executive.png"
+    },
+    {
+      "id": "citi-aadvantage-globe",
+      "name": "AAdvantage Globe",
+      "issuerId": "citi",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 350,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-aadvantage-globe.png"
     },
     {
       "id": "citi-aadvantage-mileup",
       "name": "AAdvantage MileUp",
       "issuerId": "citi",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/citi-aadvantage-mileup.png"
     },
@@ -825,41 +1735,69 @@
       "id": "citi-aadvantage-platinum-select-world-elite",
       "name": "AAdvantage Platinum Select World Elite",
       "issuerId": "citi",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/citi-aadvantage-platinum-select-world-elite.png"
     },
     {
-      "id": "citi-aadvantage-globe",
-      "name": "AAdvantage Globe",
+      "id": "citi-at-t-points-plus",
+      "name": "AT&T Points Plus",
       "issuerId": "citi",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
-      "imageUrl": "data/assets/cards/citi-aadvantage-globe.png"
-    },
-    {
-      "id": "citi-aadvantage-business-world-elite",
-      "name": "AAdvantage Business World Elite",
-      "issuerId": "citi",
-      "status": "active",
-      "imageUrl": "data/assets/cards/citi-aadvantage-business-world-elite.png"
-    },
-    {
-      "id": "citi-double-cash",
-      "name": "Double Cash",
-      "issuerId": "citi",
-      "status": "active",
-      "imageUrl": "data/assets/cards/citi-double-cash.png"
+      "imageUrl": "data/assets/cards/citi-at-t-points-plus.png"
     },
     {
       "id": "citi-custom-cash",
       "name": "Custom Cash",
       "issuerId": "citi",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/citi-custom-cash.png"
+    },
+    {
+      "id": "citi-double-cash",
+      "name": "Double Cash",
+      "issuerId": "citi",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-double-cash.png"
     },
     {
       "id": "citi-strata-elite",
       "name": "Strata Elite",
       "issuerId": "citi",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 595,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/citi-strata-elite.png"
     },
@@ -867,6 +1805,13 @@
       "id": "citi-strata-premier",
       "name": "Strata Premier",
       "issuerId": "citi",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/citi-strata-premier.png"
     },
@@ -874,314 +1819,27 @@
       "id": "citi-strata",
       "name": "Strata",
       "issuerId": "citi",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/citi-strata.png"
-    },
-    {
-      "id": "citi-at-t-points-plus",
-      "name": "AT&T Points Plus",
-      "issuerId": "citi",
-      "status": "active",
-      "imageUrl": "data/assets/cards/citi-at-t-points-plus.png"
-    },
-    {
-      "id": "comenity-aaa-daily-advantage",
-      "name": "AAA Daily Advantage",
-      "issuerId": "comenity",
-      "status": "active",
-      "imageUrl": "data/assets/cards/comenity-aaa-daily-advantage.png"
-    },
-    {
-      "id": "comenity-aaa-travel-advantage",
-      "name": "AAA Travel Advantage",
-      "issuerId": "comenity",
-      "status": "active",
-      "imageUrl": "data/assets/cards/comenity-aaa-travel-advantage.png"
-    },
-    {
-      "id": "discover-discover-it",
-      "name": "Discover It",
-      "issuerId": "discover",
-      "status": "active",
-      "imageUrl": "data/assets/cards/discover-discover-it.png"
-    },
-    {
-      "id": "first-national-bank-of-omaha-amtrak-guest-rewards",
-      "name": "Amtrak Guest Rewards",
-      "issuerId": "first-national-bank-of-omaha",
-      "status": "active",
-      "imageUrl": "data/assets/cards/first-national-bank-of-omaha-amtrak-guest-rewards.png"
-    },
-    {
-      "id": "first-national-bank-of-omaha-amtrak-guest-rewards-preferred",
-      "name": "Amtrak Guest Rewards Preferred",
-      "issuerId": "first-national-bank-of-omaha",
-      "status": "active",
-      "imageUrl": "data/assets/cards/first-national-bank-of-omaha-amtrak-guest-rewards-preferred.png"
-    },
-    {
-      "id": "first-national-bank-of-omaha-best-western-rewards",
-      "name": "Best Western Rewards",
-      "issuerId": "first-national-bank-of-omaha",
-      "status": "active",
-      "imageUrl": "data/assets/cards/first-national-bank-of-omaha-best-western-rewards.png"
-    },
-    {
-      "id": "first-national-bank-of-omaha-best-western-rewards-premium",
-      "name": "Best Western Rewards Premium",
-      "issuerId": "first-national-bank-of-omaha",
-      "status": "active",
-      "imageUrl": "data/assets/cards/first-national-bank-of-omaha-best-western-rewards-premium.png"
-    },
-    {
-      "id": "penfed-credit-union-power-cash-rewards",
-      "name": "Power Cash Rewards",
-      "issuerId": "penfed-credit-union",
-      "status": "active",
-      "imageUrl": "data/assets/cards/penfed-credit-union-power-cash-rewards.png"
-    },
-    {
-      "id": "penfed-credit-union-platinum-rewards",
-      "name": "Platinum Rewards",
-      "issuerId": "penfed-credit-union",
-      "status": "active",
-      "imageUrl": "data/assets/cards/penfed-credit-union-platinum-rewards.png"
-    },
-    {
-      "id": "penfed-credit-union-pathfinder",
-      "name": "Pathfinder",
-      "issuerId": "penfed-credit-union",
-      "status": "active",
-      "imageUrl": "data/assets/cards/penfed-credit-union-pathfinder.png"
-    },
-    {
-      "id": "pnc-bank-cash-rewards-visa-signature-business",
-      "name": "Cash Rewards Visa Signature Business",
-      "issuerId": "pnc-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/pnc-bank-cash-rewards-visa-signature-business.png"
-    },
-    {
-      "id": "synchrony-cathay-pacific",
-      "name": "Cathay Pacific",
-      "issuerId": "synchrony",
-      "status": "active",
-      "imageUrl": "data/assets/cards/synchrony-cathay-pacific.png"
-    },
-    {
-      "id": "synchrony-virgin-red-rewards",
-      "name": "Virgin Red Rewards",
-      "issuerId": "synchrony",
-      "status": "active",
-      "imageUrl": "data/assets/cards/synchrony-virgin-red-rewards.png"
-    },
-    {
-      "id": "synchrony-verizon-visa",
-      "name": "Verizon Visa",
-      "issuerId": "synchrony",
-      "status": "active",
-      "imageUrl": "data/assets/cards/synchrony-verizon-visa.png"
-    },
-    {
-      "id": "synchrony-walmart-onepay-cashrewards",
-      "name": "Walmart OnePay CashRewards",
-      "issuerId": "synchrony",
-      "status": "active",
-      "imageUrl": "data/assets/cards/synchrony-walmart-onepay-cashrewards.png"
-    },
-    {
-      "id": "synchrony-amazon-prime-store-card",
-      "name": "Amazon Prime Store Card",
-      "issuerId": "synchrony",
-      "status": "active",
-      "imageUrl": "data/assets/cards/synchrony-amazon-prime-store-card.png"
-    },
-    {
-      "id": "u-s-bank-business-altitude-power",
-      "name": "Business Altitude Power",
-      "issuerId": "u-s-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/u-s-bank-business-altitude-power.png"
-    },
-    {
-      "id": "u-s-bank-business-altitude-connect",
-      "name": "Business Altitude Connect",
-      "issuerId": "u-s-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/u-s-bank-business-altitude-connect.png"
-    },
-    {
-      "id": "u-s-bank-altitude-connect",
-      "name": "Altitude Connect",
-      "issuerId": "u-s-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/u-s-bank-altitude-connect.png"
-    },
-    {
-      "id": "u-s-bank-altitude-reserve",
-      "name": "Altitude Reserve",
-      "issuerId": "u-s-bank",
-      "status": "discontinued",
-      "imageUrl": "data/assets/cards/u-s-bank-altitude-reserve.png"
-    },
-    {
-      "id": "u-s-bank-altitude-go",
-      "name": "Altitude Go",
-      "issuerId": "u-s-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/u-s-bank-altitude-go.png"
-    },
-    {
-      "id": "u-s-bank-cash",
-      "name": "Cash+",
-      "issuerId": "u-s-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/u-s-bank-cash.png"
-    },
-    {
-      "id": "u-s-bank-flexperks-gold",
-      "name": "FlexPerks Gold",
-      "issuerId": "u-s-bank",
-      "status": "discontinued",
-      "imageUrl": "data/assets/cards/u-s-bank-flexperks-gold.png"
-    },
-    {
-      "id": "u-s-bank-business-leverage",
-      "name": "Business Leverage",
-      "issuerId": "u-s-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/u-s-bank-business-leverage.png"
-    },
-    {
-      "id": "u-s-bank-business-triple-cash-rewards",
-      "name": "Business Triple Cash Rewards",
-      "issuerId": "u-s-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/u-s-bank-business-triple-cash-rewards.png"
-    },
-    {
-      "id": "u-s-bank-skypass-blue",
-      "name": "Skypass Blue",
-      "issuerId": "u-s-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/u-s-bank-skypass-blue.png"
-    },
-    {
-      "id": "u-s-bank-skypass",
-      "name": "Skypass",
-      "issuerId": "u-s-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/u-s-bank-skypass.png"
-    },
-    {
-      "id": "u-s-bank-skypass-select",
-      "name": "Skypass Select",
-      "issuerId": "u-s-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/u-s-bank-skypass-select.png"
-    },
-    {
-      "id": "u-s-bank-skypass-business",
-      "name": "Skypass Business",
-      "issuerId": "u-s-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/u-s-bank-skypass-business.png"
-    },
-    {
-      "id": "u-s-bank-shopper-cash-rewards",
-      "name": "Shopper Cash Rewards",
-      "issuerId": "u-s-bank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/u-s-bank-shopper-cash-rewards.png"
-    },
-    {
-      "id": "u-s-bank-smartly",
-      "name": "Smartly",
-      "issuerId": "u-s-bank",
-      "status": "discontinued",
-      "imageUrl": "data/assets/cards/u-s-bank-smartly.png"
-    },
-    {
-      "id": "wells-fargo-signify-business-cash",
-      "name": "Signify Business Cash",
-      "issuerId": "wells-fargo",
-      "status": "active",
-      "imageUrl": "data/assets/cards/wells-fargo-signify-business-cash.png"
-    },
-    {
-      "id": "wells-fargo-active-cash",
-      "name": "Active Cash",
-      "issuerId": "wells-fargo",
-      "status": "active",
-      "imageUrl": "data/assets/cards/wells-fargo-active-cash.png"
-    },
-    {
-      "id": "wells-fargo-autograph",
-      "name": "Autograph",
-      "issuerId": "wells-fargo",
-      "status": "active",
-      "imageUrl": "data/assets/cards/wells-fargo-autograph.png"
-    },
-    {
-      "id": "wells-fargo-autograph-journey",
-      "name": "Autograph Journey",
-      "issuerId": "wells-fargo",
-      "status": "active",
-      "imageUrl": "data/assets/cards/wells-fargo-autograph-journey.png"
-    },
-    {
-      "id": "wells-fargo-choice-privileges",
-      "name": "Choice Privileges",
-      "issuerId": "wells-fargo",
-      "status": "active",
-      "imageUrl": "data/assets/cards/wells-fargo-choice-privileges.png"
-    },
-    {
-      "id": "wells-fargo-choice-privileges-select",
-      "name": "Choice Privileges Select",
-      "issuerId": "wells-fargo",
-      "status": "active",
-      "imageUrl": "data/assets/cards/wells-fargo-choice-privileges-select.png"
-    },
-    {
-      "id": "wells-fargo-attune",
-      "name": "Attune",
-      "issuerId": "wells-fargo",
-      "status": "active",
-      "imageUrl": "data/assets/cards/wells-fargo-attune.png"
-    },
-    {
-      "id": "wells-fargo-bilt",
-      "name": "Bilt",
-      "issuerId": "wells-fargo",
-      "status": "active",
-      "imageUrl": "data/assets/cards/wells-fargo-bilt.png"
-    },
-    {
-      "id": "wells-fargo-expedia-one-key",
-      "name": "Expedia One Key",
-      "issuerId": "wells-fargo",
-      "status": "active",
-      "imageUrl": "data/assets/cards/wells-fargo-expedia-one-key.png"
-    },
-    {
-      "id": "wells-fargo-expedia-one-key-2",
-      "name": "Expedia One Key+",
-      "issuerId": "wells-fargo",
-      "status": "active",
-      "imageUrl": "data/assets/cards/wells-fargo-expedia-one-key-2.png"
-    },
-    {
-      "id": "webbank-gemini",
-      "name": "Gemini",
-      "issuerId": "webbank",
-      "status": "active",
-      "imageUrl": "data/assets/cards/webbank-gemini.png"
     },
     {
       "id": "coastal-community-bank-robinhood-gold-card",
       "name": "Robinhood Gold Card",
       "issuerId": "coastal-community-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/coastal-community-bank-robinhood-gold-card.png"
     },
@@ -1189,22 +1847,709 @@
       "id": "coastal-community-bank-robinhood-platinum-card",
       "name": "Robinhood Platinum Card",
       "issuerId": "coastal-community-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 695,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/coastal-community-bank-robinhood-platinum-card.png"
     },
     {
-      "id": "synchrony-venmo-credit-card",
-      "name": "Venmo Credit Card",
-      "issuerId": "synchrony",
+      "id": "comenity-aaa-daily-advantage",
+      "name": "AAA Daily Advantage",
+      "issuerId": "comenity",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
-      "imageUrl": "data/assets/cards/synchrony-venmo-credit-card.png"
+      "imageUrl": "data/assets/cards/comenity-aaa-daily-advantage.png"
+    },
+    {
+      "id": "comenity-aaa-travel-advantage",
+      "name": "AAA Travel Advantage",
+      "issuerId": "comenity",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/comenity-aaa-travel-advantage.png"
+    },
+    {
+      "id": "discover-discover-it",
+      "name": "Discover It",
+      "issuerId": "discover",
+      "network": "Discover",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/discover-discover-it.png"
+    },
+    {
+      "id": "fidelity-rewards-visa-signature",
+      "name": "Fidelity\u00ae Rewards Visa Signature\u00ae Card",
+      "issuerId": "fidelity",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/fidelity-rewards-visa-signature.png"
+    },
+    {
+      "id": "first-national-bank-of-omaha-amtrak-guest-rewards-preferred",
+      "name": "Amtrak Guest Rewards Preferred",
+      "issuerId": "first-national-bank-of-omaha",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/first-national-bank-of-omaha-amtrak-guest-rewards-preferred.png"
+    },
+    {
+      "id": "first-national-bank-of-omaha-amtrak-guest-rewards",
+      "name": "Amtrak Guest Rewards",
+      "issuerId": "first-national-bank-of-omaha",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/first-national-bank-of-omaha-amtrak-guest-rewards.png"
+    },
+    {
+      "id": "first-national-bank-of-omaha-best-western-rewards-premium",
+      "name": "Best Western Rewards Premium",
+      "issuerId": "first-national-bank-of-omaha",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 89,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/first-national-bank-of-omaha-best-western-rewards-premium.png"
+    },
+    {
+      "id": "first-national-bank-of-omaha-best-western-rewards",
+      "name": "Best Western Rewards",
+      "issuerId": "first-national-bank-of-omaha",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/first-national-bank-of-omaha-best-western-rewards.png"
     },
     {
       "id": "goldman-sachs-apple-card",
       "name": "Apple Card",
       "issuerId": "goldman-sachs",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
       "status": "active",
       "imageUrl": "data/assets/cards/goldman-sachs-apple-card.png"
+    },
+    {
+      "id": "navy-federal-more-rewards",
+      "name": "Navy Federal More Rewards American Express\u00ae Credit Card",
+      "issuerId": "navy-federal-credit-union",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/navy-federal-more-rewards.png"
+    },
+    {
+      "id": "penfed-credit-union-pathfinder",
+      "name": "Pathfinder",
+      "issuerId": "penfed-credit-union",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/penfed-credit-union-pathfinder.png"
+    },
+    {
+      "id": "penfed-credit-union-platinum-rewards",
+      "name": "Platinum Rewards",
+      "issuerId": "penfed-credit-union",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/penfed-credit-union-platinum-rewards.png"
+    },
+    {
+      "id": "penfed-credit-union-power-cash-rewards",
+      "name": "Power Cash Rewards",
+      "issuerId": "penfed-credit-union",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/penfed-credit-union-power-cash-rewards.png"
+    },
+    {
+      "id": "pnc-bank-cash-rewards-visa-signature-business",
+      "name": "Cash Rewards Visa Signature Business",
+      "issuerId": "pnc-bank",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/pnc-bank-cash-rewards-visa-signature-business.png"
+    },
+    {
+      "id": "sofi-unlimited-2",
+      "name": "SoFi Unlimited 2% Credit Card",
+      "issuerId": "sofi",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/sofi-unlimited-2.png"
+    },
+    {
+      "id": "synchrony-amazon-prime-store-card",
+      "name": "Amazon Prime Store Card",
+      "issuerId": "synchrony",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/synchrony-amazon-prime-store-card.png"
+    },
+    {
+      "id": "synchrony-cathay-pacific",
+      "name": "Cathay Pacific",
+      "issuerId": "synchrony",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/synchrony-cathay-pacific.png"
+    },
+    {
+      "id": "synchrony-venmo-credit-card",
+      "name": "Venmo Credit Card",
+      "issuerId": "synchrony",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/synchrony-venmo-credit-card.png"
+    },
+    {
+      "id": "synchrony-verizon-visa",
+      "name": "Verizon Visa",
+      "issuerId": "synchrony",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/synchrony-verizon-visa.png"
+    },
+    {
+      "id": "synchrony-virgin-red-rewards",
+      "name": "Virgin Red Rewards",
+      "issuerId": "synchrony",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/synchrony-virgin-red-rewards.png"
+    },
+    {
+      "id": "synchrony-walmart-onepay-cashrewards",
+      "name": "Walmart OnePay CashRewards",
+      "issuerId": "synchrony",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/synchrony-walmart-onepay-cashrewards.png"
+    },
+    {
+      "id": "td-bank-cash",
+      "name": "TD Cash Credit Card",
+      "issuerId": "td-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/td-bank-cash.png"
+    },
+    {
+      "id": "td-bank-double-up",
+      "name": "TD Double Up\u2120 Credit Card",
+      "issuerId": "td-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/td-bank-double-up.png"
+    },
+    {
+      "id": "u-s-bank-altitude-connect",
+      "name": "Altitude Connect",
+      "issuerId": "u-s-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-altitude-connect.png"
+    },
+    {
+      "id": "u-s-bank-altitude-go",
+      "name": "Altitude Go",
+      "issuerId": "u-s-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-altitude-go.png"
+    },
+    {
+      "id": "u-s-bank-altitude-reserve",
+      "name": "Altitude Reserve",
+      "issuerId": "u-s-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/u-s-bank-altitude-reserve.png"
+    },
+    {
+      "id": "u-s-bank-business-altitude-connect",
+      "name": "Business Altitude Connect",
+      "issuerId": "u-s-bank",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-business-altitude-connect.png"
+    },
+    {
+      "id": "u-s-bank-business-altitude-power",
+      "name": "Business Altitude Power",
+      "issuerId": "u-s-bank",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 195,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-business-altitude-power.png"
+    },
+    {
+      "id": "u-s-bank-business-leverage",
+      "name": "Business Leverage",
+      "issuerId": "u-s-bank",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-business-leverage.png"
+    },
+    {
+      "id": "u-s-bank-business-triple-cash-rewards",
+      "name": "Business Triple Cash Rewards",
+      "issuerId": "u-s-bank",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-business-triple-cash-rewards.png"
+    },
+    {
+      "id": "u-s-bank-cash",
+      "name": "Cash+",
+      "issuerId": "u-s-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-cash.png"
+    },
+    {
+      "id": "u-s-bank-flexperks-gold",
+      "name": "FlexPerks Gold",
+      "issuerId": "u-s-bank",
+      "network": "Amex",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 85,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/u-s-bank-flexperks-gold.png"
+    },
+    {
+      "id": "u-s-bank-shopper-cash-rewards",
+      "name": "Shopper Cash Rewards",
+      "issuerId": "u-s-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": true
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-shopper-cash-rewards.png"
+    },
+    {
+      "id": "u-s-bank-skypass-blue",
+      "name": "Skypass Blue",
+      "issuerId": "u-s-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-skypass-blue.png"
+    },
+    {
+      "id": "u-s-bank-skypass-business",
+      "name": "Skypass Business",
+      "issuerId": "u-s-bank",
+      "network": "Visa",
+      "variant": "business",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-skypass-business.png"
+    },
+    {
+      "id": "u-s-bank-skypass-select",
+      "name": "Skypass Select",
+      "issuerId": "u-s-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 450,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-skypass-select.png"
+    },
+    {
+      "id": "u-s-bank-skypass",
+      "name": "Skypass",
+      "issuerId": "u-s-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-skypass.png"
+    },
+    {
+      "id": "u-s-bank-smartly",
+      "name": "Smartly",
+      "issuerId": "u-s-bank",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/u-s-bank-smartly.png"
+    },
+    {
+      "id": "usaa-eagle-navigator-visa-signature",
+      "name": "USAA Eagle Navigator\u2122 Visa Signature\u00ae Credit Card",
+      "issuerId": "usaa",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD"
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/usaa-eagle-navigator-visa-signature.png"
+    },
+    {
+      "id": "webbank-gemini",
+      "name": "Gemini",
+      "issuerId": "webbank",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/webbank-gemini.png"
+    },
+    {
+      "id": "wells-fargo-active-cash",
+      "name": "Active Cash",
+      "issuerId": "wells-fargo",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-active-cash.png"
+    },
+    {
+      "id": "wells-fargo-attune",
+      "name": "Attune",
+      "issuerId": "wells-fargo",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-attune.png"
+    },
+    {
+      "id": "wells-fargo-autograph-journey",
+      "name": "Autograph Journey",
+      "issuerId": "wells-fargo",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-autograph-journey.png"
+    },
+    {
+      "id": "wells-fargo-autograph",
+      "name": "Autograph",
+      "issuerId": "wells-fargo",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-autograph.png"
+    },
+    {
+      "id": "wells-fargo-bilt",
+      "name": "Bilt",
+      "issuerId": "wells-fargo",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-bilt.png"
+    },
+    {
+      "id": "wells-fargo-choice-privileges-select",
+      "name": "Choice Privileges Select",
+      "issuerId": "wells-fargo",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-choice-privileges-select.png"
+    },
+    {
+      "id": "wells-fargo-choice-privileges",
+      "name": "Choice Privileges",
+      "issuerId": "wells-fargo",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-choice-privileges.png"
+    },
+    {
+      "id": "wells-fargo-expedia-one-key-2",
+      "name": "Expedia One Key+",
+      "issuerId": "wells-fargo",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 99,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-expedia-one-key-2.png"
+    },
+    {
+      "id": "wells-fargo-expedia-one-key",
+      "name": "Expedia One Key",
+      "issuerId": "wells-fargo",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-expedia-one-key.png"
+    },
+    {
+      "id": "wells-fargo-signify-business-cash",
+      "name": "Signify Business Cash",
+      "issuerId": "wells-fargo",
+      "network": "Mastercard",
+      "variant": "business",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-signify-business-cash.png"
     }
   ]
 }
