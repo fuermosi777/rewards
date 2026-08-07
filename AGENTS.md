@@ -40,6 +40,7 @@ This is the bigger, slower-moving task — most cards currently have `benefits: 
 1. Pick a card. If it has `_scaffoldHints`, read `raw` as a *lead list only* — a hint that a "Hotel Credit" or "Companion Pass" benefit probably exists, nothing more. Its `value`/`weight` numbers are not reliable and must not be copied into the real record. Some leads won't pan out at all (e.g. a benefit that existed when the bootstrap source was scraped but has since been discontinued) — verify against a current source, don't assume the hint is still accurate.
 2. Find the authoritative source:
    - The issuer's own product page (marketing summary — usually incomplete for insurance-type benefits).
+   - **MaxRewards** (`https://maxrewards.com/credit-cards`) as a primary reference source for official 3D-vector / flat card art PNG assets (`https://d1f8ie53h08h9n.cloudfront.net/<slug>/lg.webp`) and card identity cross-referencing.
    - The **Guide to Benefits** PDF, when `issuers.json[].benefitsGuideUrl` is set or discoverable — this is usually the actual authoritative text for things like purchase protection, trip delay insurance, rental car coverage.
    - Reputable card-specific breakdowns (e.g. issuer press releases, the card's official terms & conditions page) as corroboration, not as the sole source.
 3. For each real benefit found, add an entry to `benefits[]` following `schema/card.schema.json`:
