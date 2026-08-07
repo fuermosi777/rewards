@@ -18,11 +18,19 @@
       "description": "Up to $7 back each month in statement credits after spending on an eligible Disney+, Hulu, or ESPN subscription with the enrolled card.",
       "benefitType": "statement_credit",
       "category": "streaming",
-      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 7,
         "currency": "USD",
-        "eligibleMerchants": ["DisneyPlus.com", "Hulu.com", "Stream.ESPN.com"],
+        "eligibleMerchants": [
+          "DisneyPlus.com",
+          "Hulu.com",
+          "Stream.ESPN.com"
+        ],
         "splitEligible": true
       },
       "terms": "Enrollment required. Credits do not carry over month to month — an unused month is forfeited. Valid only on subscriptions purchased directly at DisneyPlus.com, Hulu.com, or Stream.ESPN.com. Totals up to $84 per year if used every month.",
@@ -35,11 +43,17 @@
       "description": "Up to $15 back each month in statement credits on Home Chef meal kit purchases with the enrolled card.",
       "benefitType": "statement_credit",
       "category": "dining",
-      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 15,
         "currency": "USD",
-        "eligibleMerchants": ["Home Chef"],
+        "eligibleMerchants": [
+          "Home Chef"
+        ],
         "splitEligible": true
       },
       "terms": "Enrollment required. Credits do not carry over month to month — an unused month is forfeited. Totals up to $180 per year if used every month.",
@@ -93,10 +107,16 @@
     {
       "multiplier": 3,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["us_supermarkets"],
+      "eligibleCategories": [
+        "us_supermarkets"
+      ],
       "spendCap": {
         "amount": 6000,
-        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
       },
       "terms": "3% cash back at U.S. supermarkets on up to $6,000 per calendar year in purchases, then 1%. Excludes superstores, specialty stores, and warehouse clubs.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
@@ -104,10 +124,16 @@
     {
       "multiplier": 3,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["online_retail"],
+      "eligibleCategories": [
+        "online_retail"
+      ],
       "spendCap": {
         "amount": 6000,
-        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
       },
       "terms": "3% cash back on U.S. online retail purchases on up to $6,000 per calendar year in purchases, then 1%.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
@@ -115,10 +141,16 @@
     {
       "multiplier": 3,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["gas_stations"],
+      "eligibleCategories": [
+        "gas_stations"
+      ],
       "spendCap": {
         "amount": 6000,
-        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
       },
       "terms": "3% cash back at U.S. gas stations on up to $6,000 per calendar year in purchases, then 1%.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
@@ -126,7 +158,9 @@
     {
       "multiplier": 1,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "terms": "1% cash back on all other eligible purchases, and on bonus-category purchases after each $6,000 annual cap is reached. Cash back is received as Reward Dollars redeemable as a statement credit.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
     }
@@ -139,5 +173,6 @@
       "https://upgradedpoints.com/credit-cards/reviews/blue-cash-everyday-card-american-express/benefits/"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-blue-cash-everyday.png"
 }

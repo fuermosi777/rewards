@@ -82,10 +82,19 @@
     {
       "multiplier": 3,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["amazon_business", "amazon", "aws", "whole_foods"],
+      "eligibleCategories": [
+        "amazon_business",
+        "amazon",
+        "aws",
+        "whole_foods"
+      ],
       "spendCap": {
         "amount": 120000,
-        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
       },
       "terms": "3% back on eligible U.S. purchases at Amazon Business, Amazon Web Services, Amazon.com, and Whole Foods Market on the first $120,000 in combined eligible purchases per calendar year, then 1%. Forfeited if the cardholder elects 60-day extended payment terms instead. Rewards are redeemable toward Amazon purchases, not as general cash back.",
       "sourceUrl": "https://awardwallet.com/credit-cards/cash-back/amazon-business-card/"
@@ -93,14 +102,20 @@
     {
       "multiplier": 2,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["dining", "gas_stations", "wireless"],
+      "eligibleCategories": [
+        "dining",
+        "gas_stations",
+        "wireless"
+      ],
       "terms": "2% back at U.S. restaurants, U.S. gas stations, and on wireless services purchased directly from U.S. service providers.",
       "sourceUrl": "https://awardwallet.com/credit-cards/cash-back/amazon-business-card/"
     },
     {
       "multiplier": 1,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "terms": "1% back on all other purchases, and on Amazon-family purchases after the $120,000 annual cap is reached.",
       "sourceUrl": "https://awardwallet.com/credit-cards/cash-back/amazon-business-card/"
     }
@@ -114,5 +129,6 @@
       "https://www.doctorofcredit.com/amazon-business-card-changes-issuers-from-american-express-to-u-s-bank/"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-amazon-business.png"
 }

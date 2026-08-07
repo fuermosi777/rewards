@@ -51,7 +51,9 @@
     {
       "multiplier": 1.5,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "terms": "Flat 1.5% cash back on all eligible purchases, no categories, no cap.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/cash-magnet/"
     }
@@ -64,5 +66,6 @@
       "https://upgradedpoints.com/news/amex-discontinues-everyday-preferred-cash-magnet-cards/"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-cash-magnet.png"
 }

@@ -18,11 +18,17 @@
       "description": "$100 statement credit for hotel bookings made through Chase Travel.",
       "benefitType": "statement_credit",
       "category": "hotel",
-      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "card_anniversary" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
       "statementCreditDetail": {
         "amount": 100,
         "currency": "USD",
-        "eligibleMerchants": ["Chase Travel"]
+        "eligibleMerchants": [
+          "Chase Travel"
+        ]
       },
       "terms": "Applies to hotel bookings made through the Chase Travel portal.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/preferred",
@@ -34,11 +40,19 @@
       "description": "Statement credit for a TSA PreCheck, Global Entry, or NEXUS application fee.",
       "benefitType": "trusted_traveler_credit",
       "category": "travel",
-      "renewalPeriod": { "unit": "year", "count": 4, "anchor": "card_anniversary" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
       "statementCreditDetail": {
         "amount": 120,
         "currency": "USD",
-        "eligibleMerchants": ["TSA PreCheck", "Global Entry", "NEXUS"]
+        "eligibleMerchants": [
+          "TSA PreCheck",
+          "Global Entry",
+          "NEXUS"
+        ]
       },
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/preferred",
       "lastVerified": "2026-08-04"
@@ -74,7 +88,9 @@
       "bonusCategoryDetail": {
         "multiplier": 5,
         "rewardUnit": "points",
-        "eligibleCategories": ["lyft"]
+        "eligibleCategories": [
+          "lyft"
+        ]
       },
       "terms": "Promotional rate through Sep. 30, 2027 per current terms; confirm this end date is still current before relying on it.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/preferred",
@@ -89,8 +105,17 @@
       "bonusCategoryDetail": {
         "multiplier": 5,
         "rewardUnit": "points",
-        "eligibleCategories": ["peloton"],
-        "spendCap": { "amount": 5000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } }
+        "eligibleCategories": [
+          "peloton"
+        ],
+        "spendCap": {
+          "amount": 5000,
+          "period": {
+            "unit": "year",
+            "count": 1,
+            "anchor": "calendar"
+          }
+        }
       },
       "terms": "Minimum purchase $150. Capped at 25,000 total bonus points. Promotional rate through Dec. 31, 2027 per current terms; confirm this end date is still current before relying on it.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/preferred",
@@ -172,54 +197,71 @@
     {
       "multiplier": 5,
       "rewardUnit": "points",
-      "eligibleCategories": ["chase_travel"],
+      "eligibleCategories": [
+        "chase_travel"
+      ],
       "terms": "Flights, hotels, rental cars, cruises, activities, and tours booked through Chase Travel.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/preferred"
     },
     {
       "multiplier": 3,
       "rewardUnit": "points",
-      "eligibleCategories": ["dining"],
+      "eligibleCategories": [
+        "dining"
+      ],
       "terms": "Dining worldwide, including takeout and eligible delivery.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/preferred"
     },
     {
       "multiplier": 3,
       "rewardUnit": "points",
-      "eligibleCategories": ["gas_stations", "ev_charging"],
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging"
+      ],
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/preferred"
     },
     {
       "multiplier": 3,
       "rewardUnit": "points",
-      "eligibleCategories": ["vacation_rentals"],
+      "eligibleCategories": [
+        "vacation_rentals"
+      ],
       "terms": "Airbnb, Vrbo, and similar vacation rental platforms.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/preferred"
     },
     {
       "multiplier": 3,
       "rewardUnit": "points",
-      "eligibleCategories": ["online_groceries"],
+      "eligibleCategories": [
+        "online_groceries"
+      ],
       "terms": "Excludes Target, Walmart, and wholesale clubs.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/preferred"
     },
     {
       "multiplier": 3,
       "rewardUnit": "points",
-      "eligibleCategories": ["streaming"],
+      "eligibleCategories": [
+        "streaming"
+      ],
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/preferred"
     },
     {
       "multiplier": 2,
       "rewardUnit": "points",
-      "eligibleCategories": ["travel"],
+      "eligibleCategories": [
+        "travel"
+      ],
       "terms": "Airfare, hotels, taxis, and trains booked outside Chase Travel.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/preferred"
     },
     {
       "multiplier": 1,
       "rewardUnit": "points",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/preferred"
     }
   ],
@@ -230,5 +272,6 @@
       "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/chase-sapphire-preferred.png"
 }

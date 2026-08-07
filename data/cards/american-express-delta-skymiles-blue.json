@@ -50,21 +50,27 @@
     {
       "multiplier": 2,
       "rewardUnit": "miles",
-      "eligibleCategories": ["delta_purchases"],
+      "eligibleCategories": [
+        "delta_purchases"
+      ],
       "terms": "Purchases made directly with Delta.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
     },
     {
       "multiplier": 2,
       "rewardUnit": "miles",
-      "eligibleCategories": ["dining"],
+      "eligibleCategories": [
+        "dining"
+      ],
       "terms": "Restaurants worldwide, including takeout and delivery in the U.S.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
     },
     {
       "multiplier": 1,
       "rewardUnit": "miles",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
     }
   ],
@@ -75,5 +81,6 @@
       "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-blue-american-express-card/"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-delta-skymiles-blue.png"
 }

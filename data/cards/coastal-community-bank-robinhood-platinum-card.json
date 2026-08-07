@@ -20,7 +20,9 @@
       "category": "travel",
       "isOneTime": true,
       "loungeAccessDetail": {
-        "networks": ["Priority Pass"]
+        "networks": [
+          "Priority Pass"
+        ]
       },
       "sourceUrl": "https://robinhood.com/us/en/newsroom/robinhood-platinum-card-rollout/",
       "lastVerified": "2026-08-04"
@@ -31,11 +33,18 @@
       "description": "Statement credit for a Global Entry or TSA PreCheck application fee.",
       "benefitType": "trusted_traveler_credit",
       "category": "travel",
-      "renewalPeriod": { "unit": "year", "count": 4, "anchor": "card_anniversary" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
       "statementCreditDetail": {
         "amount": 120,
         "currency": "USD",
-        "eligibleMerchants": ["Global Entry", "TSA PreCheck"]
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
       },
       "terms": "Exact amount modeled on the typical $120 Global Entry fee; not yet independently confirmed against an official Robinhood terms document.",
       "sourceUrl": "https://robinhood.com/us/en/newsroom/robinhood-platinum-card-rollout/",
@@ -47,11 +56,17 @@
       "description": "Annual statement credit for dining at eligible restaurants.",
       "benefitType": "statement_credit",
       "category": "dining",
-      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "card_anniversary" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
       "statementCreditDetail": {
         "amount": 250,
         "currency": "USD",
-        "eligibleMerchants": ["15,000+ eligible restaurants"]
+        "eligibleMerchants": [
+          "15,000+ eligible restaurants"
+        ]
       },
       "sourceUrl": "https://robinhood.com/us/en/newsroom/robinhood-platinum-card-rollout/",
       "lastVerified": "2026-08-04"
@@ -62,11 +77,17 @@
       "description": "Complimentary Amazon One Medical membership.",
       "benefitType": "membership",
       "category": "wellness",
-      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "card_anniversary" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
       "statementCreditDetail": {
         "amount": 199,
         "currency": "USD",
-        "eligibleMerchants": ["Amazon One Medical"]
+        "eligibleMerchants": [
+          "Amazon One Medical"
+        ]
       },
       "sourceUrl": "https://robinhood.com/us/en/newsroom/robinhood-platinum-card-rollout/",
       "lastVerified": "2026-08-04"
@@ -86,21 +107,28 @@
     {
       "multiplier": 5,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["flights_robinhood_app"],
+      "eligibleCategories": [
+        "flights_robinhood_app"
+      ],
       "terms": "Flights booked through the Robinhood app.",
       "sourceUrl": "https://www.doctorofcredit.com/live-robinhood-platinum-card-full-review-695-fee-no-bonus-5-dining-1000-travel-credits-more/"
     },
     {
       "multiplier": 10,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["hotels_robinhood_app", "rental_cars_robinhood_app"],
+      "eligibleCategories": [
+        "hotels_robinhood_app",
+        "rental_cars_robinhood_app"
+      ],
       "terms": "Hotels and rental cars booked through the Robinhood app.",
       "sourceUrl": "https://www.doctorofcredit.com/live-robinhood-platinum-card-full-review-695-fee-no-bonus-5-dining-1000-travel-credits-more/"
     },
     {
       "multiplier": 5,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["dining"],
+      "eligibleCategories": [
+        "dining"
+      ],
       "terms": "Third-party sources cite 5% dining cash back; not yet independently confirmed against an official Robinhood terms document.",
       "sourceUrl": "https://www.doctorofcredit.com/live-robinhood-platinum-card-full-review-695-fee-no-bonus-5-dining-1000-travel-credits-more/"
     }
@@ -112,5 +140,6 @@
       "https://www.doctorofcredit.com/live-robinhood-platinum-card-full-review-695-fee-no-bonus-5-dining-1000-travel-credits-more/"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/coastal-community-bank-robinhood-platinum-card.png"
 }

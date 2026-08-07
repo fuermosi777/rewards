@@ -6,1033 +6,1205 @@
       "id": "american-express-delta-skymiles-blue",
       "name": "Delta SkyMiles Blue",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-blue.png"
     },
     {
       "id": "american-express-delta-skymiles-gold",
       "name": "Delta SkyMiles Gold",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-gold.png"
     },
     {
       "id": "american-express-delta-skymiles-gold-business",
       "name": "Delta SkyMiles Gold Business",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-gold-business.png"
     },
     {
       "id": "american-express-delta-skymiles-platinum",
       "name": "Delta SkyMiles Platinum",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-platinum.png"
     },
     {
       "id": "american-express-delta-skymiles-platinum-business",
       "name": "Delta SkyMiles Platinum Business",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-platinum-business.png"
     },
     {
       "id": "american-express-delta-skymiles-reserve",
       "name": "Delta SkyMiles Reserve",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-reserve.png"
     },
     {
       "id": "american-express-delta-skymiles-reserve-business",
       "name": "Delta SkyMiles Reserve Business",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-delta-skymiles-reserve-business.png"
     },
     {
       "id": "american-express-blue-business-cash",
       "name": "Blue Business Cash",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-blue-business-cash.png"
     },
     {
       "id": "american-express-blue-business-plus",
       "name": "Blue Business Plus",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-blue-business-plus.png"
     },
     {
       "id": "american-express-blue-cash-everyday",
       "name": "Blue Cash Everyday",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-blue-cash-everyday.png"
     },
     {
       "id": "american-express-blue-cash-preferred",
       "name": "Blue Cash Preferred",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-blue-cash-preferred.png"
     },
     {
       "id": "american-express-blue-cash-preferred-morgan-stanley",
       "name": "Blue Cash Preferred (Morgan Stanley)",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-blue-cash-preferred-morgan-stanley.png"
     },
     {
       "id": "american-express-business-gold",
       "name": "Business Gold",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-business-gold.png"
     },
     {
       "id": "american-express-business-green",
       "name": "Business Green",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-business-green.png"
     },
     {
       "id": "american-express-business-platinum",
       "name": "Business Platinum",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-business-platinum.png"
     },
     {
       "id": "american-express-cash-magnet",
       "name": "Cash Magnet",
       "issuerId": "american-express",
-      "status": "discontinued"
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/american-express-cash-magnet.png"
     },
     {
       "id": "american-express-everyday",
       "name": "Everyday",
       "issuerId": "american-express",
-      "status": "discontinued"
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/american-express-everyday.png"
     },
     {
       "id": "american-express-everyday-preferred",
       "name": "Everyday Preferred",
       "issuerId": "american-express",
-      "status": "discontinued"
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/american-express-everyday-preferred.png"
     },
     {
       "id": "american-express-gold",
       "name": "Gold",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-gold.png"
     },
     {
       "id": "american-express-green",
       "name": "Green",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-green.png"
     },
     {
       "id": "american-express-hilton-honors",
       "name": "Hilton Honors",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-hilton-honors.png"
     },
     {
       "id": "american-express-hilton-honors-aspire",
       "name": "Hilton Honors Aspire",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-hilton-honors-aspire.png"
     },
     {
       "id": "american-express-hilton-honors-business",
       "name": "Hilton Honors Business",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-hilton-honors-business.png"
     },
     {
       "id": "american-express-hilton-honors-surpass",
       "name": "Hilton Honors Surpass",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-hilton-honors-surpass.png"
     },
     {
       "id": "american-express-marriott-bonvoy-brilliant",
       "name": "Marriott Bonvoy Brilliant",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-marriott-bonvoy-brilliant.png"
     },
     {
       "id": "american-express-marriott-bonvoy-business",
       "name": "Marriott Bonvoy Business",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-marriott-bonvoy-business.png"
     },
     {
       "id": "american-express-platinum",
       "name": "Platinum",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-platinum.png"
     },
     {
       "id": "american-express-platinum-schwab",
       "name": "Platinum (Schwab)",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-platinum-schwab.png"
     },
     {
       "id": "american-express-platinum-morgan-stanley",
       "name": "Platinum (Morgan Stanley)",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-platinum-morgan-stanley.png"
     },
     {
       "id": "american-express-marriott-bonvoy-bevy",
       "name": "Marriott Bonvoy Bevy",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-marriott-bonvoy-bevy.png"
     },
     {
       "id": "american-express-lowes-business",
       "name": "Lowes",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-lowes-business.png"
     },
     {
       "id": "american-express-schwab-investor",
       "name": "Schwab Investor",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-schwab-investor.png"
     },
     {
       "id": "american-express-amazon-business",
       "name": "Amazon Business",
       "issuerId": "american-express",
-      "status": "discontinued"
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/american-express-amazon-business.png"
     },
     {
       "id": "american-express-rakuten-business",
       "name": "Rakuten",
       "issuerId": "american-express",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/american-express-rakuten-business.png"
     },
     {
       "id": "bank-of-america-air-france-klm",
       "name": "Air France KLM",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-air-france-klm.png"
     },
     {
       "id": "bank-of-america-customized-cash-rewards",
       "name": "Customized Cash Rewards",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-customized-cash-rewards.png"
     },
     {
       "id": "bank-of-america-premium-rewards",
       "name": "Premium Rewards",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-premium-rewards.png"
     },
     {
       "id": "bank-of-america-premium-rewards-elite",
       "name": "Premium Rewards Elite",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-premium-rewards-elite.png"
     },
     {
       "id": "bank-of-america-travel-rewards",
       "name": "Travel Rewards",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-travel-rewards.png"
     },
     {
       "id": "bank-of-america-unlimited-cash-rewards",
       "name": "Unlimited Cash Rewards",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-unlimited-cash-rewards.png"
     },
     {
       "id": "bank-of-america-business-advantage-customized-cash",
       "name": "Business Advantage Customized Cash",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-business-advantage-customized-cash.png"
     },
     {
       "id": "bank-of-america-business-advantage-unlimited-cash",
       "name": "Business Advantage Unlimited Cash",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-business-advantage-unlimited-cash.png"
     },
     {
       "id": "bank-of-america-business-advantage-travel-rewards",
       "name": "Business Advantage Travel Rewards",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-business-advantage-travel-rewards.png"
     },
     {
       "id": "bank-of-america-platinum-plus-business",
       "name": "Platinum Plus",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-platinum-plus-business.png"
     },
     {
       "id": "bank-of-america-free-spirit",
       "name": "Free Spirit",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-free-spirit.png"
     },
     {
       "id": "bank-of-america-atmos-rewards-ascent",
       "name": "Atmos Rewards Ascent",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-atmos-rewards-ascent.png"
     },
     {
       "id": "bank-of-america-atmos-rewards-summit",
       "name": "Atmos Rewards Summit",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-atmos-rewards-summit.png"
     },
     {
       "id": "bank-of-america-atmos-rewards-business",
       "name": "Atmos Rewards Business",
       "issuerId": "bank-of-america",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/bank-of-america-atmos-rewards-business.png"
     },
     {
       "id": "barclays-aadvantage-aviator-red-world-elite",
       "name": "AAdvantage Aviator Red World Elite",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-aadvantage-aviator-red-world-elite.png"
     },
     {
       "id": "barclays-aadvantage-aviator-world-elite-business",
       "name": "AAdvantage Aviator World Elite Business",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-aadvantage-aviator-world-elite-business.png"
     },
     {
       "id": "barclays-aarp-essential-rewards",
       "name": "AARP Essential Rewards",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-aarp-essential-rewards.png"
     },
     {
       "id": "barclays-aarp-travel-rewards",
       "name": "AARP Travel Rewards",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-aarp-travel-rewards.png"
     },
     {
       "id": "barclays-carnival-world-mastercard",
       "name": "Carnival World Mastercard",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-carnival-world-mastercard.png"
     },
     {
       "id": "barclays-emirates-skywards-premium-world-elite",
       "name": "Emirates Skywards Premium World Elite",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-emirates-skywards-premium-world-elite.png"
     },
     {
       "id": "barclays-emirates-skywards-rewards-world-elite",
       "name": "Emirates Skywards Rewards World Elite",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-emirates-skywards-rewards-world-elite.png"
     },
     {
       "id": "barclays-frontier-airlines-world",
       "name": "Frontier Airlines World",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-frontier-airlines-world.png"
     },
     {
       "id": "barclays-hawaiian-airlines-world-elite",
       "name": "Hawaiian Airlines World Elite",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-hawaiian-airlines-world-elite.png"
     },
     {
       "id": "barclays-jetblue",
       "name": "JetBlue",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-jetblue.png"
     },
     {
       "id": "barclays-jetblue-business",
       "name": "JetBlue Business",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-jetblue-business.png"
     },
     {
       "id": "barclays-jetblue-plus",
       "name": "JetBlue Plus",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-jetblue-plus.png"
     },
     {
       "id": "barclays-jetblue-premier",
       "name": "JetBlue Premier",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-jetblue-premier.png"
     },
     {
       "id": "barclays-lufthansa-miles-more",
       "name": "Lufthansa Miles & More",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-lufthansa-miles-more.png"
     },
     {
       "id": "barclays-upromise",
       "name": "Upromise",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-upromise.png"
     },
     {
       "id": "barclays-wyndham-rewards-earner",
       "name": "Wyndham Rewards Earner",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-wyndham-rewards-earner.png"
     },
     {
       "id": "barclays-wyndham-rewards-earner-business",
       "name": "Wyndham Rewards Earner Business",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-wyndham-rewards-earner-business.png"
     },
     {
       "id": "barclays-wyndham-rewards-earner-plus",
       "name": "Wyndham Rewards Earner Plus",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-wyndham-rewards-earner-plus.png"
     },
     {
       "id": "barclays-hawaiian-airlines-world-elite-business",
       "name": "Hawaiian Airlines World Elite Business",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-hawaiian-airlines-world-elite-business.png"
     },
     {
       "id": "barclays-breeze",
       "name": "Breeze",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-breeze.png"
     },
     {
       "id": "barclays-xbox",
       "name": "Xbox",
       "issuerId": "barclays",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/barclays-xbox.png"
     },
     {
       "id": "brex-brex",
       "name": "Brex",
       "issuerId": "brex",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/brex-brex.png"
     },
     {
       "id": "chase-marriott-bonvoy-bountiful",
       "name": "Marriott Bonvoy Bountiful",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-marriott-bonvoy-bountiful.png"
     },
     {
       "id": "chase-marriott-bonvoy-bold",
       "name": "Marriott Bonvoy Bold",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-marriott-bonvoy-bold.png"
     },
     {
       "id": "chase-marriott-bonvoy-boundless",
       "name": "Marriott Bonvoy Boundless",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-marriott-bonvoy-boundless.png"
     },
     {
       "id": "chase-southwest-performance-business",
       "name": "Southwest Performance Business",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-southwest-performance-business.png"
     },
     {
       "id": "chase-southwest-plus",
       "name": "Southwest Plus",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-southwest-plus.png"
     },
     {
       "id": "chase-southwest-premier",
       "name": "Southwest Premier",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-southwest-premier.png"
     },
     {
       "id": "chase-southwest-premier-business",
       "name": "Southwest Premier Business",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-southwest-premier-business.png"
     },
     {
       "id": "chase-southwest-priority",
       "name": "Southwest Priority",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-southwest-priority.png"
     },
     {
       "id": "chase-united-business",
       "name": "United Business",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-united-business.png"
     },
     {
       "id": "chase-united-club",
       "name": "United Club",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-united-club.png"
     },
     {
       "id": "chase-united-club-business",
       "name": "United Club Business",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-united-club-business.png"
     },
     {
       "id": "chase-united-explorer",
       "name": "United Explorer",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-united-explorer.png"
     },
     {
       "id": "chase-united-gateway",
       "name": "United Gateway",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-united-gateway.png"
     },
     {
       "id": "chase-united-quest",
       "name": "United Quest",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-united-quest.png"
     },
     {
       "id": "chase-ink-business-cash",
       "name": "Ink Business Cash",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ink-business-cash.png"
     },
     {
       "id": "chase-ink-business-preferred",
       "name": "Ink Business Preferred",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ink-business-preferred.png"
     },
     {
       "id": "chase-ink-business-unlimited",
       "name": "Ink Business Unlimited",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ink-business-unlimited.png"
     },
     {
       "id": "chase-ink-business-premier",
       "name": "Ink Business Premier",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ink-business-premier.png"
     },
     {
       "id": "chase-ihg-premier",
       "name": "IHG Premier",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ihg-premier.png"
     },
     {
       "id": "chase-ihg-premier-business",
       "name": "IHG Premier Business",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ihg-premier-business.png"
     },
     {
       "id": "chase-ihg-traveler",
       "name": "IHG Traveler",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-ihg-traveler.png"
     },
     {
       "id": "chase-sapphire-preferred",
       "name": "Sapphire Preferred",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-sapphire-preferred.png"
     },
     {
       "id": "chase-sapphire-reserve",
       "name": "Sapphire Reserve",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-sapphire-reserve.png"
     },
     {
       "id": "chase-sapphire-reserve-business",
       "name": "Sapphire Reserve Business",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-sapphire-reserve-business.png"
     },
     {
       "id": "chase-aer-lingus-signature",
       "name": "Aer Lingus Signature",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-aer-lingus-signature.png"
     },
     {
       "id": "chase-aeroplan",
       "name": "Aeroplan",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-aeroplan.png"
     },
     {
       "id": "chase-british-airways-signature",
       "name": "British Airways Signature",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-british-airways-signature.png"
     },
     {
       "id": "chase-disney-premier",
       "name": "Disney Premier",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-disney-premier.png"
     },
     {
       "id": "chase-disney",
       "name": "Disney",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-disney.png"
     },
     {
       "id": "chase-freedom-flex",
       "name": "Freedom Flex",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-freedom-flex.png"
     },
     {
       "id": "chase-freedom-unlimited",
       "name": "Freedom Unlimited",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-freedom-unlimited.png"
     },
     {
       "id": "chase-iberia-signature",
       "name": "Iberia Signature",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-iberia-signature.png"
     },
     {
       "id": "chase-world-of-hyatt",
       "name": "World of Hyatt",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-world-of-hyatt.png"
     },
     {
       "id": "chase-world-of-hyatt-business",
       "name": "World of Hyatt Business",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-world-of-hyatt-business.png"
     },
     {
       "id": "chase-amazon-prime",
       "name": "Amazon Prime",
       "issuerId": "chase",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/chase-amazon-prime.png"
     },
     {
       "id": "capital-one-quicksilver",
       "name": "Quicksilver",
       "issuerId": "capital-one",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/capital-one-quicksilver.png"
     },
     {
       "id": "capital-one-savor",
       "name": "Savor",
       "issuerId": "capital-one",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/capital-one-savor.png"
     },
     {
       "id": "capital-one-spark-1-5-cash-select-business",
       "name": "Spark 1.5% Cash Select",
       "issuerId": "capital-one",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/capital-one-spark-1-5-cash-select-business.png"
     },
     {
       "id": "capital-one-ventureone-business",
       "name": "VentureOne Business",
       "issuerId": "capital-one",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/capital-one-ventureone-business.png"
     },
     {
       "id": "capital-one-spark-2-cash-plus-business",
       "name": "Spark 2% Cash Plus",
       "issuerId": "capital-one",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/capital-one-spark-2-cash-plus-business.png"
     },
     {
       "id": "capital-one-venture-business",
       "name": "Venture Business",
       "issuerId": "capital-one",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/capital-one-venture-business.png"
     },
     {
       "id": "capital-one-venture-rewards",
       "name": "Venture Rewards",
       "issuerId": "capital-one",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/capital-one-venture-rewards.png"
     },
     {
       "id": "capital-one-venture-x",
       "name": "Venture X",
       "issuerId": "capital-one",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/capital-one-venture-x.png"
     },
     {
       "id": "capital-one-venture-x-business",
       "name": "Venture X Business",
       "issuerId": "capital-one",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/capital-one-venture-x-business.png"
     },
     {
       "id": "capital-one-ventureone",
       "name": "VentureOne",
       "issuerId": "capital-one",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/capital-one-ventureone.png"
     },
     {
       "id": "citi-aadvantage-executive",
       "name": "AAdvantage Executive",
       "issuerId": "citi",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-aadvantage-executive.png"
     },
     {
       "id": "citi-aadvantage-mileup",
       "name": "AAdvantage MileUp",
       "issuerId": "citi",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-aadvantage-mileup.png"
     },
     {
       "id": "citi-aadvantage-platinum-select-world-elite",
       "name": "AAdvantage Platinum Select World Elite",
       "issuerId": "citi",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-aadvantage-platinum-select-world-elite.png"
     },
     {
       "id": "citi-aadvantage-globe",
       "name": "AAdvantage Globe",
       "issuerId": "citi",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-aadvantage-globe.png"
     },
     {
       "id": "citi-aadvantage-business-world-elite",
       "name": "AAdvantage Business World Elite",
       "issuerId": "citi",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-aadvantage-business-world-elite.png"
     },
     {
       "id": "citi-double-cash",
       "name": "Double Cash",
       "issuerId": "citi",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-double-cash.png"
     },
     {
       "id": "citi-custom-cash",
       "name": "Custom Cash",
       "issuerId": "citi",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-custom-cash.png"
     },
     {
       "id": "citi-strata-elite",
       "name": "Strata Elite",
       "issuerId": "citi",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-strata-elite.png"
     },
     {
       "id": "citi-strata-premier",
       "name": "Strata Premier",
       "issuerId": "citi",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-strata-premier.png"
     },
     {
       "id": "citi-strata",
       "name": "Strata",
       "issuerId": "citi",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-strata.png"
     },
     {
       "id": "citi-at-t-points-plus",
       "name": "AT&T Points Plus",
       "issuerId": "citi",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-at-t-points-plus.png"
     },
     {
       "id": "comenity-aaa-daily-advantage",
       "name": "AAA Daily Advantage",
       "issuerId": "comenity",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/comenity-aaa-daily-advantage.png"
     },
     {
       "id": "comenity-aaa-travel-advantage",
       "name": "AAA Travel Advantage",
       "issuerId": "comenity",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/comenity-aaa-travel-advantage.png"
     },
     {
       "id": "discover-discover-it",
       "name": "Discover It",
       "issuerId": "discover",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/discover-discover-it.png"
     },
     {
       "id": "first-national-bank-of-omaha-amtrak-guest-rewards",
       "name": "Amtrak Guest Rewards",
       "issuerId": "first-national-bank-of-omaha",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/first-national-bank-of-omaha-amtrak-guest-rewards.png"
     },
     {
       "id": "first-national-bank-of-omaha-amtrak-guest-rewards-preferred",
       "name": "Amtrak Guest Rewards Preferred",
       "issuerId": "first-national-bank-of-omaha",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/first-national-bank-of-omaha-amtrak-guest-rewards-preferred.png"
     },
     {
       "id": "first-national-bank-of-omaha-best-western-rewards",
       "name": "Best Western Rewards",
       "issuerId": "first-national-bank-of-omaha",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/first-national-bank-of-omaha-best-western-rewards.png"
     },
     {
       "id": "first-national-bank-of-omaha-best-western-rewards-premium",
       "name": "Best Western Rewards Premium",
       "issuerId": "first-national-bank-of-omaha",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/first-national-bank-of-omaha-best-western-rewards-premium.png"
     },
     {
       "id": "penfed-credit-union-power-cash-rewards",
       "name": "Power Cash Rewards",
       "issuerId": "penfed-credit-union",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/penfed-credit-union-power-cash-rewards.png"
     },
     {
       "id": "penfed-credit-union-platinum-rewards",
       "name": "Platinum Rewards",
       "issuerId": "penfed-credit-union",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/penfed-credit-union-platinum-rewards.png"
     },
     {
       "id": "penfed-credit-union-pathfinder",
       "name": "Pathfinder",
       "issuerId": "penfed-credit-union",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/penfed-credit-union-pathfinder.png"
     },
     {
       "id": "pnc-bank-cash-rewards-visa-signature-business",
       "name": "Cash Rewards Visa Signature Business",
       "issuerId": "pnc-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/pnc-bank-cash-rewards-visa-signature-business.png"
     },
     {
       "id": "synchrony-cathay-pacific",
       "name": "Cathay Pacific",
       "issuerId": "synchrony",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/synchrony-cathay-pacific.png"
     },
     {
       "id": "synchrony-virgin-red-rewards",
       "name": "Virgin Red Rewards",
       "issuerId": "synchrony",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/synchrony-virgin-red-rewards.png"
     },
     {
       "id": "synchrony-verizon-visa",
       "name": "Verizon Visa",
       "issuerId": "synchrony",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/synchrony-verizon-visa.png"
     },
     {
       "id": "synchrony-walmart-onepay-cashrewards",
       "name": "Walmart OnePay CashRewards",
       "issuerId": "synchrony",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/synchrony-walmart-onepay-cashrewards.png"
     },
     {
       "id": "synchrony-amazon-prime-store-card",
       "name": "Amazon Prime Store Card",
       "issuerId": "synchrony",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/synchrony-amazon-prime-store-card.png"
     },
     {
       "id": "u-s-bank-business-altitude-power",
       "name": "Business Altitude Power",
       "issuerId": "u-s-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-business-altitude-power.png"
     },
     {
       "id": "u-s-bank-business-altitude-connect",
       "name": "Business Altitude Connect",
       "issuerId": "u-s-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-business-altitude-connect.png"
     },
     {
       "id": "u-s-bank-altitude-connect",
       "name": "Altitude Connect",
       "issuerId": "u-s-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-altitude-connect.png"
     },
     {
       "id": "u-s-bank-altitude-reserve",
       "name": "Altitude Reserve",
       "issuerId": "u-s-bank",
-      "status": "discontinued"
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/u-s-bank-altitude-reserve.png"
     },
     {
       "id": "u-s-bank-altitude-go",
       "name": "Altitude Go",
       "issuerId": "u-s-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-altitude-go.png"
     },
     {
       "id": "u-s-bank-cash",
       "name": "Cash+",
       "issuerId": "u-s-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-cash.png"
     },
     {
       "id": "u-s-bank-flexperks-gold",
       "name": "FlexPerks Gold",
       "issuerId": "u-s-bank",
-      "status": "discontinued"
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/u-s-bank-flexperks-gold.png"
     },
     {
       "id": "u-s-bank-business-leverage",
       "name": "Business Leverage",
       "issuerId": "u-s-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-business-leverage.png"
     },
     {
       "id": "u-s-bank-business-triple-cash-rewards",
       "name": "Business Triple Cash Rewards",
       "issuerId": "u-s-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-business-triple-cash-rewards.png"
     },
     {
       "id": "u-s-bank-skypass-blue",
       "name": "Skypass Blue",
       "issuerId": "u-s-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-skypass-blue.png"
     },
     {
       "id": "u-s-bank-skypass",
       "name": "Skypass",
       "issuerId": "u-s-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-skypass.png"
     },
     {
       "id": "u-s-bank-skypass-select",
       "name": "Skypass Select",
       "issuerId": "u-s-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-skypass-select.png"
     },
     {
       "id": "u-s-bank-skypass-business",
       "name": "Skypass Business",
       "issuerId": "u-s-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-skypass-business.png"
     },
     {
       "id": "u-s-bank-shopper-cash-rewards",
       "name": "Shopper Cash Rewards",
       "issuerId": "u-s-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/u-s-bank-shopper-cash-rewards.png"
     },
     {
       "id": "u-s-bank-smartly",
       "name": "Smartly",
       "issuerId": "u-s-bank",
-      "status": "discontinued"
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/u-s-bank-smartly.png"
     },
     {
       "id": "wells-fargo-signify-business-cash",
       "name": "Signify Business Cash",
       "issuerId": "wells-fargo",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-signify-business-cash.png"
     },
     {
       "id": "wells-fargo-active-cash",
       "name": "Active Cash",
       "issuerId": "wells-fargo",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-active-cash.png"
     },
     {
       "id": "wells-fargo-autograph",
       "name": "Autograph",
       "issuerId": "wells-fargo",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-autograph.png"
     },
     {
       "id": "wells-fargo-autograph-journey",
       "name": "Autograph Journey",
       "issuerId": "wells-fargo",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-autograph-journey.png"
     },
     {
       "id": "wells-fargo-choice-privileges",
       "name": "Choice Privileges",
       "issuerId": "wells-fargo",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-choice-privileges.png"
     },
     {
       "id": "wells-fargo-choice-privileges-select",
       "name": "Choice Privileges Select",
       "issuerId": "wells-fargo",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-choice-privileges-select.png"
     },
     {
       "id": "wells-fargo-attune",
       "name": "Attune",
       "issuerId": "wells-fargo",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-attune.png"
     },
     {
       "id": "wells-fargo-bilt",
       "name": "Bilt",
       "issuerId": "wells-fargo",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-bilt.png"
     },
     {
       "id": "wells-fargo-expedia-one-key",
       "name": "Expedia One Key",
       "issuerId": "wells-fargo",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-expedia-one-key.png"
     },
     {
       "id": "wells-fargo-expedia-one-key-2",
       "name": "Expedia One Key+",
       "issuerId": "wells-fargo",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/wells-fargo-expedia-one-key-2.png"
     },
     {
       "id": "webbank-gemini",
       "name": "Gemini",
       "issuerId": "webbank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/webbank-gemini.png"
     },
     {
       "id": "coastal-community-bank-robinhood-gold-card",
       "name": "Robinhood Gold Card",
       "issuerId": "coastal-community-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/coastal-community-bank-robinhood-gold-card.png"
     },
     {
       "id": "coastal-community-bank-robinhood-platinum-card",
       "name": "Robinhood Platinum Card",
       "issuerId": "coastal-community-bank",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/coastal-community-bank-robinhood-platinum-card.png"
     },
     {
       "id": "synchrony-venmo-credit-card",
       "name": "Venmo Credit Card",
       "issuerId": "synchrony",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/synchrony-venmo-credit-card.png"
     },
     {
       "id": "goldman-sachs-apple-card",
       "name": "Apple Card",
       "issuerId": "goldman-sachs",
-      "status": "active"
+      "status": "active",
+      "imageUrl": "data/assets/cards/goldman-sachs-apple-card.png"
     }
   ]
 }
