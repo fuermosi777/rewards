@@ -1,0 +1,22 @@
+{
+  "id": "alliant-credit-union-visa-signature",
+  "imageUrl": "data/assets/cards/alliant-credit-union-visa-signature.png",
+  "issuerId": "alliant-credit-union",
+  "name": "Alliant Visa\u00ae Signature Card",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD"
+  },
+  "foreignTransactionFee": false,
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-07",
+    "sourceUrls": [
+      "https://www.alliantcreditunion.org/bank/visa-signature-card"
+    ],
+    "updatedBy": "agent"
+  }
+}

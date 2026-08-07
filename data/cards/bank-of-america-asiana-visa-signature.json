@@ -1,0 +1,22 @@
+{
+  "id": "bank-of-america-asiana-visa-signature",
+  "imageUrl": "data/assets/cards/bank-of-america-asiana-visa-signature.png",
+  "issuerId": "bank-of-america",
+  "name": "Asiana Visa Signature\u00ae Credit Card",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD"
+  },
+  "foreignTransactionFee": false,
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-07",
+    "sourceUrls": [
+      "https://www.bankofamerica.com/credit-cards/products/asiana-airlines-credit-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}

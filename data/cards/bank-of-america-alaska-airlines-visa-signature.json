@@ -1,0 +1,22 @@
+{
+  "id": "bank-of-america-alaska-airlines-visa-signature",
+  "imageUrl": "data/assets/cards/bank-of-america-alaska-airlines-visa-signature.png",
+  "issuerId": "bank-of-america",
+  "name": "Alaska Airlines Visa Signature\u00ae credit card",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD"
+  },
+  "foreignTransactionFee": false,
+  "status": "active",
+  "benefits": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-07",
+    "sourceUrls": [
+      "https://www.bankofamerica.com/credit-cards/products/alaska-airlines-credit-card/"
+    ],
+    "updatedBy": "agent"
+  }
+}
