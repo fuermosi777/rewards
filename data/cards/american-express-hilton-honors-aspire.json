@@ -10,23 +10,196 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "aspire-hilton-resort-credit",
+      "name": "Hilton Resort Credit",
+      "description": "Semi-annual statement credit for eligible purchases made directly with participating Hilton Resorts.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 200,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "participating Hilton Resorts"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $200 per half-year period ($400/year total): Jan-Jun and Jul-Dec. Direct bookings at participating Hilton Resorts only. No enrollment required.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "aspire-flight-credit",
+      "name": "Flight Credit",
+      "description": "Quarterly statement credit for flight purchases made directly with airlines or via American Express Travel.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "airlines (direct)",
+          "AmexTravel.com"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $50 per quarter ($200/year total). Covers airfare itself, not just incidental fees. Unused quarterly amounts do not roll over.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "aspire-waldorf-conrad-credit",
+      "name": "Waldorf Astoria & Conrad Credit",
+      "description": "Statement credit for qualifying charges at participating Waldorf Astoria Hotels & Resorts and Conrad Hotels & Resorts properties.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "isOneTime": false,
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Waldorf Astoria Hotels & Resorts",
+          "Conrad Hotels & Resorts"
+        ]
+      },
+      "terms": "Requires a minimum 2-night prepaid stay. Applies per qualifying booking rather than on a fixed renewal cycle.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "aspire-clear-credit",
+      "name": "CLEAR Plus Credit",
+      "description": "Statement credit covering a CLEAR Plus auto-renewing membership for expedited airport security.",
+      "benefitType": "membership",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 219,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "CLEAR Plus"
+        ]
+      },
+      "terms": "Up to $219 per calendar year. Enrollment required. Auto-renewing membership only.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "aspire-free-night-award",
+      "name": "Annual Free Night Award",
+      "description": "One Free Night Reward at a hotel or resort in the Hilton portfolio each year upon card renewal, plus additional Free Night Rewards after reaching annual spending thresholds.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "freeNightAwardDetail": {
+        "hotelProgram": "Hilton Honors"
+      },
+      "terms": "One Free Night Award granted on renewal each card membership year. Additional Free Night Awards earned after $30,000 and $60,000 in calendar-year eligible purchases.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "aspire-hilton-diamond-status",
+      "name": "Hilton Honors Diamond Status",
+      "description": "Complimentary Hilton Honors Diamond status, including room upgrades, executive lounge access, food & beverage credits, and 5th night free on award stays.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Enrollment is automatic/complimentary via linking a Hilton Honors account.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "aspire-national-car-rental-status",
+      "name": "National Car Rental Emerald Club Executive Status",
+      "description": "Complimentary Emerald Club Executive status with National Car Rental, including Executive Area access.",
+      "benefitType": "elite_status",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Enrollment required through the American Express account.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "aspire-cell-phone-protection",
+      "name": "Cell Phone Protection",
+      "description": "Coverage for damage or theft of a cell phone when the monthly wireless bill is paid with the card.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "Up to $800 per claim, up to $1,600 per 12-month period. Subject to a deductible.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "aspire-global-assist",
+      "name": "Premium Global Assist Hotline",
+      "description": "24/7 emergency medical, legal, and travel assistance for cardholders traveling 100+ miles from home.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+      "lastVerified": "2026-08-07"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 14,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hilton_portfolio"
+      ],
+      "terms": "Purchases made directly with hotels and resorts in the Hilton portfolio.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/"
+    },
+    {
+      "multiplier": 7,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "airlines",
+        "car_rentals",
+        "dining"
+      ],
+      "terms": "Flights booked directly with airlines, car rentals booked directly with select car rental companies, and U.S. restaurants.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-07",
     "sourceUrls": [
-      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+      "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+      "https://www.dailydrop.com/credit-cards/hilton-honors-american-express-aspire-card",
+      "https://thriftytraveler.com/news/credit-card/hilton-aspire-surpass-card-changes/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Hilton Resort Credit",
-        "value": 250,
-        "weight": 0.8
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/american-express-hilton-honors-aspire.png"
 }

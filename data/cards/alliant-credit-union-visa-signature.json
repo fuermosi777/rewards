@@ -11,11 +11,104 @@
   },
   "foreignTransactionFee": false,
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "alliant-visa-sig-rental-car-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Secondary coverage for damage or theft on most rental cars, as a Visa Signature cardholder benefit.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage — requires filing a claim with your primary auto insurance first. Decline the rental company's collision coverage to activate.",
+      "sourceUrl": "https://travelupdate.com/review-alliant-visa-signature-card/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "alliant-visa-sig-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Up to $250,000 in travel accident coverage when the entire common carrier fare is charged to the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Visa Signature cardholder benefit. Covers cardholder and dependents on common carrier travel (e.g. airline, train, bus, ship) paid for with the card.",
+      "sourceUrl": "https://travelupdate.com/review-alliant-visa-signature-card/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "alliant-visa-sig-purchase-security",
+      "name": "Purchase Security",
+      "description": "Reimbursement for eligible items that are stolen or accidentally damaged within 90 days of purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://travelupdate.com/review-alliant-visa-signature-card/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "alliant-visa-sig-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Doubles the manufacturer's warranty on eligible purchases (up to an additional year).",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://travelupdate.com/review-alliant-visa-signature-card/",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "alliant-visa-sig-visa-signature-concierge",
+      "name": "Visa Signature Concierge",
+      "description": "Complimentary concierge service for travel planning, dining reservations, entertainment tickets, and more.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.alliantcreditunion.org/credit-cards/visa-signature-card",
+      "lastVerified": "2026-08-07"
+    },
+    {
+      "id": "alliant-visa-sig-identity-theft-protection",
+      "name": "Personal Identity Theft Protection",
+      "description": "Visa Signature identity theft resolution assistance for cardholders.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://www.alliantcreditunion.org/credit-cards/visa-signature-card",
+      "lastVerified": "2026-08-07"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "spendCap": {
+        "amount": 10000,
+        "period": {
+          "unit": "month",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "requiresActivation": true,
+      "terms": "2.5% cash back on up to $10,000 in purchases per billing cycle requires an open Alliant High-Rate Checking account; drops to 1.5% above the cap or without the qualifying checking account.",
+      "sourceUrl": "https://www.alliantcreditunion.org/credit-cards/visa-signature-card"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Unlimited 1.5% cash back on all purchases without a qualifying Alliant High-Rate Checking account, or on spend above the $10,000/billing-cycle cap.",
+      "sourceUrl": "https://www.alliantcreditunion.org/credit-cards/visa-signature-card"
+    }
+  ],
   "sourceMeta": {
     "lastReviewedDate": "2026-08-07",
     "sourceUrls": [
-      "https://www.alliantcreditunion.org/bank/visa-signature-card"
+      "https://www.alliantcreditunion.org/credit-cards/visa-signature-card",
+      "https://travelupdate.com/review-alliant-visa-signature-card/"
     ],
     "updatedBy": "agent"
   }
