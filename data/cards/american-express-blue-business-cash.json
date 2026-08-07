@@ -81,10 +81,16 @@
     {
       "multiplier": 2,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "spendCap": {
         "amount": 50000,
-        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
       },
       "terms": "2% cash back on all eligible purchases, with no category restrictions, on the first $50,000 of purchases per calendar year. 1% thereafter. Cash back is automatically credited to the statement.",
       "sourceUrl": "https://www.americanexpress.com/en-us/business/credit-cards/blue-business-cash/"
@@ -92,7 +98,9 @@
     {
       "multiplier": 1,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "terms": "Base rate on all purchases after the $50,000 annual 2% cap is reached.",
       "sourceUrl": "https://www.americanexpress.com/en-us/business/credit-cards/blue-business-cash/"
     }
@@ -106,5 +114,6 @@
       "https://hellosafe.com/credit-card-insurance/united-states/american-express/blue-business-cash"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-blue-business-cash.png"
 }

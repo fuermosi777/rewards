@@ -4,12 +4,16 @@
   "title": "Card",
   "description": "Low-churn card record: identity + ongoing (recurring) benefits. Sign-up bonuses live in a separate bonus.schema.json record keyed by the same cardId, because bonuses change far more often than benefit terms and would otherwise pollute this file's git history.",
   "type": "object",
-  "required": ["id", "issuerId", "name", "network", "variant", "annualFee", "status", "benefits", "sourceMeta"],
+  "required": ["id", "issuerId", "name", "network", "variant", "annualFee", "status", "benefits", "sourceMeta", "imageUrl"],
   "properties": {
     "id": {
       "type": "string",
       "pattern": "^[a-z0-9-]+$",
       "description": "Stable lowercase-dash id, e.g. 'chase-sapphire-preferred'. Matches the filename (without .json) and the cardId used in data/bonuses/."
+    },
+    "imageUrl": {
+      "type": "string",
+      "description": "Relative repository path to card cover image PNG, e.g. 'data/assets/cards/chase-sapphire-preferred.png'."
     },
     "issuerId": {
       "type": "string",

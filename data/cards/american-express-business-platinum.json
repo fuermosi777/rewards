@@ -18,11 +18,18 @@
       "description": "Statement credit toward prepaid Fine Hotels + Resorts or The Hotel Collection bookings made through American Express Travel.",
       "benefitType": "statement_credit",
       "category": "hotel",
-      "renewalPeriod": { "unit": "month", "count": 6, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 300,
         "currency": "USD",
-        "eligibleMerchants": ["Fine Hotels + Resorts via Amex Travel", "The Hotel Collection via Amex Travel"],
+        "eligibleMerchants": [
+          "Fine Hotels + Resorts via Amex Travel",
+          "The Hotel Collection via Amex Travel"
+        ],
         "splitEligible": true
       },
       "terms": "Up to $300 per half-year period ($600/year total). The Hotel Collection requires a minimum 2-night prepaid stay. No enrollment required.",
@@ -35,11 +42,17 @@
       "description": "Statement credit for incidental fees (checked bags, seat selection, in-flight refreshments, etc.) on one airline selected annually.",
       "benefitType": "statement_credit",
       "category": "airline",
-      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 200,
         "currency": "USD",
-        "eligibleMerchants": ["one selected qualifying airline"]
+        "eligibleMerchants": [
+          "one selected qualifying airline"
+        ]
       },
       "terms": "Must select one qualifying airline per calendar year via the Amex account. Covers incidental fees only, not the ticket cost.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
@@ -51,11 +64,17 @@
       "description": "Monthly statement credit for purchases made directly with a U.S. wireless telephone service provider.",
       "benefitType": "statement_credit",
       "category": "wireless",
-      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 10,
         "currency": "USD",
-        "eligibleMerchants": ["U.S. wireless telephone service providers"],
+        "eligibleMerchants": [
+          "U.S. wireless telephone service providers"
+        ],
         "splitEligible": true
       },
       "terms": "Up to $10/month ($120/year total). Enrollment required. One credit per month per card account regardless of purchase count.",
@@ -68,11 +87,17 @@
       "description": "Statement credits for U.S. purchases made directly with Dell Technologies, plus a bonus credit after meeting a spend threshold.",
       "benefitType": "statement_credit",
       "category": "shopping",
-      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 150,
         "currency": "USD",
-        "eligibleMerchants": ["Dell Technologies"]
+        "eligibleMerchants": [
+          "Dell Technologies"
+        ]
       },
       "terms": "$150 in statement credits per calendar year, plus an additional $1,000 statement credit after spending $5,000 or more with Dell in the same calendar year. Enrollment required.",
       "sourceUrl": "https://awardwallet.com/credit-cards/amex-membership-rewards/amex-dell-credit/",
@@ -84,11 +109,17 @@
       "description": "Statement credit after spending on Adobe purchases directly with Adobe.",
       "benefitType": "statement_credit",
       "category": "shopping",
-      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 250,
         "currency": "USD",
-        "eligibleMerchants": ["Adobe"]
+        "eligibleMerchants": [
+          "Adobe"
+        ]
       },
       "terms": "$250 statement credit after spending $600 or more on U.S. purchases directly with Adobe per calendar year. Enrollment required.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
@@ -100,11 +131,17 @@
       "description": "Quarterly statement credit for purchases made at Indeed.com.",
       "benefitType": "statement_credit",
       "category": "other",
-      "renewalPeriod": { "unit": "quarter", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 90,
         "currency": "USD",
-        "eligibleMerchants": ["Indeed.com"]
+        "eligibleMerchants": [
+          "Indeed.com"
+        ]
       },
       "terms": "Up to $90 per quarter ($360/year total). Enrollment required.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
@@ -116,11 +153,17 @@
       "description": "Quarterly statement credit for purchases made directly with Hilton.",
       "benefitType": "statement_credit",
       "category": "hotel",
-      "renewalPeriod": { "unit": "quarter", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 50,
         "currency": "USD",
-        "eligibleMerchants": ["Hilton"]
+        "eligibleMerchants": [
+          "Hilton"
+        ]
       },
       "terms": "Up to $50 per quarter ($200/year total). Requires Hilton for Business membership; enrollment required. Gift cards are not eligible purchases.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/",
@@ -132,11 +175,18 @@
       "description": "Statement credit for a Global Entry (every 4 years) or TSA PreCheck (5-year membership) application fee.",
       "benefitType": "trusted_traveler_credit",
       "category": "travel",
-      "renewalPeriod": { "unit": "year", "count": 4, "anchor": "card_anniversary" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
       "statementCreditDetail": {
         "amount": 120,
         "currency": "USD",
-        "eligibleMerchants": ["Global Entry", "TSA PreCheck"]
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
       },
       "terms": "Global Entry credit is up to $120 (renews on the ~4-year Global Entry cycle); TSA PreCheck credit is up to $85 (5-year cycle). Modeled here on the Global Entry cadence as the more commonly chosen option.",
       "sourceUrl": "https://www.americanexpress.com/en-us/benefits/travel/expedite-your-travel/",
@@ -150,7 +200,14 @@
       "category": "travel",
       "isOneTime": true,
       "loungeAccessDetail": {
-        "networks": ["Centurion Lounge", "Escape Lounge", "Delta Sky Club", "Plaza Premium Lounge", "Priority Pass", "Lufthansa Lounge"],
+        "networks": [
+          "Centurion Lounge",
+          "Escape Lounge",
+          "Delta Sky Club",
+          "Plaza Premium Lounge",
+          "Priority Pass",
+          "Lufthansa Lounge"
+        ],
         "guestPolicy": "Varies by lounge network. As of July 8, 2026, Centurion Lounge guest access requires guests to be on the same flight as the cardmember; layover access is capped at 5 hours before departure. Delta Sky Club requires same-day Delta-marketed/operated flight."
       },
       "terms": "Priority Pass requires separate enrollment through Amex.",
@@ -228,22 +285,40 @@
     {
       "multiplier": 5,
       "rewardUnit": "points",
-      "eligibleCategories": ["flights", "prepaid_hotels_amex_travel"],
+      "eligibleCategories": [
+        "flights",
+        "prepaid_hotels_amex_travel"
+      ],
       "terms": "Flights and prepaid hotels booked on amextravel.com. No annual cap (unlike the personal Platinum card's $500,000 cap).",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
     },
     {
       "multiplier": 2,
       "rewardUnit": "points",
-      "eligibleCategories": ["us_construction_hardware", "us_electronics", "us_software_cloud", "us_shipping", "large_purchases"],
-      "spendCap": { "amount": 2000000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "eligibleCategories": [
+        "us_construction_hardware",
+        "us_electronics",
+        "us_software_cloud",
+        "us_shipping",
+        "large_purchases"
+      ],
+      "spendCap": {
+        "amount": 2000000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
       "terms": "2x on U.S. construction material & hardware suppliers, U.S. electronic goods retailers, U.S. software & cloud system providers, U.S. shipping providers, and any purchase of $5,000+, up to a combined $2,000,000/year, then 1x. A purchase qualifying for multiple categories still only earns 2x once.",
       "sourceUrl": "https://global.americanexpress.com/card-benefits/detail/spending-power/business-platinum"
     },
     {
       "multiplier": 1,
       "rewardUnit": "points",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-platinum-credit-card-amex/"
     }
   ],
@@ -257,5 +332,6 @@
       "https://global.americanexpress.com/card-benefits/detail/trip-cancel-interrupt-insurance/business-platinum"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-business-platinum.png"
 }

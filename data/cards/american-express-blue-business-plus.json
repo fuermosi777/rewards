@@ -92,10 +92,16 @@
     {
       "multiplier": 2,
       "rewardUnit": "points",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "spendCap": {
         "amount": 50000,
-        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
       },
       "terms": "2x Membership Rewards points on all eligible business purchases, with no category restrictions, on the first $50,000 of purchases per calendar year. 1x thereafter.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/"
@@ -103,7 +109,9 @@
     {
       "multiplier": 1,
       "rewardUnit": "points",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "terms": "Base rate on all purchases after the $50,000 annual 2x cap is reached.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-blue-business-plus-credit-card-amex/"
     }
@@ -117,5 +125,6 @@
       "https://hellosafe.com/credit-card-insurance/united-states/american-express/blue-business-plus"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-blue-business-plus.png"
 }

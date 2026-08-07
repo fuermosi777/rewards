@@ -27,7 +27,9 @@
     {
       "multiplier": 3,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "requiresActivation": true,
       "terms": "Flat 3% cash back on all spending categories. Requires an active Robinhood Gold membership (separate subscription fee) to earn rewards — the card itself has no annual fee, but the underlying Gold subscription does.",
       "sourceUrl": "https://robinhood.com/creditcard/"
@@ -35,7 +37,10 @@
   ],
   "sourceMeta": {
     "lastReviewedDate": "2026-08-04",
-    "sourceUrls": ["https://robinhood.com/creditcard/"],
+    "sourceUrls": [
+      "https://robinhood.com/creditcard/"
+    ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/coastal-community-bank-robinhood-gold-card.png"
 }

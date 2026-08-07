@@ -18,11 +18,19 @@
       "description": "Statement credit for Disney+, Hulu, or ESPN+ subscriptions (including bundles) purchased on their U.S. websites.",
       "benefitType": "statement_credit",
       "category": "streaming",
-      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 10,
         "currency": "USD",
-        "eligibleMerchants": ["Disney+", "Hulu", "ESPN+"],
+        "eligibleMerchants": [
+          "Disney+",
+          "Hulu",
+          "ESPN+"
+        ],
         "splitEligible": true
       },
       "terms": "Up to $10/month ($120/year total). Enrollment required. No minimum purchase requirement. Unused monthly amounts do not roll over.",
@@ -65,29 +73,46 @@
     {
       "multiplier": 6,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["online_groceries", "us_supermarkets"],
-      "spendCap": { "amount": 6000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "eligibleCategories": [
+        "online_groceries",
+        "us_supermarkets"
+      ],
+      "spendCap": {
+        "amount": 6000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
       "terms": "6% at U.S. supermarkets on up to $6,000/year in purchases, then 1%. Excludes superstores, warehouse clubs, and gas stations that also sell groceries.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
     },
     {
       "multiplier": 6,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["streaming"],
+      "eligibleCategories": [
+        "streaming"
+      ],
       "terms": "6% on select U.S. streaming subscriptions. No spend cap.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
     },
     {
       "multiplier": 3,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["gas_stations", "transit"],
+      "eligibleCategories": [
+        "gas_stations",
+        "transit"
+      ],
       "terms": "3% at U.S. gas stations (stand-alone stations only) and on transit (including taxis/rideshare, parking, tolls, trains, buses). No spend cap.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
     },
     {
       "multiplier": 1,
       "rewardUnit": "cashback_percent",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
     }
   ],
@@ -98,5 +123,6 @@
       "https://www.americanexpress.com/en-us/account/get-started/bcp/uncover-your-benefits"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-blue-cash-preferred.png"
 }

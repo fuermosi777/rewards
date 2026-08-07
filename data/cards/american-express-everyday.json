@@ -28,22 +28,35 @@
     {
       "multiplier": 2,
       "rewardUnit": "points",
-      "eligibleCategories": ["groceries"],
+      "eligibleCategories": [
+        "groceries"
+      ],
       "terms": "U.S. supermarkets, on up to $6,000 in purchases per calendar year (then 1x). Increases to 2.4x when 20+ purchases are made on the card in a billing period.",
-      "spendCap": { "amount": 6000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "spendCap": {
+        "amount": 6000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
       "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/amex-everyday-credit-card"
     },
     {
       "multiplier": 2,
       "rewardUnit": "points",
-      "eligibleCategories": ["prepaid_hotels_amex_travel"],
+      "eligibleCategories": [
+        "prepaid_hotels_amex_travel"
+      ],
       "terms": "Prepaid rental cars and other eligible travel purchases booked through AmexTravel.com. Increases to 2.4x when 20+ purchases are made on the card in a billing period.",
       "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/amex-everyday-credit-card"
     },
     {
       "multiplier": 1,
       "rewardUnit": "points",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "terms": "Increases to 1.2x when 20+ purchases are made on the card in a billing period.",
       "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/amex-everyday-credit-card"
     }
@@ -56,5 +69,6 @@
       "https://upgradedpoints.com/news/amex-discontinues-everyday-preferred-cash-magnet-cards/"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-everyday.png"
 }

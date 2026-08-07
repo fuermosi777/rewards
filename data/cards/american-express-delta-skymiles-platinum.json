@@ -18,7 +18,11 @@
       "description": "Annual Delta Main Cabin round-trip companion certificate for domestic, Caribbean, or Central American destinations.",
       "benefitType": "companion_ticket",
       "category": "airline",
-      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "card_anniversary" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
       "terms": "Issued each year after Card renewal. Valid on Delta Main Cabin round-trip flights to domestic, Caribbean, or Central American destinations. Companion pays taxes and fees of approximately $22 to $250 round trip. Card Member must be on the same reservation.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
       "lastVerified": "2026-08-05"
@@ -29,9 +33,15 @@
       "description": "10 Delta Sky Club visits each Medallion Year when flying on an eligible Delta-marketed or Delta-operated flight.",
       "benefitType": "lounge_access",
       "category": "travel",
-      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "membership_year" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "membership_year"
+      },
       "loungeAccessDetail": {
-        "networks": ["Delta Sky Club"],
+        "networks": [
+          "Delta Sky Club"
+        ],
         "guestPolicy": "Up to two guests or immediate family at $50 per person per visit."
       },
       "terms": "10 Visits each Medallion Year (February 1 through January 31). Requires a same-day Delta-operated or Delta-marketed WestJet flight; not available when traveling on Delta Main Basic (Basic Economy) fares. Spending $75,000 in eligible purchases in a calendar year unlocks unlimited access for the remainder of that year and the following year.",
@@ -86,11 +96,17 @@
       "description": "Annual statement credit on eligible prepaid hotel and vacation rental bookings made through Delta Stays.",
       "benefitType": "statement_credit",
       "category": "hotel",
-      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 150,
         "currency": "USD",
-        "eligibleMerchants": ["Delta Stays"]
+        "eligibleMerchants": [
+          "Delta Stays"
+        ]
       },
       "terms": "Up to $150 per year on eligible prepaid bookings made on the Delta Stays platform.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
@@ -102,11 +118,17 @@
       "description": "Monthly statement credit for eligible purchases at qualifying U.S. Resy restaurants.",
       "benefitType": "statement_credit",
       "category": "dining",
-      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 10,
         "currency": "USD",
-        "eligibleMerchants": ["participating U.S. Resy restaurants"],
+        "eligibleMerchants": [
+          "participating U.S. Resy restaurants"
+        ],
         "splitEligible": true
       },
       "terms": "Up to $10 back each month ($120/year total) at over 10,000 qualifying U.S. Resy restaurants. Enrollment required.",
@@ -119,7 +141,11 @@
       "description": "Monthly statement credit for eligible U.S. rideshare purchases.",
       "benefitType": "statement_credit",
       "category": "transportation",
-      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 10,
         "currency": "USD",
@@ -135,11 +161,18 @@
       "description": "Statement credit for a Global Entry or TSA PreCheck application fee.",
       "benefitType": "trusted_traveler_credit",
       "category": "travel",
-      "renewalPeriod": { "unit": "year", "count": 4, "anchor": "card_anniversary" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
       "statementCreditDetail": {
         "amount": 120,
         "currency": "USD",
-        "eligibleMerchants": ["Global Entry", "TSA PreCheck"]
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
       },
       "terms": "Up to $120 statement credit every 4 years for Global Entry, or up to $85 every 4.5 years for TSA PreCheck. Modeled here on the Global Entry cadence; verify against the chosen program's own renewal cycle.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
@@ -151,7 +184,11 @@
       "description": "$2,500 Medallion Qualification Dollars granted at the start of each Medallion Qualification Year toward Delta elite status.",
       "benefitType": "elite_status",
       "category": "airline",
-      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "membership_year" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "membership_year"
+      },
       "terms": "$2,500 MQDs awarded each Medallion Qualification Year. Card Members also earn MQD Boost at a rate of $1 MQD per $20 in eligible purchases.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards",
       "lastVerified": "2026-08-05"
@@ -192,35 +229,45 @@
     {
       "multiplier": 3,
       "rewardUnit": "miles",
-      "eligibleCategories": ["delta_purchases"],
+      "eligibleCategories": [
+        "delta_purchases"
+      ],
       "terms": "Purchases made directly with Delta.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
     },
     {
       "multiplier": 3,
       "rewardUnit": "miles",
-      "eligibleCategories": ["hotels"],
+      "eligibleCategories": [
+        "hotels"
+      ],
       "terms": "Eligible hotel purchases made directly with the hotel.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
     },
     {
       "multiplier": 2,
       "rewardUnit": "miles",
-      "eligibleCategories": ["dining"],
+      "eligibleCategories": [
+        "dining"
+      ],
       "terms": "Restaurants worldwide, including takeout and delivery in the U.S.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
     },
     {
       "multiplier": 2,
       "rewardUnit": "miles",
-      "eligibleCategories": ["us_supermarkets"],
+      "eligibleCategories": [
+        "us_supermarkets"
+      ],
       "terms": "Purchases at U.S. supermarkets.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
     },
     {
       "multiplier": 1,
       "rewardUnit": "miles",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-personal-cards"
     }
   ],
@@ -233,5 +280,6 @@
       "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-platinum-american-express-card/"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-delta-skymiles-platinum.png"
 }

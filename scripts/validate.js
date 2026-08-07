@@ -79,6 +79,12 @@ for (const file of fs.readdirSync(cardsDir)) {
   if (!issuerIds.has(card.issuerId)) {
     fail(`${label}: issuerId "${card.issuerId}" not found in issuers.json`);
   }
+  if (card.imageUrl) {
+    const imgPath = path.join(ROOT, card.imageUrl);
+    if (!fs.existsSync(imgPath)) {
+      fail(`${label}: imageUrl file "${card.imageUrl}" does not exist on disk`);
+    }
+  }
   cardIds.add(card.id);
   cardsById.set(card.id, card);
 }
@@ -106,7 +112,7 @@ for (const file of fs.readdirSync(bonusesDir)) {
 // --- index.json in sync with data/cards/*.json ---
 // Checks both presence (every card file has an index entry and vice versa)
 // and that the denormalized fields index.json carries (name, issuerId,
-// status) haven't drifted from the card file, which is the actual source of
+// status, imageUrl) haven't drifted from the card file, which is the actual source of
 // truth. A status flip (e.g. a card going discontinued) is exactly the kind
 // of edit that's easy to make in one file and forget in the other.
 const indexPath = path.join(DATA_DIR, "index.json");
@@ -121,7 +127,7 @@ for (const entry of index.cards) {
     continue;
   }
   const card = cardsById.get(entry.id);
-  for (const field of ["name", "issuerId", "status"]) {
+  for (const field of ["name", "issuerId", "status", "imageUrl"]) {
     if (entry[field] !== card[field]) {
       fail(
         `index.json: card "${entry.id}" has ${field}="${entry[field]}" but data/cards/${entry.id}.json has ${field}="${card[field]}"`

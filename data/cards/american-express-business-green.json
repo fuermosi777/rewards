@@ -71,14 +71,19 @@
     {
       "multiplier": 2,
       "rewardUnit": "points",
-      "eligibleCategories": ["flights", "prepaid_hotels_amex_travel"],
+      "eligibleCategories": [
+        "flights",
+        "prepaid_hotels_amex_travel"
+      ],
       "terms": "Flights and prepaid hotels booked on AmexTravel.com.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-green-card-amex/"
     },
     {
       "multiplier": 1,
       "rewardUnit": "points",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-green-card-amex/"
     }
   ],
@@ -89,5 +94,6 @@
       "https://www.americanexpress.com/en-us/account/get-started/green/uncover-your-benefits"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-business-green.png"
 }

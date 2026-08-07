@@ -68,29 +68,44 @@
     {
       "multiplier": 3,
       "rewardUnit": "points",
-      "eligibleCategories": ["groceries"],
+      "eligibleCategories": [
+        "groceries"
+      ],
       "terms": "U.S. supermarkets, on up to $6,000 in purchases per calendar year (then 1x). Increases to 4.5x when 30+ purchases are made on the card in a billing period.",
-      "spendCap": { "amount": 6000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "spendCap": {
+        "amount": 6000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
       "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/"
     },
     {
       "multiplier": 2,
       "rewardUnit": "points",
-      "eligibleCategories": ["gas_stations"],
+      "eligibleCategories": [
+        "gas_stations"
+      ],
       "terms": "U.S. gas stations. Increases to 3x when 30+ purchases are made on the card in a billing period.",
       "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/"
     },
     {
       "multiplier": 2,
       "rewardUnit": "points",
-      "eligibleCategories": ["travel"],
+      "eligibleCategories": [
+        "travel"
+      ],
       "terms": "Prepaid hotels, flights, and other travel booked through AmexTravel.com. Increases to 3x when 30+ purchases are made on the card in a billing period.",
       "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/"
     },
     {
       "multiplier": 1,
       "rewardUnit": "points",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "terms": "Increases to 1.5x when 30+ purchases are made on the card in a billing period.",
       "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amex-everyday-preferred-credit-card/"
     }
@@ -103,5 +118,6 @@
       "https://upgradedpoints.com/news/amex-discontinues-everyday-preferred-cash-magnet-cards/"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-everyday-preferred.png"
 }

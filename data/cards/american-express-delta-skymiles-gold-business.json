@@ -60,11 +60,17 @@
       "description": "Annual statement credit on eligible prepaid hotel and vacation rental bookings made through Delta Stays.",
       "benefitType": "statement_credit",
       "category": "hotel",
-      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 150,
         "currency": "USD",
-        "eligibleMerchants": ["Delta Stays"]
+        "eligibleMerchants": [
+          "Delta Stays"
+        ]
       },
       "terms": "Up to $150 per year on eligible prepaid bookings made on the Delta Stays platform.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards",
@@ -76,7 +82,11 @@
       "description": "Monthly statement credit for eligible U.S. rideshare purchases.",
       "benefitType": "statement_credit",
       "category": "transportation",
-      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 10,
         "currency": "USD",
@@ -101,37 +111,61 @@
     {
       "multiplier": 2,
       "rewardUnit": "miles",
-      "eligibleCategories": ["delta_purchases"],
+      "eligibleCategories": [
+        "delta_purchases"
+      ],
       "terms": "Purchases made directly with Delta.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards"
     },
     {
       "multiplier": 2,
       "rewardUnit": "miles",
-      "eligibleCategories": ["dining"],
+      "eligibleCategories": [
+        "dining"
+      ],
       "terms": "Restaurants worldwide, including takeout and delivery in the U.S.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards"
     },
     {
       "multiplier": 2,
       "rewardUnit": "miles",
-      "eligibleCategories": ["us_shipping"],
-      "spendCap": { "amount": 50000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "eligibleCategories": [
+        "us_shipping"
+      ],
+      "spendCap": {
+        "amount": 50000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
       "terms": "U.S. shipping providers, on up to $50,000 in purchases in this category per calendar year, then 1x.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards"
     },
     {
       "multiplier": 2,
       "rewardUnit": "miles",
-      "eligibleCategories": ["us_advertising"],
-      "spendCap": { "amount": 50000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "eligibleCategories": [
+        "us_advertising"
+      ],
+      "spendCap": {
+        "amount": 50000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
       "terms": "U.S. providers for advertising in select media, on up to $50,000 in purchases in this category per calendar year, then 1x.",
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards"
     },
     {
       "multiplier": 1,
       "rewardUnit": "miles",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "sourceUrl": "https://www.delta.com/us/en/skymiles/airline-credit-cards/american-express-business-cards"
     }
   ],
@@ -143,5 +177,6 @@
       "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-gold/"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-delta-skymiles-gold-business.png"
 }

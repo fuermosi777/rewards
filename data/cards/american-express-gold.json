@@ -18,11 +18,20 @@
       "description": "Up to $10 in statement credits monthly at Grubhub (including Seamless), Five Guys, and The Cheesecake Factory.",
       "benefitType": "statement_credit",
       "category": "dining",
-      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 10,
         "currency": "USD",
-        "eligibleMerchants": ["Grubhub", "Seamless", "Five Guys", "The Cheesecake Factory"],
+        "eligibleMerchants": [
+          "Grubhub",
+          "Seamless",
+          "Five Guys",
+          "The Cheesecake Factory"
+        ],
         "splitEligible": true
       },
       "terms": "Requires enrollment. Up to $120 annually. Goldbelly and Wine.com left the program July 1, 2026.",
@@ -35,11 +44,17 @@
       "description": "Up to $100 in statement credits each calendar year at qualifying U.S. Resy restaurants, split $50 Jan-Jun and $50 Jul-Dec.",
       "benefitType": "statement_credit",
       "category": "dining",
-      "renewalPeriod": { "unit": "month", "count": 6, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 50,
         "currency": "USD",
-        "eligibleMerchants": ["Resy"],
+        "eligibleMerchants": [
+          "Resy"
+        ],
         "splitEligible": true
       },
       "terms": "Requires enrollment. Up to $50 Jan-Jun and up to $50 Jul-Dec, for $100/year total.",
@@ -52,11 +67,17 @@
       "description": "Up to $7 in monthly statement credits at U.S. Dunkin' locations.",
       "benefitType": "statement_credit",
       "category": "dining",
-      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 7,
         "currency": "USD",
-        "eligibleMerchants": ["Dunkin'"],
+        "eligibleMerchants": [
+          "Dunkin'"
+        ],
         "splitEligible": true
       },
       "terms": "Requires enrollment. Up to $84 annually.",
@@ -69,11 +90,18 @@
       "description": "$10 in Uber Cash each month for U.S. Uber rides and Uber Eats orders.",
       "benefitType": "statement_credit",
       "category": "transportation",
-      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
       "statementCreditDetail": {
         "amount": 10,
         "currency": "USD",
-        "eligibleMerchants": ["Uber", "Uber Eats"],
+        "eligibleMerchants": [
+          "Uber",
+          "Uber Eats"
+        ],
         "splitEligible": true
       },
       "terms": "Must add Gold Card to Uber account as payment method. Up to $120 annually. Unused monthly amount does not roll over.",
@@ -141,37 +169,61 @@
     {
       "multiplier": 4,
       "rewardUnit": "points",
-      "eligibleCategories": ["dining"],
+      "eligibleCategories": [
+        "dining"
+      ],
       "terms": "Restaurants worldwide.",
-      "spendCap": { "amount": 50000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "spendCap": {
+        "amount": 50000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
     },
     {
       "multiplier": 4,
       "rewardUnit": "points",
-      "eligibleCategories": ["groceries"],
+      "eligibleCategories": [
+        "groceries"
+      ],
       "terms": "U.S. supermarkets.",
-      "spendCap": { "amount": 25000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "spendCap": {
+        "amount": 25000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
     },
     {
       "multiplier": 5,
       "rewardUnit": "points",
-      "eligibleCategories": ["prepaid_hotels_amex_travel"],
+      "eligibleCategories": [
+        "prepaid_hotels_amex_travel"
+      ],
       "terms": "Prepaid hotels booked on amextravel.com.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
     },
     {
       "multiplier": 3,
       "rewardUnit": "points",
-      "eligibleCategories": ["airline"],
+      "eligibleCategories": [
+        "airline"
+      ],
       "terms": "Flights booked directly with airlines or via Amex Travel.",
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
     },
     {
       "multiplier": 1,
       "rewardUnit": "points",
-      "eligibleCategories": ["everything_else"],
+      "eligibleCategories": [
+        "everything_else"
+      ],
       "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
     }
   ],
@@ -183,5 +235,6 @@
       "https://thepointsguy.com/news/american-express-gold-refresh-2026/"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/american-express-gold.png"
 }

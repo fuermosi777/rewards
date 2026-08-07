@@ -72,5 +72,6 @@
         "currency": "USD"
       }
     ]
-  }
+  },
+  "imageUrl": "data/assets/cards/chase-united-explorer.png"
 }
