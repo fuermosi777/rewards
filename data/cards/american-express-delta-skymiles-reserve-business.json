@@ -10,11 +10,161 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "dsrb-resy-credit",
+      "name": "Resy Credit",
+      "description": "Up to $20 per month in statement credits at qualifying U.S. Resy restaurants.",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 20,
+        "currency": "USD",
+        "eligibleMerchants": ["Resy"],
+        "splitEligible": true
+      },
+      "terms": "Requires enrollment. Up to $240 annually.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsrb-rideshare-credit",
+      "name": "Rideshare Credit",
+      "description": "Up to $10 back per month in statement credits on U.S. rideshare purchases.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "splitEligible": true
+      },
+      "terms": "Requires enrollment. Up to $120 annually.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsrb-delta-stays-credit",
+      "name": "Delta Stays Credit",
+      "description": "Up to $250 annual statement credit on prepaid hotel and vacation rental bookings through Delta Stays.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 250,
+        "currency": "USD",
+        "eligibleMerchants": ["Delta Stays"]
+      },
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/delta-reserve-business-credit-card-american-express/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsrb-companion-certificate",
+      "name": "Companion Certificate",
+      "description": "Annual round-trip companion certificate (Delta First, Comfort, or Main Cabin) within the U.S. and to Mexico, the Caribbean, or Central America, issued on card renewal.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "card_anniversary" },
+      "terms": "Cardholder pays government-imposed taxes and fees of between $22 and $250.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/delta-reserve-business-credit-card-american-express/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsrb-sky-club-access",
+      "name": "Delta Sky Club Access",
+      "description": "15 visits per Medallion Year to Delta Sky Club; unlimited visits after $75,000 in card purchases in a calendar year.",
+      "benefitType": "lounge_access",
+      "category": "airline",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "membership_year" },
+      "loungeAccessDetail": {
+        "networks": ["Delta Sky Club"]
+      },
+      "terms": "Unlimited Sky Club visits after $75,000 annual card spend.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsrb-centurion-lounge-access",
+      "name": "Centurion Lounge Access",
+      "description": "Complimentary access to The Centurion Lounge, Sidecar by The Centurion Lounge, and Escape Lounges when flying Delta.",
+      "benefitType": "lounge_access",
+      "category": "airline",
+      "isOneTime": true,
+      "loungeAccessDetail": {
+        "networks": ["Centurion Lounge", "Sidecar by The Centurion Lounge", "Escape Lounge"]
+      },
+      "terms": "Requires a same-day Delta flight.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsrb-mqd-headstart",
+      "name": "MQD Headstart",
+      "description": "Annual deposit of $2,500 Medallion Qualification Dollars toward Delta Medallion elite status.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "membership_year" },
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/delta-reserve-business-credit-card-american-express/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsrb-mqd-boost",
+      "name": "MQD Boost",
+      "description": "Earn $1 Medallion Qualification Dollar for every $10 spent on eligible card purchases toward Delta Medallion elite status.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/delta-reserve-business-credit-card-american-express/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsrb-trusted-traveler-credit",
+      "name": "Global Entry / TSA PreCheck Credit",
+      "description": "Statement credit for a Global Entry ($120) application fee every 4 years, or TSA PreCheck (up to $85) every 4.5 years.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": { "unit": "year", "count": 4, "anchor": "card_anniversary" },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": ["Global Entry", "TSA PreCheck"]
+      },
+      "terms": "Global Entry credit every 4 years; TSA PreCheck (up to $85) every 4.5 years.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/",
+      "lastVerified": "2026-08-06"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["airline"],
+      "terms": "Eligible Delta purchases.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/delta-reserve-business-credit-card-american-express/"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["transit", "shipping", "office_supplies"],
+      "terms": "U.S. transit, U.S. shipping, and U.S. office supply stores.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/delta-reserve-business-credit-card-american-express/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["everything_else"],
+      "terms": "Increases to 1.5x on all purchases once $150,000 in eligible purchases is reached in a calendar year.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/delta-reserve-business-credit-card-american-express/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-06",
     "sourceUrls": [
-      "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/"
+      "https://www.americanexpress.com/en-us/business/credit-cards/delta-skymiles-reserve/",
+      "https://upgradedpoints.com/credit-cards/reviews/delta-reserve-business-credit-card-american-express/",
+      "https://www.nerdwallet.com/business/credit-cards/reviews/delta-skymiles-reserve-business-amex"
     ],
     "updatedBy": "agent"
   }

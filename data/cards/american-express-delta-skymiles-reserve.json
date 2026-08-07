@@ -10,22 +10,204 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "dsr-resy-credit",
+      "name": "Resy Credit",
+      "description": "Up to $20 per month in statement credits at qualifying U.S. Resy restaurants.",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 20,
+        "currency": "USD",
+        "eligibleMerchants": ["Resy"],
+        "splitEligible": true
+      },
+      "terms": "Requires enrollment. Up to $240 annually.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/delta-reserve-card-benefits/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-rideshare-credit",
+      "name": "Rideshare Credit",
+      "description": "Up to $10 back per month in statement credits on U.S. rideshare purchases.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "splitEligible": true
+      },
+      "terms": "Requires enrollment. Up to $120 annually.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/delta-reserve-card-benefits/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-delta-stays-credit",
+      "name": "Delta Stays Credit",
+      "description": "Up to $200 back per year as a statement credit on prepaid hotel and vacation rental bookings through Delta Stays.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 200,
+        "currency": "USD",
+        "eligibleMerchants": ["Delta Stays"]
+      },
+      "sourceUrl": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/delta-reserve-card-benefits/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-companion-certificate",
+      "name": "Companion Certificate",
+      "description": "Annual round-trip companion certificate (Delta First, Comfort+, or Main Cabin) within the U.S. and to Mexico, the Caribbean, or Central America, issued on card renewal.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "card_anniversary" },
+      "terms": "Cardholder pays government-imposed taxes and fees of between $22 and $250.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/delta-reserve-card-benefits/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-sky-club-access",
+      "name": "Delta Sky Club Access",
+      "description": "15 visits per Medallion Year to Delta Sky Club, plus four one-time guest passes; unlimited visits after $75,000 in card purchases in a calendar year.",
+      "benefitType": "lounge_access",
+      "category": "airline",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "membership_year" },
+      "loungeAccessDetail": {
+        "networks": ["Delta Sky Club"],
+        "guestPolicy": "Four one-time guest passes per Medallion Year; additional guests $50 each once passes are used."
+      },
+      "terms": "Requires enrolled Delta flight for Centurion Lounge access; unlimited Sky Club visits after $75,000 annual card spend.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/delta-reserve-card-benefits/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-centurion-lounge-access",
+      "name": "Centurion Lounge Access",
+      "description": "Complimentary access to The Centurion Lounge, Sidecar by The Centurion Lounge, and Escape Lounges when flying Delta.",
+      "benefitType": "lounge_access",
+      "category": "airline",
+      "isOneTime": true,
+      "loungeAccessDetail": {
+        "networks": ["Centurion Lounge", "Sidecar by The Centurion Lounge", "Escape Lounge"]
+      },
+      "terms": "Requires a same-day Delta flight.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/delta-reserve-card-benefits/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-mqd-headstart",
+      "name": "MQD Headstart",
+      "description": "Annual deposit of $2,500 Medallion Qualification Dollars toward Delta Medallion elite status.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": { "unit": "year", "count": 1, "anchor": "membership_year" },
+      "sourceUrl": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/delta-reserve-card-benefits/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-mqd-boost",
+      "name": "MQD Boost",
+      "description": "Earn $1 Medallion Qualification Dollar for every $10 spent on eligible card purchases toward Delta Medallion elite status.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/delta-reserve-card-benefits/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-trusted-traveler-credit",
+      "name": "Global Entry / TSA PreCheck Credit",
+      "description": "Statement credit for a Global Entry ($120) application fee every 4 years, or TSA PreCheck (up to $85) every 4.5 years.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": { "unit": "year", "count": 4, "anchor": "card_anniversary" },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": ["Global Entry", "TSA PreCheck"]
+      },
+      "terms": "Global Entry credit every 4 years; TSA PreCheck (up to $85) every 4.5 years.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/delta-reserve-card-benefits/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-free-checked-bag",
+      "name": "First Checked Bag Free",
+      "description": "First checked bag free on Delta flights worldwide for the cardholder and up to 8 companions on the same reservation; second bag free on domestic flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/en-us/credit-cards/credit-intel/delta-reserve-card-benefits/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-trip-delay-insurance",
+      "name": "Trip Delay Insurance",
+      "description": "Reimbursement up to $500 per trip for reasonable expenses when a trip is delayed 6+ hours.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/american-express/delta-skymiles-reserve",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement up to $10,000 per trip and $20,000 per card per 12-month period for prepaid, non-refundable travel expenses.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/american-express/delta-skymiles-reserve",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-baggage-insurance",
+      "name": "Baggage Insurance Plan",
+      "description": "Up to $3,000 combined coverage for lost, damaged, or stolen baggage ($2,000 checked, $1,000 carry-on, with a $500 sub-limit for high-value items).",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/american-express/delta-skymiles-reserve",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "dsr-car-rental-insurance",
+      "name": "Car Rental Loss and Damage Insurance",
+      "description": "Primary coverage outside the U.S., secondary coverage inside the U.S., for damage or theft up to $75,000, on rentals up to 30 days.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/american-express/delta-skymiles-reserve",
+      "lastVerified": "2026-08-06"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["airline"],
+      "terms": "Purchases made directly with Delta.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": ["everything_else"],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-06",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/"
+      "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+      "https://www.americanexpress.com/en-us/credit-cards/credit-intel/delta-reserve-card-benefits/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Resy Credit",
-        "value": 240,
-        "weight": 0.8
-      }
-    ]
   }
 }

@@ -5,42 +5,183 @@
   "network": "Amex",
   "variant": "personal",
   "annualFee": {
-    "amount": 350,
+    "amount": 325,
     "currency": "USD",
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "gold-dining-credit",
+      "name": "Dining Credit",
+      "description": "Up to $10 in statement credits monthly at Grubhub (including Seamless), Five Guys, and The Cheesecake Factory.",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": ["Grubhub", "Seamless", "Five Guys", "The Cheesecake Factory"],
+        "splitEligible": true
+      },
+      "terms": "Requires enrollment. Up to $120 annually. Goldbelly and Wine.com left the program July 1, 2026.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/gold/explore-benefits",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "gold-resy-credit",
+      "name": "Resy Credit",
+      "description": "Up to $100 in statement credits each calendar year at qualifying U.S. Resy restaurants, split $50 Jan-Jun and $50 Jul-Dec.",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": { "unit": "month", "count": 6, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD",
+        "eligibleMerchants": ["Resy"],
+        "splitEligible": true
+      },
+      "terms": "Requires enrollment. Up to $50 Jan-Jun and up to $50 Jul-Dec, for $100/year total.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/gold/explore-benefits",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "gold-dunkin-credit",
+      "name": "Dunkin' Credit",
+      "description": "Up to $7 in monthly statement credits at U.S. Dunkin' locations.",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 7,
+        "currency": "USD",
+        "eligibleMerchants": ["Dunkin'"],
+        "splitEligible": true
+      },
+      "terms": "Requires enrollment. Up to $84 annually.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/gold/explore-benefits",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "gold-uber-cash",
+      "name": "Uber Cash",
+      "description": "$10 in Uber Cash each month for U.S. Uber rides and Uber Eats orders.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": { "unit": "month", "count": 1, "anchor": "calendar" },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": ["Uber", "Uber Eats"],
+        "splitEligible": true
+      },
+      "terms": "Must add Gold Card to Uber account as payment method. Up to $120 annually. Unused monthly amount does not roll over.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/gold/explore-benefits",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "gold-hotel-collection-credit",
+      "name": "The Hotel Collection Credit",
+      "description": "$100 credit toward eligible charges (e.g., dining, spa) at 1,300+ upscale hotels booked through Amex Travel, with a two-night minimum stay.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "isOneTime": true,
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "terms": "Requires a minimum two-night booking through The Hotel Collection via American Express Travel.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/gold/explore-benefits",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "gold-hertz-status",
+      "name": "Hertz Five Star Status",
+      "description": "Complimentary Hertz Five Star (Gold Plus Rewards mid-tier) status, including 25% bonus points on rentals and space-available upgrades.",
+      "benefitType": "elite_status",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Requires enrollment and Hertz Gold Plus Rewards registration.",
+      "sourceUrl": "https://thepointsguy.com/news/american-express-gold-refresh-2026/",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "gold-trip-delay-insurance",
+      "name": "Trip Delay Insurance",
+      "description": "Reimbursement up to $300 per trip for delays over 12 hours, maximum 2 claims per 12-month period.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/gold/explore-benefits",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "gold-baggage-insurance",
+      "name": "Baggage Insurance Plan",
+      "description": "Coverage for lost, damaged, or stolen baggage on trips paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/gold/explore-benefits",
+      "lastVerified": "2026-08-06"
+    },
+    {
+      "id": "gold-car-rental-insurance",
+      "name": "Car Rental Loss and Damage Insurance",
+      "description": "Secondary coverage for damage or theft when paying with the card and declining the rental company's collision waiver.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/gold/explore-benefits",
+      "lastVerified": "2026-08-06"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": ["dining"],
+      "terms": "Restaurants worldwide.",
+      "spendCap": { "amount": 50000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": ["groceries"],
+      "terms": "U.S. supermarkets.",
+      "spendCap": { "amount": 25000, "period": { "unit": "year", "count": 1, "anchor": "calendar" } },
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": ["prepaid_hotels_amex_travel"],
+      "terms": "Prepaid hotels booked on amextravel.com.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": ["airline"],
+      "terms": "Flights booked directly with airlines or via Amex Travel.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": ["everything_else"],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-06",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+      "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+      "https://www.americanexpress.com/en-us/account/get-started/gold/explore-benefits",
+      "https://thepointsguy.com/news/american-express-gold-refresh-2026/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "$10/mo credit for Uber",
-        "value": 120,
-        "weight": 0.5
-      },
-      {
-        "description": "$10/mo credit for Grubhub, Cheesecake Factory, Gold Belly, Wine.com, Milk, Shake Shack",
-        "value": 120,
-        "weight": 0.5
-      },
-      {
-        "description": "$7/mo credit for Dunkin",
-        "value": 84,
-        "weight": 0.4
-      },
-      {
-        "description": "Semi-annual $50 Resy credit",
-        "value": 100,
-        "weight": 0.8
-      }
-    ]
   }
 }
