@@ -10,11 +10,66 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "hha-silver-status",
+      "name": "Complimentary Hilton Honors Silver Status",
+      "description": "Automatic Hilton Honors Silver elite status, including a 20% points bonus on stays and a fifth reward night free on standard room reward stays booked with points.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Status is maintained as long as the account remains open. Includes 20% bonus points on base earning and a free 5th night on award stays of 5+ nights paid entirely with points.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "lastVerified": "2026-08-08"
+    },
+    {
+      "id": "hha-global-assist",
+      "name": "Global Assist Hotline",
+      "description": "24/7 emergency assistance and coordination services while traveling, including medical and legal referrals, emergency cash wire coordination, and missing luggage assistance.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Cardmember is responsible for the cost of any services rendered by third parties.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "lastVerified": "2026-08-08"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 7,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hotel"
+      ],
+      "terms": "Direct bookings at Hilton hotels and resorts.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "grocery_stores",
+        "gas_stations"
+      ],
+      "terms": "U.S. restaurants (including takeout/delivery), U.S. supermarkets, and U.S. gas stations.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-08",
     "sourceUrls": [
-      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+      "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "https://www.dailydrop.com/credit-cards/hilton-honors-american-express-card"
     ],
     "updatedBy": "agent"
   },
