@@ -9,12 +9,81 @@
     "currency": "USD",
     "waivedFirstYear": false
   },
-  "status": "active",
-  "benefits": [],
+  "status": "discontinued",
+  "discontinuedDate": "2026-04-08",
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "amex-lowes-biz-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible purchases against theft or accidental damage for 120 days from purchase (90 days for New York residents), up to $1,000 per claim and $50,000 per account per calendar year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Last known terms prior to card discontinuation. Dollar caps corroborated by a single secondary source (Fit Small Business); not independently verified against Amex's own cardmember agreement PDF, which could not be machine-read.",
+      "sourceUrl": "https://fitsmallbusiness.com/lowes-business-rewards-card-american-express/",
+      "lastVerified": "2026-08-09"
+    },
+    {
+      "id": "amex-lowes-biz-extended-warranty",
+      "name": "Extended Warranty",
+      "description": "Adds up to 2 additional years of coverage on eligible U.S. manufacturer warranties of 5 years or less.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Last known terms prior to card discontinuation.",
+      "sourceUrl": "https://fitsmallbusiness.com/lowes-business-rewards-card-american-express/",
+      "lastVerified": "2026-08-09"
+    },
+    {
+      "id": "amex-lowes-biz-car-rental-loss-damage",
+      "name": "Car Rental Loss & Damage Insurance",
+      "description": "Covers damage or theft of a rental car when the entire rental is charged to the card and the rental company's collision damage waiver is declined.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Last known terms prior to card discontinuation.",
+      "sourceUrl": "https://fitsmallbusiness.com/lowes-business-rewards-card-american-express/",
+      "lastVerified": "2026-08-09"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "lowes"
+      ],
+      "terms": "2% back on eligible Lowe's/Lowes.com purchases (after a temporary 5% first-6-months new-cardmember rate). Last known terms prior to card discontinuation.",
+      "sourceUrl": "https://fitsmallbusiness.com/lowes-business-rewards-card-american-express/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining",
+        "office_supply_stores",
+        "wireless_telephone_services"
+      ],
+      "terms": "U.S. restaurants, U.S. office supply stores, and wireless telephone services purchased directly from U.S. service providers. Last known terms prior to card discontinuation.",
+      "sourceUrl": "https://fitsmallbusiness.com/lowes-business-rewards-card-american-express/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Last known terms prior to card discontinuation.",
+      "sourceUrl": "https://fitsmallbusiness.com/lowes-business-rewards-card-american-express/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-09",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+      "https://www.americanexpress.com/us/customer-service/faq.program-update.html",
+      "https://www.nav.com/blog/lowes-business-card-review/",
+      "https://fitsmallbusiness.com/lowes-business-rewards-card-american-express/"
     ],
     "updatedBy": "agent"
   },

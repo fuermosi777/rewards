@@ -10,11 +10,102 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amex-hilton-elite-status",
+      "name": "Hilton Honors Silver Status",
+      "description": "Complimentary Hilton Honors Silver status, including a 20% bonus on base Points earned per stay and 5th night free on standard-room reward stays booked with points.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic, no spend threshold required. Also includes complimentary bottled water at check-in and digital check-in/key at participating properties. Spending $20,000 on eligible purchases in a calendar year upgrades status to Gold through the end of the following calendar year.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/hiltonhonors/uncover-your-benefits",
+      "lastVerified": "2026-08-09"
+    },
+    {
+      "id": "amex-hilton-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible purchases against accidental damage or theft for 90 days from the purchase date, up to $1,000 per covered item and $50,000 per account per calendar year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "lastVerified": "2026-08-09"
+    },
+    {
+      "id": "amex-hilton-extended-warranty",
+      "name": "Extended Warranty",
+      "description": "Adds up to 1 additional year to eligible U.S. manufacturer warranties of 5 years or less.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "lastVerified": "2026-08-09"
+    },
+    {
+      "id": "amex-hilton-car-rental-loss-damage",
+      "name": "Car Rental Loss & Damage Insurance",
+      "description": "Secondary coverage for damage or theft of most rental vehicles when the rental is reserved and paid for with this card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage (not primary). Excludes rentals in Australia, Italy, and New Zealand.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/account/get-started/hiltonhonors/uncover-your-benefits",
+      "lastVerified": "2026-08-09"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 7,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hilton_hotels"
+      ],
+      "terms": "Purchases charged directly at a hotel or resort within the Hilton portfolio.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "U.S. restaurants.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "us_supermarkets"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations"
+      ],
+      "terms": "U.S. gas stations.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-09",
     "sourceUrls": [
-      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+      "https://www.americanexpress.com/en-us/account/get-started/hiltonhonors/uncover-your-benefits",
+      "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "https://www.bankrate.com/credit-cards/reviews/hilton-honors-american-express-card-benefits-guide/"
     ],
     "updatedBy": "agent"
   },

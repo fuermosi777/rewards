@@ -10,11 +10,160 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amex-bonvoy-biz-free-night-award",
+      "name": "Annual Free Night Award",
+      "description": "One free night award each year after card renewal, redeemable at participating Marriott Bonvoy hotels.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 35000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Redeemable at hotels costing up to 35,000 Marriott Bonvoy points/night; can be topped up with up to 25,000 additional points from the cardholder's own account for a higher-value property. Award expires approximately 12 months from issuance.",
+      "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card",
+      "lastVerified": "2026-08-09"
+    },
+    {
+      "id": "amex-bonvoy-biz-second-free-night-award",
+      "name": "Second Free Night Award (Spend Threshold)",
+      "description": "A second free night award, earned after $60,000 in purchases on the card within a calendar year.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 35000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Requires $60,000 in eligible purchases on the card within a calendar year.",
+      "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card",
+      "lastVerified": "2026-08-09"
+    },
+    {
+      "id": "amex-bonvoy-biz-elite-status",
+      "name": "Marriott Bonvoy Gold Elite Status",
+      "description": "Complimentary Marriott Bonvoy Gold Elite status, including late checkout and room upgrades when available, plus 15 Elite Night Credits toward status each calendar year.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic, no minimum spend required. 15 Elite Night Credits granted per calendar year in addition to nights earned from actual stays.",
+      "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card",
+      "lastVerified": "2026-08-09"
+    },
+    {
+      "id": "amex-bonvoy-biz-room-rate-discount",
+      "name": "7% Discount on Direct Bookings",
+      "description": "Automatic 7% discount on standard/eligible room rates when booking directly with Marriott using the Amex Business Card Rate.",
+      "benefitType": "other",
+      "category": "hotel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card",
+      "lastVerified": "2026-08-09"
+    },
+    {
+      "id": "amex-bonvoy-biz-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible purchases against damage or theft for 90 days, up to $1,000 per occurrence.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card",
+      "lastVerified": "2026-08-09"
+    },
+    {
+      "id": "amex-bonvoy-biz-extended-warranty",
+      "name": "Extended Warranty",
+      "description": "Adds 1 additional year to eligible U.S. manufacturer warranties of 5 years or less, up to $10,000 per item and $50,000 per calendar year per account.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card",
+      "lastVerified": "2026-08-09"
+    },
+    {
+      "id": "amex-bonvoy-biz-car-rental-loss-damage",
+      "name": "Car Rental Loss & Damage Insurance",
+      "description": "Secondary coverage for theft or damage to most rental vehicles when the rental is paid for with this card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage (not primary).",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review",
+      "lastVerified": "2026-08-09"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "marriott_bonvoy_hotels"
+      ],
+      "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Restaurants worldwide.",
+      "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations"
+      ],
+      "terms": "U.S. gas stations.",
+      "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "wireless_telephone_services"
+      ],
+      "terms": "U.S. wireless telephone services purchased directly from service providers.",
+      "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "shipping"
+      ],
+      "terms": "U.S. purchases for shipping.",
+      "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-09",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "https://www.bankrate.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card",
+      "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review",
+      "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-business-american-express-card/"
     ],
     "updatedBy": "agent"
   },
