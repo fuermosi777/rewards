@@ -10,11 +10,91 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "bevy-free-night-award",
+      "name": "Annual Free Night Award",
+      "description": "Free night award redeemable at participating Marriott Bonvoy hotels for a redemption level of 50,000 points or less, earned after spending $15,000 on the card in a calendar year.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 50000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Requires $15,000 in eligible purchases within the calendar year. Certain hotels charge resort fees not covered by the award.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "bevy-gold-elite-status",
+      "name": "Marriott Bonvoy Gold Elite Status",
+      "description": "Complimentary Marriott Bonvoy Gold Elite status, plus 15 Elite Night Credits toward the next tier each calendar year.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic upon Card Membership; no minimum spend required.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "bevy-trip-delay-insurance",
+      "name": "Trip Delay Insurance",
+      "description": "Reimbursement up to $300 per trip for reasonable expenses when a covered trip is delayed, up to 2 claims per year.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+      "lastVerified": "2026-08-10"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "marriott_bonvoy_hotels"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "groceries"
+      ],
+      "spendCap": {
+        "amount": 15000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "Restaurants worldwide and U.S. supermarkets, on up to $15,000 in combined purchases per calendar year, then 2x.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-10",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/"
+      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+      "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card",
+      "https://www.nerdwallet.com/travel/learn/is-the-marriott-bonvoy-bevy-card-worth-it"
     ],
     "updatedBy": "agent"
   },

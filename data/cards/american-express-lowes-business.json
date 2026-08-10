@@ -9,12 +9,16 @@
     "currency": "USD",
     "waivedFirstYear": false
   },
-  "status": "active",
+  "status": "discontinued",
+  "discontinuedDate": "2026-04-08",
   "benefits": [],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-10",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+      "https://www.americanexpress.com/us/customer-service/faq.program-update.html",
+      "https://financebuzz.com/lowes-business-rewards-card-from-american-express-review",
+      "https://www.nav.com/blog/lowes-business-card-review/",
+      "https://www.prnewswire.com/news-releases/synchrony-expands-partnership-with-lowes-as-new-issuer-of-co-brand-credit-card-for-home-improvement-professionals-302758954.html"
     ],
     "updatedBy": "agent"
   },
