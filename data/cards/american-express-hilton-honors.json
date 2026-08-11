@@ -10,10 +10,70 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "hhonors-silver-status",
+      "name": "Complimentary Hilton Honors Silver Status",
+      "description": "Automatic Hilton Honors Silver elite status, including a 20% bonus on base points earned on stays and fifth night free on standard room reward stays booked with 100% points.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Status granted automatically upon card membership.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/hilton-honors-american-express-card/",
+      "lastVerified": "2026-08-11"
+    },
+    {
+      "id": "hhonors-gold-status-upgrade",
+      "name": "Hilton Honors Gold Status Upgrade",
+      "description": "Upgrade to Hilton Honors Gold status after spending $20,000 in eligible purchases on the card in a calendar year.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires $20,000 in eligible purchases within the calendar year.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/benefits/travel/resources/hilton-honors-base/",
+      "lastVerified": "2026-08-11"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 7,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hilton_hotels"
+      ],
+      "terms": "Eligible purchases charged directly with a hotel or resort within the Hilton portfolio.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/hilton-honors-american-express-card/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "supermarkets",
+        "gas_stations"
+      ],
+      "terms": "U.S. restaurants, U.S. supermarkets, and U.S. gas stations.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/hilton-honors-american-express-card/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/hilton-honors-american-express-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-11",
     "sourceUrls": [
+      "https://www.americanexpress.com/en-us/benefits/travel/resources/hilton-honors-base/",
+      "https://upgradedpoints.com/credit-cards/reviews/hilton-honors-american-express-card/",
       "https://www.hilton.com/en/hilton-honors/credit-cards/"
     ],
     "updatedBy": "agent"
