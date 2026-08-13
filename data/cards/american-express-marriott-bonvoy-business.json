@@ -10,11 +10,125 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amex-marriott-biz-gold-status",
+      "name": "Marriott Bonvoy Gold Elite Status",
+      "description": "Complimentary Marriott Bonvoy Gold Elite status: 25% bonus points on paid stays, late checkout, a welcome gift via points, and room upgrades when available.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic for cardholders by linking a Marriott Bonvoy account. 15 Elite Night Credits awarded each calendar year toward the next elite tier.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "lastVerified": "2026-08-13"
+    },
+    {
+      "id": "amex-marriott-biz-anniversary-free-night",
+      "name": "Anniversary Free Night Award",
+      "description": "Free Night Award granted every year after card renewal, usable at a Marriott Bonvoy hotel with a redemption level at or under 35,000 points.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 35000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Awarded automatically each year after card renewal, no spend requirement.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-business-american-express-card",
+      "lastVerified": "2026-08-13"
+    },
+    {
+      "id": "amex-marriott-biz-spend-free-night",
+      "name": "$60K Spend Free Night Award",
+      "description": "Additional Free Night Award earned after spending $60,000 on eligible purchases in a calendar year, usable at a Marriott Bonvoy hotel with a redemption level at or under 35,000 points.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 35000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Requires $60,000 in eligible purchases in a calendar year.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-business-american-express-card",
+      "lastVerified": "2026-08-13"
+    },
+    {
+      "id": "amex-marriott-biz-rate-discount",
+      "name": "Business Card Member Rate Discount",
+      "description": "7% discount off standard room rates when booking the Amex Business Card Member Rate at participating Marriott Bonvoy hotels.",
+      "benefitType": "other",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Must book the specific Card Member Rate to receive the discount.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-business-american-express-card",
+      "lastVerified": "2026-08-13"
+    },
+    {
+      "id": "amex-marriott-biz-car-rental-loss-damage",
+      "name": "Car Rental Loss & Damage Insurance",
+      "description": "Secondary coverage for damage to or theft of most rental vehicles.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage, not primary.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "lastVerified": "2026-08-13"
+    },
+    {
+      "id": "amex-marriott-biz-baggage-insurance",
+      "name": "Baggage Insurance Plan",
+      "description": "Coverage for lost, damaged, or stolen checked and carry-on baggage while traveling on a common carrier.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "lastVerified": "2026-08-13"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "marriott_hotels"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "gas_stations",
+        "wireless_service",
+        "shipping"
+      ],
+      "terms": "Restaurants worldwide, U.S. gas stations, wireless telephone services purchased directly from U.S. service providers, and U.S. purchases for shipping.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-13",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "https://www.dailydrop.com/credit-cards/marriott-bonvoy-business-american-express-card"
     ],
     "updatedBy": "agent"
   },

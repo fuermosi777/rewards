@@ -10,11 +10,77 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amex-hilton-silver-status",
+      "name": "Hilton Honors Silver Status",
+      "description": "Complimentary Hilton Honors Silver status: 20% bonus on base points earned on stays, and fifth night free on standard room reward stays booked with points.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Status is automatic for cardholders; no separate enrollment fee.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "lastVerified": "2026-08-13"
+    },
+    {
+      "id": "amex-hilton-car-rental-loss-damage",
+      "name": "Car Rental Loss & Damage Insurance",
+      "description": "Secondary coverage for damage to or theft of a rental vehicle when the entire rental is reserved and paid for with the card and the rental company's collision damage waiver is declined.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage only; does not include liability coverage. Card does not include trip cancellation, trip delay, baggage, or emergency medical/evacuation insurance.",
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/view-all/hilton-honors",
+      "lastVerified": "2026-08-13"
+    },
+    {
+      "id": "amex-hilton-global-assist",
+      "name": "Global Assist Hotline",
+      "description": "24/7 emergency assistance and coordination services (medical/legal referrals, emergency cash wire assistance, missing luggage help) when traveling more than 100 miles from home.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Cardholder is responsible for the cost of any services rendered by third parties.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "lastVerified": "2026-08-13"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 7,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hilton_hotels"
+      ],
+      "terms": "Eligible purchases booked directly with participating Hilton hotels and resorts.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "groceries",
+        "gas_stations"
+      ],
+      "terms": "U.S. restaurants (including takeout/delivery), U.S. supermarkets, and U.S. gas stations.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-13",
     "sourceUrls": [
-      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+      "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "https://global.americanexpress.com/card-benefits/view-all/hilton-honors"
     ],
     "updatedBy": "agent"
   },

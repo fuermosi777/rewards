@@ -10,11 +10,54 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "amex-lowes-biz-discount",
+      "name": "Lowe's 5% Discount",
+      "description": "5% savings on eligible purchases at Lowe's, in-store and online at Lowes.com and LowesForPros.com, in addition to the card's cash back earning rate.",
+      "benefitType": "other",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Applies to eligible purchases at Lowe's (in-store, Lowes.com, LowesForPros.com). Automatic, no enrollment required.",
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/detail/five-percent-off/lowes-business-rewards",
+      "lastVerified": "2026-08-13"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "lowes"
+      ],
+      "terms": "Ongoing rate at Lowe's after the introductory 5% first-6-months welcome rate for new accounts.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining",
+        "office_supplies",
+        "wireless_service"
+      ],
+      "terms": "U.S. restaurants, U.S. office supply stores, and wireless telephone services purchased directly from U.S. service providers.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-13",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/",
+      "https://global.americanexpress.com/card-benefits/detail/five-percent-off/lowes-business-rewards"
     ],
     "updatedBy": "agent"
   },
