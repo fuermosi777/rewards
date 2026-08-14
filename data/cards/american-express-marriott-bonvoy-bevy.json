@@ -10,11 +10,162 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "bevy-gold-elite-status",
+      "name": "Marriott Bonvoy Gold Elite Status",
+      "description": "Complimentary Marriott Bonvoy Gold Elite status.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic with cardmembership by linking a Marriott Bonvoy account.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+      "lastVerified": "2026-08-14"
+    },
+    {
+      "id": "bevy-elite-night-credits",
+      "name": "Annual Elite Night Credits",
+      "description": "15 Elite Night Credits toward Marriott Bonvoy elite status tiers each calendar year.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Credits count toward Marriott Bonvoy elite status thresholds; stackable with nights credited from stays.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+      "lastVerified": "2026-08-14"
+    },
+    {
+      "id": "bevy-free-night-award",
+      "name": "Annual Free Night Award",
+      "description": "One Free Night Award, redeemable for a night at a Marriott Bonvoy property with a redemption level at or under 50,000 points, after spending $15,000 on the card in a calendar year.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 50000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Requires $15,000 in eligible purchases within the calendar year. Can be topped up with up to 25,000 of the cardholder's own points for a higher-category redemption.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+      "lastVerified": "2026-08-14"
+    },
+    {
+      "id": "bevy-stay-bonus-points",
+      "name": "Bonus Points per Paid Stay",
+      "description": "1,000 bonus Marriott Bonvoy points per paid eligible stay booked directly with Marriott at participating properties.",
+      "benefitType": "bonus_category",
+      "category": "hotel",
+      "bonusCategoryDetail": {
+        "multiplier": 1000,
+        "rewardUnit": "points",
+        "eligibleCategories": [
+          "marriott_hotels"
+        ]
+      },
+      "terms": "Flat per-stay bonus, not a percentage multiplier. Requires direct booking with Marriott at a Marriott Bonvoy participating property.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+      "lastVerified": "2026-08-14"
+    },
+    {
+      "id": "bevy-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against accidental damage or theft for 90 days.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-bevy-american-express-card-review",
+      "lastVerified": "2026-08-14"
+    },
+    {
+      "id": "bevy-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 5 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-bevy-american-express-card-review",
+      "lastVerified": "2026-08-14"
+    },
+    {
+      "id": "bevy-trip-delay-insurance",
+      "name": "Trip Delay Insurance",
+      "description": "Reimbursement for reasonable expenses when a covered trip is delayed 12+ hours.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-bevy-american-express-card-review",
+      "lastVerified": "2026-08-14"
+    },
+    {
+      "id": "bevy-baggage-insurance",
+      "name": "Baggage Insurance Plan",
+      "description": "Coverage for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-bevy-american-express-card-review",
+      "lastVerified": "2026-08-14"
+    },
+    {
+      "id": "bevy-car-rental-loss-damage",
+      "name": "Car Rental Loss & Damage Insurance",
+      "description": "Secondary coverage for damage or theft of most rental vehicles.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage (not primary).",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-bevy-american-express-card-review",
+      "lastVerified": "2026-08-14"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "marriott_hotels"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "grocery_stores"
+      ],
+      "spendCap": {
+        "amount": 15000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "Restaurants worldwide and U.S. supermarkets, on up to $15,000 in combined purchases per calendar year, then 2x.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-14",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/"
+      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+      "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-bevy-american-express-card-review"
     ],
     "updatedBy": "agent"
   },
