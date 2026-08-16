@@ -10,11 +10,91 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "hha-silver-status",
+      "name": "Complimentary Hilton Honors Silver Status",
+      "description": "Automatic Hilton Honors Silver elite status, including a 20% bonus on base points earned and fifth night free on award stays of 5+ nights.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": false,
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "membership_year"
+      },
+      "terms": "20% bonus on base points earned on stays; fifth night free when redeeming points for an award stay of 5 or more nights.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/american-express/hilton-honors-amex-card/",
+      "lastVerified": "2026-08-16"
+    },
+    {
+      "id": "hha-gold-status-spend-threshold",
+      "name": "Hilton Honors Gold Status via Card Spend",
+      "description": "Upgrade to Hilton Honors Gold status after spending $20,000 on eligible purchases on the card in a calendar year. Gold status includes complimentary breakfast and/or executive lounge access, late check-out, preferred room assignments, and an 80% bonus on base points.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires $20,000 in eligible purchases in a calendar year.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/american-express/hilton-honors-amex-card/",
+      "lastVerified": "2026-08-16"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 7,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hotel"
+      ],
+      "terms": "Eligible purchases charged directly with hotels/resorts within the Hilton portfolio.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/american-express/hilton-honors-amex-card/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "U.S. restaurants.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/american-express/hilton-honors-amex-card/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "grocery_stores"
+      ],
+      "terms": "U.S. supermarkets.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/american-express/hilton-honors-amex-card/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations"
+      ],
+      "terms": "U.S. gas stations.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/american-express/hilton-honors-amex-card/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/american-express/hilton-honors-amex-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-16",
     "sourceUrls": [
-      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+      "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "https://onemileatatime.com/reviews/credit-cards/american-express/hilton-honors-amex-card/"
     ],
     "updatedBy": "agent"
   },

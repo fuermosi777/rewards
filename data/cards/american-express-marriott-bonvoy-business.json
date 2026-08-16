@@ -10,11 +10,178 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "bizmar-gold-elite-status",
+      "name": "Complimentary Marriott Bonvoy Gold Elite Status",
+      "description": "Automatic Marriott Bonvoy Gold Elite status, including a 25% bonus on points earned on eligible stays, late checkout, premium internet, and room upgrades (subject to availability).",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "membership_year"
+      },
+      "terms": "25% bonus on base points earned on eligible stays. Room upgrades and other Gold perks subject to availability.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review",
+      "lastVerified": "2026-08-16"
+    },
+    {
+      "id": "bizmar-elite-night-credits",
+      "name": "15 Elite Night Credits",
+      "description": "15 Elite Night Credits toward Marriott Bonvoy elite status each calendar year, stackable with nights earned from actual stays.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review",
+      "lastVerified": "2026-08-16"
+    },
+    {
+      "id": "bizmar-anniversary-free-night",
+      "name": "Anniversary Free Night Award",
+      "description": "1 Free Night Award, redeemable at a participating hotel with a redemption level at or under 35,000 Marriott Bonvoy points, issued each year on the card's account anniversary.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 35000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Issued automatically each year on the account anniversary, not spend-based. Can be topped up with up to 25,000 additional personal points for a higher-category property. Certain hotels charge resort fees not covered by the award.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review",
+      "lastVerified": "2026-08-16"
+    },
+    {
+      "id": "bizmar-spend-free-night",
+      "name": "Spend-Based Free Night Award",
+      "description": "An additional Free Night Award (redemption level at or under 35,000 Marriott Bonvoy points) after spending $60,000 on eligible purchases on the card in a calendar year.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 35000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Requires $60,000 in eligible purchases in a calendar year. Can be topped up with up to 25,000 additional personal points for a higher-category property.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review",
+      "lastVerified": "2026-08-16"
+    },
+    {
+      "id": "bizmar-direct-booking-discount",
+      "name": "7% Discount on Direct Bookings",
+      "description": "A 7% discount on eligible standard room bookings made directly with Marriott through an eligible channel under the Amex Business Card Rate, for participating properties.",
+      "benefitType": "other",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Applies only to participating properties booked directly with Marriott under the Amex Business Card Rate.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review",
+      "lastVerified": "2026-08-16"
+    },
+    {
+      "id": "bizmar-car-rental-insurance",
+      "name": "Car Rental Loss and Damage Insurance",
+      "description": "Coverage for damage or theft on most rental cars when the rental is paid for with the card and the rental company's collision damage waiver is declined.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review",
+      "lastVerified": "2026-08-16"
+    },
+    {
+      "id": "bizmar-baggage-insurance",
+      "name": "Baggage Insurance Plan",
+      "description": "Coverage for lost, damaged, or stolen checked and carry-on bags on trips paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review",
+      "lastVerified": "2026-08-16"
+    },
+    {
+      "id": "bizmar-global-assist",
+      "name": "Global Assist Hotline",
+      "description": "24/7 access to the Global Assist Hotline for medical, legal, financial, or other emergency coordination assistance when traveling more than 100 miles from home.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Assistance and referral services; cardholder is responsible for the cost of any services rendered.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review",
+      "lastVerified": "2026-08-16"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hotel"
+      ],
+      "terms": "Eligible purchases at participating Marriott Bonvoy hotels.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Restaurants worldwide.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations"
+      ],
+      "terms": "U.S. gas stations.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "wireless"
+      ],
+      "terms": "Wireless telephone services purchased directly from U.S. service providers.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "shipping"
+      ],
+      "terms": "U.S. purchases for shipping.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-16",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "https://thepointsguy.com/credit-cards/reviews/marriott-bonvoy-business-amex-credit-card-review"
     ],
     "updatedBy": "agent"
   },
