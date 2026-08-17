@@ -10,23 +10,169 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "brilliant-dining-credit",
+      "name": "Dining Credit",
+      "description": "Monthly statement credit for eligible purchases at restaurants worldwide.",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 25,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "restaurants worldwide"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $25/month ($300/year total). Unused monthly amounts do not roll over.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "brilliant-platinum-elite-status",
+      "name": "Marriott Bonvoy Platinum Elite Status",
+      "description": "Complimentary Marriott Bonvoy Platinum Elite status.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic with card membership; requires linking a Marriott Bonvoy account.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "brilliant-elite-night-credits",
+      "name": "25 Elite Night Credits",
+      "description": "25 Elite Night Credits toward the next level of Marriott Bonvoy Elite status each calendar year.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "brilliant-free-night-award",
+      "name": "Annual Free Night Award",
+      "description": "1 Free Night Award (redemption level at or under 85,000 Marriott Bonvoy points) every year after card renewal.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 85000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Resort fees may apply.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "brilliant-priority-pass",
+      "name": "Priority Pass Select Membership",
+      "description": "Complimentary Priority Pass Select membership with access for the cardholder and up to two guests to participating airport lounges.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "isOneTime": true,
+      "loungeAccessDetail": {
+        "networks": [
+          "Priority Pass"
+        ],
+        "guestPolicy": "Cardholder plus up to two guests at no charge."
+      },
+      "terms": "Requires separate enrollment through Amex.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "brilliant-trip-cancellation-interruption",
+      "name": "Trip Cancellation Insurance",
+      "description": "Reimbursement up to $10,000 per covered trip for prepaid, non-refundable travel expenses, with zero deductible.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/detail/car-rental-insurance/marriott-bonvoy-brilliant",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "brilliant-trip-delay-insurance",
+      "name": "Trip Delay Insurance",
+      "description": "Reimbursement up to $500 per covered trip delayed more than 6 hours, up to 2 claims per 12-month period.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/detail/car-rental-insurance/marriott-bonvoy-brilliant",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "brilliant-baggage-insurance",
+      "name": "Baggage Insurance",
+      "description": "Combined limit of $3,000 per covered trip ($2,000 checked, $1,000 carry-on) for lost, damaged, or stolen baggage; high-value items subject to a combined $500 sub-limit.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/detail/car-rental-insurance/marriott-bonvoy-brilliant",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "brilliant-car-rental-insurance",
+      "name": "Car Rental Loss and Damage Insurance",
+      "description": "Secondary coverage for damage or theft of most rental vehicles up to $50,000, for rentals up to 30 days.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage (your personal auto insurance pays first). Decline the rental company's own coverage and pay for the entire rental with the card.",
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/detail/car-rental-insurance/marriott-bonvoy-brilliant",
+      "lastVerified": "2026-08-17"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "marriott_bonvoy_hotels"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "flights"
+      ],
+      "terms": "Restaurants worldwide and flights booked directly with airlines.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-17",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/"
+      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
+      "https://global.americanexpress.com/card-benefits/detail/car-rental-insurance/marriott-bonvoy-brilliant"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "$25/mo Dining Credit",
-        "value": 300,
-        "weight": 0.8
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/american-express-marriott-bonvoy-brilliant.png"
 }

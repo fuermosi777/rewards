@@ -10,11 +10,85 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "lowes-biz-car-rental-insurance",
+      "name": "Car Rental Loss and Damage Insurance",
+      "description": "Coverage for damage or theft of most rental vehicles when the rental is paid for with the card and the rental company's own coverage is declined.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/view-all/lowes-business-rewards",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "lowes-biz-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible purchases against theft or accidental damage for a limited period after purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/detail/purchase-protection/lowes-business-rewards",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "lowes-biz-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends the original manufacturer's warranty by up to one additional year on eligible purchases.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/view-all/lowes-business-rewards",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "lowes-biz-global-assist",
+      "name": "Global Assist Hotline",
+      "description": "24/7 emergency coordination and assistance (medical, legal, financial) when traveling more than 100 miles from home.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Assistance service; cardholder is responsible for costs of any medical, legal, or other services actually rendered.",
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/view-all/lowes-business-rewards",
+      "lastVerified": "2026-08-17"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "lowes"
+      ],
+      "terms": "Redeemed as Lowe's Business Rewards points, usable for statement credits or select gift cards.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining",
+        "office_supply_stores",
+        "wireless"
+      ],
+      "terms": "U.S. restaurants, U.S. office supply stores, and wireless telephone services purchased directly from U.S. service providers.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-17",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/",
+      "https://global.americanexpress.com/card-benefits/view-all/lowes-business-rewards"
     ],
     "updatedBy": "agent"
   },

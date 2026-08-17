@@ -10,11 +10,102 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "hilton-amex-silver-status",
+      "name": "Hilton Honors Silver Status",
+      "description": "Complimentary Hilton Honors Silver elite status, including a 20% bonus on base points earned and the fifth night free on standard room award stays booked with points.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic with card membership; no separate enrollment required beyond linking a Hilton Honors account.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/benefits/travel/resources/hilton-honors-base/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "hilton-amex-gold-status-spend",
+      "name": "Hilton Honors Gold Status via Spend",
+      "description": "Upgrade to Hilton Honors Gold status after spending $20,000 in eligible purchases on the card in a calendar year.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires $20,000 in eligible calendar-year spend on the card.",
+      "sourceUrl": "https://www.americanexpress.com/en-us/benefits/travel/resources/hilton-honors-base/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "hilton-amex-car-rental-insurance",
+      "name": "Car Rental Loss and Damage Insurance",
+      "description": "Secondary coverage for damage or theft of most rental vehicles, up to $50,000 per rental agreement, for rentals up to 30 consecutive days.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage (your personal auto insurance pays first). Excludes rentals in Australia, Italy, and New Zealand.",
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/detail/purchase-protection/hilton-honors",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "hilton-amex-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible purchases against theft or accidental damage for 90 days, up to $1,000 per purchase and $50,000 per card member account per calendar year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/detail/purchase-protection/hilton-honors",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "hilton-amex-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends the original U.S. manufacturer's warranty by up to one additional year on eligible purchases.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://global.americanexpress.com/card-benefits/detail/purchase-protection/hilton-honors",
+      "lastVerified": "2026-08-17"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 7,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hilton_portfolio"
+      ],
+      "terms": "Eligible purchases charged directly with a property within the Hilton portfolio.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "us_supermarkets",
+        "gas_stations"
+      ],
+      "terms": "U.S. restaurants (including takeout and delivery), U.S. supermarkets, and U.S. gas stations.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-17",
     "sourceUrls": [
-      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+      "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "https://www.americanexpress.com/en-us/benefits/travel/resources/hilton-honors-base/",
+      "https://global.americanexpress.com/card-benefits/detail/purchase-protection/hilton-honors"
     ],
     "updatedBy": "agent"
   },

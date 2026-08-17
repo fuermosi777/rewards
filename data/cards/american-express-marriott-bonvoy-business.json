@@ -10,9 +10,142 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "biz-free-night-award-annual",
+      "name": "Annual Free Night Award",
+      "description": "1 Free Night Award every year after card renewal month.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "freeNightAwardDetail": {
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Resort fees may apply.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "biz-free-night-award-spend",
+      "name": "Additional Free Night Award via Spend",
+      "description": "An additional Free Night Award after spending $60,000 in purchases on the card in a calendar year.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "freeNightAwardDetail": {
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Requires $60,000 in eligible calendar-year spend. Resort fees may apply.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "biz-elite-night-credits",
+      "name": "15 Elite Night Credits",
+      "description": "15 Elite Night Credits toward the next level of Marriott Bonvoy Elite status each calendar year.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "biz-booking-discount",
+      "name": "7% Discount on Eligible Bookings",
+      "description": "7% discount on eligible bookings when booking directly with Marriott, as a benefit of both Marriott Bonvoy membership and card membership.",
+      "benefitType": "other",
+      "category": "hotel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "biz-premium-internet",
+      "name": "Premium In-Room Internet Access",
+      "description": "Complimentary premium internet access at participating Marriott Bonvoy hotels.",
+      "benefitType": "other",
+      "category": "hotel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "biz-car-rental-insurance",
+      "name": "Car Rental Loss and Damage Insurance",
+      "description": "Coverage for damage or theft of most rental vehicles when the rental agency's own coverage is declined and the rental is paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "biz-baggage-insurance",
+      "name": "Baggage Insurance",
+      "description": "Coverage for lost, damaged, or stolen baggage while traveling on a common carrier.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "lastVerified": "2026-08-17"
+    },
+    {
+      "id": "biz-global-assist",
+      "name": "Global Assist Hotline",
+      "description": "24/7 emergency coordination and assistance (medical, legal, financial) when traveling more than 100 miles from home.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Assistance service; cardholder is responsible for costs of any medical, legal, or other services actually rendered.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/",
+      "lastVerified": "2026-08-17"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "marriott_bonvoy_hotels"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "gas_stations",
+        "wireless",
+        "shipping"
+      ],
+      "terms": "Restaurants worldwide, U.S. gas stations, wireless telephone services purchased directly from U.S. service providers, and U.S. purchases for shipping.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-17",
     "sourceUrls": [
       "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/amex-marriott-bonvoy-business-credit-card/"
     ],
