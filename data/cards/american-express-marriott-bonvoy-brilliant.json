@@ -10,23 +10,186 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "brilliant-dining-credit",
+      "name": "Brilliant Dining Credit",
+      "description": "Monthly statement credit for eligible restaurant purchases worldwide.",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 25,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "restaurants worldwide"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $25/month ($300/year total). Unused monthly amounts do not roll over.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card",
+      "lastVerified": "2026-08-18"
+    },
+    {
+      "id": "brilliant-property-credit",
+      "name": "Marriott Bonvoy Property Credit",
+      "description": "Statement credit for qualifying charges at The Ritz-Carlton or St. Regis properties, booked directly with a two-night minimum stay.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "isOneTime": false,
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "The Ritz-Carlton",
+          "St. Regis"
+        ]
+      },
+      "terms": "Requires minimum 2-night prepaid/direct-booked stay at a qualifying rate. No single renewalPeriod fits — applies per qualifying booking.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card",
+      "lastVerified": "2026-08-18"
+    },
+    {
+      "id": "brilliant-global-entry-tsa",
+      "name": "Global Entry or TSA PreCheck Credit",
+      "description": "Statement credit for a Global Entry (every 4 years) or TSA PreCheck application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
+      },
+      "terms": "Global Entry credit up to $120 (4-year cycle); TSA PreCheck credit up to $85 (5-year cycle). Modeled here on the Global Entry cadence.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card",
+      "lastVerified": "2026-08-18"
+    },
+    {
+      "id": "brilliant-free-night-award",
+      "name": "Annual Free Night Award",
+      "description": "One Free Night Award after card renewal each year, usable at hotels participating in Marriott Bonvoy with a redemption level at or under 85,000 points.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 85000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Resort fees may still apply.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card",
+      "lastVerified": "2026-08-18"
+    },
+    {
+      "id": "brilliant-marriott-platinum-status",
+      "name": "Marriott Bonvoy Platinum Elite Status",
+      "description": "Complimentary Marriott Bonvoy Platinum Elite status.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic by linking a Marriott Bonvoy account.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card",
+      "lastVerified": "2026-08-18"
+    },
+    {
+      "id": "brilliant-elite-night-credits",
+      "name": "25 Elite Night Credits",
+      "description": "25 Elite Night Credits toward the next level of Marriott Bonvoy Elite status, granted each calendar year.",
+      "benefitType": "other",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card",
+      "lastVerified": "2026-08-18"
+    },
+    {
+      "id": "brilliant-lounge-access",
+      "name": "Priority Pass Select Membership",
+      "description": "Unlimited complimentary visits to over 1,300 airport lounges worldwide via Priority Pass Select.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "isOneTime": true,
+      "loungeAccessDetail": {
+        "networks": [
+          "Priority Pass Select"
+        ]
+      },
+      "terms": "Requires separate enrollment through Amex.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card",
+      "lastVerified": "2026-08-18"
+    },
+    {
+      "id": "brilliant-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement for prepaid, non-refundable travel expenses when a covered trip is cancelled or interrupted.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card",
+      "lastVerified": "2026-08-18"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "marriott_hotels"
+      ],
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Restaurants worldwide.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "flights"
+      ],
+      "terms": "Flights booked directly with airlines.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-18",
     "sourceUrls": [
+      "https://www.dailydrop.com/credit-cards/marriott-bonvoy-brilliant-american-express-card",
       "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "$25/mo Dining Credit",
-        "value": 300,
-        "weight": 0.8
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/american-express-marriott-bonvoy-brilliant.png"
 }

@@ -10,11 +10,70 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amex-hilton-silver-status",
+      "name": "Hilton Honors Silver Status",
+      "description": "Complimentary Hilton Honors Silver elite status, including a 20% points bonus on stays and fifth-night-free on award stays of 4+ nights.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic upon card approval by linking a Hilton Honors account. No enrollment fee.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/american-express/hilton-honors-amex-card/",
+      "lastVerified": "2026-08-18"
+    },
+    {
+      "id": "amex-hilton-gold-spend-status",
+      "name": "Hilton Honors Gold Status via Spend Threshold",
+      "description": "Complimentary upgrade to Hilton Honors Gold status after $20,000 in eligible purchases on the card in a calendar year, including complimentary breakfast and/or executive lounge access, room upgrades when available, and an 80% points bonus on stays.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires $20,000 in eligible purchases within the calendar year to earn Gold status.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/american-express/hilton-honors-amex-card/",
+      "lastVerified": "2026-08-18"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 7,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hilton_hotels"
+      ],
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/hilton-honors-american-express-card"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "grocery_stores",
+        "gas_stations"
+      ],
+      "terms": "U.S. restaurants (including takeout/delivery), U.S. supermarkets, and U.S. gas stations.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/hilton-honors-american-express-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/hilton-honors-american-express-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-18",
     "sourceUrls": [
-      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+      "https://www.dailydrop.com/credit-cards/hilton-honors-american-express-card",
+      "https://onemileatatime.com/reviews/credit-cards/american-express/hilton-honors-amex-card/",
+      "https://www.firstcard.app/learn/hilton-honors-amex-benefits"
     ],
     "updatedBy": "agent"
   },

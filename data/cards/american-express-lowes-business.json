@@ -9,12 +9,14 @@
     "currency": "USD",
     "waivedFirstYear": false
   },
-  "status": "active",
+  "status": "discontinued",
+  "discontinuedDate": "2026-04-30",
   "benefits": [],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-18",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+      "https://www.synchrony.com/contenthub/newsroom/synchrony-expands-partnership-with-lowes.html",
+      "https://investors.synchrony.com/news-events/financial-news/detail/571/synchrony-expands-partnership-with-lowes-as-new-issuer-of-co-brand-credit-card-for-home-improvement-professionals"
     ],
     "updatedBy": "agent"
   },
