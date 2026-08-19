@@ -10,11 +10,106 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amex-bevy-free-night-award",
+      "name": "Annual Free Night Award",
+      "description": "A Free Night Award (redeemable at properties valued at or under 50,000 Marriott Bonvoy points) earned after reaching an annual spend threshold.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 50000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Earned after spending $15,000 on eligible purchases in a calendar year. Redeemable at participating hotels at or under a 50,000-point redemption level (plus any required cash co-pay for higher-value stays).",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card",
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "amex-bevy-gold-elite-status",
+      "name": "Marriott Bonvoy Gold Elite Status",
+      "description": "Complimentary Marriott Bonvoy Gold Elite status.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic upon card membership by linking a Marriott Bonvoy account.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card",
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "amex-bevy-elite-night-credits",
+      "name": "Elite Night Credits",
+      "description": "Elite Night Credits toward the next level of Marriott Bonvoy Elite status, granted each calendar year.",
+      "benefitType": "other",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "15 Elite Night Credits per calendar year.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card",
+      "lastVerified": "2026-08-19"
+    },
+    {
+      "id": "amex-bevy-trip-delay-insurance",
+      "name": "Trip Delay Insurance",
+      "description": "Reimbursement up to $300 per trip for reasonable expenses when a covered trip is delayed, up to 2 claims per 12 months.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card",
+      "lastVerified": "2026-08-19"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hotel_marriott_bonvoy"
+      ],
+      "terms": "Eligible purchases at hotels participating in Marriott Bonvoy.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "us_supermarkets"
+      ],
+      "spendCap": {
+        "amount": 15000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "Restaurants worldwide and U.S. supermarkets, on up to $15,000 in combined purchases per calendar year, then 2x.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-19",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/"
+      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+      "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card"
     ],
     "updatedBy": "agent"
   },

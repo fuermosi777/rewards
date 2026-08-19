@@ -10,11 +10,55 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amex-hilton-honors-silver-status",
+      "name": "Hilton Honors Silver Status",
+      "description": "Complimentary Hilton Honors Silver elite status, including a 20% bonus on base points earned on stays and a fifth night free on standard room reward stays booked with points.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic upon card membership; no separate enrollment fee.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/hilton-honors-american-express-card",
+      "lastVerified": "2026-08-19"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 7,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hotel_direct_hilton"
+      ],
+      "terms": "Eligible purchases charged directly with a hotel or resort within the Hilton portfolio.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/hilton-honors-american-express-card"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "us_supermarkets",
+        "gas_stations"
+      ],
+      "terms": "U.S. restaurants (including takeout/delivery), U.S. supermarkets, and U.S. gas stations.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/hilton-honors-american-express-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/hilton-honors-american-express-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-19",
     "sourceUrls": [
-      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+      "https://www.hilton.com/en/hilton-honors/credit-cards/",
+      "https://www.dailydrop.com/credit-cards/hilton-honors-american-express-card"
     ],
     "updatedBy": "agent"
   },

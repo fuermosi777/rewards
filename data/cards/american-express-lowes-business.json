@@ -10,11 +10,43 @@
     "waivedFirstYear": false
   },
   "status": "active",
+  "foreignTransactionFee": true,
   "benefits": [],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "lowes"
+      ],
+      "terms": "2% cash back at Lowe's stores, Lowes.com, and LowesForPros.com (after any elevated new-cardmember introductory rate expires).",
+      "sourceUrl": "https://financebuzz.com/lowes-business-rewards-card-from-american-express-review"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining",
+        "office_supply_stores",
+        "wireless_telephone_services"
+      ],
+      "terms": "U.S. restaurants, U.S. office supply stores, and wireless telephone service purchases made directly from U.S. service providers.",
+      "sourceUrl": "https://financebuzz.com/lowes-business-rewards-card-from-american-express-review"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://financebuzz.com/lowes-business-rewards-card-from-american-express-review"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-19",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/",
+      "https://financebuzz.com/lowes-business-rewards-card-from-american-express-review"
     ],
     "updatedBy": "agent"
   },
