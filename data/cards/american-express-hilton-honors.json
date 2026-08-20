@@ -10,11 +10,103 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amex-hilton-silver-status",
+      "name": "Hilton Honors Silver Status",
+      "description": "Complimentary Hilton Honors Silver elite status, including a 20% points bonus on paid stays and fifth-night-free on standard room reward stays booked entirely with points.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic upon card membership; no separate enrollment required beyond linking a Hilton Honors account. Fifth-night-free applies to standard room award stays paid entirely with points, up to 4 free nights per stay.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "amex-hilton-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against accidental damage or theft for 90 days, up to $1,000 per incident.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "amex-hilton-extended-warranty",
+      "name": "Extended Warranty",
+      "description": "Extends eligible U.S. manufacturer warranties of 5 years or less by an additional year, up to $10,000 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "amex-hilton-car-rental-loss-damage",
+      "name": "Car Rental Loss & Damage Insurance",
+      "description": "Secondary coverage for damage or theft of most rental vehicles, up to $50,000.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage (not primary).",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "lastVerified": "2026-08-20"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 7,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hilton_hotels"
+      ],
+      "terms": "Eligible purchases charged directly with a hotel or resort within the Hilton portfolio.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "U.S. restaurants.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "online_groceries"
+      ],
+      "terms": "U.S. supermarkets.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations"
+      ],
+      "terms": "U.S. gas stations.",
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-20",
     "sourceUrls": [
-      "https://www.hilton.com/en/hilton-honors/credit-cards/"
+      "https://www.hilton.com/en/hilton-honors/credit-cards/",
+      "https://www.americanexpress.com/us/credit-cards/card/hilton-honors/",
+      "https://upgradedpoints.com/credit-cards/american-express-hilton-honors-credit-cards/"
     ],
     "updatedBy": "agent"
   },

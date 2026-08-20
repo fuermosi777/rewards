@@ -10,23 +10,169 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amex-brilliant-dining-credit",
+      "name": "Dining Credit",
+      "description": "Monthly statement credit for eligible purchases at restaurants worldwide.",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 25,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "restaurants worldwide"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $25/month ($300/year total). Unused monthly amounts do not roll over.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-brilliant-american-express-card/",
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "amex-brilliant-priority-pass",
+      "name": "Priority Pass Select Membership",
+      "description": "Complimentary Priority Pass Select membership, providing access to over 1,300 airport lounges worldwide.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "isOneTime": true,
+      "loungeAccessDetail": {
+        "networks": [
+          "Priority Pass"
+        ]
+      },
+      "terms": "Requires separate enrollment through Amex.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-brilliant-american-express-card/",
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "amex-brilliant-platinum-elite",
+      "name": "Marriott Bonvoy Platinum Elite Status",
+      "description": "Complimentary Marriott Bonvoy Platinum Elite status, including a 50% points bonus on eligible hotel purchases and enhanced room upgrades.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic upon linking a Marriott Bonvoy account.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-brilliant-american-express-card/",
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "amex-brilliant-elite-night-credits",
+      "name": "25 Elite Night Credits",
+      "description": "25 Elite Night Credits each calendar year toward the next level of Marriott Bonvoy Elite status.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Automatic, no enrollment required. Cannot be redeemed directly as free nights.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-brilliant-american-express-card/",
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "amex-brilliant-free-night-award",
+      "name": "Annual Free Night Award",
+      "description": "One Free Night Award every year after card renewal, usable at hotels with a redemption level at or under 85,000 Marriott Bonvoy points.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 85000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Awarded automatically each year after card renewal month; certificate can typically be topped off with cash for higher-value redemptions.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-brilliant-american-express-card/",
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "amex-brilliant-global-entry-tsa",
+      "name": "Global Entry or TSA PreCheck Credit",
+      "description": "Statement credit for a Global Entry (every 4 years) or TSA PreCheck (5-year membership) application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
+      },
+      "terms": "Global Entry credit is up to $120 (~4-year cycle); TSA PreCheck credit is up to $85 (5-year cycle). Modeled here on the Global Entry cadence; verify against the actual chosen program's renewal date for a given cardholder.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-brilliant-american-express-card/",
+      "lastVerified": "2026-08-20"
+    },
+    {
+      "id": "amex-brilliant-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement for prepaid, non-refundable travel expenses when a covered trip is cancelled or interrupted.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-brilliant-american-express-card/",
+      "lastVerified": "2026-08-20"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "marriott_hotels"
+      ],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-brilliant-american-express-card/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Restaurants worldwide.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-brilliant-american-express-card/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "flights"
+      ],
+      "terms": "Flights booked directly with airlines.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-brilliant-american-express-card/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-brilliant-american-express-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-20",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/"
+      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-brilliant/",
+      "https://upgradedpoints.com/credit-cards/reviews/marriott-bonvoy-brilliant-american-express-card/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "$25/mo Dining Credit",
-        "value": 300,
-        "weight": 0.8
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/american-express-marriott-bonvoy-brilliant.png"
 }

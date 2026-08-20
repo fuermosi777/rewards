@@ -9,12 +9,14 @@
     "currency": "USD",
     "waivedFirstYear": false
   },
-  "status": "active",
+  "status": "discontinued",
+  "discontinuedDate": "2026-04-09",
   "benefits": [],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-20",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+      "https://www.americanexpress.com/us/customer-service/faq.program-update.html",
+      "https://www.nav.com/business-credit-card/reviews/lowes-business-card-review/"
     ],
     "updatedBy": "agent"
   },
