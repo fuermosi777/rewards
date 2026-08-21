@@ -10,11 +10,91 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amex-bevy-free-night-award",
+      "name": "Annual Free Night Award",
+      "description": "One Free Night Award, redeemable at a Marriott Bonvoy hotel with a redemption level at or under 50,000 points, earned after $15,000 in eligible purchases in a calendar year.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 50000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Requires $15,000 in eligible purchases on the card within the calendar year.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card",
+      "lastVerified": "2026-08-21"
+    },
+    {
+      "id": "amex-bevy-gold-elite-status",
+      "name": "Marriott Bonvoy Gold Elite Status",
+      "description": "Complimentary Marriott Bonvoy Gold Elite status, plus 15 Elite Night Credits toward the next elite tier each calendar year.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic with cardmembership; requires a linked Marriott Bonvoy account. 15 Elite Night Credits awarded each calendar year.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card",
+      "lastVerified": "2026-08-21"
+    },
+    {
+      "id": "amex-bevy-trip-delay-insurance",
+      "name": "Trip Delay Insurance",
+      "description": "Reimbursement up to $300 per trip for reasonable expenses when a covered trip is delayed, up to 2 claims per year.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card",
+      "lastVerified": "2026-08-21"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "marriott_hotels"
+      ],
+      "terms": "Base card rate at hotels participating in Marriott Bonvoy; combined with member and elite bonuses this can reach up to 18.5X.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "us_supermarkets"
+      ],
+      "spendCap": {
+        "amount": 15000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "Restaurants worldwide and U.S. supermarkets, on up to $15,000 in combined purchases per calendar year, then 2X.",
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-21",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/"
+      "https://www.americanexpress.com/us/credit-cards/card/marriott-bonvoy-bevy/",
+      "https://www.dailydrop.com/credit-cards/marriott-bonvoy-bevy-american-express-card"
     ],
     "updatedBy": "agent"
   },
