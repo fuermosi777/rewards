@@ -14,8 +14,9 @@ After the batch:
 1. Run `npm run validate` — fix any failures before proceeding.
 2. Create a new branch named `daily-update-YYYY-MM-DD` (today's date).
 3. Commit with a message summarizing which cards were filled and which were skipped (and why).
-4. Push the branch and open a PR against `main` using `gh pr create`. Do NOT merge it yourself — a human reviews and merges.
-5. Report back: which cards were filled, which were skipped and why, and the PR URL.
+4. Push the branch and open a PR against `main` using `gh pr create`.
+5. Wait for the `validate` check on the PR to complete (`gh pr checks --watch`). If it passes, merge it yourself with `gh pr merge --merge --delete-branch` — this pipeline runs unattended daily, and an unmerged PR blocks `next-batch.js` from ever advancing past today's cards (the next run would just regenerate the same batch). If the check fails, do not merge; leave the PR open and report the failure instead.
+6. Report back: which cards were filled, which were skipped and why, and the PR URL (merged or, if validate failed, left open for a human).
 
 Hard rules (from AGENTS.md, repeated here since this runs unattended):
 - Never guess an issuer, card name, or benefit term.

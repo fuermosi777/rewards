@@ -65,7 +65,7 @@ This is the bigger, slower-moving task — most cards currently have `benefits: 
 
 ## Output: always a PR, never a direct commit to main
 
-Every agent-driven change — bonus refresh or benefit fill-in — goes out as a pull request, not a direct commit to the main branch. A human reviews the diff (especially source URLs and the actual benefit terms) before merging. This project would rather move slower than silently ship a misread benefit term into what people use to track real money.
+Every agent-driven change — bonus refresh or benefit fill-in — goes out as a pull request, not a direct commit to the main branch. `npm run validate` on the PR is the hard gate: for the daily benefit fill-in pass (standing task 2), the agent merges its own PR once that check passes (see `scripts/daily-update-prompt.md` and `scripts/README.md`'s "Why auto-merge" — an unmerged PR blocks `next-batch.js` from ever advancing, which is what happened for two weeks straight before this was changed). If validate fails, the agent leaves the PR open for a human instead of merging. This project would rather move slower than silently ship a misread benefit term into what people use to track real money — that's what the validate gate and cited sources are for, not a human merge click.
 
 PR description should include, per changed card: what changed, and the source URL(s) used to confirm it.
 

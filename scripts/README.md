@@ -46,8 +46,8 @@ This assumes: the repo is cloned locally, `claude` CLI is installed and logged i
 1. `daily-update.sh` refuses to run if the working tree isn't clean (protects any in-progress manual work) or if `git pull --ff-only` isn't possible.
 2. It computes how many cards are still unfilled via `next-batch.js`. If zero, it exits — nothing to do.
 3. It invokes `claude -p` with `scripts/daily-update-prompt.md` as the prompt, `--permission-mode acceptEdits` (auto-accepts file edits, still no blanket bypass), and a tool allowlist scoped to reading/writing files, git, npm, gh, and web research — no unrestricted shell access.
-4. Per `daily-update-prompt.md` (which mirrors AGENTS.md), the agent fills in a batch of 5 cards, validates, and **opens a PR — it never merges or pushes to `main` directly.**
-5. You review and merge the PR yourself, on your own schedule. The next day's run pulls `main` fresh, so it picks up whatever you did or didn't merge.
+4. Per `daily-update-prompt.md` (which mirrors AGENTS.md), the agent fills in a batch of 5 cards, validates, opens a PR, waits for the `validate` CI check, and **merges it itself if that check passes** (`gh pr merge --merge --delete-branch`). If the check fails, it leaves the PR open for a human instead of merging.
+5. The next day's run pulls `main` fresh, so it always picks up the *next* unfilled batch — this only works if yesterday's PR actually merged, which is why the agent merges its own passing PRs rather than waiting on a human (see "Why auto-merge" below for what happens if this step is skipped).
 
 ## Adjusting batch size / cadence
 
@@ -57,4 +57,8 @@ This assumes: the repo is cloned locally, `claude` CLI is installed and logged i
 
 ## Why PRs, not direct commits, even though this runs unattended
 
-Benefit terms are exactly the kind of data where a confidently-wrong write is worse than no write — a user could rely on incorrect data and miss a real benefit, or plan around one that doesn't exist. Keeping a human merge step in the loop, even for a fully automated daily job, is a deliberate choice — see AGENTS.md's "Output: always a PR" section.
+Benefit terms are exactly the kind of data where a confidently-wrong write is worse than no write — a user could rely on incorrect data and miss a real benefit, or plan around one that doesn't exist. Going through a PR (rather than committing straight to `main`) keeps `npm run validate` as a hard gate and the full diff visible/revertable, even though merging itself is now automatic — see AGENTS.md's "Output: always a PR" section.
+
+## Why auto-merge
+
+This job used to leave every PR open for a human to merge. In practice nobody merged them for two weeks straight (2026-08-08 through 2026-08-21), so `main` never advanced and `next-batch.js` kept handing every day's run the *same* 5 unfilled cards — 14 PRs independently reinventing benefit data for the same 5 cards instead of 70 cards getting filled. Since `next-batch.js` derives "next batch" purely from what's already merged into `main`, an unmerged PR silently blocks all future progress. The agent now merges its own PR immediately after the `validate` check passes, and only leaves a PR open (for a human) when that check fails.
