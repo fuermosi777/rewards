@@ -10,11 +10,61 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "amex-lowes-biz-intro-lowes-rate",
+      "name": "Introductory 5% Cash Back at Lowe's",
+      "description": "Elevated 5% cash back on purchases at Lowe's for new cardmembers during the first 6 months of card membership, before reverting to the standard 2% rate.",
+      "benefitType": "bonus_category",
+      "category": "shopping",
+      "bonusCategoryDetail": {
+        "multiplier": 5,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "lowes"
+        ]
+      },
+      "terms": "Applies only to new accounts, for the first 6 months from account opening. Reverts to 2% cash back at Lowe's thereafter.",
+      "sourceUrl": "https://financebuzz.com/lowes-business-rewards-card-from-american-express-review",
+      "lastVerified": "2026-08-21"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "lowes"
+      ],
+      "terms": "Purchases at Lowe's stores and Lowes.com, after the first-6-months introductory 5% rate expires.",
+      "sourceUrl": "https://financebuzz.com/lowes-business-rewards-card-from-american-express-review"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining",
+        "office_supply_stores",
+        "wireless"
+      ],
+      "terms": "U.S. restaurants, U.S. office supply stores, and wireless telephone services purchased directly from U.S. service providers.",
+      "sourceUrl": "https://financebuzz.com/lowes-business-rewards-card-from-american-express-review"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://financebuzz.com/lowes-business-rewards-card-from-american-express-review"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-21",
     "sourceUrls": [
-      "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/lowes-credit-cards/"
+      "https://financebuzz.com/lowes-business-rewards-card-from-american-express-review",
+      "https://upgradedpoints.com/credit-cards/reviews/amex-lowes-business-rewards/"
     ],
     "updatedBy": "agent"
   },
