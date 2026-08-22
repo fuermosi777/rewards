@@ -10,98 +10,425 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amex-plat-schwab-fhr-credit",
+      "name": "Fine Hotels + Resorts Credit",
+      "description": "Statement credit toward prepaid Fine Hotels + Resorts bookings made through American Express Travel.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 300,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Fine Hotels + Resorts via Amex Travel"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $300 per half-year period ($600/year total). Prepaid bookings only, through American Express Travel. No enrollment required.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-airline-fee-credit",
+      "name": "Airline Fee Credit",
+      "description": "Statement credit for incidental fees (checked bags, seat selection, in-flight refreshments, etc.) on one airline selected annually.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 200,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "one selected qualifying airline"
+        ]
+      },
+      "terms": "Must select one qualifying airline per calendar year via the Amex account. Covers incidental fees only, not the cost of the ticket itself.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-uber-cash",
+      "name": "Uber Cash",
+      "description": "Monthly Uber Cash credit for U.S. Uber rides and Uber Eats orders, with a bonus in December.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 15,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Uber",
+          "Uber Eats"
+        ],
+        "splitEligible": true
+      },
+      "terms": "$15/month ($35 in December per current terms) = $200/year total. U.S. only. Must add the card to the Uber account as a payment method. Unused monthly amounts do not roll over.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-uber-one",
+      "name": "Uber One Membership Credit",
+      "description": "Statement credit covering an Uber One auto-renewing membership.",
+      "benefitType": "membership",
+      "category": "transportation",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Uber One"
+        ]
+      },
+      "terms": "Enrollment required. Covers an auto-renewing Uber One membership only.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-clear",
+      "name": "CLEAR+ Credit",
+      "description": "Statement credit covering a CLEAR Plus auto-renewing membership for expedited airport security.",
+      "benefitType": "membership",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 219,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "CLEAR Plus"
+        ]
+      },
+      "terms": "Enrollment required. Auto-renewing membership only.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-resy-credit",
+      "name": "Resy Dining Credit",
+      "description": "Quarterly statement credit for dining at participating U.S. Resy restaurants.",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "participating U.S. Resy restaurants"
+        ]
+      },
+      "terms": "Up to $100 per quarter ($400/year total). Enrollment required.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-digital-entertainment-credit",
+      "name": "Digital Entertainment Credit",
+      "description": "Monthly statement credit for eligible streaming/media subscriptions.",
+      "benefitType": "statement_credit",
+      "category": "streaming",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 25,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Disney+",
+          "ESPN+",
+          "Hulu",
+          "The New York Times",
+          "Paramount+",
+          "Peacock",
+          "Wall Street Journal",
+          "YouTube Premium",
+          "YouTube TV"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $25/month ($300/year total). Enrollment required. Unused monthly amounts do not roll over.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-lululemon-credit",
+      "name": "Lululemon Credit",
+      "description": "Quarterly statement credit for lululemon purchases.",
+      "benefitType": "statement_credit",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 75,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "lululemon U.S. stores (excluding outlets)",
+          "lululemon.com"
+        ]
+      },
+      "terms": "Up to $75 per quarter ($300/year total). Enrollment required. Excludes outlet locations.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-walmart-plus-credit",
+      "name": "Walmart+ Membership Credit",
+      "description": "Monthly statement credit covering a Walmart+ auto-renewing membership.",
+      "benefitType": "membership",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 12.95,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Walmart+"
+        ]
+      },
+      "terms": "Enrollment required. Covers the monthly Walmart+ membership fee.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-oura-ring-credit",
+      "name": "Oura Ring Credit",
+      "description": "Annual statement credit for an Oura Ring purchased directly from Ouraring.com.",
+      "benefitType": "statement_credit",
+      "category": "wellness",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 200,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Ouraring.com"
+        ]
+      },
+      "terms": "Enrollment required. Valid only for the ring itself purchased at Ouraring.com — not the Oura membership subscription, gift cards, accessories, or third-party retailers/marketplaces.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-equinox-credit",
+      "name": "Equinox Credit",
+      "description": "Annual statement credit toward Equinox memberships, including Equinox+.",
+      "benefitType": "statement_credit",
+      "category": "wellness",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 300,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Equinox",
+          "Equinox+"
+        ]
+      },
+      "terms": "Enrollment required. Resets on the calendar year (Jan 1), not card anniversary.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-saks-credit",
+      "name": "Saks Fifth Avenue Credit",
+      "description": "Statement credit for qualifying purchases at Saks Fifth Avenue, in stores or online.",
+      "benefitType": "statement_credit",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Saks Fifth Avenue"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $50 per half-year period ($100/year total). Enrollment required.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-global-entry-tsa",
+      "name": "Global Entry or TSA PreCheck Credit",
+      "description": "Statement credit for a Global Entry (every 4 years) or TSA PreCheck (5-year membership) application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
+      },
+      "terms": "Global Entry credit is up to $120 (renews on ~4-year cycle); TSA PreCheck credit is up to $85 (5-year cycle). Enrollment required.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-lounge-access",
+      "name": "Global Lounge Collection",
+      "description": "Access to over 1,550 airport lounges worldwide, including Centurion Lounges, Priority Pass lounges, and 10 annual Delta Sky Club visits when flying Delta.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "isOneTime": true,
+      "loungeAccessDetail": {
+        "networks": [
+          "Centurion Lounge",
+          "Priority Pass",
+          "Delta Sky Club"
+        ],
+        "guestPolicy": "Varies by lounge network; Delta Sky Club limited to 10 visits/year and requires same-day Delta flight."
+      },
+      "terms": "Priority Pass requires separate enrollment through Amex. Delta Sky Club access requires flying on an eligible Delta-marketed/operated flight that day.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-marriott-gold",
+      "name": "Marriott Bonvoy Gold Elite Status",
+      "description": "Complimentary Marriott Bonvoy Gold Elite status, including space-available room upgrades.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Enrollment is automatic/complimentary via linking Marriott Bonvoy account.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-hilton-gold",
+      "name": "Hilton Honors Gold Status",
+      "description": "Complimentary Hilton Honors Gold status: room upgrades when available, 80% bonus points, food/beverage credits at eligible properties, 5th night free on award stays.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Complimentary enrollment required by linking a Hilton Honors account.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-car-rental-status",
+      "name": "Car Rental Elite Status",
+      "description": "Complimentary elite/premium status with Avis, Hertz, and National.",
+      "benefitType": "elite_status",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Enrollment required through the American Express account.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "amex-plat-schwab-appreciation-bonus",
+      "name": "Schwab Appreciation Bonus",
+      "description": "Annual statement credit for cardholders who hold qualifying assets at Charles Schwab.",
+      "benefitType": "statement_credit",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "terms": "Amount scales with qualifying Schwab holdings: $100 at $250K+, $200 at $1M+ (higher tiers reported up to $1,000 at $10M+, not independently confirmed). Requires an eligible linked Schwab account.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/american-express-platinum-card-for-schwab/",
+      "lastVerified": "2026-08-22"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "flights"
+      ],
+      "spendCap": {
+        "amount": 500000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "Flights booked directly with airlines or through American Express Travel, up to $500,000 in purchases per calendar year, then 1x.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "prepaid_hotels_amex_travel"
+      ],
+      "terms": "Prepaid hotel bookings made through American Express Travel.",
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.schwab.com/credit-cards/platinum-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-22",
     "sourceUrls": [
-      "https://www.schwab.com/credit-cards/platinum-card"
+      "https://www.schwab.com/credit-cards/platinum-card",
+      "https://upgradedpoints.com/credit-cards/reviews/american-express-platinum-card-for-schwab/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "PreCheck Credit",
-        "value": 100,
-        "weight": 0.4
-      },
-      {
-        "description": "Lounge Access",
-        "value": 850,
-        "weight": 0.25
-      },
-      {
-        "description": "Hotel Credit (2x/yr $300)",
-        "value": 600,
-        "weight": 0.9
-      },
-      {
-        "description": "Misc. Hotel Perks",
-        "value": 250,
-        "weight": 0.4
-      },
-      {
-        "description": "Marriott/Hilton Gold Status",
-        "value": 200,
-        "weight": 0.5
-      },
-      {
-        "description": "Avis/Hertz/National Gold Status",
-        "value": 100,
-        "weight": 0.5
-      },
-      {
-        "description": "$15/mo Uber Cash",
-        "value": 200,
-        "weight": 0.5
-      },
-      {
-        "description": "Uber One Membership",
-        "value": 120,
-        "weight": 0.5
-      },
-      {
-        "description": "Airline Fee Credit",
-        "value": 200,
-        "weight": 0.25
-      },
-      {
-        "description": "Resy Credit ($100/qtr)",
-        "value": 400,
-        "weight": 0.8
-      },
-      {
-        "description": "Digital Entertainment Credit ($25/mo)",
-        "value": 300,
-        "weight": 0.25
-      },
-      {
-        "description": "Lululemon Credit",
-        "value": 300,
-        "weight": 0.2
-      },
-      {
-        "description": "Walmart+ Credit",
-        "value": 155,
-        "weight": 0.3
-      },
-      {
-        "description": "Saks Credit",
-        "value": 100,
-        "weight": 0.2
-      },
-      {
-        "description": "Oura Ring Credit",
-        "value": 200,
-        "weight": 0.2
-      },
-      {
-        "description": "Equinox Credit",
-        "value": 300,
-        "weight": 0.2
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/american-express-platinum-schwab.png"
 }
