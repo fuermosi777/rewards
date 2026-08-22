@@ -10,11 +10,55 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "schwab-investor-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for a limited period, up to $1,000 per occurrence and $50,000 per calendar year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://financebuzz.com/schwab-investor-card-from-american-express-review",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "schwab-investor-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://financebuzz.com/schwab-investor-card-from-american-express-review",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "schwab-investor-car-rental-loss-damage",
+      "name": "Car Rental Loss & Damage Insurance",
+      "description": "Coverage for damage or theft of most rental vehicles, up to $50,000.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://financebuzz.com/schwab-investor-card-from-american-express-review",
+      "lastVerified": "2026-08-22"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Cash back is deposited directly into an eligible linked Charles Schwab account (e.g. Schwab One or brokerage account), typically 8-12 weeks after being earned.",
+      "sourceUrl": "https://financebuzz.com/schwab-investor-card-from-american-express-review"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-22",
     "sourceUrls": [
-      "https://www.schwab.com/public/schwab/investing/accounts_products/credit_cards"
+      "https://www.schwab.com/credit-cards",
+      "https://financebuzz.com/schwab-investor-card-from-american-express-review"
     ],
     "updatedBy": "agent"
   },

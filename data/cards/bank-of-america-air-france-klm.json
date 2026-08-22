@@ -10,11 +10,72 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "afklm-anniversary-miles",
+      "name": "Anniversary Mile Bonus",
+      "description": "5,000 bonus Flying Blue miles credited on each account anniversary.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires at least $50 in purchases on the card during the prior cardmember year.",
+      "sourceUrl": "https://frequentmiler.com/air-france-klm-credit-card-will-convert-to-visa-signature-adds-3x-dining-improved-elite-earning/",
+      "lastVerified": "2026-08-22"
+    },
+    {
+      "id": "afklm-anniversary-xp",
+      "name": "Anniversary Experience Points (XP)",
+      "description": "20 Flying Blue Experience Points (XP) credited on each account anniversary, toward elite status, with additional XP for high annual spend.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "20 XP base on anniversary; +80 XP if prior cardmember year spend was $15,000+ (100 XP total); +60 XP more if spend was $25,000+ (160 XP total possible). 100 XP is the threshold for Flying Blue Silver status.",
+      "sourceUrl": "https://frequentmiler.com/air-france-klm-credit-card-will-convert-to-visa-signature-adds-3x-dining-improved-elite-earning/",
+      "lastVerified": "2026-08-22"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "air_france_klm_skyteam"
+      ],
+      "terms": "Direct purchases with Air France, KLM, and SkyTeam member airlines.",
+      "sourceUrl": "https://frequentmiler.com/air-france-klm-credit-card-will-convert-to-visa-signature-adds-3x-dining-improved-elite-earning/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "sourceUrl": "https://frequentmiler.com/air-france-klm-credit-card-will-convert-to-visa-signature-adds-3x-dining-improved-elite-earning/"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://frequentmiler.com/air-france-klm-credit-card-will-convert-to-visa-signature-adds-3x-dining-improved-elite-earning/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-22",
     "sourceUrls": [
-      "https://wwws.airfrance.us/information/flyingblue/carte-bancaire-partenaire"
+      "https://wwws.airfrance.us/information/flyingblue/carte-bancaire-partenaire",
+      "https://frequentmiler.com/air-france-klm-credit-card-will-convert-to-visa-signature-adds-3x-dining-improved-elite-earning/",
+      "https://www.bankofamerica.com/credit-cards/products/air-france-credit-card/"
     ],
     "updatedBy": "agent"
   },
