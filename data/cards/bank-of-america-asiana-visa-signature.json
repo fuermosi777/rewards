@@ -10,12 +10,13 @@
     "currency": "USD"
   },
   "foreignTransactionFee": false,
-  "status": "active",
+  "status": "discontinued",
   "benefits": [],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-07",
+    "lastReviewedDate": "2026-08-23",
     "sourceUrls": [
-      "https://www.bankofamerica.com/credit-cards/products/asiana-airlines-credit-card/"
+      "https://www.doctorofcredit.com/bank-of-america-asiana-personal-card-no-longer-listed/",
+      "https://www.flyertalk.com/forum/asiana-asiana-club/2065993-bank-america-oz-credit-card-ending.html"
     ],
     "updatedBy": "agent"
   }

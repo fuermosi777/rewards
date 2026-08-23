@@ -10,23 +10,165 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "atmos-ascent-companion-fare",
+      "name": "Annual Companion Fare",
+      "description": "$99 companion fare (plus taxes and fees from $23) for a traveling companion on Alaska Airlines or Hawaiian Airlines flights, earned each account anniversary year after $6,000 in prior-year spend.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires $6,000+ in purchases in the prior anniversary year. Valid on Alaska Airlines and Hawaiian Airlines flights booked on alaskaair.com; not valid for award travel.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/",
+      "lastVerified": "2026-08-23"
+    },
+    {
+      "id": "atmos-ascent-free-checked-bag",
+      "name": "Free Checked Bag",
+      "description": "First checked bag free for the cardholder and up to 6 companions on the same reservation when the ticket is purchased with the card.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Applies on Alaska Airlines and Hawaiian Airlines flights when airfare is purchased with the card.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/",
+      "lastVerified": "2026-08-23"
+    },
+    {
+      "id": "atmos-ascent-inflight-discount",
+      "name": "Inflight Purchase Discount",
+      "description": "20% back on eligible Alaska Airlines and Hawaiian Airlines inflight purchases, including food, beverages, and Wi-Fi, when paid with the card.",
+      "benefitType": "bonus_category",
+      "category": "airline",
+      "bonusCategoryDetail": {
+        "multiplier": 20,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "inflight_purchases"
+        ]
+      },
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/",
+      "lastVerified": "2026-08-23"
+    },
+    {
+      "id": "atmos-ascent-lounge-discount",
+      "name": "Alaska Lounge+ Membership Discount",
+      "description": "$100 off an annual Alaska Lounge+ membership when paid with the card.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Alaska Lounge+"
+        ],
+        "guestPolicy": "Discount only; membership must be purchased separately at a reduced rate."
+      },
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/",
+      "lastVerified": "2026-08-23"
+    },
+    {
+      "id": "atmos-ascent-trip-delay",
+      "name": "Trip Delay Reimbursement",
+      "description": "Up to $500 per purchased ticket in reimbursement for reasonable expenses when a trip is delayed 12+ hours.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/",
+      "lastVerified": "2026-08-23"
+    },
+    {
+      "id": "atmos-ascent-trip-cancellation",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Up to $1,500 per trip for prepaid, non-refundable travel expenses.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/",
+      "lastVerified": "2026-08-23"
+    },
+    {
+      "id": "atmos-ascent-lost-luggage",
+      "name": "Lost/Damaged Luggage Reimbursement",
+      "description": "Up to $3,000 per passenger for lost or damaged checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/",
+      "lastVerified": "2026-08-23"
+    },
+    {
+      "id": "atmos-ascent-rental-car-insurance",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Secondary coverage for damage or theft on most rental cars.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage — applies after the renter's personal auto insurance. Decline the rental company's collision coverage to activate.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/",
+      "lastVerified": "2026-08-23"
+    },
+    {
+      "id": "atmos-ascent-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year, up to $10,000 per item and $50,000 per calendar year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/",
+      "lastVerified": "2026-08-23"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "airline_alaska_hawaiian"
+      ],
+      "terms": "Eligible Alaska Airlines and Hawaiian Airlines purchases.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging",
+        "transit",
+        "streaming",
+        "cable"
+      ],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-23",
     "sourceUrls": [
-      "https://www.alaskaair.com/atmosrewards/content/credit-cards"
+      "https://www.alaskaair.com/atmosrewards/content/credit-cards",
+      "https://upgradedpoints.com/credit-cards/reviews/atmos-rewards-ascent-visa-card/",
+      "https://www.nerdwallet.com/credit-cards/reviews/alaska-airlines-credit-card"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Multiple Checked Bags",
-        "value": 120,
-        "weight": 0.75
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/bank-of-america-atmos-rewards-ascent.png"
 }
