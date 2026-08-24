@@ -11,10 +11,98 @@
   },
   "foreignTransactionFee": false,
   "status": "discontinued",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "boa-asiana-anniversary-miles",
+      "name": "Anniversary Bonus Miles Certificate",
+      "description": "10,000 bonus miles certificate awarded on the card anniversary, redeemable for Asiana award tickets, cabin upgrades, or excess baggage allowance.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://www.doctorofcredit.com/bank-america-asiana-visa-signature-review/",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-asiana-ticket-rebate",
+      "name": "Asiana Ticket Rebate",
+      "description": "$100 rebate on Asiana Airlines ticket purchases made directly with Asiana Airlines using the card.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Asiana Airlines"
+        ]
+      },
+      "terms": "Requires a minimum $100 Asiana ticket purchase directly through Asiana Airlines. Credit posts within 1-2 billing cycles.",
+      "sourceUrl": "https://www.doctorofcredit.com/bank-america-asiana-visa-signature-review/",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-asiana-lounge-passes",
+      "name": "Asiana Lounge Passes",
+      "description": "Two Asiana lounge invitations per year, issued on the card anniversary.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Asiana Lounge"
+        ],
+        "guestPolicy": "Valid only at U.S.-based Asiana lounges."
+      },
+      "sourceUrl": "https://www.doctorofcredit.com/bank-america-asiana-visa-signature-review/",
+      "lastVerified": "2026-08-24"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "asiana_airlines"
+      ],
+      "terms": "Total earning across all categories is capped at 200,000 miles per year.",
+      "sourceUrl": "https://www.doctorofcredit.com/bank-america-asiana-visa-signature-review/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "gas_stations",
+        "grocery_stores"
+      ],
+      "terms": "Total earning across all categories is capped at 200,000 miles per year.",
+      "sourceUrl": "https://www.doctorofcredit.com/bank-america-asiana-visa-signature-review/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Total earning across all categories is capped at 200,000 miles per year.",
+      "sourceUrl": "https://www.doctorofcredit.com/bank-america-asiana-visa-signature-review/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-23",
+    "lastReviewedDate": "2026-08-24",
     "sourceUrls": [
+      "https://www.doctorofcredit.com/bank-america-asiana-visa-signature-review/",
       "https://www.doctorofcredit.com/bank-of-america-asiana-personal-card-no-longer-listed/",
       "https://www.flyertalk.com/forum/asiana-asiana-club/2065993-bank-america-oz-credit-card-ending.html"
     ],

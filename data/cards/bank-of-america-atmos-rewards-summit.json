@@ -10,38 +10,175 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "boa-atmos-summit-companion-award",
+      "name": "Annual Global Companion Award",
+      "description": "25,000-point Global Companion Award issued on the card anniversary each year, for a travel companion on the same itinerary when redeeming points.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "No spending requirement. Reduces the points cost of a companion ticket booked with points.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/bank-of-america/atmos-rewards-summit-card/",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-atmos-summit-companion-award-spend",
+      "name": "Spend-Based Global Companion Award",
+      "description": "Additional 100,000-point Global Companion Award after spending $60,000 or more on the card in the anniversary year.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires $60,000+ in purchases in the prior anniversary year.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/bank-of-america/atmos-rewards-summit-card/",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-atmos-summit-lounge-access",
+      "name": "Alaska Lounge Passes",
+      "description": "8 Alaska Lounge passes per year (2 issued per calendar quarter).",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Alaska Lounge"
+        ],
+        "guestPolicy": "Valid for the cardholder plus children on the same same-day flight with Alaska, Hawaiian, oneworld, or partner airlines."
+      },
+      "terms": "2 passes issued per calendar quarter, 8 total per year.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/bank-of-america/atmos-rewards-summit-card/",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-atmos-summit-wifi-passes",
+      "name": "Inflight Wi-Fi Passes",
+      "description": "8 Alaska inflight Wi-Fi passes per year (2 issued per calendar quarter).",
+      "benefitType": "other",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "2 passes issued per calendar quarter, 8 total per year.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/bank-of-america/atmos-rewards-summit-card/",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-atmos-summit-trusted-traveler-credit",
+      "name": "TSA PreCheck / Global Entry Credit",
+      "description": "Statement credit for a TSA PreCheck or Global Entry application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "TSA PreCheck",
+          "Global Entry"
+        ]
+      },
+      "terms": "Up to $120 every 4 years. Allow 6-8 weeks after the application fee is charged for the credit to post.",
+      "sourceUrl": "https://www.myvisacardportal.com/alaska/en_us/welcome/details/A549401?card=visainfinite&categoryName=travel",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-atmos-summit-checked-bag",
+      "name": "Free Checked Bag",
+      "description": "Free checked bag for the cardholder and up to six guests on the same reservation, flying Alaska or Hawaiian Airlines.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Requires the Alaska/Hawaiian ticket to be purchased with the card. Includes preferred boarding for the same group.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/bank-of-america/atmos-rewards-summit-card/",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-atmos-summit-flight-delay-credit",
+      "name": "Instant Flight Delay Credit",
+      "description": "$50 instant statement/travel credit when an Alaska flight is delayed 2+ hours or canceled within 24 hours of departure.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/bank-of-america/atmos-rewards-summit-card/",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-atmos-summit-inflight-discount",
+      "name": "Inflight Purchase Discount",
+      "description": "20% back on Alaska/Hawaiian inflight purchases (food, beverages, Wi-Fi) paid with the card.",
+      "benefitType": "bonus_category",
+      "category": "airline",
+      "bonusCategoryDetail": {
+        "multiplier": 20,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "airline_inflight_purchases"
+        ]
+      },
+      "isOneTime": true,
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/bank-of-america/atmos-rewards-summit-card/",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-atmos-summit-rental-car-insurance",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Primary coverage for damage/theft on most rental cars.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Primary coverage. Decline the rental company's collision coverage to activate.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/bank-of-america/atmos-rewards-summit-card/",
+      "lastVerified": "2026-08-24"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "alaska_hawaiian_airlines",
+        "foreign_transactions"
+      ],
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/bank-of-america/atmos-rewards-summit-card/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Cardholders with an eligible Bank of America checking or savings account receive an additional 10% bonus on points earned.",
+      "sourceUrl": "https://onemileatatime.com/reviews/credit-cards/bank-of-america/atmos-rewards-summit-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-24",
     "sourceUrls": [
-      "https://www.alaskaair.com/atmosrewards/content/credit-cards"
+      "https://onemileatatime.com/reviews/credit-cards/bank-of-america/atmos-rewards-summit-card/",
+      "https://www.myvisacardportal.com/alaska/en_us/welcome/details/A549401?card=visainfinite&categoryName=travel",
+      "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2025/08/alaska-airlines-and-bank-of-america-present-a-new-premium-credit.html"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Multiple Checked Bags",
-        "value": 120,
-        "weight": 0.75
-      },
-      {
-        "description": "PreCheck Credit",
-        "value": 100,
-        "weight": 0.4
-      },
-      {
-        "description": "Lounge Access",
-        "value": 300,
-        "weight": 0.25
-      },
-      {
-        "description": "Wifi Passes",
-        "value": 60,
-        "weight": 0.5
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/bank-of-america-atmos-rewards-summit.png"
 }

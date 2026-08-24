@@ -10,11 +10,87 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "boa-badv-cash-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Travel accident insurance coverage when travel is booked with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Coverage up to $1 million when the full cost of travel fare is charged to the card.",
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-customized-cash-rewards",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-badv-cash-purchase-security",
+      "name": "Purchase Security",
+      "description": "Protection for eligible purchases against loss, damage, or theft.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-customized-cash-rewards",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-badv-cash-extended-warranty",
+      "name": "Extended Warranty Coverage",
+      "description": "Extends the manufacturer's warranty on eligible purchases.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-customized-cash-rewards",
+      "lastVerified": "2026-08-24"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "choice_category"
+      ],
+      "spendCap": {
+        "amount": 50000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "Cardholder selects one category: gas stations/EV charging, office supplies, travel, TV/telecom/wireless, business consulting services, or restaurants (only one 3% category may be chosen, and choosing restaurants forgoes the separate 2% dining rate below). Applies to combined choice-category + dining purchases up to $50,000/year total, then 1%.",
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-customized-cash-rewards"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "spendCap": {
+        "amount": 50000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "Applies to combined choice-category + dining purchases up to $50,000/year total, then 1%.",
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-customized-cash-rewards"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-customized-cash-rewards"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-24",
     "sourceUrls": [
-      "https://www.bankofamerica.com/smallbusiness/credit-cards/products/cash-rewards-business-credit-card"
+      "https://business.bankofamerica.com/en/credit-cards/business-advantage-customized-cash-rewards"
     ],
     "updatedBy": "agent"
   },
