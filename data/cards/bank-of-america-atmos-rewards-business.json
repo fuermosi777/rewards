@@ -10,23 +10,109 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "boa-atmos-biz-companion-fare",
+      "name": "Annual Companion Fare",
+      "description": "A companion fare of $99 (plus taxes and fees from $23) for a travel companion on a qualifying Alaska/Hawaiian itinerary.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Available each anniversary year after spending at least $6,000 on the card in the prior anniversary year.",
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/atmos-rewards",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-atmos-biz-checked-bag",
+      "name": "Free Checked Bag",
+      "description": "First checked bag free for the cardholder when flying Alaska or Hawaiian Airlines.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Requires the Alaska/Hawaiian ticket to be purchased with the card. Includes preferred boarding.",
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/atmos-rewards",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-atmos-biz-inflight-discount",
+      "name": "Inflight Purchase Discount",
+      "description": "20% back on Alaska/Hawaiian inflight purchases (food, beverages, Wi-Fi) paid with the card.",
+      "benefitType": "bonus_category",
+      "category": "airline",
+      "bonusCategoryDetail": {
+        "multiplier": 20,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "airline_inflight_purchases"
+        ]
+      },
+      "isOneTime": true,
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/atmos-rewards",
+      "lastVerified": "2026-08-24"
+    },
+    {
+      "id": "boa-atmos-biz-lounge-credit",
+      "name": "Alaska Lounge+ Membership Credit",
+      "description": "$100 off an annual Alaska Lounge+ Membership when purchased with the card.",
+      "benefitType": "statement_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Alaska Lounge+ Membership"
+        ]
+      },
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/atmos-rewards",
+      "lastVerified": "2026-08-24"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "alaska_hawaiian_airlines"
+      ],
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/atmos-rewards"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging",
+        "shipping",
+        "local_transit"
+      ],
+      "terms": "Includes rideshare.",
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/atmos-rewards"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Cardholders with an eligible Bank of America small business account receive an additional 10% rewards bonus on all points earned.",
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/atmos-rewards"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-24",
     "sourceUrls": [
-      "https://www.alaskaair.com/atmosrewards/content/credit-cards"
+      "https://business.bankofamerica.com/en/credit-cards/atmos-rewards"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Multiple Checked Bags",
-        "value": 120,
-        "weight": 0.75
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/bank-of-america-atmos-rewards-business.png"
 }
