@@ -10,11 +10,44 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "boa-biz-unlimited-cash-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Up to $100,000 in travel accident insurance when the trip is purchased with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-unlimited-cash-rewards",
+      "lastVerified": "2026-08-25"
+    },
+    {
+      "id": "boa-biz-unlimited-cash-auto-rental-coverage",
+      "name": "Auto Rental Coverage",
+      "description": "Auto rental collision/damage coverage when the rental is paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-unlimited-cash-rewards",
+      "lastVerified": "2026-08-25"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Unlimited 1.5% cash back on all purchases; rewards do not expire as long as the account is open.",
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-unlimited-cash-rewards"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-25",
     "sourceUrls": [
-      "https://www.bankofamerica.com/smallbusiness/credit-cards/products/unlimited-cash-rewards-business-credit-card"
+      "https://business.bankofamerica.com/en/credit-cards/business-advantage-unlimited-cash-rewards"
     ],
     "updatedBy": "agent"
   },

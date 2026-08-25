@@ -9,24 +9,16 @@
     "currency": "USD",
     "waivedFirstYear": true
   },
-  "status": "active",
+  "status": "discontinued",
+  "discontinuedDate": "2026-05-02",
   "benefits": [],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-25",
     "sourceUrls": [
-      "https://www.bankofamerica.com/credit-cards/products/spirit-airlines-credit-card/"
+      "https://www.nerdwallet.com/credit-cards/news/spirit-airlines-credit-card-holders-can-keep-using-it-for-now",
+      "https://upgradedpoints.com/news/spirit-airlines-credit-card-conversion-plan/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Companion Flight Voucher",
-        "value": 100,
-        "weight": 0.6
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/bank-of-america-free-spirit.png"
 }
