@@ -10,11 +10,62 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "boa-biz-travel-rewards-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Up to $1 million in travel accident insurance when the trip is purchased with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-travel-rewards",
+      "lastVerified": "2026-08-25"
+    },
+    {
+      "id": "boa-biz-travel-rewards-auto-rental-coverage",
+      "name": "Auto Rental Coverage",
+      "description": "Auto rental collision/damage coverage when the rental is paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-travel-rewards",
+      "lastVerified": "2026-08-25"
+    },
+    {
+      "id": "boa-biz-travel-rewards-purchase-protection",
+      "name": "Purchase Protection & Extended Warranty",
+      "description": "Covers eligible purchases against loss, damage, theft, or fire, and extends the manufacturer's warranty.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-travel-rewards",
+      "lastVerified": "2026-08-25"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "bofa_travel_center"
+      ],
+      "terms": "Travel purchases made through the Bank of America Travel Center.",
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-travel-rewards"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/business-advantage-travel-rewards"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-25",
     "sourceUrls": [
-      "https://www.bankofamerica.com/smallbusiness/credit-cards/products/travel-rewards-business-credit-card"
+      "https://business.bankofamerica.com/en/credit-cards/business-advantage-travel-rewards"
     ],
     "updatedBy": "agent"
   },

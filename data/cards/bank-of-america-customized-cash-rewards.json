@@ -10,11 +10,79 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "boa-ccr-choice-category-bonus",
+      "name": "3% Choice Category Cash Back",
+      "description": "3% cash back in a category the cardholder selects (Gas & EV Charging Stations, Online Shopping, Dining, Travel, Drug Stores, or Home Improvement & Furnishings), on up to $2,500 in combined choice-category and grocery/wholesale-club purchases per quarter.",
+      "benefitType": "bonus_category",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 3,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "gas_stations",
+          "ev_charging",
+          "online_shopping",
+          "dining",
+          "travel",
+          "drug_stores",
+          "home_improvement"
+        ],
+        "spendCap": {
+          "amount": 2500,
+          "period": {
+            "unit": "quarter",
+            "count": 1,
+            "anchor": "calendar"
+          }
+        },
+        "requiresActivation": true
+      },
+      "terms": "Choose one category; can be changed once per calendar month via Online/Mobile Banking. Defaults to Gas & EV Charging Stations until changed. The $2,500 quarterly cap is shared with the 2% grocery/wholesale-club rate; spend above the cap earns 1%.",
+      "sourceUrl": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/cash-back-category-choices/",
+      "lastVerified": "2026-08-25"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "grocery_stores",
+        "wholesale_clubs"
+      ],
+      "spendCap": {
+        "amount": 2500,
+        "period": {
+          "unit": "quarter",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "Shares the same $2,500 combined quarterly cap as the 3% choice category; spend above the cap earns 1%.",
+      "sourceUrl": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/cash-back-category-choices/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/cash-back-category-choices/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-25",
     "sourceUrls": [
-      "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/"
+      "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
+      "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/cash-back-category-choices/"
     ],
     "updatedBy": "agent"
   },

@@ -10,11 +10,81 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "rakuten-amex-biz-rakuten-bonus-cashback",
+      "name": "Extra Cash Back on Rakuten Purchases",
+      "description": "Extra 4% cash back (on top of standard Rakuten cash back) on qualifying purchases made through Rakuten, up to $10,000 in card spend per calendar year.",
+      "benefitType": "bonus_category",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 4,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "rakuten_purchases"
+        ],
+        "spendCap": {
+          "amount": 10000,
+          "period": {
+            "unit": "year",
+            "count": 1,
+            "anchor": "calendar"
+          }
+        }
+      },
+      "terms": "Applies to the first $10,000 of card spend on qualifying Rakuten purchases each calendar year; drops to 1% extra cash back thereafter. Stacks with standard Rakuten cash back rates.",
+      "sourceUrl": "https://www.rakuten.com/help/article/earning-rewards-with-the-rakuten-card-41497337630611",
+      "lastVerified": "2026-08-25"
+    },
+    {
+      "id": "rakuten-amex-biz-dining-bonus-cashback",
+      "name": "Extra Cash Back on Rakuten Dining",
+      "description": "Extra 5% cash back (on top of the standard 5% Rakuten Dining Cash Back) at more than 22,000 Rakuten Dining partner restaurants, for 10% total.",
+      "benefitType": "bonus_category",
+      "category": "dining",
+      "bonusCategoryDetail": {
+        "multiplier": 5,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "rakuten_dining"
+        ]
+      },
+      "terms": "Rakuten Dining spend does not count toward the $10,000 annual Rakuten shopping spend cap.",
+      "sourceUrl": "https://www.rakuten.com/help/article/earning-rewards-with-the-rakuten-card-41497337630611",
+      "lastVerified": "2026-08-25"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "groceries",
+        "dining"
+      ],
+      "terms": "Applies to groceries and restaurants outside of the Rakuten shopping/dining portals.",
+      "sourceUrl": "https://www.rakuten.com/help/article/earning-rewards-with-the-rakuten-card-41497337630611"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.rakuten.com/help/article/earning-rewards-with-the-rakuten-card-41497337630611"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-25",
     "sourceUrls": [
-      "https://www.rakuten.com/american-express-card/"
+      "https://www.rakuten.com/american-express-card/",
+      "https://www.rakuten.com/help/article/earning-rewards-with-the-rakuten-card-41497337630611"
     ],
     "updatedBy": "agent"
   },
