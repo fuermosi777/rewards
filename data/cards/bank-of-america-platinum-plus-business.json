@@ -10,11 +10,55 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "boplatplusbiz-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Excludes animals, collectibles, vehicles, software, and perishable items.",
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/platinum-plus",
+      "lastVerified": "2026-08-26"
+    },
+    {
+      "id": "boplatplusbiz-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Coverage for damage or theft on most rental cars when the rental is paid for with the card and the rental company's collision coverage is declined.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/platinum-plus",
+      "lastVerified": "2026-08-26"
+    },
+    {
+      "id": "boplatplusbiz-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Accidental death or dismemberment coverage while traveling on a common carrier fare charged to the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://money.usnews.com/credit-cards/bank-of-america/bank-of-america-platinum-plus-mastercard-business-card",
+      "lastVerified": "2026-08-26"
+    },
+    {
+      "id": "boplatplusbiz-easy-savings",
+      "name": "Mastercard Easy Savings Program",
+      "description": "Automatic rebates on purchases at participating merchants, with no coupons or codes required.",
+      "benefitType": "other",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://business.bankofamerica.com/en/credit-cards/platinum-plus",
+      "lastVerified": "2026-08-26"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-26",
     "sourceUrls": [
-      "https://www.bankofamerica.com/smallbusiness/credit-cards/products/platinum-plus-business-credit-card"
+      "https://business.bankofamerica.com/en/credit-cards/platinum-plus",
+      "https://money.usnews.com/credit-cards/bank-of-america/bank-of-america-platinum-plus-mastercard-business-card",
+      "https://financebuzz.com/bank-of-america-platinum-plus-review"
     ],
     "updatedBy": "agent"
   },
