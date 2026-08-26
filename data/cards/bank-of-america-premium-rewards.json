@@ -10,11 +10,89 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "borewards-airline-incidental-credit",
+      "name": "Airline Incidental Statement Credit",
+      "description": "Statement credit for airline incidental fees such as seat upgrades, checked bag fees, in-flight food/beverage, and airline lounge fees. Does not cover airfare itself.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "terms": "Up to $100 per calendar year, across any eligible airline. Excludes airfare, mileage/point purchases, gift cards, and award ticket fees. Allegiant Air, Spirit Airlines, and Sun Country Airlines are excluded.",
+      "sourceUrl": "https://www.doctorofcredit.com/triggers-bank-america-premium-rewards-100-travel-credit/",
+      "lastVerified": "2026-08-26"
+    },
+    {
+      "id": "borewards-tsa-global-entry-credit",
+      "name": "TSA PreCheck / Global Entry / NEXUS Credit",
+      "description": "Statement credit for a Global Entry, TSA PreCheck, or NEXUS application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "TSA PreCheck",
+          "Global Entry",
+          "NEXUS"
+        ]
+      },
+      "terms": "Once every four years.",
+      "sourceUrl": "https://money.usnews.com/credit-cards/bank-of-america/bank-of-america-premium-rewards-credit-card",
+      "lastVerified": "2026-08-26"
+    },
+    {
+      "id": "borewards-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement up to $5,000 per covered traveler for prepaid, non-refundable travel expenses when a trip is cancelled or cut short for a covered reason.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/bank-of-america/premium-rewards",
+      "lastVerified": "2026-08-26"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "travel",
+        "dining"
+      ],
+      "terms": "Preferred Rewards members can earn 10%-75% more points depending on tier.",
+      "sourceUrl": "https://money.usnews.com/credit-cards/bank-of-america/bank-of-america-premium-rewards-credit-card"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Preferred Rewards members can earn 10%-75% more points depending on tier.",
+      "sourceUrl": "https://money.usnews.com/credit-cards/bank-of-america/bank-of-america-premium-rewards-credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-26",
     "sourceUrls": [
-      "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/"
+      "https://money.usnews.com/credit-cards/bank-of-america/bank-of-america-premium-rewards-credit-card",
+      "https://www.doctorofcredit.com/triggers-bank-america-premium-rewards-100-travel-credit/",
+      "https://hellosafe.com/credit-card-insurance/united-states/bank-of-america/premium-rewards"
     ],
     "updatedBy": "agent"
   },

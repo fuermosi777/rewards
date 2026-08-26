@@ -10,11 +10,36 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "botravelrewards-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Reimbursement for damage or theft of eligible purchases within 90 days of purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Up to $500 per item, up to $50,000 per year.",
+      "sourceUrl": "https://wallethub.com/answers/cc/bank-of-america-travel-rewards-purchase-protection-1000410-2140677826/",
+      "lastVerified": "2026-08-26"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Preferred Rewards members can earn 25%-75% more points depending on tier.",
+      "sourceUrl": "https://www.nerdwallet.com/credit-cards/reviews/bank-of-america-travel-rewards"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-26",
     "sourceUrls": [
-      "https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/"
+      "https://www.nerdwallet.com/credit-cards/reviews/bank-of-america-travel-rewards",
+      "https://wallethub.com/answers/cc/bank-of-america-travel-rewards-purchase-protection-1000410-2140677826/"
     ],
     "updatedBy": "agent"
   },

@@ -10,33 +10,114 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "borewardselite-airline-incidental-credit",
+      "name": "Airline Incidental Statement Credit",
+      "description": "Statement credit for airline incidental fees such as seat upgrades, baggage fees, and airline lounge fees. Does not cover airfare itself.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 300,
+        "currency": "USD"
+      },
+      "terms": "Up to $300 per calendar year. Excludes airfare, mileage/point purchases, gift cards, and award ticket fees. Allegiant Air, Spirit Airlines, and Sun Country Airlines are excluded.",
+      "sourceUrl": "https://www.nerdwallet.com/credit-cards/learn/5-things-to-know-about-the-bank-of-america-premium-rewards-elite-credit-card",
+      "lastVerified": "2026-08-26"
+    },
+    {
+      "id": "borewardselite-lifestyle-credit",
+      "name": "Lifestyle Statement Credit",
+      "description": "Statement credit for streaming services, food delivery, fitness subscriptions, and ride-hailing services.",
+      "benefitType": "statement_credit",
+      "category": "streaming",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 150,
+        "currency": "USD"
+      },
+      "terms": "Up to $150 per calendar year across eligible streaming, food delivery, fitness, and ride-hailing merchants.",
+      "sourceUrl": "https://thepointsguy.com/guide/bank-of-america-premium-rewards-elite-credit-card-review-a-formidable-contender",
+      "lastVerified": "2026-08-26"
+    },
+    {
+      "id": "borewardselite-tsa-global-entry-credit",
+      "name": "TSA PreCheck / Global Entry Credit",
+      "description": "Statement credit for a TSA PreCheck or Global Entry application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "TSA PreCheck",
+          "Global Entry"
+        ]
+      },
+      "terms": "Once every four years.",
+      "sourceUrl": "https://thepointsguy.com/guide/bank-of-america-premium-rewards-elite-credit-card-review-a-formidable-contender",
+      "lastVerified": "2026-08-26"
+    },
+    {
+      "id": "borewardselite-priority-pass",
+      "name": "Priority Pass Select Membership",
+      "description": "Up to four complimentary Priority Pass Select memberships, providing access to over 1,700 airport lounges worldwide.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "isOneTime": true,
+      "loungeAccessDetail": {
+        "networks": [
+          "Priority Pass"
+        ]
+      },
+      "terms": "Up to four complimentary memberships; requires enrollment through Bank of America.",
+      "sourceUrl": "https://www.nerdwallet.com/credit-cards/learn/5-things-to-know-about-the-bank-of-america-premium-rewards-elite-credit-card",
+      "lastVerified": "2026-08-26"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "travel",
+        "dining"
+      ],
+      "terms": "Airlines, hotels, car rentals, restaurants, and other travel/dining-coded merchants. Preferred Rewards members can earn up to 3.5x with a 75% bonus at Platinum Honors tier.",
+      "sourceUrl": "https://thepointsguy.com/guide/bank-of-america-premium-rewards-elite-credit-card-review-a-formidable-contender"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Preferred Rewards members can earn up to 2.625x with a 75% bonus at Platinum Honors tier.",
+      "sourceUrl": "https://thepointsguy.com/guide/bank-of-america-premium-rewards-elite-credit-card-review-a-formidable-contender"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-26",
     "sourceUrls": [
-      "https://www.bankofamerica.com/credit-cards/products/premium-rewards-elite-credit-card/"
+      "https://www.nerdwallet.com/credit-cards/learn/5-things-to-know-about-the-bank-of-america-premium-rewards-elite-credit-card",
+      "https://thepointsguy.com/guide/bank-of-america-premium-rewards-elite-credit-card-review-a-formidable-contender"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "PreCheck Credit",
-        "value": 100,
-        "weight": 0.4
-      },
-      {
-        "description": "Incidental Airline Statement Credits",
-        "value": 300,
-        "weight": 0.3
-      },
-      {
-        "description": "Annaul $150 streaming, delivery, fitness, and transit credit",
-        "value": 150,
-        "weight": 0.8
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/bank-of-america-premium-rewards-elite.png"
 }
