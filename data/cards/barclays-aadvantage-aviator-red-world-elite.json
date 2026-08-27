@@ -9,12 +9,16 @@
     "currency": "USD",
     "waivedFirstYear": false
   },
-  "status": "active",
+  "status": "discontinued",
+  "discontinuedDate": "2026-04-24",
   "benefits": [],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-27",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/aadvantage-aviator-red-world-elite-mastercard/"
+      "https://onemileatatime.com/news/american-aadvantage-barclays-cards-transitioning-citi-discontinued/",
+      "https://awardwallet.com/news/credit-cards/citi-sole-issuer-aadvantage-cards/",
+      "https://frequentmiler.com/barlcays-aviator-to-citi-transition-april-2026-what-we-know-and-what-we-dont/",
+      "https://www.doctorofcredit.com/barclays-aviator-red-world-elite-mastercard-70000-miles-no-minimum-spend-required-2/"
     ],
     "updatedBy": "agent"
   },

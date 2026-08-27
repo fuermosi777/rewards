@@ -10,12 +10,15 @@
     "currency": "USD"
   },
   "foreignTransactionFee": false,
-  "status": "active",
+  "status": "discontinued",
+  "discontinuedDate": "2024-10-17",
   "benefits": [],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-07",
+    "lastReviewedDate": "2026-08-27",
     "sourceUrls": [
-      "https://www.bankofamerica.com/credit-cards/products/virgin-atlantic-credit-card/"
+      "https://www.doctorofcredit.com/bank-of-america-virgin-atlantic-cards-to-be-converted-to-unlimited-cash/",
+      "https://frequentmiler.com/a-new-virgin-red-credit-card-is-coming-but-it-wont-be-issued-by-bank-of-america/",
+      "https://www.nerdwallet.com/reviews/credit-cards/virgin-atlantic"
     ],
     "updatedBy": "agent"
   }

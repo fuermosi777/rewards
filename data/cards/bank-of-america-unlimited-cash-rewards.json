@@ -10,11 +10,69 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "bofa-ucr-purchase-protection",
+      "name": "Purchase Security",
+      "description": "Covers new purchases against theft or accidental damage for 90 days.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Up to $500 per claim, $50,000 per cardholder per year. Standard Visa Signature benefit.",
+      "sourceUrl": "https://www.getfinal.com/benefits/Visa_Benefits_Guide.pdf",
+      "lastVerified": "2026-08-27"
+    },
+    {
+      "id": "bofa-ucr-extended-warranty",
+      "name": "Warranty Manager Service (Extended Warranty)",
+      "description": "Doubles the manufacturer's original U.S. warranty by up to one additional year on eligible warranties of 3 years or less.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Capped at $10,000 per claim, $50,000 per cardholder. Standard Visa Signature benefit.",
+      "sourceUrl": "https://www.getfinal.com/benefits/Visa_Benefits_Guide.pdf",
+      "lastVerified": "2026-08-27"
+    },
+    {
+      "id": "bofa-ucr-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Secondary coverage for damage or theft on most rental cars in the U.S.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage only (not primary). Requires charging the entire rental to the card and declining the rental company's collision coverage. Standard Visa Signature benefit.",
+      "sourceUrl": "https://www.getfinal.com/benefits/Visa_Benefits_Guide.pdf",
+      "lastVerified": "2026-08-27"
+    },
+    {
+      "id": "bofa-ucr-travel-emergency-assistance",
+      "name": "Travel and Emergency Assistance Services",
+      "description": "24/7 referral service for medical/legal referrals, emergency transportation coordination, and translation assistance while traveling.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Referral service only; cardholder is responsible for the cost of any services rendered. Standard Visa Signature benefit.",
+      "sourceUrl": "https://www.getfinal.com/benefits/Visa_Benefits_Guide.pdf",
+      "lastVerified": "2026-08-27"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["everything_else"],
+      "terms": "Base rate of 1.5% cash back on all purchases, no category restrictions or caps. Bank of America Preferred Rewards members earn a bonus on top of this base rate: Gold tier +25% (1.87% total), Platinum tier +50% (2.25% total), Platinum Honors / Preferred Rewards for Wealth Management tier +75% (2.62% total).",
+      "sourceUrl": "https://www.managerewardsonline.bankofamerica.com/cms/published/root/duo/sharedContent/pdf/unlimitedcash/UCR_202105_D_ADA.pdf"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-27",
     "sourceUrls": [
-      "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/"
+      "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/",
+      "https://www.managerewardsonline.bankofamerica.com/cms/published/root/duo/sharedContent/pdf/unlimitedcash/UCR_202105_D_ADA.pdf",
+      "https://www.bankofamerica.com/content/documents/creditcard/bank_of_america_unlimited_cash_rewards_english.pdf",
+      "https://www.getfinal.com/benefits/Visa_Benefits_Guide.pdf"
     ],
     "updatedBy": "agent"
   },

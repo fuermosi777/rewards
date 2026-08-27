@@ -734,7 +734,7 @@
         "amount": 90,
         "currency": "USD"
       },
-      "status": "active",
+      "status": "discontinued",
       "imageUrl": "data/assets/cards/bank-of-america-virgin-atlantic-world-elite.png"
     },
     {
@@ -748,7 +748,7 @@
         "currency": "USD",
         "waivedFirstYear": false
       },
-      "status": "active",
+      "status": "discontinued",
       "imageUrl": "data/assets/cards/barclays-aadvantage-aviator-red-world-elite.png"
     },
     {
@@ -762,7 +762,7 @@
         "currency": "USD",
         "waivedFirstYear": false
       },
-      "status": "active",
+      "status": "discontinued",
       "imageUrl": "data/assets/cards/barclays-aadvantage-aviator-world-elite-business.png"
     },
     {
