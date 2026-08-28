@@ -11,8 +11,37 @@
   },
   "status": "active",
   "benefits": [],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "gas_stations",
+        "drugstores"
+      ],
+      "terms": "Excludes Target and Walmart.",
+      "sourceUrl": "https://www.aarp.org/membership/benefits/finance/aarp-essential-rewards-mastercard-from-barclays/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "medical"
+      ],
+      "terms": "Eligible medical expenses.",
+      "sourceUrl": "https://www.aarp.org/membership/benefits/finance/aarp-essential-rewards-mastercard-from-barclays/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.aarp.org/membership/benefits/finance/aarp-essential-rewards-mastercard-from-barclays/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-28",
     "sourceUrls": [
       "https://www.aarp.org/membership/benefits/finance/aarp-essential-rewards-mastercard-from-barclays/"
     ],
