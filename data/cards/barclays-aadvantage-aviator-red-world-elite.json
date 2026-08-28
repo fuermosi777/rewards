@@ -11,14 +11,118 @@
   },
   "status": "discontinued",
   "discontinuedDate": "2026-04-24",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "aviator-red-checked-bag",
+      "name": "Free First Checked Bag",
+      "description": "First checked bag free for the cardholder and up to four companions traveling on the same reservation on American Airlines-operated domestic itineraries.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Applies to American Airlines-operated domestic itineraries only. Existing cardholders retain this benefit; the card is closed to new applicants.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/barclays-aadvantage-aviator-cards/",
+      "lastVerified": "2026-08-28"
+    },
+    {
+      "id": "aviator-red-priority-boarding",
+      "name": "Preferred Boarding",
+      "description": "Preferred boarding for the cardholder and up to four traveling companions on American Airlines-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://thepointsguy.com/credit-cards/barclays-aadvantage-aviator-cards/",
+      "lastVerified": "2026-08-28"
+    },
+    {
+      "id": "aviator-red-inflight-wifi-credit",
+      "name": "Inflight Wi-Fi Statement Credit",
+      "description": "Statement credits for inflight Wi-Fi purchases on American Airlines-operated flights.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 25,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "American Airlines inflight Wi-Fi"
+        ]
+      },
+      "sourceUrl": "https://thepointsguy.com/credit-cards/barclays-aadvantage-aviator-cards/",
+      "lastVerified": "2026-08-28"
+    },
+    {
+      "id": "aviator-red-inflight-discount",
+      "name": "Inflight Food & Beverage Discount",
+      "description": "25% statement credit rebate on inflight food and beverage purchases on American Airlines-operated flights when paid with the card.",
+      "benefitType": "bonus_category",
+      "category": "airline",
+      "bonusCategoryDetail": {
+        "multiplier": 25,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "airline_inflight_purchases"
+        ]
+      },
+      "terms": "Delivered as a statement credit rebate, not a point-of-sale discount.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/barclays-aadvantage-aviator-cards/",
+      "lastVerified": "2026-08-28"
+    },
+    {
+      "id": "aviator-red-companion-certificate",
+      "name": "Anniversary Companion Certificate",
+      "description": "Annual companion certificate for one guest on a round-trip domestic economy itinerary for $99 plus taxes and fees, earned after meeting an annual spend threshold.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires $20,000 in eligible purchases in the prior cardmember year and the account to remain open 45+ days after the anniversary. Certificate fare is $99 plus applicable taxes and fees.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/barclays-aadvantage-aviator-cards/",
+      "lastVerified": "2026-08-28"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "american_airlines"
+      ],
+      "sourceUrl": "https://thepointsguy.com/credit-cards/barclays-aadvantage-aviator-cards/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://thepointsguy.com/credit-cards/barclays-aadvantage-aviator-cards/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-27",
+    "lastReviewedDate": "2026-08-28",
     "sourceUrls": [
       "https://onemileatatime.com/news/american-aadvantage-barclays-cards-transitioning-citi-discontinued/",
       "https://awardwallet.com/news/credit-cards/citi-sole-issuer-aadvantage-cards/",
       "https://frequentmiler.com/barlcays-aviator-to-citi-transition-april-2026-what-we-know-and-what-we-dont/",
-      "https://www.doctorofcredit.com/barclays-aviator-red-world-elite-mastercard-70000-miles-no-minimum-spend-required-2/"
+      "https://www.doctorofcredit.com/barclays-aviator-red-world-elite-mastercard-70000-miles-no-minimum-spend-required-2/",
+      "https://thepointsguy.com/credit-cards/barclays-aadvantage-aviator-cards/"
     ],
     "updatedBy": "agent"
   },

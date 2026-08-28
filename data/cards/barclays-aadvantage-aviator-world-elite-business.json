@@ -11,9 +11,109 @@
   },
   "status": "discontinued",
   "discontinuedDate": "2026-04-24",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "aviator-biz-checked-bag",
+      "name": "Free First Checked Bag",
+      "description": "First checked bag free for the cardholder and up to four companions when traveling on domestic itineraries operated by American Airlines.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Applies to American Airlines-operated domestic itineraries only. Existing cardholders retain this benefit; the card is closed to new applicants.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/aadvantage-aviator-business-mastercard-review/",
+      "lastVerified": "2026-08-28"
+    },
+    {
+      "id": "aviator-biz-priority-boarding",
+      "name": "Priority Boarding",
+      "description": "Priority boarding for the cardholder and up to four companions on the same reservation when traveling on American Airlines-operated itineraries.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/aadvantage-aviator-business-mastercard-review/",
+      "lastVerified": "2026-08-28"
+    },
+    {
+      "id": "aviator-biz-inflight-discount",
+      "name": "Inflight Food & Beverage Discount",
+      "description": "25% statement credit rebate on inflight food and beverage purchases on American Airlines-operated flights when paid with the card.",
+      "benefitType": "bonus_category",
+      "category": "airline",
+      "bonusCategoryDetail": {
+        "multiplier": 25,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "airline_inflight_purchases"
+        ]
+      },
+      "terms": "Delivered as a statement credit rebate, not a point-of-sale discount.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/aadvantage-aviator-business-mastercard-review/",
+      "lastVerified": "2026-08-28"
+    },
+    {
+      "id": "aviator-biz-anniversary-mile-bonus",
+      "name": "5% Anniversary Mile Bonus",
+      "description": "5% bonus applied to all miles earned from qualifying purchases in the prior cardmember year, credited upon each account renewal.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/aadvantage-aviator-business-mastercard-review/",
+      "lastVerified": "2026-08-28"
+    },
+    {
+      "id": "aviator-biz-companion-certificate",
+      "name": "Anniversary Companion Certificate",
+      "description": "Annual companion certificate for one guest on a round-trip domestic economy itinerary for $99 plus taxes and fees, earned after meeting an annual spend threshold.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires $30,000 or more in eligible purchases in the prior cardmember year. Certificate fare is $99 plus applicable taxes and fees.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/aadvantage-aviator-business-mastercard-review/",
+      "lastVerified": "2026-08-28"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "american_airlines",
+        "office_supplies",
+        "telecom",
+        "car_rental"
+      ],
+      "terms": "2x on eligible American Airlines purchases and office supply, telecom, and car rental merchant purchases.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/aadvantage-aviator-business-mastercard-review/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/aadvantage-aviator-business-mastercard-review/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-27",
+    "lastReviewedDate": "2026-08-28",
     "sourceUrls": [
       "https://onemileatatime.com/news/american-aadvantage-barclays-cards-transitioning-citi-discontinued/",
       "https://www.cnbc.com/select/citi-becomes-exclusive-issuer-aadvantage-credit-cards/",
