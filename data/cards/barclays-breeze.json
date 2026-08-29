@@ -10,11 +10,109 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "breeze-priority-boarding",
+      "name": "Priority Boarding",
+      "description": "Group 1 priority boarding for the primary cardmember and companions on the same reservation when traveling on Breeze Airways flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "terms": "Applies to primary cardmember and travel companions on the same itinerary.",
+      "sourceUrl": "https://frequentmiler.com/breeze-airways-launches-new-credit-card-but-you-dont-even-get-a-free-carry-on/",
+      "lastVerified": "2026-08-29"
+    },
+    {
+      "id": "breeze-inflight-wifi",
+      "name": "Complimentary Inflight WiFi",
+      "description": "Free inflight WiFi on Breeze Airways flights operated with WiFi-equipped aircraft.",
+      "benefitType": "other",
+      "category": "airline",
+      "terms": "Only available on aircraft equipped with WiFi.",
+      "sourceUrl": "https://frequentmiler.com/breeze-airways-launches-new-credit-card-but-you-dont-even-get-a-free-carry-on/",
+      "lastVerified": "2026-08-29"
+    },
+    {
+      "id": "breeze-annual-spend-bonus-points",
+      "name": "Annual Spend Bonus BreezePoints",
+      "description": "7,500 bonus BreezePoints after $10,000 in purchases within a cardmember year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires $10,000 in purchases within the cardmember year.",
+      "sourceUrl": "https://frequentmiler.com/breeze-airways-launches-new-credit-card-but-you-dont-even-get-a-free-carry-on/",
+      "lastVerified": "2026-08-29"
+    },
+    {
+      "id": "breeze-annual-bundle-upgrade",
+      "name": "Annual Bundle Upgrade",
+      "description": "One-way bundle upgrade (e.g. to Nice/Nicer/Nicest) for every $15,000 in purchases within a calendar year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires $15,000 in purchases within the calendar year.",
+      "sourceUrl": "https://frequentmiler.com/breeze-airways-launches-new-credit-card-but-you-dont-even-get-a-free-carry-on/",
+      "lastVerified": "2026-08-29"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "breeze_nicer_nicest_bundles"
+      ],
+      "terms": "Nicer and Nicest Bundles and Trip Add-Ons on Breeze Airways.",
+      "sourceUrl": "https://frequentmiler.com/breeze-airways-launches-new-credit-card-but-you-dont-even-get-a-free-carry-on/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "breeze_nice_bundles"
+      ],
+      "terms": "Nice Bundles on Breeze Airways.",
+      "sourceUrl": "https://frequentmiler.com/breeze-airways-launches-new-credit-card-but-you-dont-even-get-a-free-carry-on/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "grocery_stores"
+      ],
+      "sourceUrl": "https://frequentmiler.com/breeze-airways-launches-new-credit-card-but-you-dont-even-get-a-free-carry-on/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "sourceUrl": "https://frequentmiler.com/breeze-airways-launches-new-credit-card-but-you-dont-even-get-a-free-carry-on/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Includes standard (non-bundle) Breeze flight purchases.",
+      "sourceUrl": "https://frequentmiler.com/breeze-airways-launches-new-credit-card-but-you-dont-even-get-a-free-carry-on/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-29",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/breeze-airways/"
+      "https://cards.barclaycardus.com/banking/cards/breeze-airways/",
+      "https://frequentmiler.com/breeze-airways-launches-new-credit-card-but-you-dont-even-get-a-free-carry-on/"
     ],
     "updatedBy": "agent"
   },

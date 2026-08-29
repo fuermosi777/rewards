@@ -10,11 +10,41 @@
     "waivedFirstYear": false
   },
   "status": "active",
+  "foreignTransactionFee": false,
   "benefits": [],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "airfare",
+        "hotels",
+        "car_rentals"
+      ],
+      "sourceUrl": "https://www.aarp.org/membership/benefits/finance/aarp-travel-rewards-mastercard-from-barclays/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "sourceUrl": "https://www.aarp.org/membership/benefits/finance/aarp-travel-rewards-mastercard-from-barclays/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.aarp.org/membership/benefits/finance/aarp-travel-rewards-mastercard-from-barclays/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-29",
     "sourceUrls": [
-      "https://www.aarp.org/membership/benefits/finance/aarp-travel-rewards-mastercard-from-barclays/"
+      "https://www.aarp.org/membership/benefits/finance/aarp-travel-rewards-mastercard-from-barclays/",
+      "https://upgradedpoints.com/credit-cards/reviews/aarp-travel-rewards-mastercard-from-barclays/"
     ],
     "updatedBy": "agent"
   },
