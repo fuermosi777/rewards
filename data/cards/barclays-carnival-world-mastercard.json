@@ -10,11 +10,55 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "carnival-world-shore-excursion-credit",
+      "name": "Shore Excursion Statement Credit",
+      "description": "10% statement credit on shore excursion packages purchased on Carnival.com prior to sailing.",
+      "benefitType": "other",
+      "category": "travel",
+      "terms": "Credit is 10% of the excursion package price (taxes/fees excluded), not a fixed dollar amount; must be booked on Carnival.com before the cruise. Card is scheduled to convert to the Carnival Rewards Mastercard in September 2026 with a new benefits structure — confirm this benefit still applies after that date.",
+      "sourceUrl": "https://cards.barclaycardus.com/banking/cards/carnival-world-mastercard/",
+      "lastVerified": "2026-08-29"
+    },
+    {
+      "id": "carnival-world-cell-phone-protection",
+      "name": "Cell Phone Protection",
+      "description": "Coverage against damage or theft of a cell phone when the monthly phone bill is paid with the card, as a standard World Mastercard benefit.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Standard Mastercard World-tier benefit; requires paying the monthly cell phone bill with this card. Confirm current coverage limit/deductible via the Mastercard Guide to Benefits, as terms are set by Mastercard and can change independent of this card record.",
+      "sourceUrl": "https://www.mastercard.us/content/dam/mccom/en-us/documents/Cardholder%20Benefits/Generic_GTB_CRED_World_2019.pdf",
+      "lastVerified": "2026-08-29"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "carnival_corporation_cruise_lines"
+      ],
+      "terms": "Carnival Cruise Line and other Carnival Corporation brands (Princess, Holland America, Cunard, Costa, Seabourn, P&O Cruises, AIDA). Card is scheduled to convert to the Carnival Rewards Mastercard in September 2026 with a new earning structure — confirm this rate still applies after that date.",
+      "sourceUrl": "https://cards.barclaycardus.com/banking/cards/carnival-world-mastercard/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://cards.barclaycardus.com/banking/cards/carnival-world-mastercard/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-29",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/carnival-world-mastercard/"
+      "https://cards.barclaycardus.com/banking/cards/carnival-world-mastercard/",
+      "https://thepointsguy.com/credit-cards/reviews/carnival-world-mastercard-review/",
+      "https://cards.barclaycardus.com/banking/cards/faqs/carnival-faqs/"
     ],
     "updatedBy": "agent"
   },
