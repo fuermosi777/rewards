@@ -10,11 +10,111 @@
     "waivedFirstYear": true
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "frontier-world-checked-bags",
+      "name": "Free Checked Bags",
+      "description": "Two free checked bags on Frontier-operated flights for the primary cardmember.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Applies to the primary cardmember on Frontier Airlines-operated flights when the ticket is purchased with the card.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/frontier-airlines-world-mastercard/",
+      "lastVerified": "2026-08-30"
+    },
+    {
+      "id": "frontier-world-priority-boarding",
+      "name": "Zone 2 Priority Boarding",
+      "description": "Complimentary Zone 2 priority boarding on Frontier flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/frontier-airlines-world-mastercard/",
+      "lastVerified": "2026-08-30"
+    },
+    {
+      "id": "frontier-world-elite-status",
+      "name": "Instant Elite Gold Status",
+      "description": "Instant Frontier Elite Gold status after the first purchase, upgrading boarding priority and other elite perks.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Granted instantly after first purchase. Requires $3,000 in card spend within the first 90 days of account opening to retain Elite Gold status for 12 months.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/frontier-airlines-world-mastercard/",
+      "lastVerified": "2026-08-30"
+    },
+    {
+      "id": "frontier-world-anniversary-voucher",
+      "name": "Anniversary Flight Discount Voucher",
+      "description": "$100 Frontier Airlines flight discount voucher issued each account anniversary.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Frontier Airlines"
+        ]
+      },
+      "terms": "Requires $2,500 or more in card spend during the cardmember year to earn the voucher.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/frontier-airlines-world-mastercard/",
+      "lastVerified": "2026-08-30"
+    },
+    {
+      "id": "frontier-world-award-fee-waiver",
+      "name": "Award Booking Fee Waiver",
+      "description": "Waives Frontier's award redemption/booking fee when booking an award ticket and paying the taxes and fees with the card.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Applies to Frontier Miles award ticket redemptions when taxes and fees are paid with this card.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/frontier-airlines-world-mastercard/",
+      "lastVerified": "2026-08-30"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "frontier_airlines"
+      ],
+      "terms": "Eligible purchases directly with Frontier Airlines (flyfrontier.com, reservations, onboard, and airport ticket counters).",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/frontier-airlines-world-mastercard/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/frontier-airlines-world-mastercard/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/frontier-airlines-world-mastercard/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-30",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/frontier-airlines-world-mastercard/"
+      "https://cards.barclaycardus.com/banking/cards/frontier-airlines-world-mastercard/",
+      "https://upgradedpoints.com/credit-cards/reviews/frontier-airlines-world-mastercard/",
+      "https://wallethub.com/d/frontier-credit-card-286c"
     ],
     "updatedBy": "agent"
   },

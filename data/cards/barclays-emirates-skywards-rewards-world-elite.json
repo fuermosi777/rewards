@@ -10,11 +10,69 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "emirates-rewards-elite-status",
+      "name": "Emirates Skywards Silver Tier Status",
+      "description": "Complimentary Emirates Skywards Silver tier membership for the first year, including access to Emirates Business Lounge in Dubai (member only), 25% bonus miles on Emirates flights, free economy seat selection, and priority check-in/boarding.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Silver status granted for the first cardmember year automatically. Requires $20,000 in annual card spend to requalify for Silver in subsequent years.",
+      "sourceUrl": "https://onemileatatime.com/guides/emirates-credit-card/",
+      "lastVerified": "2026-08-30"
+    },
+    {
+      "id": "emirates-rewards-miles-discount",
+      "name": "Discount on Buying or Gifting Skywards Miles",
+      "description": "25% discount when purchasing or gifting Emirates Skywards Miles.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Applies each time miles are purchased or gifted through Emirates Skywards.",
+      "sourceUrl": "https://www.creditminds.com/reviews/emirates-skywards-rewards-world-elite-mastercard",
+      "lastVerified": "2026-08-30"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "emirates"
+      ],
+      "terms": "Eligible purchases directly with Emirates.",
+      "sourceUrl": "https://www.creditminds.com/reviews/emirates-skywards-rewards-world-elite-mastercard"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "travel"
+      ],
+      "terms": "Eligible travel purchases outside of Emirates.",
+      "sourceUrl": "https://www.creditminds.com/reviews/emirates-skywards-rewards-world-elite-mastercard"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.creditminds.com/reviews/emirates-skywards-rewards-world-elite-mastercard"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-30",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/emirates-skywards-rewards-world-elite-mastercard/"
+      "https://cards.barclaycardus.com/banking/cards/emirates-skywards-rewards-world-elite-mastercard/",
+      "https://www.creditminds.com/reviews/emirates-skywards-rewards-world-elite-mastercard",
+      "https://onemileatatime.com/guides/emirates-credit-card/"
     ],
     "updatedBy": "agent"
   },
