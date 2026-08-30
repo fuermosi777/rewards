@@ -10,11 +10,128 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "emirates-premium-lounge-access",
+      "name": "Priority Pass Select Lounge Access",
+      "description": "Unlimited Priority Pass Select lounge access worldwide for the primary cardmember and guests.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "loungeAccessDetail": {
+        "networks": [
+          "Priority Pass"
+        ],
+        "guestPolicy": "Primary cardmember and guest(s) included."
+      },
+      "sourceUrl": "https://finance.yahoo.com/personal-finance/credit-cards/review/emirates-skywards-premium-world-elite-mastercard-review-174653630.html",
+      "lastVerified": "2026-08-30"
+    },
+    {
+      "id": "emirates-premium-elite-status",
+      "name": "Emirates Skywards Gold Tier Status",
+      "description": "Complimentary Emirates Skywards Gold tier membership for the first year, including Emirates Business Lounge access (member plus one guest), 50% bonus miles on Emirates flights, priority check-in/boarding, free seat selection, and priority baggage delivery.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Gold status granted for the first cardmember year automatically. Requires $40,000 in annual card spend to requalify for Gold in subsequent years; drops to Silver tier if that threshold is not met.",
+      "sourceUrl": "https://onemileatatime.com/guides/emirates-credit-card/",
+      "lastVerified": "2026-08-30"
+    },
+    {
+      "id": "emirates-premium-anniversary-bonus",
+      "name": "Cardmember Anniversary Bonus Miles",
+      "description": "10,000 bonus Skywards Miles awarded on the cardmember anniversary for cardholders who spend $30,000 or more in the preceding year.",
+      "benefitType": "bonus_category",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 10000,
+        "rewardUnit": "miles",
+        "eligibleCategories": [
+          "anniversary_bonus"
+        ]
+      },
+      "terms": "Requires $30,000 in card spend within the cardmember year to trigger the 10,000-mile anniversary bonus.",
+      "sourceUrl": "https://onemileatatime.com/guides/emirates-credit-card/",
+      "lastVerified": "2026-08-30"
+    },
+    {
+      "id": "emirates-premium-trusted-traveler-credit",
+      "name": "Global Entry / TSA PreCheck Credit",
+      "description": "Statement credit for a Global Entry or TSA PreCheck application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 5,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
+      },
+      "sourceUrl": "https://onemileatatime.com/guides/emirates-credit-card/",
+      "lastVerified": "2026-08-30"
+    },
+    {
+      "id": "emirates-premium-miles-discount",
+      "name": "Discount on Buying or Gifting Skywards Miles",
+      "description": "25% discount when purchasing or gifting Emirates Skywards Miles.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Applies each time miles are purchased or gifted through Emirates Skywards.",
+      "sourceUrl": "https://finance.yahoo.com/personal-finance/credit-cards/review/emirates-skywards-premium-world-elite-mastercard-review-174653630.html",
+      "lastVerified": "2026-08-30"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "emirates"
+      ],
+      "terms": "Eligible purchases directly with Emirates.",
+      "sourceUrl": "https://finance.yahoo.com/personal-finance/credit-cards/review/emirates-skywards-premium-world-elite-mastercard-review-174653630.html"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "travel"
+      ],
+      "terms": "Eligible travel purchases outside of Emirates.",
+      "sourceUrl": "https://finance.yahoo.com/personal-finance/credit-cards/review/emirates-skywards-premium-world-elite-mastercard-review-174653630.html"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://finance.yahoo.com/personal-finance/credit-cards/review/emirates-skywards-premium-world-elite-mastercard-review-174653630.html"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-30",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/emirates-skywards-premium-world-elite-mastercard/"
+      "https://cards.barclaycardus.com/banking/cards/emirates-skywards-premium-world-elite-mastercard/",
+      "https://finance.yahoo.com/personal-finance/credit-cards/review/emirates-skywards-premium-world-elite-mastercard-review-174653630.html",
+      "https://onemileatatime.com/guides/emirates-credit-card/"
     ],
     "updatedBy": "agent"
   },
