@@ -10,23 +10,61 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "hweb-annual-miles-booster",
+      "name": "Annual Miles Booster",
+      "description": "Bonus miles based on annual card spend: 20,000 miles after $50,000 in purchases, or 40,000 miles after $100,000 in purchases in a cardmember year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "20,000 bonus miles at $50,000 in purchases per cardmember year; 40,000 bonus miles at $100,000 in purchases per cardmember year (not cumulative).",
+      "sourceUrl": "https://www.drcreditcard.net/barclays-hawaiian.html",
+      "lastVerified": "2026-08-31"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "airline"
+      ],
+      "terms": "Eligible Hawaiian Airlines and Alaska Airlines purchases.",
+      "sourceUrl": "https://www.drcreditcard.net/barclays-hawaiian.html"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "gas_stations",
+        "dining",
+        "office_supplies"
+      ],
+      "sourceUrl": "https://www.drcreditcard.net/barclays-hawaiian.html"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.drcreditcard.net/barclays-hawaiian.html"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-31",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/combo-app/hawaiian-bha-boh---combo-app/"
+      "https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/combo-app/hawaiian-bha-boh---combo-app/",
+      "https://www.drcreditcard.net/barclays-hawaiian.html",
+      "https://upgradedpoints.com/news/barclays-american-hawaiian-credit-cards-update/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Hawaiian statement credit",
-        "value": 99,
-        "weight": 0.8
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/barclays-hawaiian-airlines-world-elite-business.png"
 }

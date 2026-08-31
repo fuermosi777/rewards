@@ -10,23 +10,125 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "jbb-free-checked-bag",
+      "name": "Free Checked Bag",
+      "description": "First checked bag free for the cardholder and up to 3 companions on the same reservation, on JetBlue-operated flights booked with the card.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires the ticket to be purchased with the card.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-business-barclaycard/",
+      "lastVerified": "2026-08-31"
+    },
+    {
+      "id": "jbb-anniversary-bonus-points",
+      "name": "Anniversary Bonus Points",
+      "description": "5,000 bonus points credited each year on the account anniversary.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-business-barclaycard/",
+      "lastVerified": "2026-08-31"
+    },
+    {
+      "id": "jbb-inflight-savings",
+      "name": "In-Flight Purchase Savings",
+      "description": "50% savings on eligible in-flight purchases (food, drinks, and other onboard items) on JetBlue flights when paid with the card.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Discount applied at point of purchase on eligible onboard food, drinks, and other items.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-business-barclaycard/",
+      "lastVerified": "2026-08-31"
+    },
+    {
+      "id": "jbb-points-redemption-rebate",
+      "name": "Points Redemption Rebate",
+      "description": "10% of points redeemed for JetBlue award travel are credited back to the account.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-business-barclaycard/",
+      "lastVerified": "2026-08-31"
+    },
+    {
+      "id": "jbb-vacations-statement-credit",
+      "name": "JetBlue Vacations Statement Credit",
+      "description": "$100 statement credit after purchasing a JetBlue Vacations package of $100 or more.",
+      "benefitType": "statement_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "JetBlue Vacations"
+        ]
+      },
+      "terms": "Requires a JetBlue Vacations package purchase of at least $100.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-business-barclaycard/",
+      "lastVerified": "2026-08-31"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "airline"
+      ],
+      "terms": "Eligible JetBlue purchases, including through the Paisly travel platform.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-business-barclaycard/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "office_supplies"
+      ],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-business-barclaycard/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-business-barclaycard/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-31",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/"
+      "https://cards.barclaycardus.com/banking/cards/jetblue-business-card/",
+      "https://upgradedpoints.com/credit-cards/reviews/jetblue-business-barclaycard/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Free checked bag",
-        "value": 50,
-        "weight": 0.5
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/barclays-jetblue-business.png"
 }

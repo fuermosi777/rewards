@@ -10,11 +10,77 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "hwe-free-checked-bags",
+      "name": "Free Checked Bags",
+      "description": "Two free checked bags for the primary cardholder on eligible Hawaiian Airlines and Alaska Airlines flights booked with the card.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Applies to the primary cardholder when the ticket is purchased with the card.",
+      "sourceUrl": "https://upgradedpoints.com/news/hawaiian-cardholders-checked-bags/",
+      "lastVerified": "2026-08-31"
+    },
+    {
+      "id": "hwe-annual-companion-discount",
+      "name": "Annual Companion Discount",
+      "description": "$100-off companion discount each account anniversary for roundtrip coach travel between Hawaii and North America on Hawaiian Airlines, or roundtrip North America coach travel on Alaska Airlines.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Discount applies to a companion traveling on the same reservation as the cardholder.",
+      "sourceUrl": "https://www.mymoneyblog.com/hawaiian-airlines-world-elite-mastercard-review.html",
+      "lastVerified": "2026-08-31"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "airline"
+      ],
+      "terms": "Eligible Hawaiian Airlines and Alaska Airlines purchases.",
+      "sourceUrl": "https://www.drcreditcard.net/barclays-hawaiian.html"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "gas_stations",
+        "dining",
+        "grocery_stores"
+      ],
+      "sourceUrl": "https://www.drcreditcard.net/barclays-hawaiian.html"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.drcreditcard.net/barclays-hawaiian.html"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-08-31",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/child/hawaiian-hcl-inflight-landing-page/"
+      "https://cards.barclaycardus.com/banking/credit-card/hawaiian-airlines/child/hawaiian-hcl-inflight-landing-page/",
+      "https://upgradedpoints.com/news/hawaiian-cardholders-checked-bags/",
+      "https://www.mymoneyblog.com/hawaiian-airlines-world-elite-mastercard-review.html",
+      "https://www.drcreditcard.net/barclays-hawaiian.html",
+      "https://upgradedpoints.com/news/barclays-american-hawaiian-credit-cards-update/"
     ],
     "updatedBy": "agent"
   },
