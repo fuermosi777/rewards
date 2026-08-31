@@ -1,0 +1,110 @@
+{
+  "id": "citi-costco-anywhere-visa",
+  "issuerId": "citi",
+  "name": "Costco Anywhere Visa® Card by Citi",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "foreignTransactionFee": false,
+  "status": "active",
+  "benefits": [
+    {
+      "id": "costco-anywhere-visa-purchase-protection",
+      "name": "Damage & Theft Purchase Protection",
+      "description": "May cover repairs or reimbursement if purchases made with the card are damaged or stolen within 120 days (90 days for New York residents) of purchase or delivery.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": false,
+      "sourceUrl": "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+      "lastVerified": "2026-08-30"
+    },
+    {
+      "id": "costco-anywhere-visa-car-rental-insurance",
+      "name": "Worldwide Car Rental Insurance",
+      "description": "May cover theft or damage to a rental car when the rental is paid for with the card and the rental company's collision loss/damage insurance is declined.",
+      "benefitType": "insurance",
+      "category": "transportation",
+      "isOneTime": false,
+      "sourceUrl": "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+      "lastVerified": "2026-08-30"
+    },
+    {
+      "id": "costco-anywhere-visa-travel-assistance",
+      "name": "Travel & Emergency Assistance",
+      "description": "24/7 emergency travel arrangement assistance and referrals. Referrals/assistance are at no cost, but the cardholder pays for any services used.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": false,
+      "sourceUrl": "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+      "lastVerified": "2026-08-30"
+    },
+    {
+      "id": "costco-anywhere-visa-roadside-assistance",
+      "name": "Roadside Assistance Dispatch Service",
+      "description": "Dispatches roadside help in the United States, Puerto Rico, and the U.S. Virgin Islands. The cardholder is responsible for the cost of any services provided.",
+      "benefitType": "other",
+      "category": "transportation",
+      "isOneTime": false,
+      "sourceUrl": "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+      "lastVerified": "2026-08-30"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["costco_gas"],
+      "spendCap": {
+        "amount": 7000,
+        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+      },
+      "terms": "5% on gas at Costco and 4% on other eligible gas/EV charging share a combined $7,000/year spend cap; earnings drop to 1% after the cap is reached.",
+      "sourceUrl": "https://www.citi.com/credit-cards/costco-anywhere-visa-card"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["gas_stations", "ev_charging"],
+      "spendCap": {
+        "amount": 7000,
+        "period": { "unit": "year", "count": 1, "anchor": "calendar" }
+      },
+      "terms": "4% on other eligible gas and EV charging (outside Costco). Shares a combined $7,000/year cap with the 5% Costco gas rate; earnings drop to 1% after the cap is reached.",
+      "sourceUrl": "https://www.citi.com/credit-cards/costco-anywhere-visa-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["dining", "travel"],
+      "terms": "3% on restaurants and eligible travel, including Costco Travel.",
+      "sourceUrl": "https://www.citi.com/credit-cards/costco-anywhere-visa-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["costco"],
+      "terms": "2% on all other Costco and Costco.com purchases.",
+      "sourceUrl": "https://www.citi.com/credit-cards/costco-anywhere-visa-card"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": ["everywhere_else"],
+      "terms": "1% on all other purchases, and on gas/dining/travel spend once the relevant cap is exceeded.",
+      "sourceUrl": "https://www.citi.com/credit-cards/costco-anywhere-visa-card"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-08-30",
+    "sourceUrls": [
+      "https://www.citi.com/credit-cards/costco-anywhere-visa-card",
+      "https://maxrewards.com/credit-cards/costco-anywhere-visa"
+    ],
+    "updatedBy": "agent"
+  },
+  "imageUrl": "data/assets/cards/citi-costco-anywhere-visa.png"
+}

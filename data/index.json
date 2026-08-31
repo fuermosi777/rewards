@@ -1760,6 +1760,20 @@
       "imageUrl": "data/assets/cards/citi-at-t-points-plus.png"
     },
     {
+      "id": "citi-costco-anywhere-visa",
+      "name": "Costco Anywhere Visa® Card by Citi",
+      "issuerId": "citi",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/citi-costco-anywhere-visa.png"
+    },
+    {
       "id": "citi-custom-cash",
       "name": "Custom Cash",
       "issuerId": "citi",
