@@ -10,34 +10,176 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "jetblue-premier-trusted-traveler-credit",
+      "name": "TSA PreCheck / Global Entry Credit",
+      "description": "Statement credit up to $120 for a Global Entry or TSA PreCheck application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": ["TSA PreCheck", "Global Entry"]
+      },
+      "sourceUrl": "https://cardstack.money/benefits/jetblue-premier-card-global-entry-tsa-precheck-credit",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-premier-trueblue-travel-credit",
+      "name": "TrueBlue Travel Statement Credit",
+      "description": "Up to $300 in annual statement credits for hotel, car rental, and cruise bookings made through TrueBlue Travel.",
+      "benefitType": "statement_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 300,
+        "currency": "USD",
+        "eligibleMerchants": ["TrueBlue Travel"]
+      },
+      "terms": "Covers hotels, car rentals, and cruises booked via TrueBlue Travel. Added as part of the spring 2026 benefits refresh.",
+      "sourceUrl": "https://news.jetblue.com/latest-news/press-release-details/2026/JetBlue-and-Barclays-Enhance-Airlines-Popular-Premier-Card-with-New-Benefits-and-Expanded-Rewards/default.aspx",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-premier-companion-pass",
+      "name": "Annual Companion Pass Credits",
+      "description": "Statement credit of up to $500 toward a companion's ticket after $15,000 in calendar-year spend, plus an additional credit of up to $1,500 after $75,000 in calendar-year spend.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Statement credit issued after both the cardholder and companion travel. Requires $15,000 calendar-year spend for the first credit (up to $500) and $75,000 calendar-year spend for the second (up to $1,500). Added as part of the spring 2026 benefits refresh.",
+      "sourceUrl": "https://news.jetblue.com/latest-news/press-release-details/2026/JetBlue-and-Barclays-Enhance-Airlines-Popular-Premier-Card-with-New-Benefits-and-Expanded-Rewards/default.aspx",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-premier-anniversary-bonus",
+      "name": "Card Anniversary Bonus Points",
+      "description": "5,000 bonus TrueBlue points every year after the account anniversary.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/jetblue-premier-world-elite-mastercard/",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-premier-free-checked-bag",
+      "name": "Free First Checked Bag",
+      "description": "First checked bag free for the cardholder and up to 3 companions on the same JetBlue-operated reservation, when the ticket is purchased with the card.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Ticket must be purchased with the JetBlue Premier Card. Covers cardholder plus up to 3 travel companions on the same reservation.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/jetblue-premier-world-elite-mastercard/",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-premier-award-rebate",
+      "name": "15% Points Back on Award Travel",
+      "description": "Get 15% of redeemed points back after booking and flying a JetBlue-operated award flight.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Increased from 10% (JetBlue Plus Card rate) as part of the spring 2026 benefits refresh.",
+      "sourceUrl": "https://news.jetblue.com/latest-news/press-release-details/2026/JetBlue-and-Barclays-Enhance-Airlines-Popular-Premier-Card-with-New-Benefits-and-Expanded-Rewards/default.aspx",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-premier-lounge-access",
+      "name": "Priority Pass Select & JetBlue Lounge Access",
+      "description": "Complimentary membership to Priority Pass Select, granting access to 1,800+ airport lounges, plus access to JetBlue's own BlueHouse lounges at JFK Terminal 5 (with Boston opening summer 2026).",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "isOneTime": false,
+      "loungeAccessDetail": {
+        "networks": ["Priority Pass Select", "JetBlue BlueHouse"]
+      },
+      "terms": "JetBlue BlueHouse currently at JFK Terminal 5; Boston location opening summer 2026.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/jetblue-premier-world-elite-mastercard/",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-premier-mosaic-tiles",
+      "name": "JetBlue Mosaic Status Tile Earning",
+      "description": "Earn 1 Tile toward JetBlue Mosaic elite status for every $1,000 spent on the card, plus a 25-Tile bonus each year (roughly halfway to Mosaic 1).",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "The 25-Tile annual bonus was added as part of the spring 2026 benefits refresh. Tiles count toward Mosaic status thresholds; does not by itself grant Mosaic status.",
+      "sourceUrl": "https://news.jetblue.com/latest-news/press-release-details/2026/JetBlue-and-Barclays-Enhance-Airlines-Popular-Premier-Card-with-New-Benefits-and-Expanded-Rewards/default.aspx",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-premier-boarding",
+      "name": "Group A Boarding",
+      "description": "Complimentary Group A boarding on JetBlue-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/jetblue-premier-world-elite-mastercard/",
+      "lastVerified": "2026-09-01"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": ["jetblue_purchases"],
+      "terms": "Eligible JetBlue and TrueBlue Travel purchases.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/jetblue-premier-world-elite-mastercard/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": ["dining"],
+      "terms": "Restaurants.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/jetblue-premier-world-elite-mastercard/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": ["online_groceries", "grocery_stores"],
+      "terms": "Eligible grocery stores.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/jetblue-premier-world-elite-mastercard/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": ["everything_else"],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/jetblue-premier-world-elite-mastercard/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-01",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/jetblue-premier-card/"
+      "https://cards.barclaycardus.com/banking/cards/jetblue-premier-card/",
+      "https://news.jetblue.com/latest-news/press-release-details/2026/JetBlue-and-Barclays-Enhance-Airlines-Popular-Premier-Card-with-New-Benefits-and-Expanded-Rewards/default.aspx",
+      "https://upgradedpoints.com/credit-cards/jetblue-premier-world-elite-mastercard/",
+      "https://cardstack.money/benefits/jetblue-premier-card-global-entry-tsa-precheck-credit"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "PreCheck Credit",
-        "value": 100,
-        "weight": 0.4
-      },
-      {
-        "description": "$300 credit for Paisly, JetBlue's portal.",
-        "value": 300,
-        "weight": 0.7
-      },
-      {
-        "description": "5k yearly anniversary credit",
-        "value": 5000,
-        "weight": 1,
-        "currency": "JETBLUE"
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/barclays-jetblue-premier.png"
 }

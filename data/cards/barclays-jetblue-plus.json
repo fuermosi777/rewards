@@ -10,11 +10,118 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "jetblue-plus-anniversary-bonus",
+      "name": "Card Anniversary Bonus Points",
+      "description": "5,000 bonus TrueBlue points every year after the account anniversary.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-plus-barclaycard/",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-plus-free-checked-bag",
+      "name": "Free First Checked Bag",
+      "description": "First checked bag free for the cardholder and up to 3 companions on the same JetBlue-operated reservation, when the ticket is purchased with the card.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Ticket must be purchased with the JetBlue Plus Card. Covers cardholder plus up to 3 travel companions on the same reservation.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-plus-barclaycard/",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-plus-award-rebate",
+      "name": "10% Points Back on Award Travel",
+      "description": "Get 10% of redeemed points back after booking and flying a JetBlue-operated award flight.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-plus-barclaycard/",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-plus-inflight-discount",
+      "name": "Inflight Purchase Discount",
+      "description": "50% savings on eligible inflight purchases (cocktails, food, and other onboard items) on JetBlue-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-plus-barclaycard/",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-plus-vacations-credit",
+      "name": "JetBlue Vacations Statement Credit",
+      "description": "$100 statement credit after purchasing a JetBlue Vacations package of $100 or more.",
+      "benefitType": "statement_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": ["JetBlue Vacations"]
+      },
+      "terms": "Requires a JetBlue Vacations package purchase of at least $100.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-plus-barclaycard/",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-plus-mosaic-tiles",
+      "name": "JetBlue Mosaic Status Tile Earning",
+      "description": "Earn 1 Tile toward JetBlue Mosaic elite status for every $1,000 spent on the card.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Tiles count toward Mosaic status thresholds; does not by itself grant Mosaic status.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-plus-barclaycard/",
+      "lastVerified": "2026-09-01"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": ["jetblue_purchases"],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-plus-barclaycard/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": ["dining"],
+      "terms": "Restaurants.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-plus-barclaycard/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": ["online_groceries", "grocery_stores"],
+      "terms": "Eligible grocery stores.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-plus-barclaycard/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": ["everything_else"],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-plus-barclaycard/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-01",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/jetblue-plus-card/"
+      "https://cards.barclaycardus.com/banking/cards/jetblue-plus-card/",
+      "https://upgradedpoints.com/credit-cards/reviews/jetblue-plus-barclaycard/"
     ],
     "updatedBy": "agent"
   },

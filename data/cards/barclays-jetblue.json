@@ -10,11 +10,63 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "jetblue-base-inflight-discount",
+      "name": "Inflight Purchase Discount",
+      "description": "50% savings on eligible inflight purchases (food, drinks, and other onboard items) on JetBlue-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-barclaycard/",
+      "lastVerified": "2026-09-01"
+    },
+    {
+      "id": "jetblue-base-mosaic-tiles",
+      "name": "JetBlue Mosaic Status Tile Earning",
+      "description": "Earn 1 Tile toward JetBlue Mosaic elite status for every $1,000 spent on the card.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Tiles count toward Mosaic status thresholds; does not by itself grant Mosaic status.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-barclaycard/",
+      "lastVerified": "2026-09-01"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": ["jetblue_purchases"],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-barclaycard/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": ["dining"],
+      "terms": "Restaurants.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-barclaycard/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": ["online_groceries", "grocery_stores"],
+      "terms": "Eligible grocery stores.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-barclaycard/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": ["everything_else"],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/jetblue-barclaycard/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-01",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/jetblue-card/"
+      "https://cards.barclaycardus.com/banking/cards/jetblue-card/",
+      "https://upgradedpoints.com/credit-cards/reviews/jetblue-barclaycard/"
     ],
     "updatedBy": "agent"
   },
