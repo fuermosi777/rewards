@@ -10,11 +10,81 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "lhmm-companion-ticket",
+      "name": "Annual Companion Ticket",
+      "description": "Each account anniversary, receive a companion ticket valid for an economy class ticket on any Lufthansa flight. Taxes and fees still apply.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Companion travels on an economy award ticket; cardholder pays taxes and fees for the companion ticket.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/miles-more-world-elite-mastercard-full-review/",
+      "lastVerified": "2026-09-02"
+    },
+    {
+      "id": "lhmm-lounge-vouchers",
+      "name": "Lufthansa Business Lounge Vouchers",
+      "description": "Two complimentary Lufthansa Business Lounge entry vouchers each year.",
+      "benefitType": "lounge_access",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Lufthansa Business Lounge"
+        ]
+      },
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/miles-more-world-elite-mastercard-full-review/",
+      "lastVerified": "2026-09-02"
+    },
+    {
+      "id": "lhmm-status-miles-conversion",
+      "name": "Award Miles to Status Miles Conversion",
+      "description": "Once per calendar year, convert 5,000 to 25,000 miles earned on purchases into Miles & More status miles/qualifying points at a 5-to-1 ratio, helping reach Miles & More status faster.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Conversion limited to once per calendar year, minimum 5,000 miles up to a maximum of 25,000 miles converted, at a 5:1 ratio.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/miles-more-world-elite-mastercard-full-review/",
+      "lastVerified": "2026-09-02"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "lufthansa_partner_airlines"
+      ],
+      "terms": "Miles & More partner airline ticket purchases.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/miles-more-world-elite-mastercard-full-review/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/miles-more-world-elite-mastercard-full-review/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-02",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/lufthansa-miles-more-world-elite-mastercard"
+      "https://cards.barclaycardus.com/banking/cards/lufthansa-miles-more-world-elite-mastercard",
+      "https://upgradedpoints.com/credit-cards/reviews/miles-more-world-elite-mastercard-full-review/"
     ],
     "updatedBy": "agent"
   },

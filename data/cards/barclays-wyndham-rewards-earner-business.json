@@ -5,29 +5,124 @@
   "network": "Visa",
   "variant": "business",
   "annualFee": {
-    "amount": 95,
+    "amount": 149,
     "currency": "USD",
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "wreb-anniversary-bonus-points",
+      "name": "Anniversary Bonus Points",
+      "description": "15,000 bonus Wyndham Rewards points each account anniversary after payment of the annual fee.",
+      "benefitType": "other",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Awarded after the annual fee is charged each anniversary year.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/wyndham-earner-business-card-review",
+      "lastVerified": "2026-09-02"
+    },
+    {
+      "id": "wreb-wholesale-club-credit",
+      "name": "Wholesale Membership Club Credit",
+      "description": "$65 annual statement credit for eligible wholesale membership club purchases (e.g. Costco, Sam's Club).",
+      "benefitType": "statement_credit",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 65,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/wyndham-earner-business-card-review",
+      "lastVerified": "2026-09-02"
+    },
+    {
+      "id": "wreb-accounting-software-credit",
+      "name": "Accounting Software Credit",
+      "description": "Up to $50 back each calendar year on eligible accounting software purchases.",
+      "benefitType": "statement_credit",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earnerbusiness",
+      "lastVerified": "2026-09-02"
+    },
+    {
+      "id": "wreb-diamond-status",
+      "name": "Complimentary Wyndham Rewards Diamond Status",
+      "description": "Automatic Wyndham Rewards Diamond elite status, including perks such as suite upgrades, early check-in, late checkout, and a welcome amenity, subject to availability.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": false,
+      "terms": "Diamond-level perks subject to hotel availability.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/wyndham-earner-business-card-review",
+      "lastVerified": "2026-09-02"
+    },
+    {
+      "id": "wreb-emerald-club-executive",
+      "name": "Complimentary Emerald Club Executive Status",
+      "description": "Complimentary Emerald Club Executive status with National Car Rental.",
+      "benefitType": "elite_status",
+      "category": "travel",
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earnerbusiness",
+      "lastVerified": "2026-09-02"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 8,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hotels_by_wyndham"
+      ],
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/wyndham-earner-business-card-review"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging",
+        "office_supplies",
+        "shipping",
+        "advertising"
+      ],
+      "terms": "Includes Vacation Club, gas, EV charging, marketing, advertising, office supply store, and shipping purchases.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/wyndham-earner-business-card-review"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://thepointsguy.com/credit-cards/reviews/wyndham-earner-business-card-review"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-02",
     "sourceUrls": [
-      "https://www.wyndhamrewardscreditcard.com/#earnerbusiness"
+      "https://www.wyndhamrewardscreditcard.com/#earnerbusiness",
+      "https://thepointsguy.com/credit-cards/reviews/wyndham-earner-business-card-review",
+      "https://www.doctorofcredit.com/barclays-refreshes-wyndham-personal-business-cards-increased-fees-added-credits-changed-points-earning/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Anniversary bonus points",
-        "value": 15000,
-        "weight": 1,
-        "currency": "WYNDHAM"
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/barclays-wyndham-rewards-earner-business.png"
 }

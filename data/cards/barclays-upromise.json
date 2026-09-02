@@ -10,11 +10,63 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "upromise-giftcardsplus-credit",
+      "name": "MyGiftCardsPlus Cash Back",
+      "description": "Up to $250 in cash back rewards per calendar year on eligible gift card purchases made at MyGiftCardsPlus, powered by Upromise.",
+      "benefitType": "bonus_category",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 1,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "mygiftcardsplus"
+        ],
+        "spendCap": {
+          "amount": 250,
+          "period": {
+            "unit": "year",
+            "count": 1,
+            "anchor": "calendar"
+          }
+        }
+      },
+      "terms": "Capped at $250 in cash back rewards per calendar year on eligible gift card purchases at MyGiftCardsPlus.",
+      "sourceUrl": "https://help.upromise.com/hc/en-us/articles/360049650851-What-are-the-benefits-of-having-the-Upromise-World-Mastercard",
+      "lastVerified": "2026-09-02"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 1.529,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Applies when the cardholder's Upromise program account is linked to an eligible 529 college savings plan.",
+      "sourceUrl": "https://help.upromise.com/hc/en-us/articles/360049650851-What-are-the-benefits-of-having-the-Upromise-World-Mastercard"
+    },
+    {
+      "multiplier": 1.25,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Applies when the cardholder's Upromise program account is not linked to an eligible college savings plan.",
+      "sourceUrl": "https://help.upromise.com/hc/en-us/articles/360049650851-What-are-the-benefits-of-having-the-Upromise-World-Mastercard"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-02",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/upromise-world-mastercard/"
+      "https://cards.barclaycardus.com/banking/cards/upromise-world-mastercard/",
+      "https://help.upromise.com/hc/en-us/articles/360049650851-What-are-the-benefits-of-having-the-Upromise-World-Mastercard"
     ],
     "updatedBy": "agent"
   },
