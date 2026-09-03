@@ -10,11 +10,76 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "xbox-game-pass-ultimate",
+      "name": "Complimentary Xbox Game Pass Ultimate",
+      "description": "Three months of Xbox Game Pass Ultimate for new Game Pass members after first purchase with the card.",
+      "benefitType": "membership",
+      "category": "entertainment",
+      "isOneTime": true,
+      "terms": "For new Xbox Game Pass Ultimate members only; requires a qualifying first purchase.",
+      "sourceUrl": "https://cards.barclaycardus.com/banking/cards/xbox-mastercard/",
+      "lastVerified": "2026-09-03"
+    },
+    {
+      "id": "xbox-spend-milestone-game-pass",
+      "name": "Game Pass Ultimate Gift Codes at $7,000 Spend",
+      "description": "Two 3-month Xbox Game Pass Ultimate codes to gift, after spending $7,000+ on the card in the first 12 months.",
+      "benefitType": "membership",
+      "category": "entertainment",
+      "isOneTime": true,
+      "terms": "Requires $7,000+ in purchases within the first 12 months of account opening.",
+      "sourceUrl": "https://cards.barclaycardus.com/banking/cards/xbox-mastercard/",
+      "lastVerified": "2026-09-03"
+    },
+    {
+      "id": "xbox-fico-score",
+      "name": "Free FICO Credit Score Access",
+      "description": "Complimentary access to FICO Credit Score with alerts.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://cards.barclaycardus.com/banking/cards/xbox-mastercard/",
+      "lastVerified": "2026-09-03"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "microsoft_store"
+      ],
+      "terms": "Eligible digital purchases at the Microsoft Store (software, electronics, PCs, services).",
+      "sourceUrl": "https://cards.barclaycardus.com/banking/cards/xbox-mastercard/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "streaming",
+        "dining_delivery"
+      ],
+      "terms": "Eligible streaming services (e.g. Netflix, Disney+, Spotify) and dining delivery services (e.g. Grubhub, DoorDash).",
+      "sourceUrl": "https://cards.barclaycardus.com/banking/cards/xbox-mastercard/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://cards.barclaycardus.com/banking/cards/xbox-mastercard/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-03",
     "sourceUrls": [
-      "https://cards.barclaycardus.com/banking/cards/xbox-mastercard/"
+      "https://cards.barclaycardus.com/banking/cards/xbox-mastercard/",
+      "https://www.mastercard.com/us/en/news-and-trends/press/2024/april/the-xbox-mastercard-issued-by-barclays-now-available-in-the-us-with-more-value.html",
+      "https://www.xbox.com/en-US/xbox-mastercard"
     ],
     "updatedBy": "agent"
   },

@@ -10,11 +10,69 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "wre-anniversary-bonus-points",
+      "name": "Anniversary Bonus Points",
+      "description": "7,500 bonus points each account anniversary year after spending $15,000 on eligible purchases that year.",
+      "benefitType": "other",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires $15,000 in eligible annual spend to earn the 7,500-point anniversary bonus.",
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earner",
+      "lastVerified": "2026-09-03"
+    },
+    {
+      "id": "wre-gold-status",
+      "name": "Wyndham Rewards Gold Status",
+      "description": "Automatic Gold level Wyndham Rewards membership, including preferred room selection and late checkout where available, plus 10% fewer points needed for free night redemptions.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earner",
+      "lastVerified": "2026-09-03"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "wyndham_hotels"
+      ],
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earner"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "online_groceries",
+        "gas_stations",
+        "ev_charging"
+      ],
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earner"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earner"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-03",
     "sourceUrls": [
-      "https://www.wyndhamrewardscreditcard.com/#earner"
+      "https://www.wyndhamrewardscreditcard.com/#earner",
+      "https://upgradedpoints.com/credit-cards/reviews/wyndham-rewards-earner-card/",
+      "https://money.usnews.com/credit-cards/barclaycard/wyndham-rewards-earner-card"
     ],
     "updatedBy": "agent"
   },

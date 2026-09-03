@@ -10,24 +10,102 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "wrep-meal-delivery-credit",
+      "name": "Meal Delivery Credit",
+      "description": "Statement credit for eligible meal delivery purchases, up to $25 every 6 months (max $50/year).",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 25,
+        "currency": "USD",
+        "splitEligible": true
+      },
+      "terms": "Up to $25 in statement credits every 6 months on eligible meal delivery purchases, max $50 per calendar year.",
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earnerplus",
+      "lastVerified": "2026-09-03"
+    },
+    {
+      "id": "wrep-anniversary-bonus-points",
+      "name": "Anniversary Bonus Points",
+      "description": "15,000 bonus points each account anniversary year.",
+      "benefitType": "other",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Awarded each anniversary year the card is open.",
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earnerplus",
+      "lastVerified": "2026-09-03"
+    },
+    {
+      "id": "wrep-diamond-platinum-status",
+      "name": "Wyndham Rewards Elite Status",
+      "description": "Automatic Diamond level status for the first year, then Platinum level status thereafter, plus 10% fewer points needed for free night redemptions.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Diamond status applies for the cardmember's first year; reverts to Platinum status afterward as long as the account remains open.",
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earnerplus",
+      "lastVerified": "2026-09-03"
+    },
+    {
+      "id": "wrep-national-emerald-club",
+      "name": "Complimentary National Car Rental Emerald Club Executive Status",
+      "description": "Complimentary Emerald Club Executive status with National Car Rental.",
+      "benefitType": "elite_status",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earnerplus",
+      "lastVerified": "2026-09-03"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "wyndham_hotels"
+      ],
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earnerplus"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "online_groceries",
+        "travel"
+      ],
+      "terms": "Dining, groceries, travel, and Wyndham Vacation Club purchases; excludes Target and Walmart.",
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earnerplus"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.wyndhamrewardscreditcard.com/#earnerplus"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-03",
     "sourceUrls": [
-      "https://www.wyndhamrewardscreditcard.com/#earnerplus"
+      "https://www.wyndhamrewardscreditcard.com/#earnerplus",
+      "https://upgradedpoints.com/credit-cards/reviews/wyndham-rewards-earner-plus-card/",
+      "https://www.uscreditcardguide.com/barclays-wyndham-earner-plus-credit-card/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Anniversary bonus points",
-        "value": 7500,
-        "weight": 1,
-        "currency": "WYNDHAM"
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/barclays-wyndham-rewards-earner-plus.png"
 }
