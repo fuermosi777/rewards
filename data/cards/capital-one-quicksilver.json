@@ -10,11 +10,112 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "c1qs-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 2 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Purchase must be made with the card. Confirm current per-claim/per-account caps with Capital One's Guide to Benefits.",
+      "sourceUrl": "https://www.bankrate.com/finance/credit-cards/capital-one-quicksilver-benefits-guide/",
+      "lastVerified": "2026-09-04"
+    },
+    {
+      "id": "c1qs-purchase-protection",
+      "name": "Purchase Security",
+      "description": "Covers eligible new purchases against accidental damage or theft, up to $1,000 per loss and $25,000 per account per 12-month period.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Purchase must be made with the card.",
+      "sourceUrl": "https://www.bankrate.com/finance/credit-cards/capital-one-quicksilver-benefits-guide/",
+      "lastVerified": "2026-09-04"
+    },
+    {
+      "id": "c1qs-price-protection",
+      "name": "Price Protection",
+      "description": "Reimburses the price difference if an item's price drops within 120 days of purchase, up to $250 per claim, up to 4 claims per 12-month period.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.bankrate.com/finance/credit-cards/capital-one-quicksilver-benefits-guide/",
+      "lastVerified": "2026-09-04"
+    },
+    {
+      "id": "c1qs-trip-cancellation",
+      "name": "Trip Cancellation/Interruption Insurance",
+      "description": "Reimbursement up to $1,500 when a trip booked with the card is canceled or cut short due to a covered reason.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.bankrate.com/finance/credit-cards/capital-one-quicksilver-benefits-guide/",
+      "lastVerified": "2026-09-04"
+    },
+    {
+      "id": "c1qs-baggage-delay",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 per day for 3 days for essential purchases when checked baggage is delayed 4+ hours on a trip booked with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.bankrate.com/finance/credit-cards/capital-one-quicksilver-benefits-guide/",
+      "lastVerified": "2026-09-04"
+    },
+    {
+      "id": "c1qs-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Automatic accidental death/dismemberment coverage on common carrier trips when the full fare is charged to the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Covers cardholder and eligible family members.",
+      "sourceUrl": "https://www.bankrate.com/finance/credit-cards/capital-one-quicksilver-benefits-guide/",
+      "lastVerified": "2026-09-04"
+    },
+    {
+      "id": "c1qs-concierge",
+      "name": "24/7 Concierge Service",
+      "description": "Complimentary concierge assistance for reservations, event tickets, and travel planning, available 24/7.",
+      "benefitType": "other",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://www.bankrate.com/finance/credit-cards/capital-one-quicksilver-benefits-guide/",
+      "lastVerified": "2026-09-04"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "hotels",
+        "vacation_rentals",
+        "rental_cars"
+      ],
+      "terms": "Hotels, vacation rentals, and rental cars booked through Capital One Travel.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/quicksilver/"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Unlimited 1.5% cash back on every purchase, every day.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/quicksilver/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-04",
     "sourceUrls": [
-      "https://www.capitalone.com/credit-cards/quicksilver/"
+      "https://www.capitalone.com/credit-cards/quicksilver/",
+      "https://www.bankrate.com/finance/credit-cards/capital-one-quicksilver-benefits-guide/"
     ],
     "updatedBy": "agent"
   },

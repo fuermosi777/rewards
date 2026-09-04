@@ -11,10 +11,57 @@
   },
   "status": "active",
   "benefits": [],
+  "earningRates": [
+    {
+      "multiplier": 7,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "rideshare"
+      ],
+      "terms": "Only applies when Brex is the account's sole corporate card.",
+      "sourceUrl": "https://www.brex.com/product/credit-card/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "travel"
+      ],
+      "terms": "Flights and prepaid hotels booked through Brex Travel. Only applies when Brex is the account's sole corporate card.",
+      "sourceUrl": "https://www.brex.com/product/credit-card/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Restaurants.",
+      "sourceUrl": "https://www.brex.com/product/credit-card/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "software"
+      ],
+      "terms": "Recurring software subscriptions.",
+      "sourceUrl": "https://www.brex.com/product/credit-card/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.brex.com/product/credit-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-04",
     "sourceUrls": [
-      "https://www.brex.com/product/credit-card/"
+      "https://www.brex.com/product/credit-card/",
+      "https://www.nerdwallet.com/business/credit-cards/reviews/brex-card"
     ],
     "updatedBy": "agent"
   },
