@@ -10,11 +10,116 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "c1sv-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 2 years or less by an additional year, up to $10,000 per claim and $50,000 per cardholder.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Purchase must be made with the card.",
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/capital-one/savor",
+      "lastVerified": "2026-09-04"
+    },
+    {
+      "id": "c1sv-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Secondary coverage for damage to or theft of a rental vehicle (MSRP up to $50,000) when the full rental is paid with the card and the rental company's own CDW is declined.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage — personal auto insurance pays first.",
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/capital-one/savor",
+      "lastVerified": "2026-09-04"
+    },
+    {
+      "id": "c1sv-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Automatic accidental death/dismemberment coverage on common carrier trips when the full fare is charged to the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.capitalone.com/credit-cards/savor/",
+      "lastVerified": "2026-09-04"
+    },
+    {
+      "id": "c1sv-concierge",
+      "name": "24/7 Concierge Service",
+      "description": "Complimentary concierge assistance for reservations, event tickets, and travel planning, available 24/7.",
+      "benefitType": "other",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://www.capitalone.com/credit-cards/savor/",
+      "lastVerified": "2026-09-04"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "hotels",
+        "vacation_rentals",
+        "rental_cars"
+      ],
+      "terms": "Hotels, vacation rentals, and rental cars booked through Capital One Travel.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/savor/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Dining, from fast food to fine dining.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/savor/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "entertainment"
+      ],
+      "sourceUrl": "https://www.capitalone.com/credit-cards/savor/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "streaming"
+      ],
+      "terms": "Popular streaming services.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/savor/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "grocery_stores"
+      ],
+      "terms": "Excludes superstores like Walmart and Target.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/savor/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.capitalone.com/credit-cards/savor/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-04",
     "sourceUrls": [
-      "https://www.capitalone.com/credit-cards/savor/"
+      "https://www.capitalone.com/credit-cards/savor/",
+      "https://hellosafe.com/credit-card-insurance/united-states/capital-one/savor",
+      "https://www.nerdwallet.com/credit-cards/learn/capital-one-savorone-is-now-just-savor"
     ],
     "updatedBy": "agent"
   },
