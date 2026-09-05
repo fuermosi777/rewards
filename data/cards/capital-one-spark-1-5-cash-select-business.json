@@ -10,11 +10,77 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "spark-select-purchase-security",
+      "name": "Purchase Security",
+      "description": "Covers eligible new purchases against theft or accidental damage, up to $1,000 per item, for 90 days from purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "No deductible.",
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/capital-one/spark-cash-select",
+      "lastVerified": "2026-09-05"
+    },
+    {
+      "id": "spark-select-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 12 months or less by an additional 12 months.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Only applies to original warranties of 12 months or less.",
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/capital-one/spark-cash-select",
+      "lastVerified": "2026-09-05"
+    },
+    {
+      "id": "spark-select-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Accidental death or dismemberment coverage while traveling on a licensed common carrier ticketed with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/capital-one/spark-cash-select",
+      "lastVerified": "2026-09-05"
+    },
+    {
+      "id": "spark-select-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Rental car insurance covering damage or theft when the rental is paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage; decline the rental company's collision coverage to activate.",
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/",
+      "lastVerified": "2026-09-05"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "hotels",
+        "rental_cars"
+      ],
+      "terms": "Hotels and rental cars booked through Capital One Business Travel.",
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-05",
     "sourceUrls": [
-      "https://www.capitalone.com/small-business/credit-cards/spark-cash-select"
+      "https://www.capitalone.com/small-business/credit-cards/spark-cash-select/",
+      "https://hellosafe.com/credit-card-insurance/united-states/capital-one/spark-cash-select"
     ],
     "updatedBy": "agent"
   },
