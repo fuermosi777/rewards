@@ -10,33 +10,119 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "venture-business-travel-credit",
+      "name": "Capital One Business Travel Credit",
+      "description": "$50 annual statement credit for bookings made through Capital One Business Travel.",
+      "benefitType": "statement_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Capital One Business Travel"
+        ]
+      },
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/venture-business/",
+      "lastVerified": "2026-09-05"
+    },
+    {
+      "id": "venture-business-advertising-software-credit",
+      "name": "Advertising/Software Credit",
+      "description": "$50 annual statement credit for qualifying purchases with advertising or software merchants, based on merchant category code.",
+      "benefitType": "statement_credit",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD"
+      },
+      "sourceUrl": "https://onemileatatime.com/guides/venture-business/",
+      "lastVerified": "2026-09-05"
+    },
+    {
+      "id": "venture-business-trusted-traveler-credit",
+      "name": "TSA PreCheck / Global Entry Credit",
+      "description": "Statement credit for a TSA PreCheck or Global Entry application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "TSA PreCheck",
+          "Global Entry"
+        ]
+      },
+      "sourceUrl": "https://www.capitalone.com/learn-grow/money-management/tsa-precheck-global-entry-credit/",
+      "lastVerified": "2026-09-05"
+    },
+    {
+      "id": "venture-business-hertz-five-star",
+      "name": "Hertz Five Star Status",
+      "description": "Complimentary Hertz Five Star status, including counter-skip privileges and car selection benefits.",
+      "benefitType": "elite_status",
+      "category": "travel",
+      "terms": "Requires enrollment.",
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/venture-business/",
+      "lastVerified": "2026-09-05"
+    },
+    {
+      "id": "venture-business-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties on purchases made with the card.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/venture-business/",
+      "lastVerified": "2026-09-05"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "hotels",
+        "rental_cars",
+        "vacation_rentals"
+      ],
+      "terms": "Hotels, vacation rentals, and rental cars booked through Capital One Business Travel.",
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/venture-business/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/venture-business/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-05",
     "sourceUrls": [
-      "https://www.capitalone.com/small-business/credit-cards/venture-business/"
+      "https://www.capitalone.com/small-business/credit-cards/venture-business/",
+      "https://www.capitalone.com/learn-grow/money-management/tsa-precheck-global-entry-credit/",
+      "https://onemileatatime.com/guides/venture-business/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "PreCheck Credit",
-        "value": 100,
-        "weight": 0.4
-      },
-      {
-        "description": "Capital One Business Travel Credit",
-        "value": 50,
-        "weight": 0.9
-      },
-      {
-        "description": "Advertising/Software Credit",
-        "value": 50,
-        "weight": 0.3
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/capital-one-venture-business.png"
 }

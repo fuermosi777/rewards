@@ -10,11 +10,84 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "spark-plus-annual-fee-refund",
+      "name": "Annual Fee Refund",
+      "description": "The $150 annual fee is refunded each account year when net purchases reach $150,000 by the membership anniversary.",
+      "benefitType": "statement_credit",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 150,
+        "currency": "USD"
+      },
+      "terms": "Requires $150,000 in net purchases within the account year.",
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
+      "lastVerified": "2026-09-05"
+    },
+    {
+      "id": "spark-plus-purchase-security",
+      "name": "Purchase Security",
+      "description": "Covers eligible new purchases against theft or accidental damage, up to $10,000 per claim, for 90 days from purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/capital-one/spark-cash-plus",
+      "lastVerified": "2026-09-05"
+    },
+    {
+      "id": "spark-plus-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/capital-one/spark-cash-plus",
+      "lastVerified": "2026-09-05"
+    },
+    {
+      "id": "spark-plus-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Up to $250,000 in accidental death or dismemberment coverage while traveling on a common carrier ticketed with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://hellosafe.com/credit-card-insurance/united-states/capital-one/spark-cash-plus",
+      "lastVerified": "2026-09-05"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "hotels",
+        "rental_cars",
+        "vacation_rentals"
+      ],
+      "terms": "Hotels, vacation rentals, and rental cars booked through Capital One Business Travel.",
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-05",
     "sourceUrls": [
-      "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/"
+      "https://www.capitalone.com/small-business/credit-cards/spark-cash-plus/",
+      "https://hellosafe.com/credit-card-insurance/united-states/capital-one/spark-cash-plus"
     ],
     "updatedBy": "agent"
   },
