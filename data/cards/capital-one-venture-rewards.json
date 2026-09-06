@@ -10,28 +10,118 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "c1-venture-precheck-credit",
+      "name": "Global Entry / TSA PreCheck Credit",
+      "description": "Statement credit for a Global Entry or TSA PreCheck application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "TSA PreCheck",
+          "Global Entry"
+        ]
+      },
+      "terms": "One statement credit per account every four years, up to $120, credited within two billing cycles.",
+      "sourceUrl": "https://www.capitalone.com/help-center/credit-cards/tsa-precheck-global-entry-benefits/",
+      "lastVerified": "2026-09-06"
+    },
+    {
+      "id": "c1-venture-lifestyle-collection-credit",
+      "name": "Lifestyle Collection Experience Credit",
+      "description": "$50 experience credit on qualifying stays booked through Capital One Travel's Lifestyle Collection.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "isOneTime": false,
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Lifestyle Collection via Capital One Travel"
+        ]
+      },
+      "terms": "Applied per qualifying Lifestyle Collection stay booked through Capital One Travel.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/venture/",
+      "lastVerified": "2026-09-06"
+    },
+    {
+      "id": "c1-venture-rental-car-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Secondary coverage for damage/theft on most rental cars when the rental is paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.capitalone.com/credit-cards/venture/",
+      "lastVerified": "2026-09-06"
+    },
+    {
+      "id": "c1-venture-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Coverage for accidental death or dismemberment while traveling on a common carrier paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.capitalone.com/credit-cards/venture/",
+      "lastVerified": "2026-09-06"
+    },
+    {
+      "id": "c1-venture-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties on eligible purchases.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.capitalone.com/credit-cards/venture/",
+      "lastVerified": "2026-09-06"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "capital_one_travel_hotels",
+        "capital_one_travel_vacation_rentals",
+        "capital_one_travel_rental_cars"
+      ],
+      "terms": "Hotels, vacation rentals, and rental cars booked through Capital One Travel.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/venture/"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "capital_one_entertainment"
+      ],
+      "terms": "Eligible ticket purchases through Capital One Entertainment.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/venture/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Unlimited 2X miles per dollar on every purchase, every day.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/venture/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-06",
     "sourceUrls": [
-      "https://www.capitalone.com/credit-cards/venture/"
+      "https://www.capitalone.com/credit-cards/venture/",
+      "https://www.capitalone.com/help-center/credit-cards/tsa-precheck-global-entry-benefits/",
+      "https://thepointsguy.com/news/capital-one-removes-lounge-access-venture-rewards-spark-miles/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "PreCheck Credit",
-        "value": 100,
-        "weight": 0.4
-      },
-      {
-        "description": "2x Capital One Lounge Visits",
-        "value": 100,
-        "weight": 0.25
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/capital-one-venture-rewards.png"
 }
