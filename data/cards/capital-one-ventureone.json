@@ -10,11 +10,67 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "c1v1-rental-car-insurance",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Secondary coverage for damage, theft, loss of use, and towing on rental cars.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage (your personal auto insurance applies first). Covers rentals of 31 days or less outside your country of residence, or 15 days or less within your country of residence. Decline the rental company's collision coverage and charge the full rental cost to the card to activate.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/ventureone/",
+      "lastVerified": "2026-09-07"
+    },
+    {
+      "id": "c1v1-travel-assistance",
+      "name": "24/7 Travel Assistance Services",
+      "description": "Referral assistance for services such as an English-speaking doctor, emergency transportation, and legal help while traveling.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Referral service only; cardholder is responsible for the cost of any actual services rendered.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/ventureone/",
+      "lastVerified": "2026-09-07"
+    },
+    {
+      "id": "c1v1-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends the term of the manufacturer's warranty on eligible purchases made with the card.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.capitalone.com/credit-cards/ventureone/",
+      "lastVerified": "2026-09-07"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "hotels",
+        "vacation_rentals",
+        "rental_cars"
+      ],
+      "terms": "Hotels, vacation rentals, and rental cars booked through Capital One Travel.",
+      "sourceUrl": "https://www.capitalone.com/credit-cards/ventureone/"
+    },
+    {
+      "multiplier": 1.25,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.capitalone.com/credit-cards/ventureone/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-07",
     "sourceUrls": [
-      "https://www.capitalone.com/credit-cards/ventureone/"
+      "https://www.capitalone.com/credit-cards/ventureone/",
+      "https://upgradedpoints.com/credit-cards/reviews/capital-one-ventureone-rewards-credit-card/benefits/"
     ],
     "updatedBy": "agent"
   },
