@@ -10,9 +10,73 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "c1v1biz-hertz-five-star",
+      "name": "Hertz Five Star Status",
+      "description": "Skip counter service at select Hertz locations and access an expanded vehicle selection.",
+      "benefitType": "membership",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/ventureone-business/",
+      "lastVerified": "2026-09-07"
+    },
+    {
+      "id": "c1v1biz-rental-car-insurance",
+      "name": "Rental Collision Insurance",
+      "description": "Coverage for damage or theft on eligible rental cars.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Decline the rental company's collision coverage and charge the full rental cost to the card to activate.",
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/ventureone-business/",
+      "lastVerified": "2026-09-07"
+    },
+    {
+      "id": "c1v1biz-roadside-assistance",
+      "name": "Roadside Assistance",
+      "description": "Services including jump-starts, tire changes, and towing.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/ventureone-business/",
+      "lastVerified": "2026-09-07"
+    },
+    {
+      "id": "c1v1biz-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends the manufacturer's warranty on eligible purchases made with the card.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/ventureone-business/",
+      "lastVerified": "2026-09-07"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "hotels",
+        "vacation_rentals",
+        "rental_cars"
+      ],
+      "terms": "Hotels, vacation rentals, and rental cars booked through Capital One Business Travel.",
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/ventureone-business/"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.capitalone.com/small-business/credit-cards/ventureone-business/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-07",
     "sourceUrls": [
       "https://www.capitalone.com/small-business/credit-cards/ventureone-business/"
     ],
