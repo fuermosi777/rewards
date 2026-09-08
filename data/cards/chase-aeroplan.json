@@ -10,11 +10,158 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "aeroplan-trusted-traveler-credit",
+      "name": "Global Entry / TSA PreCheck / NEXUS Credit",
+      "description": "Statement credit for a Global Entry, TSA PreCheck, or NEXUS application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck",
+          "NEXUS"
+        ]
+      },
+      "sourceUrl": "https://creditcards.chase.com/aeroplan/benefits",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "aeroplan-25k-status",
+      "name": "Aeroplan 25K Status",
+      "description": "Complimentary Aeroplan 25K elite status for the calendar year the account is opened plus the following calendar year, renewable with qualifying annual spend.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Automatic for new cardmembers. Retain 25K Status with $15,000 in annual purchases; upgrade to 35K Status at $75,000 annual spend. Status Qualifying Credits (SQC): 5,000 base plus 10,000 at $25,000 spend and another 10,000 at $50,000 spend, up to 25,000 SQC/year across all Aeroplan credit cards.",
+      "sourceUrl": "https://creditcards.chase.com/aeroplan/benefits",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "aeroplan-free-checked-bag",
+      "name": "Free First Checked Bag",
+      "description": "Free first checked bag for the cardholder and up to 8 travel companions on the same reservation, on Air Canada-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Applies to Air Canada, Air Canada Rouge, and Air Canada Express flights only. Limit 50 lbs per bag.",
+      "sourceUrl": "https://creditcards.chase.com/aeroplan/benefits",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "aeroplan-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "One year of complimentary DashPass membership from DoorDash, plus a quarterly non-restaurant discount.",
+      "benefitType": "membership",
+      "category": "dining",
+      "isOneTime": true,
+      "terms": "Membership auto-renews at the then-current rate after the complimentary year. Also includes up to $10 off quarterly on non-restaurant DoorDash orders. Requires activation.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "aeroplan-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement up to $1,500 per covered traveler and $6,000 per trip for prepaid, non-refundable passenger fares.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/aeroplan/benefits",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "aeroplan-trip-delay-reimbursement",
+      "name": "Trip Delay Reimbursement",
+      "description": "Up to $500 per covered traveler for reasonable expenses when a trip is delayed 12+ hours or requires an overnight stay.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/aeroplan/benefits",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "aeroplan-baggage-delay-insurance",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 3 days for essential purchases when checked luggage is delayed 6+ hours.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/aeroplan/benefits",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "aeroplan-auto-rental-coverage",
+      "name": "Auto Rental Collision Coverage",
+      "description": "Secondary coverage (in the U.S.) for theft and collision damage when the full rental cost is charged to the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage, not primary.",
+      "sourceUrl": "https://creditcards.chase.com/aeroplan/benefits",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "aeroplan-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $500 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/aeroplan/benefits",
+      "lastVerified": "2026-09-08"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "online_groceries",
+        "grocery_stores"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Restaurants, takeout, and eligible delivery services.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "air_canada"
+      ],
+      "terms": "Purchases made directly with Air Canada.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-08",
     "sourceUrls": [
-      "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan"
+      "https://creditcards.chase.com/travel-credit-cards/aircanada/aeroplan",
+      "https://creditcards.chase.com/aeroplan/benefits"
     ],
     "updatedBy": "agent"
   },
