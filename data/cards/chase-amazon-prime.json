@@ -10,11 +10,106 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "amazon-prime-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $500 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "amazon-prime-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "amazon-prime-baggage-delay-insurance",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 3 days for essential purchases when checked luggage is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "amazon-prime-lost-luggage-reimbursement",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "amazon-prime-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Coverage up to $500,000 for accidental death or dismemberment while traveling on a common carrier and the fare was purchased with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "amazon-prime-auto-rental-coverage",
+      "name": "Auto Rental Collision Coverage",
+      "description": "Secondary coverage for theft and collision damage when the full rental cost is charged to the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage, not primary.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards",
+      "lastVerified": "2026-09-08"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "amazon",
+        "whole_foods",
+        "chase_travel"
+      ],
+      "terms": "5% back (Amazon Rewards points) at Amazon.com, Audible.com, and Whole Foods Market, and on Chase Travel purchases, with an eligible Prime membership. Without Prime, the rate is 3%.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "dining",
+        "transit"
+      ],
+      "terms": "Gas stations, restaurants, and local transit/commuting including rideshare.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-08",
     "sourceUrls": [
-      "https://www.amazon.com/dp/BT00LN946S"
+      "https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards"
     ],
     "updatedBy": "agent"
   },

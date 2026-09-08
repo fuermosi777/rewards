@@ -10,9 +10,161 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "ba-anniversary-avios-bonus",
+      "name": "Account Anniversary Avios Bonus",
+      "description": "2,500 bonus Avios awarded each account anniversary year.",
+      "benefitType": "bonus_category",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 2500,
+        "rewardUnit": "points",
+        "eligibleCategories": [
+          "account_anniversary"
+        ]
+      },
+      "terms": "Flat 2,500 Avios credited automatically each cardmember anniversary year, not a spend-based multiplier.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "ba-reward-flight-statement-credit",
+      "name": "Reward Flight Statement Credit",
+      "description": "Statement credit to help offset taxes, fees, and carrier-imposed charges on eligible British Airways Reward Flight bookings.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 600,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "British Airways Reward Flight bookings"
+        ]
+      },
+      "terms": "$100 per booking for Economy/Premium Economy, $200 per booking for Business/First, up to 3 bookings and $600 total per calendar year. Reward Flight must be a transatlantic international itinerary originating in the U.S. solely on British Airways-operated aircraft.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "ba-travel-together-ticket",
+      "name": "Travel Together Ticket",
+      "description": "A companion voucher earned annually upon reaching $30,000 in purchases within a calendar year, valid for 2 years on British Airways, Iberia, or Aer Lingus.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires $30,000 in calendar-year purchases. Provides either a free companion seat on a Reward Flight (taxes/fees still apply) or a 50% Avios reduction for solo Reward Flight redemption. Voucher valid for 2 years from issuance.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "ba-flight-discount",
+      "name": "10% Flight Discount",
+      "description": "10% off British Airways flights originating in the U.S. when booked through the designated cardholder booking link.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Must book through the website provided in welcome materials.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "ba-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "One year of complimentary DashPass membership from DoorDash, plus a quarterly non-restaurant discount.",
+      "benefitType": "membership",
+      "category": "dining",
+      "isOneTime": true,
+      "terms": "Membership auto-renews at the then-current rate after the complimentary year. Also includes up to $10 off quarterly on non-restaurant DoorDash orders. Requires activation.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "ba-baggage-delay-insurance",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 3 days for essential purchases when checked luggage is delayed 6+ hours.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "ba-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $500 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "ba-lost-luggage-reimbursement",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+      "lastVerified": "2026-09-08"
+    },
+    {
+      "id": "ba-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year, up to 4 years total.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways",
+      "lastVerified": "2026-09-08"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "british_airways_family"
+      ],
+      "terms": "Flight purchases made directly with British Airways, Aer Lingus, Iberia, and LEVEL. Earned as Avios.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hotels"
+      ],
+      "terms": "Hotel accommodations purchased directly with the hotel. Earned as Avios.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Earned as Avios.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/british-airways"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-08",
     "sourceUrls": [
       "https://creditcards.chase.com/travel-credit-cards/avios/british-airways"
     ],
