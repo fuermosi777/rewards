@@ -10,9 +10,136 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "cff-rotating-bonus-categories",
+      "name": "5% Rotating Bonus Categories",
+      "description": "5% cash back on up to $1,500 in combined purchases in quarterly bonus categories that must be activated each quarter.",
+      "benefitType": "bonus_category",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 5,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "rotating"
+        ],
+        "spendCap": {
+          "amount": 1500,
+          "period": {
+            "unit": "quarter",
+            "count": 1,
+            "anchor": "calendar"
+          }
+        },
+        "requiresActivation": true
+      },
+      "terms": "Must activate each quarter. Categories change quarterly (e.g. Q3 2026: gas stations, EV charging, public transit, select live entertainment, United Way). Drops to 1% after the $1,500 quarterly cap.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+      "lastVerified": "2026-09-09"
+    },
+    {
+      "id": "cff-lyft-bonus",
+      "name": "2% Cash Back on Lyft",
+      "description": "Earn 2% total cash back on qualifying Lyft products.",
+      "benefitType": "bonus_category",
+      "category": "transportation",
+      "bonusCategoryDetail": {
+        "multiplier": 2,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "lyft"
+        ]
+      },
+      "terms": "Promotional rate through Sep. 30, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+      "lastVerified": "2026-09-09"
+    },
+    {
+      "id": "cff-doordash-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "6 months of complimentary DashPass membership from DoorDash, plus a quarterly non-restaurant order credit.",
+      "benefitType": "membership",
+      "category": "dining",
+      "isOneTime": true,
+      "terms": "Requires activation by Dec. 31, 2027 per current promotion. Also includes up to $10 off quarterly on non-restaurant DoorDash orders through Dec. 31, 2027; confirm these dates are still current before relying on them.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+      "lastVerified": "2026-09-09"
+    },
+    {
+      "id": "cff-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement up to $1,500 per traveler and $6,000 per trip for prepaid, non-refundable travel expenses.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+      "lastVerified": "2026-09-09"
+    },
+    {
+      "id": "cff-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $500 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+      "lastVerified": "2026-09-09"
+    },
+    {
+      "id": "cff-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+      "lastVerified": "2026-09-09"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "chase_travel"
+      ],
+      "terms": "Travel purchased through Chase Travel.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Dining at restaurants, including takeout and eligible delivery.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "drugstores"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-09",
     "sourceUrls": [
       "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex"
     ],
