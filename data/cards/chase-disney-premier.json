@@ -10,9 +10,139 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "cdp-disney-store-discount",
+      "name": "Disney Store & DisneyStore.com Discount",
+      "description": "10% off select purchases at DisneyStore.com and Disney Store locations.",
+      "benefitType": "bonus_category",
+      "category": "shopping",
+      "isOneTime": true,
+      "bonusCategoryDetail": {
+        "multiplier": 10,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "disney_store"
+        ]
+      },
+      "terms": "Select merchandise only. Excludes sales tax, shipping, gift wrap, Disney Gift Cards, and various licensed brands (see full exclusion list in card terms).",
+      "sourceUrl": "https://creditcards.chase.com/rewards-credit-cards/disney/premier",
+      "lastVerified": "2026-09-09"
+    },
+    {
+      "id": "cdp-parks-merchandise-discount",
+      "name": "Disney Parks Merchandise Discount",
+      "description": "10% off select merchandise purchases at select locations at Disneyland Resort and Walt Disney World Resort.",
+      "benefitType": "bonus_category",
+      "category": "shopping",
+      "isOneTime": true,
+      "bonusCategoryDetail": {
+        "multiplier": 10,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "disney_parks"
+        ]
+      },
+      "terms": "Select locations and merchandise only.",
+      "sourceUrl": "https://creditcards.chase.com/rewards-credit-cards/disney/premier",
+      "lastVerified": "2026-09-09"
+    },
+    {
+      "id": "cdp-parks-dining-discount",
+      "name": "Disney Parks Dining Discount",
+      "description": "10% off select dining locations most days at Disneyland Resort and Walt Disney World Resort.",
+      "benefitType": "bonus_category",
+      "category": "dining",
+      "isOneTime": true,
+      "bonusCategoryDetail": {
+        "multiplier": 10,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "disney_parks_dining"
+        ]
+      },
+      "terms": "Select locations only, most days (blackout days apply).",
+      "sourceUrl": "https://creditcards.chase.com/rewards-credit-cards/disney/premier",
+      "lastVerified": "2026-09-09"
+    },
+    {
+      "id": "cdp-doordash-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "12 months of complimentary DashPass membership from DoorDash, plus a quarterly non-restaurant order credit.",
+      "benefitType": "membership",
+      "category": "dining",
+      "isOneTime": true,
+      "terms": "Requires activation between Feb. 1, 2025 and Dec. 31, 2027 per current promotion. Auto-enrolls at current monthly rates after the complimentary period. Also includes up to $10 off quarterly on non-restaurant DoorDash orders through Dec. 31, 2027; confirm these dates are still current before relying on them.",
+      "sourceUrl": "https://creditcards.chase.com/rewards-credit-cards/disney/premier",
+      "lastVerified": "2026-09-09"
+    },
+    {
+      "id": "cdp-baggage-delay-insurance",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 3 days for essential purchases when checked luggage is delayed over 6 hours.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/rewards-credit-cards/disney/premier",
+      "lastVerified": "2026-09-09"
+    },
+    {
+      "id": "cdp-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $500 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "90-day coverage period for New York residents.",
+      "sourceUrl": "https://creditcards.chase.com/rewards-credit-cards/disney/premier",
+      "lastVerified": "2026-09-09"
+    },
+    {
+      "id": "cdp-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/rewards-credit-cards/disney/premier",
+      "lastVerified": "2026-09-09"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "streaming"
+      ],
+      "terms": "DisneyPlus.com, Hulu.com, or Stream.ESPN.com purchases made directly with the provider.",
+      "sourceUrl": "https://creditcards.chase.com/rewards-credit-cards/disney/premier"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "grocery_stores",
+        "dining",
+        "disney_locations"
+      ],
+      "terms": "Disney locations in the U.S., gas stations, grocery stores, and dining at restaurants.",
+      "sourceUrl": "https://creditcards.chase.com/rewards-credit-cards/disney/premier"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Earns Disney Rewards Dollars, redeemable at Disney locations, DisneyStore.com, and toward select airline/vacation purchases. No limit to amount earned.",
+      "sourceUrl": "https://creditcards.chase.com/rewards-credit-cards/disney/premier"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-09",
     "sourceUrls": [
       "https://creditcards.chase.com/rewards-credit-cards/disney/premier"
     ],
