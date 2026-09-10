@@ -10,9 +10,126 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "iberia-airfare-discount-voucher",
+      "name": "$1,000 Airfare Discount Voucher",
+      "description": "Voucher good for $1,000 toward two tickets on the same Iberia flight, earned each calendar year after $30,000 in card spend.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 1000,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Iberia"
+        ]
+      },
+      "terms": "Requires $30,000 in calendar-year card spend. Voucher applies toward two tickets on the same Iberia flight.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/iberia",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "iberia-flight-discount",
+      "name": "10% Discount on Iberia Flights",
+      "description": "10% discount on Iberia flight purchases.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/iberia",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "iberia-doordash-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "One year of complimentary DashPass membership, plus up to $10 off quarterly on non-restaurant DoorDash orders.",
+      "benefitType": "membership",
+      "category": "dining",
+      "isOneTime": true,
+      "terms": "Requires activation.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/iberia",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "iberia-baggage-delay-insurance",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 3 days for essential purchases when checked luggage is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/iberia",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "iberia-lost-luggage-reimbursement",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/iberia",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "iberia-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $500 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/iberia",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "iberia-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/iberia",
+      "lastVerified": "2026-09-10"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "airline"
+      ],
+      "terms": "Flights purchased directly with Iberia, British Airways, LEVEL, and Aer Lingus.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/iberia"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hotel"
+      ],
+      "terms": "Hotel stays booked directly with the hotel.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/iberia"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/avios/iberia"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-10",
     "sourceUrls": [
       "https://creditcards.chase.com/travel-credit-cards/avios/iberia"
     ],

@@ -11,10 +11,79 @@
   },
   "status": "discontinued",
   "discontinuedDate": "2026-05-02",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "freespirit-companion-voucher",
+      "name": "$100 Companion Flight Voucher",
+      "description": "$100 companion flight voucher earned each account anniversary after $5,000 in card spend in the prior year.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires $5,000 in card spend in the prior cardmember year. Card issued as the 'Free Spirit Travel More World Elite Mastercard'; Spirit Airlines ceased operations in 2026 and Free Spirit points are not redeemable, so the practical value of this benefit is uncertain for current cardholders.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/free-spirit-travel-more-mastercard-review",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "freespirit-group-2-boarding",
+      "name": "Group 2 Boarding",
+      "description": "Boarding in Group 2 on all Spirit flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Spirit Airlines ceased operations in 2026; confirm current applicability before relying on this benefit.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/free-spirit-travel-more-mastercard-review",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "freespirit-inflight-rebate",
+      "name": "25% Inflight Purchase Rebate",
+      "description": "25% rebate on inflight food and beverage purchases.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Spirit Airlines ceased operations in 2026; confirm current applicability before relying on this benefit.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/free-spirit-travel-more-mastercard-review",
+      "lastVerified": "2026-09-10"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "airline"
+      ],
+      "terms": "Spirit flight and inflight purchases. Free Spirit points are not redeemable following Spirit Airlines' 2026 cessation of operations.",
+      "sourceUrl": "https://thepointsguy.com/credit-cards/free-spirit-travel-more-mastercard-review"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "grocery_stores"
+      ],
+      "sourceUrl": "https://thepointsguy.com/credit-cards/free-spirit-travel-more-mastercard-review"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://thepointsguy.com/credit-cards/free-spirit-travel-more-mastercard-review"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-09-01",
+    "lastReviewedDate": "2026-09-10",
     "sourceUrls": [
+      "https://thepointsguy.com/credit-cards/free-spirit-travel-more-mastercard-review",
+      "https://thepointsguy.com/credit-cards/spirit-airlines-shutdown-credit-card-rewards-end/",
       "https://www.nerdwallet.com/credit-cards/news/spirit-airlines-credit-card-holders-can-keep-using-it-for-now",
       "https://upgradedpoints.com/news/spirit-airlines-credit-card-conversion-plan/"
     ],

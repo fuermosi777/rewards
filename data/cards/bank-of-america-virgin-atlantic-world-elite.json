@@ -12,14 +12,67 @@
   "foreignTransactionFee": false,
   "status": "discontinued",
   "discontinuedDate": "2024-10-17",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "virginatlantic-spend-milestone-15k",
+      "name": "15,000-Spend Anniversary Miles",
+      "description": "7,500 bonus Virgin Points earned after $15,000 in card spend within a cardmember year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires $15,000 in card spend within a cardmember year to earn 7,500 bonus Virgin Points. Card is discontinued and no longer open to new applicants; existing accounts were converted to the Bank of America Unlimited Cash Rewards card around October 2024. Documented here for reference for cardholders who held this card while active.",
+      "sourceUrl": "https://www.uscreditcardguide.com/boa-virgin-atlantic-vs-credit-card/",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "virginatlantic-spend-milestone-25k",
+      "name": "25,000-Spend Anniversary Miles",
+      "description": "Additional 7,500 bonus Virgin Points (on top of the 15,000-spend tier) earned after $25,000 in card spend within a cardmember year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires $25,000 in card spend within a cardmember year to earn an additional 7,500 bonus Virgin Points. Card is discontinued and no longer open to new applicants. Documented here for reference for cardholders who held this card while active.",
+      "sourceUrl": "https://www.uscreditcardguide.com/boa-virgin-atlantic-vs-credit-card/",
+      "lastVerified": "2026-09-10"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "airline"
+      ],
+      "terms": "Virgin Atlantic flights, holiday packages, and inflight extras. Card is discontinued; documented for reference for prior cardholders.",
+      "sourceUrl": "https://www.uscreditcardguide.com/boa-virgin-atlantic-vs-credit-card/"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.uscreditcardguide.com/boa-virgin-atlantic-vs-credit-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-09-01",
+    "lastReviewedDate": "2026-09-10",
     "sourceUrls": [
+      "https://www.uscreditcardguide.com/boa-virgin-atlantic-vs-credit-card/",
+      "https://www.bankrate.com/credit-cards/reviews/virgin-atlantic-world-elite-mastercard",
       "https://www.doctorofcredit.com/bank-of-america-virgin-atlantic-cards-to-be-converted-to-unlimited-cash/",
       "https://frequentmiler.com/a-new-virgin-red-credit-card-is-coming-but-it-wont-be-issued-by-bank-of-america/",
       "https://www.nerdwallet.com/reviews/credit-cards/virgin-atlantic"
     ],
     "updatedBy": "agent"
-  }
+  },
+  "imageUrl": "data/assets/cards/bank-of-america-virgin-atlantic-world-elite.png"
 }

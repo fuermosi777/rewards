@@ -10,9 +10,115 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "cfu-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $500 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "cfu-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "cfu-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement up to $1,500 per traveler and $6,000 per trip for prepaid, non-refundable fares when a trip is canceled or interrupted by a covered reason.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "cfu-auto-rental-insurance",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Secondary coverage for collision/theft damage on most rental cars, on top of the cardholder's personal insurance.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage (not primary) within the U.S.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "cfu-doordash-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "6 months of complimentary DashPass membership on DoorDash and Caviar, plus up to $10 off quarterly on non-restaurant orders.",
+      "benefitType": "membership",
+      "category": "dining",
+      "isOneTime": true,
+      "terms": "Requires activation between Feb. 1, 2025 and Dec. 31, 2027 per current promotion; confirm this window is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+      "lastVerified": "2026-09-10"
+    },
+    {
+      "id": "cfu-lyft-bonus-cashback",
+      "name": "2% Total Cash Back on Lyft",
+      "description": "Earn 2% total cash back on qualifying Lyft rides purchased through the Lyft app (0.5% on top of the 1.5% base rate).",
+      "benefitType": "bonus_category",
+      "category": "transportation",
+      "bonusCategoryDetail": {
+        "multiplier": 2,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "lyft"
+        ]
+      },
+      "terms": "Promotional rate through Sep. 30, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+      "lastVerified": "2026-09-10"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "chase_travel"
+      ],
+      "terms": "Travel purchased through Chase Travel.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Restaurants, takeout, and eligible delivery services.",
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "drugstores"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-10",
     "sourceUrls": [
       "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited"
     ],
