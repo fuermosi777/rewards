@@ -10,11 +10,219 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "ihg-premier-anniversary-free-night",
+      "name": "Anniversary Free Night",
+      "description": "One free night annually at an IHG hotel with a redemption value up to 40,000 points; points can be added to redeem above that level.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 40000,
+        "hotelProgram": "IHG One Rewards"
+      },
+      "terms": "Covers a standard room and tax only, up to 40,000 points in redemption value. Points can be added on top to book a higher-value room.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-premier-annual-spend-bonus",
+      "name": "Annual Spend Statement Credit & Bonus Points",
+      "description": "$100 statement credit and 10,000 bonus points each calendar year in which cardmember spends $20,000 or more.",
+      "benefitType": "statement_credit",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "terms": "Requires $20,000 in calendar-year purchases. Also awards 10,000 IHG bonus points.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-premier-diamond-elite-status",
+      "name": "Diamond Elite Status (Spend Threshold)",
+      "description": "IHG One Rewards Diamond Elite status through December 31 of the following year, earned by spending $40,000 or more in a calendar year.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Requires $40,000 in calendar-year purchases. Status is valid through Dec. 31 of the following year.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-premier-platinum-elite-status",
+      "name": "Platinum Elite Status",
+      "description": "Complimentary IHG One Rewards Platinum Elite status for as long as the account is open.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-premier-fourth-night-free",
+      "name": "4th Night Free",
+      "description": "The 4th night is free when redeeming points for 4 or more consecutive nights at IHG hotels.",
+      "benefitType": "other",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Applies to award (points) bookings of 4+ consecutive nights; every 4th night in the stay is free.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-premier-global-entry-tsa-credit",
+      "name": "Global Entry / TSA PreCheck Credit",
+      "description": "Statement credit for a Global Entry or TSA PreCheck application fee, once every four years.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
+      },
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-premier-united-travelbank",
+      "name": "United TravelBank Cash",
+      "description": "Up to $50 in United TravelBank Cash annually, deposited as two $25 credits per year.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 25,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "United Airlines"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Deposited as United TravelBank Cash, not a statement credit; usable toward United flight purchases.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-premier-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "One year of complimentary DashPass membership plus up to $10 quarterly DoorDash credit.",
+      "benefitType": "membership",
+      "category": "dining",
+      "isOneTime": true,
+      "terms": "Requires activation. Includes up to $10 quarterly credit on non-restaurant DoorDash orders.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-premier-instacart",
+      "name": "Instacart+ Membership & Credit",
+      "description": "Three months of complimentary Instacart+ membership plus $10 monthly Instacart credit, up to $120 annually.",
+      "benefitType": "membership",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Requires activation. $10 monthly credit available up to $120/year.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-premier-baggage-delay",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 per day for 3 days for essential purchases when checked luggage is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-premier-lost-luggage",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-premier-trip-cancellation",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement up to $5,000 per covered traveler and $10,000 per trip for prepaid, non-refundable travel expenses.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-premier-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $500 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "lastVerified": "2026-09-11"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 10,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "ihg_hotels"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "travel",
+        "dining",
+        "gas_stations"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-11",
     "sourceUrls": [
-      "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier"
+      "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/premier",
+      "https://www.chase.com/personal/credit-cards/ihg/premier/premier-perks"
     ],
     "updatedBy": "agent"
   },

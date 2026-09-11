@@ -10,11 +10,111 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "ink-premier-lyft-bonus",
+      "name": "5% Total Cash Back on Lyft",
+      "description": "Earn 5% total cash back on Lyft rides.",
+      "benefitType": "bonus_category",
+      "category": "transportation",
+      "bonusCategoryDetail": {
+        "multiplier": 5,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "lyft"
+        ]
+      },
+      "terms": "Promotional rate through Sep. 30, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-premier-cell-phone-protection",
+      "name": "Cell Phone Protection",
+      "description": "Coverage against theft or damage for phones on a monthly bill paid with the card, up to $1,000 per claim.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "Up to $1,000 per claim, maximum 3 claims per 12-month period, $100 deductible per claim.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-premier-auto-rental-coverage",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Primary coverage up to $60,000 for collision damage or theft on rental vehicles with MSRP under $125,000.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Primary coverage (not secondary).",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-premier-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible new purchases against damage or theft for 120 days (90 days for NY residents), up to $10,000 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-premier-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/premier",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-premier-roadside-assistance",
+      "name": "Roadside Dispatch",
+      "description": "On-demand roadside assistance; service fees are billed to the card at the time of dispatch.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Not free — covers dispatch of services, but the service fee itself is charged to the cardholder.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/premier",
+      "lastVerified": "2026-09-11"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "chase_travel"
+      ],
+      "terms": "Travel booked through Chase Travel.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/premier"
+    },
+    {
+      "multiplier": 2.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "large_purchases"
+      ],
+      "terms": "Applies to any single transaction of $5,000 or more.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/premier"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/premier"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-11",
     "sourceUrls": [
-      "https://creditcards.chase.com/business-credit-cards/ink/premier"
+      "https://creditcards.chase.com/business-credit-cards/ink/premier",
+      "https://www.nerdwallet.com/business/credit-cards/reviews/chase-ink-business-premier"
     ],
     "updatedBy": "agent"
   },

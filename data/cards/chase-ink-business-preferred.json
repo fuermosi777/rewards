@@ -10,11 +10,165 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "ink-preferred-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "At least one year of complimentary DashPass membership plus up to $10 monthly credit on grocery and retail DoorDash orders.",
+      "benefitType": "membership",
+      "category": "dining",
+      "isOneTime": true,
+      "terms": "Requires activation by Dec. 31, 2027 per current promotion; confirm this deadline is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-preferred-lyft-bonus",
+      "name": "5x Points on Lyft",
+      "description": "Earn 5x total points on Lyft rides.",
+      "benefitType": "bonus_category",
+      "category": "transportation",
+      "bonusCategoryDetail": {
+        "multiplier": 5,
+        "rewardUnit": "points",
+        "eligibleCategories": [
+          "lyft"
+        ]
+      },
+      "terms": "Promotional rate through Sep. 30, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-preferred-cell-phone-protection",
+      "name": "Cell Phone Protection",
+      "description": "Coverage against theft or damage for phones on a monthly bill paid with the card, up to $1,000 per claim.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "Up to $1,000 per claim, maximum 3 claims per 12-month period, $100 deductible per claim.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-preferred-auto-rental-coverage",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Reimbursement up to $60,000 for collision damage or theft on rental vehicles with MSRP up to $125,000.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Decline the rental company's collision coverage to activate.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-preferred-trip-cancellation",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement up to $5,000 per covered traveler and $10,000 per trip for prepaid, non-refundable travel expenses.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-preferred-trip-delay",
+      "name": "Trip Delay Reimbursement",
+      "description": "Up to $500 per ticket for reasonable expenses when a trip is delayed more than 12 hours or requires an overnight stay.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-preferred-baggage-delay",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 5 days for essential purchases when checked luggage is delayed more than 6 hours.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-preferred-lost-luggage",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-preferred-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible new purchases against damage or theft for 120 days (90 days for NY residents), up to $10,000 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-preferred-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties by an additional year, up to 4 years total.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ink-preferred-roadside-assistance",
+      "name": "Roadside Dispatch",
+      "description": "On-demand roadside assistance; service fees are billed to the card at the time of dispatch.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Not free — covers dispatch of services, but the service fee itself is charged to the cardholder.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+      "lastVerified": "2026-09-11"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "shipping",
+        "advertising",
+        "internet_cable_phone",
+        "travel"
+      ],
+      "spendCap": {
+        "amount": 150000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "card_anniversary"
+        }
+      },
+      "terms": "Combined $150,000 cap per account anniversary year across these categories, then 1x.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/business-preferred"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-11",
     "sourceUrls": [
-      "https://creditcards.chase.com/business-credit-cards/ink/business-preferred"
+      "https://creditcards.chase.com/business-credit-cards/ink/business-preferred",
+      "https://hellosafe.com/credit-card-insurance/united-states/chase/ink-business-preferred"
     ],
     "updatedBy": "agent"
   },

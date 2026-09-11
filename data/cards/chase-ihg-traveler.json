@@ -10,9 +10,149 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "ihg-traveler-annual-spend-bonus",
+      "name": "Annual Spend Bonus Points",
+      "description": "10,000 bonus IHG points each calendar year in which cardmember spends $10,000 or more.",
+      "benefitType": "other",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires $10,000 in calendar-year purchases.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-traveler-gold-elite-status",
+      "name": "Gold Elite Status (Spend Threshold)",
+      "description": "Automatic upgrade to IHG One Rewards Gold Elite status when annual purchases reach $20,000 or more.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Requires $20,000 in calendar-year purchases.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-traveler-silver-elite-status",
+      "name": "Silver Elite Status",
+      "description": "Complimentary IHG One Rewards Silver Elite status for as long as the account is open.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-traveler-fourth-night-free",
+      "name": "4th Night Free",
+      "description": "The 4th night is free when redeeming points for 4 or more consecutive nights at IHG hotels.",
+      "benefitType": "other",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Applies to award (points) bookings of 4+ consecutive nights; every 4th night in the stay is free with no limit on uses.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-traveler-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "One year of complimentary DashPass membership plus up to $10 quarterly DoorDash credit on non-restaurant orders.",
+      "benefitType": "membership",
+      "category": "dining",
+      "isOneTime": true,
+      "terms": "Requires activation. Includes up to $10 quarterly credit on non-restaurant DoorDash orders.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-traveler-instacart",
+      "name": "Instacart+ Membership & Credit",
+      "description": "Three months of complimentary Instacart+ membership plus a $10 monthly Instacart credit.",
+      "benefitType": "membership",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Requires activation.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-traveler-baggage-delay",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 per day for 3 days for essential purchases when checked luggage is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-traveler-lost-luggage",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-traveler-trip-cancellation",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement up to $5,000 per covered traveler for prepaid, non-refundable travel expenses.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+      "lastVerified": "2026-09-11"
+    },
+    {
+      "id": "ihg-traveler-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $500 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler",
+      "lastVerified": "2026-09-11"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "ihg_hotels"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "utilities",
+        "streaming",
+        "gas_stations"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-11",
     "sourceUrls": [
       "https://creditcards.chase.com/travel-credit-cards/ihg-rewards-club/traveler"
     ],
