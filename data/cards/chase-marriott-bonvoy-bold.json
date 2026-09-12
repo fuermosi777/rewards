@@ -10,9 +10,161 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "bonvoy-bold-silver-elite-status",
+      "name": "Marriott Bonvoy Silver Elite Status",
+      "description": "Complimentary Marriott Bonvoy Silver Elite status, including priority late checkout and 10% more points on stays.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic while cardholder; no enrollment beyond linking a Marriott Bonvoy account.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-bold-elite-night-credits",
+      "name": "Annual Elite Night Credits",
+      "description": "5 Elite Night Credits toward Marriott Bonvoy elite status tiers each year.",
+      "benefitType": "other",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-bold-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "12 months of complimentary DashPass membership covering both DoorDash and Caviar.",
+      "benefitType": "membership",
+      "category": "dining",
+      "isOneTime": true,
+      "terms": "Requires activation.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-bold-doordash-credit",
+      "name": "Quarterly DoorDash Non-Restaurant Credit",
+      "description": "Statement credit toward DoorDash non-restaurant orders (e.g. grocery, retail).",
+      "benefitType": "statement_credit",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "DoorDash non-restaurant orders"
+        ]
+      },
+      "terms": "Up to $10 per quarter ($40/year total).",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-bold-baggage-delay-insurance",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 5 days for essential purchases when checked luggage is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-bold-lost-luggage-reimbursement",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-bold-trip-delay-reimbursement",
+      "name": "Trip Delay Reimbursement",
+      "description": "Up to $500 per covered traveler for reasonable expenses when a trip is delayed 12+ hours.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-bold-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $500 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold",
+      "lastVerified": "2026-09-12"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "marriott_bonvoy"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "grocery_stores"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "rideshare_taxis"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "food_delivery"
+      ],
+      "terms": "Select food delivery services.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "streaming",
+        "internet_cable_phone"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-12",
     "sourceUrls": [
       "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/bold"
     ],

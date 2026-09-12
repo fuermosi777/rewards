@@ -10,73 +10,420 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "csrb-annual-travel-credit",
+      "name": "Annual Travel Credit",
+      "description": "Statement credit for flexible travel purchases.",
+      "benefitType": "statement_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 300,
+        "currency": "USD"
+      },
+      "terms": "Applies broadly across travel purchase categories.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-select-hotels-credit",
+      "name": "Select Chase Travel Hotels Credit",
+      "description": "Statement credit for prepaid Chase Travel hotel bookings with IHG, Montage, Pendry, Omni, Virgin, Minor, and Pan Pacific.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 250,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "IHG Hotels & Resorts",
+          "Montage Hotels & Resorts",
+          "Pendry Hotels & Resorts",
+          "Omni Hotels & Resorts",
+          "Virgin Hotels",
+          "Minor Hotels",
+          "Pan Pacific Hotels and Resorts"
+        ]
+      },
+      "terms": "Available Jan. 1, 2026 through Dec. 31, 2026 per current promotion; confirm this end date is still current before relying on it. Prepaid bookings via Chase Travel only.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-the-edit-credit",
+      "name": "The Edit by Chase Travel Credit",
+      "description": "Statement credit for qualifying prepaid bookings with The Edit by Chase Travel, requiring a 2-night minimum stay.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 500,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "The Edit by Chase Travel"
+        ]
+      },
+      "terms": "Up to $500/year, max $250 per transaction. Requires a minimum 2-night prepaid stay. Effective starting 1/1/2026.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-trusted-traveler-credit",
+      "name": "TSA PreCheck / Global Entry / NEXUS Credit",
+      "description": "Statement credit for a TSA PreCheck, Global Entry, or NEXUS application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "TSA PreCheck",
+          "Global Entry",
+          "NEXUS"
+        ]
+      },
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-lyft-credit",
+      "name": "Lyft Credit",
+      "description": "Monthly in-app Lyft credit.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Lyft"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $10/month ($120/year total) through Sep. 30, 2027 per current promotion; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-lounge-access",
+      "name": "Airport Lounge Access",
+      "description": "Complimentary access to Chase Sapphire Lounge by The Club, Priority Pass Select lounges, and Air Canada Maple Leaf Lounges/Cafés.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "isOneTime": true,
+      "loungeAccessDetail": {
+        "networks": [
+          "Chase Sapphire Lounge by The Club",
+          "Priority Pass Select",
+          "Air Canada Maple Leaf Lounge"
+        ],
+        "guestPolicy": "Up to 2 complimentary guests at Chase Sapphire Lounges and Priority Pass lounges; 1 complimentary guest at Air Canada Maple Leaf Lounges/Cafés."
+      },
+      "terms": "Priority Pass Select membership is provisioned automatically via the Chase account.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-ihg-platinum-elite",
+      "name": "IHG One Rewards Platinum Elite Status",
+      "description": "Complimentary IHG One Rewards Platinum Elite status.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Complimentary through Dec. 31, 2027 per current promotion; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-google-workspace-credit",
+      "name": "Google Workspace Credit",
+      "description": "Annual statement credit toward a Google Workspace subscription.",
+      "benefitType": "statement_credit",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 200,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Google Workspace"
+        ]
+      },
+      "terms": "Through Dec. 31, 2027 per current promotion; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-ziprecruiter-credit",
+      "name": "ZipRecruiter Credit",
+      "description": "Statement credit toward ZipRecruiter, disbursed semi-annually.",
+      "benefitType": "statement_credit",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 200,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "ZipRecruiter"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $200 per half-year period ($400/year total) through Dec. 31, 2027 per current promotion; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "Complimentary DashPass membership from DoorDash.",
+      "benefitType": "membership",
+      "category": "dining",
+      "isOneTime": true,
+      "terms": "Through Dec. 31, 2027 per current promotion; confirm this end date is still current before relying on it. Requires activation.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-doordash-monthly-promos",
+      "name": "Monthly DoorDash Promo Credits",
+      "description": "Monthly DoorDash promo credits toward restaurant and grocery/retail orders.",
+      "benefitType": "statement_credit",
+      "category": "dining",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 25,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "DoorDash"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $5/month in restaurant order credits and $20/month in grocery/retail order credits ($300/year total) through Dec. 31, 2027 per current promotion; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-giftcards-credit",
+      "name": "Curated Gift Card Credit",
+      "description": "Statement credit toward curated gift cards purchased via giftcards.com/reservebusiness, disbursed semi-annually.",
+      "benefitType": "statement_credit",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "giftcards.com/reservebusiness"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $50 per half-year period ($100/year total) through Oct. 31, 2028 per current promotion; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-cell-phone-protection",
+      "name": "Cell Phone Protection",
+      "description": "Coverage for damage or theft of a cell phone when the bill is paid with the card, up to $1,000 per claim, up to 3 claims per 12 months.",
+      "benefitType": "insurance",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "$100 deductible per claim.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-auto-rental-insurance",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Coverage for damage/theft on most rental cars, up to $75,000.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement up to $10,000 per covered traveler for prepaid, non-refundable travel expenses.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-emergency-evacuation",
+      "name": "Emergency Evacuation and Transportation Coverage",
+      "description": "Coverage up to $100,000 for emergency evacuation and transportation.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-emergency-medical",
+      "name": "Emergency Medical and Dental Benefit",
+      "description": "Coverage up to $2,500 per covered traveler for emergency medical/dental expenses while on a covered trip, after a $50 deductible.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-baggage-delay-insurance",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 5 days for essential purchases when checked luggage is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-lost-luggage-reimbursement",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $10,000 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "csrb-spend-tier-status-and-credits",
+      "name": "$120,000 Annual Spend Tier Benefits",
+      "description": "Complimentary World of Hyatt Explorist status, IHG One Rewards Diamond Elite status, Southwest Rapid Rewards A-List status, up to $500 statement credit for The Shops at Chase, and up to $500 statement credit for Southwest Airlines flights booked via Chase Travel.",
+      "benefitType": "other",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Unlocked after $120,000 in card purchases within the calendar year.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/business/reserve",
+      "lastVerified": "2026-09-12"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 8,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "chase_travel"
+      ],
+      "terms": "Purchases through Chase Travel, including The Edit. Purchases qualifying for statement credits do not earn points.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "lyft"
+      ],
+      "terms": "Promotional rate through Sep. 30, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "flights",
+        "hotels"
+      ],
+      "terms": "Flights and hotels booked directly with the airline/hotel (not through Chase Travel).",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "social_media_advertising",
+        "search_engine_advertising"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/sapphire/reserve"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-12",
     "sourceUrls": [
-      "https://creditcards.chase.com/business-credit-cards/sapphire/reserve"
+      "https://creditcards.chase.com/business-credit-cards/sapphire/reserve",
+      "https://www.chase.com/sapphire-cards/business/reserve"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "PreCheck Credit",
-        "value": 100,
-        "weight": 0.4
-      },
-      {
-        "description": "Travel Credit",
-        "value": 300,
-        "weight": 0.9
-      },
-      {
-        "description": "Travel Credit (The Edit)",
-        "value": 500,
-        "weight": 0.5
-      },
-      {
-        "description": "Lounge Access",
-        "value": 469,
-        "weight": 0.25
-      },
-      {
-        "description": "Apple TV / Apple Music",
-        "value": 250,
-        "weight": 0.4
-      },
-      {
-        "description": "Dashpass",
-        "value": 120,
-        "weight": 0.3
-      },
-      {
-        "description": "$25/mo DoorDash Promos",
-        "value": 300,
-        "weight": 0.3
-      },
-      {
-        "description": "Google Workspace Credit",
-        "value": 200,
-        "weight": 0.5
-      },
-      {
-        "description": "ZipRecruiter Credit",
-        "value": 400,
-        "weight": 0.25
-      },
-      {
-        "description": "$10/mo Lyft Credit",
-        "value": 120,
-        "weight": 0.5
-      },
-      {
-        "description": "Gift Card Credit",
-        "value": 100,
-        "weight": 0.5
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/chase-sapphire-reserve-business.png"
 }

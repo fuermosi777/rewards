@@ -10,9 +10,81 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "ink-unlimited-instacart-plus",
+      "name": "Instacart+ Membership",
+      "description": "Complimentary 3-month Instacart+ membership with monthly Instacart credits.",
+      "benefitType": "membership",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "3 months complimentary, includes $20 in monthly Instacart credits during the promotional period. Requires activation.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "ink-unlimited-lyft-bonus-points",
+      "name": "5% Total Cash Back on Lyft",
+      "description": "Earn 5% total cash back on Lyft rides.",
+      "benefitType": "bonus_category",
+      "category": "transportation",
+      "bonusCategoryDetail": {
+        "multiplier": 5,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "lyft"
+        ]
+      },
+      "terms": "Promotional rate through Sep. 30, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "ink-unlimited-auto-rental-insurance",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Coverage for damage/theft on most rental cars, up to $60,000.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "ink-unlimited-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $10,000 per item and $50,000 per cardholder.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "ink-unlimited-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Does not cover motorized vehicles, live animals, live plants, or used items.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/unlimited",
+      "lastVerified": "2026-09-12"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Unlimited 1.5% cash back on every purchase, no category restrictions.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/ink/unlimited"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-12",
     "sourceUrls": [
       "https://creditcards.chase.com/business-credit-cards/ink/unlimited"
     ],

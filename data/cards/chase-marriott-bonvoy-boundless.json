@@ -10,9 +10,189 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "bonvoy-boundless-free-night-award",
+      "name": "Annual Free Night Award",
+      "description": "One Free Night Award each year after card renewal, redeemable at a property with a redemption level up to 35,000 points.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "freeNightAwardDetail": {
+        "maxPointValue": 35000,
+        "hotelProgram": "Marriott Bonvoy"
+      },
+      "terms": "Awarded after each account anniversary. Can be topped off with up to 15,000 additional points to redeem at higher-category hotels.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-boundless-silver-elite-status",
+      "name": "Marriott Bonvoy Silver Elite Status",
+      "description": "Complimentary Marriott Bonvoy Silver Elite status.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic while cardholder; no enrollment beyond linking a Marriott Bonvoy account.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-boundless-elite-night-credits",
+      "name": "Annual Elite Night Credits",
+      "description": "15 Elite Night Credits toward Marriott Bonvoy elite status tiers each calendar year, plus 1 additional credit for every $5,000 spent.",
+      "benefitType": "other",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Path to Gold Elite status after $35,000 in annual card spend.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-boundless-airline-credit",
+      "name": "Airline Statement Credit",
+      "description": "Statement credit for airline purchases, disbursed semi-annually.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "airline purchases"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $50 per half-year period ($100/year total) through Jun. 30, 2027 per current promotion; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-boundless-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "12 months of complimentary DashPass membership.",
+      "benefitType": "membership",
+      "category": "dining",
+      "isOneTime": true,
+      "terms": "Requires activation.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-boundless-doordash-credit",
+      "name": "Quarterly DoorDash Non-Restaurant Credit",
+      "description": "Statement credit toward DoorDash non-restaurant orders (e.g. grocery, retail).",
+      "benefitType": "statement_credit",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "DoorDash non-restaurant orders"
+        ]
+      },
+      "terms": "Up to $10 per quarter ($40/year total).",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-boundless-baggage-delay-insurance",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 5 days for essential purchases when checked luggage is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-boundless-lost-luggage-reimbursement",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-boundless-trip-delay-reimbursement",
+      "name": "Trip Delay Reimbursement",
+      "description": "Up to $500 per covered traveler for reasonable expenses when a trip is delayed 12+ hours.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+      "lastVerified": "2026-09-12"
+    },
+    {
+      "id": "bonvoy-boundless-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $500 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+      "lastVerified": "2026-09-12"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "marriott_bonvoy"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "gas_stations",
+        "grocery_stores"
+      ],
+      "spendCap": {
+        "amount": 6000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "3x on the first $6,000 in combined dining, gas station, and grocery store purchases each calendar year; 2x thereafter.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-12",
     "sourceUrls": [
       "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless"
     ],
