@@ -10,29 +10,227 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "swpb-anniversary-points",
+      "name": "Anniversary Bonus Points",
+      "description": "6,000 bonus Rapid Rewards points awarded each account anniversary year.",
+      "benefitType": "other",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Points post automatically each account anniversary year.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "swpb-companion-pass-boost",
+      "name": "Companion Pass Qualifying Points Boost",
+      "description": "10,000 Companion Pass qualifying points credited each calendar year toward Southwest Companion Pass status.",
+      "benefitType": "other",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Boost is deposited by January 31st each calendar year and counts toward the Companion Pass qualifying points threshold.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "swpb-annual-flight-discount",
+      "name": "15% Annual Flight Discount Code",
+      "description": "One 15% discount promo code delivered each account anniversary year, valid on base fares.",
+      "benefitType": "other",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Excludes Basic fares. Valid for one year from issuance.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "swpb-free-checked-bag",
+      "name": "First Checked Bag Free",
+      "description": "First standard checked bag free for the primary cardmember and up to 8 passengers on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Applies to reservations that include the cardmember.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "swpb-preferred-seating",
+      "name": "Preferred Seat Selection",
+      "description": "Complimentary preferred or standard seat selection within 48 hours of departure for the cardmember and up to 8 passengers, when available.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "swpb-group5-boarding",
+      "name": "Group 5 Boarding",
+      "description": "Group 5 boarding position for the cardmember and up to 8 additional passengers on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "swpb-inflight-rebate",
+      "name": "Inflight Purchase Rebate",
+      "description": "25% back as a statement credit on inflight Southwest Airlines purchases (drinks and WiFi).",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "25% rebate applied as a statement credit; no fixed annual cap disclosed.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "swpb-tier-qualifying-points",
+      "name": "A-List Tier Qualifying Points",
+      "description": "Earn 2,000 Tier Qualifying Points (TQPs) toward Southwest A-List status for every $5,000 spent on purchases annually.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "2,000 TQPs per $5,000 spent per calendar year.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "swpb-dashpass",
+      "name": "Complimentary DashPass Membership",
+      "description": "12 months of complimentary DashPass membership, plus up to $10 off quarterly on eligible non-restaurant orders.",
+      "benefitType": "membership",
+      "category": "dining",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "DoorDash",
+          "Caviar"
+        ]
+      },
+      "terms": "Requires activation through Dec. 31, 2027 per current promotion; confirm this end date is still current before relying on it. Grants 12 months of DashPass plus quarterly $10 non-restaurant order credits.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "swpb-instacart",
+      "name": "Complimentary Instacart+ Membership",
+      "description": "3 months of complimentary Instacart+ membership plus a $10 monthly Instacart credit.",
+      "benefitType": "membership",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Instacart"
+        ]
+      },
+      "terms": "Promotional benefit through Dec. 31, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "swpb-lyft-bonus-points",
+      "name": "3x Total Points on Lyft",
+      "description": "Earn 3x total points on qualifying Lyft rides and services.",
+      "benefitType": "bonus_category",
+      "category": "transportation",
+      "bonusCategoryDetail": {
+        "multiplier": 3,
+        "rewardUnit": "points",
+        "eligibleCategories": [
+          "lyft"
+        ]
+      },
+      "terms": "Promotional rate through Dec. 31, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "swpb-employee-cards",
+      "name": "Free Employee Cards",
+      "description": "Employee cards available at no additional cost, with individual spending limits set by the business owner.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card",
+      "lastVerified": "2026-09-13"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "southwest_airlines"
+      ],
+      "terms": "Southwest Airlines purchases, including flights, inflight purchases, gift cards, and vacation packages.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "dining"
+      ],
+      "spendCap": {
+        "amount": 8000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "First $8,000 in combined gas station and restaurant spend per calendar year, then 1x.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/southwest/premier-business-credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-13",
     "sourceUrls": [
-      "https://creditcards.chase.com/business-credit-cards/southwest/premier-business"
+      "https://creditcards.chase.com/business-credit-cards/southwest/premier-business",
+      "https://creditcards.chase.com/southwest/premier-business-credit-card"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Free Checked Bag",
-        "value": 100,
-        "weight": 0.75
-      },
-      {
-        "description": "Anniversary Points",
-        "value": 6000,
-        "weight": 1,
-        "currency": "SOUTHWEST"
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/chase-southwest-premier-business.png"
 }
