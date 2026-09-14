@@ -10,34 +10,170 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "sw-perf-biz-free-checked-bag",
+      "name": "First Checked Bag Free",
+      "description": "First standard checked bag free for the primary cardmember and up to 8 passengers on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-perf-biz-anniversary-points",
+      "name": "Anniversary Bonus Points",
+      "description": "9,000 bonus Rapid Rewards points each account anniversary year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-perf-biz-companion-pass-boost",
+      "name": "Companion Pass Qualifying Points Boost",
+      "description": "One boost of 10,000 Companion Pass qualifying points each calendar year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Applies toward Southwest Companion Pass qualification, not toward redeemable Rapid Rewards points balance.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-perf-biz-tier-qualifying-points",
+      "name": "A-List Tier Qualifying Points",
+      "description": "2,500 tier qualifying points (TQPs) toward Southwest A-List status for each $5,000 spent in purchases annually.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-perf-biz-trusted-traveler-credit",
+      "name": "TSA PreCheck / Global Entry Credit",
+      "description": "Statement credit for a TSA PreCheck or Global Entry application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "TSA PreCheck",
+          "Global Entry"
+        ]
+      },
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-perf-biz-extra-legroom",
+      "name": "Extra Legroom Upgrade",
+      "description": "Unlimited complimentary upgrades to extra-legroom seating within 48 hours of departure, when available, for the cardmember and up to 8 passengers on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-perf-biz-preferred-seat",
+      "name": "Preferred Seat Selection",
+      "description": "Complimentary Preferred seat selection when available, at booking, for the cardmember and up to 8 passengers on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-perf-biz-group-5-boarding",
+      "name": "Group 5 Boarding",
+      "description": "Group 5 boarding position for the cardmember and up to 8 passengers on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-perf-biz-employee-cards",
+      "name": "Free Employee Cards",
+      "description": "Employee cards available at no additional cost.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business",
+      "lastVerified": "2026-09-14"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "southwest_airlines"
+      ],
+      "terms": "Southwest Airlines flights, inflight purchases, gift cards, and vacation packages booked directly.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "dining",
+        "direct_hotel_bookings",
+        "local_transit_rideshare"
+      ],
+      "terms": "Gas stations, dining at restaurants, hotel accommodations booked directly with the hotel, and local transit/rideshare, including rideshare services. No spend cap.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business"
+    },
+    {
+      "multiplier": 25,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "inflight_purchases"
+      ],
+      "terms": "25% back as a statement credit on Southwest inflight purchases, applied automatically. No enrollment or cap.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/southwest/performance-business"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-14",
     "sourceUrls": [
       "https://creditcards.chase.com/business-credit-cards/southwest/performance-business"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Free Checked Bag",
-        "value": 100,
-        "weight": 0.75
-      },
-      {
-        "description": "PreCheck Credit",
-        "value": 100,
-        "weight": 0.4
-      },
-      {
-        "description": "Anniversary Points",
-        "value": 9000,
-        "weight": 1,
-        "currency": "SOUTHWEST"
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/chase-southwest-performance-business.png"
 }

@@ -10,29 +10,137 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "sw-plus-free-checked-bag",
+      "name": "First Checked Bag Free",
+      "description": "First standard checked bag free for the primary cardmember and up to 8 passengers on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "terms": "Applies to Southwest Airlines flights booked on the cardmember's reservation.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-plus-anniversary-points",
+      "name": "Anniversary Bonus Points",
+      "description": "3,000 bonus Rapid Rewards points each account anniversary year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Points post automatically each account anniversary year.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-plus-companion-pass-boost",
+      "name": "Companion Pass Qualifying Points Boost",
+      "description": "One boost of 10,000 Companion Pass qualifying points each calendar year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Applies toward Southwest Companion Pass qualification, not toward redeemable Rapid Rewards points balance.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-plus-flight-discount",
+      "name": "Annual Flight Discount",
+      "description": "One 10% flight discount promo code each account anniversary year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Excludes Basic fares.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-plus-preferred-seat",
+      "name": "Preferred/Standard Seat Selection",
+      "description": "Complimentary Standard seat selection when available, within 48 hours of departure, for the cardmember and up to 8 passengers on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "sw-plus-group-5-boarding",
+      "name": "Group 5 Boarding",
+      "description": "Group 5 boarding position for the cardmember and up to 8 passengers on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/plus",
+      "lastVerified": "2026-09-14"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "southwest_airlines"
+      ],
+      "terms": "Southwest Airlines flights, inflight purchases, gift cards, and vacation packages booked directly.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/plus"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "grocery_stores"
+      ],
+      "spendCap": {
+        "amount": 5000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "card_anniversary"
+        }
+      },
+      "terms": "First $5,000 in combined gas station and grocery store purchases per account anniversary year, then 1x.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/plus"
+    },
+    {
+      "multiplier": 25,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "inflight_purchases"
+      ],
+      "terms": "25% back as a statement credit on Southwest inflight drink and WiFi purchases, applied automatically. No enrollment or cap.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/plus"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/plus"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-14",
     "sourceUrls": [
       "https://creditcards.chase.com/travel-credit-cards/southwest/plus"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Free Checked Bag",
-        "value": 100,
-        "weight": 0.75
-      },
-      {
-        "description": "Anniversary Points",
-        "value": 3000,
-        "weight": 1,
-        "currency": "SOUTHWEST"
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/chase-southwest-plus.png"
 }
