@@ -1,7 +1,7 @@
 {
   "id": "chase-southwest-priority",
   "issuerId": "chase",
-  "name": "Southwest Priority",
+  "name": "Southwest Rapid Rewards Priority",
   "network": "Visa",
   "variant": "personal",
   "annualFee": {
@@ -10,29 +10,183 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "swa-priority-anniversary-points",
+      "name": "Anniversary Bonus Points",
+      "description": "7,500 Rapid Rewards bonus points each account anniversary year.",
+      "benefitType": "points_multiplier",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Awarded each account anniversary year.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/priority-credit-card",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "swa-priority-companion-pass-boost",
+      "name": "Companion Pass Qualifying Points Boost",
+      "description": "10,000 Companion Pass qualifying points each calendar year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "One boost of 10,000 Companion Pass qualifying points per calendar year. Counts toward Companion Pass qualification only; does not add redeemable points.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/priority-credit-card",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "swa-priority-tier-qualifying-points",
+      "name": "A-List Tier Qualifying Points from Spend",
+      "description": "2,500 tier qualifying points toward A-List status for each $5,000 spent annually.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Earn 2,500 TQPs for every $5,000 in purchases each year, applied toward A-List status qualification.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "swa-priority-free-checked-bag",
+      "name": "First Checked Bag Free",
+      "description": "First standard checked bag free for the primary Cardmember and up to 8 additional passengers on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Applies to Southwest-operated flights. Weight and size limits apply.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "swa-priority-group-5-boarding",
+      "name": "Group 5 Boarding",
+      "description": "Group 5 boarding for the primary Cardmember and up to 8 additional passengers on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "sourceUrl": "https://creditcards.chase.com/southwest/priority-credit-card",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "swa-priority-preferred-seating",
+      "name": "Complimentary Preferred Seat",
+      "description": "Complimentary Preferred seat selection at booking, when available.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Subject to availability at time of booking.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "swa-priority-extra-legroom-upgrades",
+      "name": "Extra Legroom Seat Upgrades",
+      "description": "Unlimited complimentary upgrades to an Extra Legroom seat within 48 hours prior to departure, when available.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Available within 48 hours before departure, subject to availability.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "swa-priority-inflight-credit",
+      "name": "25% Back on Inflight Purchases",
+      "description": "25% back as a statement credit on inflight drink and Wi-Fi purchases made with the card on Southwest flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Purchases must be made with the card on Southwest-operated flights.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "swa-priority-lost-luggage-reimbursement",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "swa-priority-baggage-delay-insurance",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 3 days for essential purchases when checked luggage is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "swa-priority-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $500 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "swa-priority-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/southwest/priority",
+      "lastVerified": "2026-09-15"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "southwest_airlines"
+      ],
+      "terms": "Purchases made directly with Southwest Airlines, including flights, inflight purchases, and Southwest gift cards.",
+      "sourceUrl": "https://creditcards.chase.com/southwest/priority-credit-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "dining"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/southwest/priority-credit-card"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/southwest/priority-credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-15",
     "sourceUrls": [
+      "https://creditcards.chase.com/southwest/priority-credit-card",
       "https://creditcards.chase.com/travel-credit-cards/southwest/priority"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Free Checked Bag",
-        "value": 100,
-        "weight": 0.75
-      },
-      {
-        "description": "Anniversary Points",
-        "value": 7500,
-        "weight": 1,
-        "currency": "SOUTHWEST"
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/chase-southwest-priority.png"
 }
