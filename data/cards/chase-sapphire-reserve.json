@@ -15,7 +15,7 @@
     {
       "id": "csr-travel-credit",
       "name": "Annual Travel Credit",
-      "description": "$300 statement credit annually for travel purchases.",
+      "description": "General-purpose statement credit toward travel purchases.",
       "benefitType": "statement_credit",
       "category": "travel",
       "renewalPeriod": {
@@ -27,65 +27,36 @@
         "amount": 300,
         "currency": "USD"
       },
-      "terms": "Applies automatically to travel category purchases. No enrollment required.",
+      "terms": "Applies automatically to travel purchases. No enrollment required.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
+      "lastVerified": "2026-09-13"
     },
     {
-      "id": "csr-the-edit-credit",
-      "name": "The Edit Hotel Credit",
-      "description": "Statement credit for prepaid stays of 2+ nights booked through The Edit by Chase Travel.",
+      "id": "csr-the-edit-hotel-credit",
+      "name": "The Edit by Chase Travel Hotel Credit",
+      "description": "Statement credit for prepaid bookings of 2+ nights at The Edit hotel properties through Chase Travel.",
       "benefitType": "statement_credit",
       "category": "hotel",
       "renewalPeriod": {
         "unit": "year",
         "count": 1,
-        "anchor": "calendar"
+        "anchor": "card_anniversary"
       },
       "statementCreditDetail": {
         "amount": 500,
         "currency": "USD",
         "eligibleMerchants": [
           "The Edit via Chase Travel"
-        ],
-        "splitEligible": true
-      },
-      "terms": "Up to $250 per booking, max $500/year across two bookings. Two-night minimum required. Renews on the calendar year starting Jan 1, 2026. Purchases that qualify do not earn points.",
-      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
-    },
-    {
-      "id": "csr-select-hotels-credit",
-      "name": "Select Chase Travel Hotels Credit",
-      "description": "Statement credit for prepaid stays of 2+ nights at IHG, Montage, Pendry, Omni, Virgin Hotels, Minor Hotels, or Pan Pacific properties booked through Chase Travel.",
-      "benefitType": "statement_credit",
-      "category": "hotel",
-      "renewalPeriod": {
-        "unit": "year",
-        "count": 1,
-        "anchor": "calendar"
-      },
-      "statementCreditDetail": {
-        "amount": 250,
-        "currency": "USD",
-        "eligibleMerchants": [
-          "IHG Hotels & Resorts",
-          "Montage Hotels & Resorts",
-          "Pendry Hotels & Resorts",
-          "Omni Hotels & Resorts",
-          "Virgin Hotels",
-          "Minor Hotels",
-          "Pan Pacific Hotels and Resorts"
         ]
       },
-      "terms": "Two-night minimum required. Available through Dec. 31, 2026 per current terms; confirm this end date is still current before relying on it. Purchases do not earn points.",
+      "terms": "Up to $250 per booking, $500/year total. Requires a minimum 2-night stay.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
+      "lastVerified": "2026-09-13"
     },
     {
       "id": "csr-dining-credit",
       "name": "Sapphire Reserve Exclusive Tables Dining Credit",
-      "description": "Statement credit for meals at Sapphire Reserve Exclusive Tables restaurants booked via OpenTable.",
+      "description": "Statement credit for dining at Sapphire Reserve Exclusive Tables restaurants, split across two half-year periods.",
       "benefitType": "statement_credit",
       "category": "dining",
       "renewalPeriod": {
@@ -97,18 +68,18 @@
         "amount": 150,
         "currency": "USD",
         "eligibleMerchants": [
-          "Sapphire Reserve Exclusive Tables via OpenTable"
+          "Sapphire Reserve Exclusive Tables"
         ],
         "splitEligible": true
       },
-      "terms": "Up to $150 per half-year period ($300/year total: Jan-Jun and Jul-Dec). No enrollment required.",
+      "terms": "$150 Jan-June, $150 July-Dec ($300/year total). No enrollment required.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
+      "lastVerified": "2026-09-13"
     },
     {
       "id": "csr-stubhub-credit",
       "name": "StubHub / Viagogo Credit",
-      "description": "Statement credit for tickets purchased through StubHub or Viagogo.",
+      "description": "Statement credit for purchases on StubHub or Viagogo, split across two half-year periods.",
       "benefitType": "statement_credit",
       "category": "entertainment",
       "renewalPeriod": {
@@ -125,87 +96,37 @@
         ],
         "splitEligible": true
       },
-      "terms": "Up to $150 per half-year period ($300/year total). Requires activation. Available through Dec. 31, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "terms": "$150 Jan-June, $150 July-Dec ($300/year total). Promotional benefit through Dec. 31, 2027 per current terms; confirm this end date is still current before relying on it.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
+      "lastVerified": "2026-09-13"
     },
     {
-      "id": "csr-apple-subscriptions",
-      "name": "Apple TV and Apple Music Subscriptions",
-      "description": "Complimentary 12-month subscriptions to Apple TV and Apple Music, combined value up to $300/year.",
-      "benefitType": "membership",
-      "category": "streaming",
-      "isOneTime": true,
-      "terms": "Requires activation by linking Apple ID via the Chase Mobile app. Available through Jun. 22, 2027 per current promotion; confirm this end date is still current before relying on it. Pre-existing subscriptions are suspended during the benefit period.",
-      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
-    },
-    {
-      "id": "csr-doordash-benefits",
-      "name": "DoorDash DashPass and Promo Credits",
-      "description": "Complimentary 12-month DashPass membership plus monthly DoorDash promo credits ($5 restaurant + two $10 non-restaurant credits per month).",
-      "benefitType": "membership",
-      "category": "dining",
-      "renewalPeriod": {
-        "unit": "month",
-        "count": 1,
-        "anchor": "calendar"
-      },
-      "statementCreditDetail": {
-        "amount": 25,
-        "currency": "USD",
-        "eligibleMerchants": [
-          "DoorDash"
-        ],
-        "splitEligible": true
-      },
-      "terms": "DashPass membership requires activation by Dec. 31, 2027 per current promotion; confirm this end date is still current before relying on it. Monthly promo credits ($5 restaurant + two $10 non-restaurant) are separate from the DashPass membership itself and do not roll over.",
-      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
-    },
-    {
-      "id": "csr-lyft-credit",
-      "name": "Lyft Credits",
-      "description": "Monthly Lyft in-app credit.",
+      "id": "csr-select-hotels-credit",
+      "name": "Select Hotels Credit",
+      "description": "Statement credit for prepaid stays of 2+ nights at select partner hotel brands (IHG, Montage, Pendry, Omni, Virgin, Minor, Pan Pacific) booked through Chase Travel.",
       "benefitType": "statement_credit",
-      "category": "transportation",
-      "renewalPeriod": {
-        "unit": "month",
-        "count": 1,
-        "anchor": "calendar"
-      },
-      "statementCreditDetail": {
-        "amount": 10,
-        "currency": "USD",
-        "eligibleMerchants": [
-          "Lyft"
-        ]
-      },
-      "terms": "Up to $10/month ($120/year total). Requires activation. Available through Sep. 30, 2027 per current terms; confirm this end date is still current before relying on it. Separate from the 5x points on Lyft rides earning rate.",
-      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
-    },
-    {
-      "id": "csr-peloton-credit",
-      "name": "Peloton Membership Credit",
-      "description": "Statement credit toward Peloton membership tiers (All-Access, Rental, App One, App+, Guide, or Strength+).",
-      "benefitType": "statement_credit",
-      "category": "wellness",
+      "category": "hotel",
       "renewalPeriod": {
         "unit": "year",
         "count": 1,
-        "anchor": "calendar"
+        "anchor": "card_anniversary"
       },
       "statementCreditDetail": {
-        "amount": 120,
+        "amount": 250,
         "currency": "USD",
         "eligibleMerchants": [
-          "Peloton"
+          "IHG",
+          "Montage",
+          "Pendry",
+          "Omni",
+          "Virgin Hotels",
+          "Minor Hotels",
+          "Pan Pacific"
         ]
       },
-      "terms": "Requires activation. Separate from the 10x points on Peloton hardware/accessory purchases earning rate.",
+      "terms": "Requires minimum 2-night prepaid stay. Promotional benefit through Dec. 31, 2026 per current terms; confirm this end date is still current before relying on it.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
+      "lastVerified": "2026-09-13"
     },
     {
       "id": "csr-trusted-traveler-credit",
@@ -228,123 +149,90 @@
         ]
       },
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
+      "lastVerified": "2026-09-13"
     },
     {
-      "id": "csr-ihg-platinum",
-      "name": "IHG One Rewards Platinum Elite Status",
-      "description": "Complimentary IHG One Rewards Platinum Elite status.",
-      "benefitType": "elite_status",
-      "category": "hotel",
-      "isOneTime": true,
-      "terms": "Requires linking IHG One Rewards membership via chase.com or the Chase Mobile app. Available through Dec. 31, 2027 per current terms; confirm this end date is still current before relying on it.",
-      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
-    },
-    {
-      "id": "csr-lounge-access",
-      "name": "Priority Pass, Chase Sapphire Lounge, and Air Canada Maple Leaf Lounge Access",
-      "description": "Access to 1,300+ Priority Pass Select lounges, Chase Sapphire Lounges by The Club, and select Air Canada Maple Leaf Lounges/Cafés, each with up to two complimentary guests.",
-      "benefitType": "lounge_access",
-      "category": "travel",
-      "isOneTime": true,
-      "loungeAccessDetail": {
-        "networks": [
-          "Priority Pass",
-          "Chase Sapphire Lounge by The Club",
-          "Air Canada Maple Leaf Lounge"
-        ],
-        "guestPolicy": "Up to 2 complimentary guests per network. Air Canada Maple Leaf Lounge access requires an eligible same-day boarding pass (U.S., Canada, Europe)."
+      "id": "csr-doordash-dashpass",
+      "name": "Complimentary DashPass Membership + DoorDash Credits",
+      "description": "One year of complimentary DashPass membership plus monthly DoorDash promo credits.",
+      "benefitType": "membership",
+      "category": "dining",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
       },
-      "terms": "Priority Pass requires separate enrollment through Chase.",
+      "statementCreditDetail": {
+        "amount": 25,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "DoorDash"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Requires activation. DashPass membership must be activated by Dec. 31, 2027 per current promotion. Monthly DoorDash credits ($5 restaurant + two $10 non-restaurant promos = $25/month, $300/year) run through the same period; confirm these dates are still current before relying on them.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
+      "lastVerified": "2026-09-13"
     },
     {
-      "id": "csr-primary-rental-car-insurance",
-      "name": "Auto Rental Collision Damage Waiver",
-      "description": "Primary coverage for theft and collision damage on most U.S. and international rental cars, up to $75,000.",
-      "benefitType": "insurance",
-      "category": "travel",
-      "isOneTime": true,
-      "terms": "Primary coverage. Decline the rental company's collision coverage and charge the rental to the card to activate.",
+      "id": "csr-lyft-credit",
+      "name": "Lyft Ride Credit",
+      "description": "Monthly Lyft ride credit, in addition to the 5x total points earning rate on Lyft.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Lyft"
+        ]
+      },
+      "terms": "Requires linking the card in the Lyft app. Promotional benefit through Sep. 30, 2027 per current terms; confirm this end date is still current before relying on it.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
+      "lastVerified": "2026-09-13"
     },
     {
-      "id": "csr-trip-cancellation-interruption",
-      "name": "Trip Cancellation & Interruption Insurance",
-      "description": "Reimbursement up to $10,000 per covered traveler and $20,000 per trip for prepaid, non-refundable travel expenses.",
-      "benefitType": "insurance",
-      "category": "travel",
-      "isOneTime": true,
+      "id": "csr-peloton-membership-credit",
+      "name": "Peloton Membership Credit",
+      "description": "Monthly statement credit toward a qualifying Peloton membership.",
+      "benefitType": "statement_credit",
+      "category": "wellness",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Peloton"
+        ]
+      },
+      "terms": "Requires activation at onepeloton.com. Promotional benefit through Dec. 31, 2027 per current terms; confirm this end date is still current before relying on it. Separate from the 10x points earned on Peloton equipment purchases.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
+      "lastVerified": "2026-09-13"
     },
     {
-      "id": "csr-trip-delay-reimbursement",
-      "name": "Trip Delay Reimbursement",
-      "description": "Up to $500 per covered traveler for reasonable expenses when a trip is delayed 6+ hours or requires an overnight stay.",
-      "benefitType": "insurance",
-      "category": "travel",
+      "id": "csr-apple-tv-music",
+      "name": "Apple TV + Apple Music Subscription",
+      "description": "Complimentary subscription to Apple TV and Apple Music.",
+      "benefitType": "membership",
+      "category": "streaming",
       "isOneTime": true,
+      "terms": "Requires one-time activation by Jun. 22, 2027 per current promotion; confirm this deadline is still current before relying on it. Provides 12+ months of complimentary access from activation.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
-    },
-    {
-      "id": "csr-baggage-delay-insurance",
-      "name": "Baggage Delay Insurance",
-      "description": "Up to $100 a day for up to 5 days for essential purchases when checked luggage is delayed 6+ hours.",
-      "benefitType": "insurance",
-      "category": "travel",
-      "isOneTime": true,
-      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
-    },
-    {
-      "id": "csr-emergency-evacuation",
-      "name": "Emergency Evacuation and Transportation Coverage",
-      "description": "Up to $100,000 for emergency evacuation when injury or illness occurs 100+ miles from home.",
-      "benefitType": "insurance",
-      "category": "travel",
-      "isOneTime": true,
-      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
-    },
-    {
-      "id": "csr-purchase-protection",
-      "name": "Purchase Protection",
-      "description": "Covers new purchases against damage or theft for 120 days, up to $10,000 per item.",
-      "benefitType": "insurance",
-      "category": "shopping",
-      "isOneTime": true,
-      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
-    },
-    {
-      "id": "csr-return-protection",
-      "name": "Return Protection",
-      "description": "Reimbursement up to $500 per item ($1,000 per 12-month period) when a store won't accept an eligible return within 90 days.",
-      "benefitType": "insurance",
-      "category": "shopping",
-      "isOneTime": true,
-      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
-    },
-    {
-      "id": "csr-extended-warranty",
-      "name": "Extended Warranty Protection",
-      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
-      "benefitType": "insurance",
-      "category": "shopping",
-      "isOneTime": true,
-      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
+      "lastVerified": "2026-09-13"
     },
     {
       "id": "csr-lyft-bonus-points",
-      "name": "5x Points on Lyft",
-      "description": "Earn 5x total points on eligible Lyft rides.",
+      "name": "5x Total Points on Lyft",
+      "description": "Earn 5x total points on Lyft rides, bikes, scooters, and subscriptions purchased through the Lyft app.",
       "benefitType": "bonus_category",
       "category": "transportation",
       "bonusCategoryDetail": {
@@ -354,14 +242,14 @@
           "lyft"
         ]
       },
-      "terms": "Promotional rate through Sep. 30, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "terms": "Promotional rate through Sep. 30, 2027 per current terms; confirm this end date is still current before relying on it. Excludes fees, taxes, tips, and gift card purchases.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
-      "lastVerified": "2026-09-14"
+      "lastVerified": "2026-09-13"
     },
     {
       "id": "csr-peloton-bonus-points",
-      "name": "10x Points on Peloton Hardware",
-      "description": "Earn 10x points on eligible Peloton hardware and accessory purchases over $150, up to 50,000 total bonus points.",
+      "name": "10x Points on Peloton Equipment",
+      "description": "Earn 10x points on eligible Peloton equipment and accessory purchases over $150, capped at 50,000 bonus points.",
       "benefitType": "bonus_category",
       "category": "wellness",
       "bonusCategoryDetail": {
@@ -369,9 +257,138 @@
         "rewardUnit": "points",
         "eligibleCategories": [
           "peloton"
-        ]
+        ],
+        "spendCap": {
+          "amount": 5000,
+          "period": {
+            "unit": "year",
+            "count": 1,
+            "anchor": "calendar"
+          }
+        }
       },
-      "terms": "Minimum purchase $150. Capped at 50,000 total bonus points. Requires activation.",
+      "terms": "Minimum purchase $150. Capped at 50,000 total bonus points. Promotional rate through Dec. 31, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "csr-lounge-access",
+      "name": "Sapphire Lounge, Priority Pass, and Maple Leaf Lounge Access",
+      "description": "Complimentary access to Chase Sapphire Lounges, Priority Pass Select lounges, and select Air Canada Maple Leaf Lounges/Caf\u00e9s.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "isOneTime": true,
+      "loungeAccessDetail": {
+        "networks": [
+          "Chase Sapphire Lounge by The Club",
+          "Priority Pass Select",
+          "Air Canada Maple Leaf Lounge"
+        ],
+        "guestPolicy": "Up to two complimentary guests at Chase Sapphire Lounges and Priority Pass lounges; $27 per additional Priority Pass guest."
+      },
+      "terms": "Priority Pass requires separate enrollment through Chase. Maple Leaf Lounge access requires an eligible boarding pass in the U.S., Canada, or Europe.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "csr-ihg-platinum-status",
+      "name": "IHG One Rewards Platinum Elite Status",
+      "description": "Complimentary IHG One Rewards Platinum Elite status.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Requires linking an IHG One Rewards account. Promotional benefit through Dec. 31, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "csr-primary-rental-car-insurance",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Primary coverage for damage/theft on most rental cars, up to $75,000.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Primary coverage (not secondary). Decline the rental company's collision coverage to activate. Rentals under 31 consecutive days only.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "csr-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement up to $10,000 per covered traveler and $20,000 per trip for prepaid, non-refundable travel expenses.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "csr-trip-delay-reimbursement",
+      "name": "Trip Delay Reimbursement",
+      "description": "Up to $500 per covered traveler for reasonable expenses when a trip is delayed 6+ hours.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "csr-baggage-delay-insurance",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 5 days for essential purchases when checked luggage is delayed 6+ hours.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "csr-lost-luggage-reimbursement",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "csr-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $10,000 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "csr-return-protection",
+      "name": "Return Protection",
+      "description": "Reimbursement up to $500 per item ($1,000 per 12-month period) when an eligible item can't be returned to the merchant within 90 days.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "csr-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "csr-emergency-evacuation",
+      "name": "Emergency Evacuation and Transportation Coverage",
+      "description": "Up to $100,000 for emergency evacuation when injury or illness occurs 100+ miles from home.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
       "lastVerified": "2026-09-14"
     },
@@ -398,7 +415,7 @@
       "eligibleCategories": [
         "chase_travel"
       ],
-      "terms": "Flights, hotels, rental cars, cruises, activities, and tours booked through Chase Travel, including The Edit.",
+      "terms": "All purchases through Chase Travel, including The Edit.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve"
     },
     {
@@ -407,7 +424,7 @@
       "eligibleCategories": [
         "travel"
       ],
-      "terms": "Flights and hotels booked directly with the airline or hotel.",
+      "terms": "Flights and hotels booked directly with the airline/hotel, outside Chase Travel.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve"
     },
     {
@@ -416,7 +433,7 @@
       "eligibleCategories": [
         "dining"
       ],
-      "terms": "Dining worldwide, including eligible delivery.",
+      "terms": "Dining worldwide.",
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve"
     },
     {
