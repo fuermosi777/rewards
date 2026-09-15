@@ -274,7 +274,7 @@
     {
       "id": "csr-lounge-access",
       "name": "Sapphire Lounge, Priority Pass, and Maple Leaf Lounge Access",
-      "description": "Complimentary access to Chase Sapphire Lounges, Priority Pass Select lounges, and select Air Canada Maple Leaf Lounges/Cafés.",
+      "description": "Complimentary access to Chase Sapphire Lounges, Priority Pass Select lounges, and select Air Canada Maple Leaf Lounges/Caf\u00e9s.",
       "benefitType": "lounge_access",
       "category": "travel",
       "isOneTime": true,
@@ -381,6 +381,31 @@
       "isOneTime": true,
       "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
       "lastVerified": "2026-09-13"
+    },
+    {
+      "id": "csr-emergency-evacuation",
+      "name": "Emergency Evacuation and Transportation Coverage",
+      "description": "Up to $100,000 for emergency evacuation when injury or illness occurs 100+ miles from home.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "csr-roadside-assistance",
+      "name": "Roadside Dispatch",
+      "description": "Discounted roadside assistance (tow, battery, tire change, locksmith, fuel delivery), up to $50 per incident, up to 4 times per year.",
+      "benefitType": "other",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Up to $50 per incident, up to 4 incidents/year.",
+      "sourceUrl": "https://www.chase.com/sapphire-cards/personal/reserve",
+      "lastVerified": "2026-09-14"
     }
   ],
   "earningRates": [
@@ -421,7 +446,7 @@
     }
   ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-09-13",
+    "lastReviewedDate": "2026-09-14",
     "sourceUrls": [
       "https://www.chase.com/sapphire-cards/personal/reserve",
       "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve"
