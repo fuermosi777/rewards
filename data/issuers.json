@@ -25,6 +25,12 @@
     "name": "Capital One"
   },
   {
+    "id": "cardless",
+    "name": "Cardless",
+    "website": "https://www.cardless.com/",
+    "_note": "Cardless is the issuing platform for the Bilt Card 2.0 lineup (Blue/Obsidian/Palladium, live 2026-02-07), sponsored by Column Bank as the chartered bank. Recorded here as the operating issuer, matching how goldman-sachs is handled for Apple Card; revisit if Bilt's sponsor bank is the more useful attribution for consumers."
+  },
+  {
     "id": "chase",
     "name": "Chase"
   },

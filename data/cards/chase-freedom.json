@@ -1,0 +1,71 @@
+{
+  "id": "chase-freedom",
+  "issuerId": "chase",
+  "name": "Freedom",
+  "network": "Visa",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 0,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "discontinued",
+  "discontinuedDate": "2020-09-15",
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "cf-rotating-bonus-categories",
+      "name": "5% Rotating Bonus Categories",
+      "description": "5% cash back on up to $1,500 in combined purchases in quarterly bonus categories that must be activated each quarter.",
+      "benefitType": "bonus_category",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 5,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "rotating"
+        ],
+        "spendCap": {
+          "amount": 1500,
+          "period": {
+            "unit": "quarter",
+            "count": 1,
+            "anchor": "calendar"
+          }
+        },
+        "requiresActivation": true
+      },
+      "terms": "Must activate each quarter. Chase announces one quarterly category list that applies to both this card and Freedom Flex (e.g. Q1 2026: dining, American Heart Association donations, Norwegian Cruise Line). Drops to 1% after the $1,500 quarterly cap. Existing cardholders continue to earn in these categories despite the card being closed to new applicants.",
+      "sourceUrl": "https://www.cnbc.com/select/chase-freedom-not-accepting-new-applicants/",
+      "lastVerified": "2026-09-14"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "1% on all other eligible purchases. Unlike Freedom Flex, this card has no fixed bonus categories for dining, drugstores, or Chase Travel — those were introduced with Freedom Flex.",
+      "sourceUrl": "https://www.cnbc.com/select/chase-freedom-not-accepting-new-applicants/"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-09-14",
+    "sourceUrls": [
+      "https://www.cnbc.com/select/chase-freedom-not-accepting-new-applicants/",
+      "https://www.uscreditcardguide.com/chase-freedom-credit-card/",
+      "https://wallethub.com/answers/cc/is-chase-freedom-a-visa-signature-card-2140767159/",
+      "https://www.cardratings.com/cashback/chase-freedom-quarterly-rewards-categories.html"
+    ],
+    "updatedBy": "agent"
+  },
+  "imageUrl": "data/assets/cards/chase-freedom-flex.png",
+  "_note": "imageUrl is a STAND-IN: it points at chase-freedom-flex.png because no authoritative card art for the original Freedom is still published (MaxRewards CDN 403s this discontinued card; Chase's own card-art CDN 404s now that the legacy product page is down). The real card is a blue Visa, not the Mastercard shown in that image — replace this with genuine Freedom art when a source is found, and delete this note. Also unresolved: this card's Visa Signature Guide to Benefits PDF (https://static.chasecdn.com/content/services/structured-document/document.en.pdf/card/benefits-center/benefits-guide-pdf/freedom_visa_signature_bgc10373.pdf) is published but its embedded fonts are subset-encoded, so its insurance/protection terms could not be read; benefits[] therefore omits purchase protection / extended warranty / trip and auto rental coverage rather than copying Freedom Flex's limits. Fill those in from that PDF when it can be parsed."
+}

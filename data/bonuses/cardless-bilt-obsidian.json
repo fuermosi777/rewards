@@ -1,0 +1,24 @@
+{
+  "cardId": "cardless-bilt-obsidian",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 200,
+      "rewardUnit": "cashback_usd",
+      "spendRequirement": 0,
+      "timeframeDays": 0,
+      "additionalPerks": [
+        "Paid as Bilt Cash on approval, with no spend requirement"
+      ],
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    }
+  ],
+  "history": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-09-14",
+    "sourceUrls": [
+      "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    ],
+    "updatedBy": "agent"
+  }
+}
