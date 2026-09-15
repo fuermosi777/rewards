@@ -1,0 +1,162 @@
+{
+  "id": "cardless-bilt-obsidian",
+  "issuerId": "cardless",
+  "name": "Bilt Obsidian",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 95,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "bilt-obsidian-housing-points",
+      "name": "Points on Rent and Mortgage Payments",
+      "description": "Earn points on rent or mortgage paid through Bilt, with any landlord or lender.",
+      "benefitType": "points_multiplier",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Housing earning is conditional, and sources disagree on the exact mechanics: Doctor of Credit describes 1x points where a 3% transaction fee applies unless offset by Bilt Cash, while CNBC Select describes up to 1.25x with no transaction fee subject to minimum everyday-spend thresholds scaled to your monthly payment. Verify against Bilt's own current terms before relying on a specific rate.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "bilt-obsidian-hotel-credit",
+      "name": "$100 Bilt Travel Hotel Credit",
+      "description": "Up to $100 per year in Bilt Travel hotel credits, issued as two $50 credits.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD",
+        "splitEligible": true
+      },
+      "terms": "Two $50 credits per year (one per half-year); must be booked through Bilt Travel. Unused credit does not carry over between halves.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "bilt-obsidian-dining-grocery-choice",
+      "name": "3x on Your Choice of Dining or Grocery",
+      "description": "Choose either dining or grocery as your 3x category for the calendar year.",
+      "benefitType": "bonus_category",
+      "category": "dining",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 3,
+        "rewardUnit": "points",
+        "eligibleCategories": [
+          "dining",
+          "grocery_stores"
+        ],
+        "spendCap": {
+          "amount": 25000,
+          "period": {
+            "unit": "year",
+            "count": 1,
+            "anchor": "calendar"
+          }
+        },
+        "requiresActivation": true
+      },
+      "terms": "The choice is locked for the calendar year. A $25,000/year cap applies (reported on the grocery selection), after which earning drops to 1x. Tracked as a benefit rather than an earning rate because it requires an explicit yearly selection.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "bilt-obsidian-bilt-cash",
+      "name": "4% Back in Bilt Cash on Purchases",
+      "description": "All card spending earns 4% back in Bilt Cash in addition to points.",
+      "benefitType": "other",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Bilt Cash expires yearly, with a maximum of $100 carrying over. Points do not expire. Gift cards, tax payments, and person-to-person payments are excluded from earning.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/",
+      "lastVerified": "2026-09-14"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "bilt_partner_dining"
+      ],
+      "terms": "Dining at Bilt partner restaurants.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "bilt_partner_fitness"
+      ],
+      "terms": "Bilt partner fitness studios.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "lyft"
+      ],
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "travel"
+      ],
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "walgreens"
+      ],
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-09-14",
+    "sourceUrls": [
+      "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/",
+      "https://www.cnbc.com/select/bilt-credit-card-comparison/",
+      "https://upgradedpoints.com/news/bilt-new-credit-card-details/",
+      "https://www.nerdwallet.com/credit-cards/news/bilt-launches-blue-obsidian-palladium"
+    ],
+    "updatedBy": "agent"
+  },
+  "imageUrl": "data/assets/cards/cardless-bilt-obsidian.png",
+  "_note": "Added 2026-09-14 from the Bilt Card 2.0 launch (live 2026-02-07); replaces the discontinued wells-fargo-bilt. Card art is the genuine MaxRewards CDN asset (slug 'bilt-obsidian') and confirms World Elite Mastercard. Rate figures come from reputable secondary coverage, not Bilt's own terms page (biltrewards.com 403s automated fetches); the housing rate and the $25,000 dining/grocery cap in particular should be re-verified against the issuer. A $50 authorized user fee is reported but is not representable in the current schema."
+}

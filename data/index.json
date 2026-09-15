@@ -1186,6 +1186,48 @@
       "imageUrl": "data/assets/cards/capital-one-ventureone.png"
     },
     {
+      "id": "cardless-bilt-blue",
+      "name": "Bilt Blue",
+      "issuerId": "cardless",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/cardless-bilt-blue.png"
+    },
+    {
+      "id": "cardless-bilt-obsidian",
+      "name": "Bilt Obsidian",
+      "issuerId": "cardless",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 95,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/cardless-bilt-obsidian.png"
+    },
+    {
+      "id": "cardless-bilt-palladium",
+      "name": "Bilt Palladium",
+      "issuerId": "cardless",
+      "network": "Mastercard",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 495,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "active",
+      "imageUrl": "data/assets/cards/cardless-bilt-palladium.png"
+    },
+    {
       "id": "chase-aer-lingus-signature",
       "name": "Aer Lingus Signature",
       "issuerId": "chase",
@@ -1268,6 +1310,20 @@
       },
       "status": "active",
       "imageUrl": "data/assets/cards/chase-disney.png"
+    },
+    {
+      "id": "chase-freedom",
+      "name": "Freedom",
+      "issuerId": "chase",
+      "network": "Visa",
+      "variant": "personal",
+      "annualFee": {
+        "amount": 0,
+        "currency": "USD",
+        "waivedFirstYear": false
+      },
+      "status": "discontinued",
+      "imageUrl": "data/assets/cards/chase-freedom-flex.png"
     },
     {
       "id": "chase-freedom-flex",
@@ -2492,7 +2548,7 @@
         "currency": "USD",
         "waivedFirstYear": false
       },
-      "status": "active",
+      "status": "discontinued",
       "imageUrl": "data/assets/cards/wells-fargo-bilt.png"
     },
     {

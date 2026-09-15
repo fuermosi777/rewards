@@ -64,6 +64,10 @@
       "items": { "$ref": "#/$defs/earningRate" }
     },
     "sourceMeta": { "$ref": "#/$defs/sourceMeta" },
+    "_note": {
+      "type": "string",
+      "description": "Free-text flag for a transitional or uncertain situation an update agent should revisit (e.g. a discontinued card whose imageUrl is a stand-in because no authoritative card art is still published). Not machine-consumed; delete once the situation resolves and this card's fields reflect the settled state."
+    },
     "_scaffoldHints": {
       "type": "object",
       "description": "Temporary, non-authoritative leads left by the scaffold generator (e.g. raw unstructured hints from a bootstrap data source) to help whoever fills in benefits[] next. Must be deleted once the card's benefits[] has been populated and verified — a card.json with this key present is signal that benefits[] is still scaffold/incomplete, not reviewed data."
