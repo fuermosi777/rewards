@@ -10,53 +10,329 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "united-club-business-membership",
+      "name": "United Club Membership",
+      "description": "Unlimited United Club access for the cardholder and one guest.",
+      "benefitType": "lounge_access",
+      "category": "airline",
+      "isOneTime": false,
+      "loungeAccessDetail": {
+        "networks": [
+          "United Club"
+        ],
+        "guestPolicy": "Cardholder plus one guest. All Access membership — which admits two adult guests, or one adult guest plus dependent children, and adds Star Alliance lounge access — unlocks at Premier Gold status or $50,000 in annual spend."
+      },
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-two-free-checked-bags",
+      "name": "Two Free Checked Bags",
+      "description": "First and second standard checked bags free for the primary Cardmember and one traveling companion on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": false,
+      "terms": "Applies to United- and United Express-operated flights.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-renowned-hotels-credit",
+      "name": "Renowned Hotels and Resorts Credit",
+      "description": "Up to $200 annually in statement credits on prepaid bookings with Renowned Hotels and Resorts.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 200,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Renowned Hotels and Resorts"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Prepaid bookings only.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-rideshare-credit",
+      "name": "Rideshare Credit",
+      "description": "Up to $150 annually in statement credits on eligible rideshare purchases.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 150,
+        "currency": "USD",
+        "splitEligible": true
+      },
+      "terms": "Enrollment required. Issued as $12 per month January through November and $18 in December.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-instacart-credit",
+      "name": "Instacart Credit",
+      "description": "Up to $240 annually in Instacart statement credits, issued as $10 per month.",
+      "benefitType": "statement_credit",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Instacart"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Enrollment required. Benefit ends 12/31/27 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-avis-budget-credit",
+      "name": "Avis and Budget Credit",
+      "description": "Up to $100 annually in United TravelBank cash on Avis or Budget rentals.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Avis",
+          "Budget"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Issued as United TravelBank cash rather than a statement credit.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-jsx-credit",
+      "name": "JSX Credit",
+      "description": "Up to $200 annually in statement credits on JSX flight purchases.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 200,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "JSX"
+        ]
+      },
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-farelock-credit",
+      "name": "United FareLock Credit",
+      "description": "Up to $50 annually in statement credits on United FareLock purchases.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "United FareLock"
+        ]
+      },
+      "terms": "FareLock must be purchased with the card on a United- or United Express-operated flight.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-economy-plus-upgrades",
+      "name": "Global Economy Plus Seat Upgrades",
+      "description": "Two global Economy Plus seat upgrades after spending $40,000 on purchases each year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires $40,000 in purchases per year.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-better-together-bonus",
+      "name": "Better Together Anniversary Bonus",
+      "description": "5,000 bonus miles each year when you also hold a personal United credit card.",
+      "benefitType": "points_multiplier",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires holding both this card and a personal United credit card.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-pqp-earning",
+      "name": "Premier Qualifying Points from Spend",
+      "description": "Earn 1 PQP per $15 in net purchases, up to 28,000 PQP per calendar year, toward Premier status.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Maximum 28,000 PQP per calendar year.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-primary-rental-car-insurance",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Coverage for damage or theft on most rental cars, up to $60,000.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Decline the rental company's collision coverage to activate.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement up to $10,000 per covered traveler and $20,000 per trip for prepaid, non-refundable travel expenses.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-trip-delay-reimbursement",
+      "name": "Trip Delay Reimbursement",
+      "description": "Up to $500 per covered traveler for reasonable expenses when a trip is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-baggage-delay-insurance",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 3 days for essential purchases when checked luggage is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-lost-luggage-reimbursement",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers new purchases against damage or theft for 120 days, up to $10,000 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-return-protection",
+      "name": "Return Protection",
+      "description": "Reimbursement up to $500 per item, $1,000 per 12 months, when a merchant will not accept a return.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    },
+    {
+      "id": "united-club-business-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year, up to 4 years total.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business",
+      "lastVerified": "2026-09-15"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "renowned_hotels"
+      ],
+      "terms": "Hotel stays booked through Renowned Hotels and Resorts.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "united_airlines"
+      ],
+      "terms": "2x miles from the card on eligible United purchases. United flights earn 8x total when combined with the 6x earned as a MileagePlus member.",
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/business-credit-cards/united/united-club-business"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-15",
     "sourceUrls": [
-      "https://www.theexplorercard.com/business-rewards-cards/club-card"
+      "https://creditcards.chase.com/business-credit-cards/united/united-club-business"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "2x Checked Bags",
-        "value": 150,
-        "weight": 0.8
-      },
-      {
-        "description": "United Credit",
-        "value": 125,
-        "weight": 0.8
-      },
-      {
-        "description": "United Hotels",
-        "value": 200,
-        "weight": 0.8
-      },
-      {
-        "description": "Rideshare",
-        "value": 150,
-        "weight": 0.5
-      },
-      {
-        "description": "Instacart",
-        "value": 240,
-        "weight": 0.5
-      },
-      {
-        "description": "Avis/Budget",
-        "value": 100,
-        "weight": 0.5
-      },
-      {
-        "description": "United Lounge",
-        "value": 750,
-        "weight": 0.25
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/chase-united-club-business.png"
 }

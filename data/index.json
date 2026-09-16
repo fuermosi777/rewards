@@ -1607,7 +1607,7 @@
     },
     {
       "id": "chase-southwest-priority",
-      "name": "Southwest Priority",
+      "name": "Southwest Rapid Rewards Priority",
       "issuerId": "chase",
       "network": "Visa",
       "variant": "personal",
@@ -1649,7 +1649,7 @@
     },
     {
       "id": "chase-united-club",
-      "name": "United Club",
+      "name": "United Club Infinite",
       "issuerId": "chase",
       "network": "Visa",
       "variant": "personal",
