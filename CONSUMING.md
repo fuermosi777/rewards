@@ -70,17 +70,19 @@ Full field definitions live in `schema/*.json` (they're written with inline `des
 These are mutually exclusive, and confusing them will make a card look far more rewarding than it is:
 
 - **`eligibleCategories`** — every listed category earns the multiplier, simultaneously and always.
-- **`categorySelection`** — the multiplier applies to a *subset chosen from a menu*. `options` is the menu, **not** a list of categories that all earn. `selectCount` says how many apply at once (usually 1; US Bank Cash+ picks 2). A card listing seven `options` at 3% earns 3% on *one* of them, not all seven.
+- **`categorySelection`** — the multiplier applies to a *subset chosen from a menu*. `options` is the menu, **not** a list of categories that all earn. `selectCount` says how many apply at once (usually 1). A card listing seven `options` at 3% earns 3% on *one* of them, not all seven.
 
 `mode` tells you who picks and whether you need to ask the user:
 
 | `mode` | Who picks | What your app should do |
 |---|---|---|
 | `user_choice` | The cardholder, in the issuer's app | Ask the user which one they've selected, and store it — see below |
-| `issuer_rotating` | The issuer, per cycle | Usually paired with `requiresActivation` and `anchor: "fixed_dates"`; remind the user to activate |
+| `issuer_rotating` | The issuer, per cycle | Check `currentCycle` before trusting `options` (see below); paired with `requiresActivation` and `anchor: "fixed_dates"` — remind the user to activate |
 | `automatic_top_category` | Applied automatically to the user's highest-spend eligible category | Nothing to ask — but you can't know which one it landed on without the user's own spend data |
 
 **Which option a given cardholder actually selected is per-user state and is deliberately not in this repo** — same boundary as benefit redemption state. This repo tells you the choice slot exists and what's on the menu; storing the user's pick (and prompting them to keep it current, since `changeableEachCycle` cards drift) is your app's job.
+
+**`issuer_rotating` menus expire.** `options` on a rotating card lists one quarter's announced categories and `currentCycle` says which quarter (e.g. `"2026-Q3"`). This repo is a git-backed dataset, not a live feed, so a consumer MUST compare `currentCycle` against the current date and treat a lapsed entry as **unresolved** — neither "earns 5% on these" nor "earns nothing." The card still has a 5% slot; you just don't yet know what's in it.
 
 If you ignore `categorySelection`, treat the benefit as **unresolved** rather than crediting every option — silently assuming all of them earn is the one failure mode that produces confidently wrong recommendations.
 
@@ -125,6 +127,11 @@ async function getCard(id) {
 // 2. It only reads `earningRates[]`, so it misses `benefits[]` entries with
 //    `benefitType: "bonus_category"` — which is where choice/rotating categories live, and
 //    is often a card's single best rate (see the `categorySelection` section above).
+//
+// Note the `|| []` below silently skips cards whose bonus lives in `categorySelection`
+// (BoA Customized Cash, Freedom Flex). That keeps this example short, but it is exactly
+// the "treat it as unresolved" case described above — a real recommender should surface
+// those cards as needing the user's selection, not drop them.
 function bestCardFor(category, heldCards) {
   return heldCards
     .flatMap(c => (c.earningRates || []).map(r => ({ card: c, rate: r })))
