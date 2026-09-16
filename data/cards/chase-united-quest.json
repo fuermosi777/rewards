@@ -10,54 +10,420 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "united-quest-travelbank-credit",
+      "name": "$200 United TravelBank Credit",
+      "description": "$200 in United TravelBank cash, issued at account opening and each account anniversary.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 200,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "United TravelBank"
+        ]
+      },
+      "terms": "Issued as United TravelBank cash, usable toward United flight purchases — not a general-purpose statement credit.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-renowned-hotels-credit",
+      "name": "Renowned Hotels and Resorts Credit",
+      "description": "Up to $150 in statement credits each anniversary year on prepaid stays booked through Renowned Hotels and Resorts for United Cardmembers.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 150,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Renowned Hotels and Resorts for United Cardmembers"
+        ]
+      },
+      "terms": "Stay must be prepaid directly through the Renowned Hotels and Resorts program with the United Quest Card.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-jsx-credit",
+      "name": "JSX Flight Credit",
+      "description": "Up to $150 in statement credits each anniversary year on JSX flight bookings.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 150,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "JSX"
+        ]
+      },
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-rideshare-credit",
+      "name": "Rideshare Credit",
+      "description": "Up to $100 per year in rideshare statement credits, disbursed monthly: $8 per month January through November and $12 in December.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "splitEligible": true
+      },
+      "terms": "Requires enrollment. Paid as $8/month January-November and $12 in December, totaling up to $100 per calendar year.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-avis-budget-credit",
+      "name": "Avis and Budget Car Rental Credit",
+      "description": "Up to $80 per year in United TravelBank cash for Avis or Budget rentals — $40 per rental, up to two rentals annually.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 80,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Avis",
+          "Budget"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Issued as United TravelBank cash at $40 per qualifying rental, maximum two rentals per year.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-instacart-credit",
+      "name": "Instacart Credit",
+      "description": "Up to $180 per year in Instacart statement credits, issued as one $10 and one $5 credit each month.",
+      "benefitType": "statement_credit",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 180,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Instacart"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Requires enrollment. Promotional benefit available through Dec. 31, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-instacart-membership",
+      "name": "Complimentary Instacart+ Membership",
+      "description": "Three months of complimentary Instacart+ membership, then 50% off the annual membership rate.",
+      "benefitType": "membership",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Requires activation. Promotional benefit available through Dec. 31, 2027 per current terms; confirm this end date is still current before relying on it.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-anniversary-award-discount",
+      "name": "Anniversary Award Flight Discount",
+      "description": "A 10,000-mile discount on a United award flight redemption at each account anniversary.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Applied as a mileage rebate after redeeming miles for an eligible United flight.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-spend-award-discount",
+      "name": "Award Flight Discount After $20,000 Annual Spend",
+      "description": "An additional 10,000-mile award flight discount after spending $20,000 on purchases in a calendar year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires $20,000 in purchases in a calendar year. Maximum one per calendar year.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-economy-plus-upgrades",
+      "name": "Economy Plus Seat Upgrades After $40,000 Annual Spend",
+      "description": "Two global Economy Plus seat upgrades after spending $40,000 on purchases in a calendar year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires $40,000 in purchases in a calendar year.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-checked-bags",
+      "name": "First and Second Checked Bags Free",
+      "description": "Free first and second checked bags on United-operated flights for the primary cardmember and one companion on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "terms": "Ticket must be purchased with the United Quest Card. The companion need not be a cardmember, only on the same reservation.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-priority-boarding",
+      "name": "Priority Boarding",
+      "description": "Priority boarding on United- and United Express-operated flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-pqp-bonus",
+      "name": "1,000 Bonus Premier Qualifying Points",
+      "description": "1,000 Card Bonus Premier Qualifying Points (PQP) awarded annually toward MileagePlus Premier status.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Posts within 8 weeks of Feb. 1 each year.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-pqp-earning",
+      "name": "Premier Qualifying Points from Spend",
+      "description": "Earn 1 Premier Qualifying Point per $20 spent, up to 18,000 PQP per year.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Capped at 18,000 PQP annually.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-trusted-traveler-credit",
+      "name": "Global Entry, TSA PreCheck, or NEXUS Credit",
+      "description": "Statement credit of up to $120 for a Global Entry, TSA PreCheck, or NEXUS application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck",
+          "NEXUS"
+        ]
+      },
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-inflight-credit",
+      "name": "25% Back on United Inflight and Club Purchases",
+      "description": "25% back as a statement credit on food, beverages, and Wi-Fi purchased aboard United-operated flights, and on United Club premium drinks.",
+      "benefitType": "other",
+      "category": "airline",
+      "terms": "Rebate is 25% of each qualifying purchase, with no fixed annual dollar cap stated.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-award-pricing-discount",
+      "name": "Award Flight Pricing Discount",
+      "description": "Save 10% or more on United award flights booked with miles; 15% or more for MileagePlus Premier members.",
+      "benefitType": "other",
+      "category": "airline",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Insurance",
+      "description": "Reimbursement up to $1,500 per covered traveler and $6,000 per trip for prepaid, non-refundable travel expenses.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-trip-delay-reimbursement",
+      "name": "Trip Delay Reimbursement",
+      "description": "Up to $500 per covered traveler for reasonable expenses when a trip is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-baggage-delay-insurance",
+      "name": "Baggage Delay Insurance",
+      "description": "Up to $100 a day for up to 3 days for essential purchases when checked luggage is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-lost-luggage-reimbursement",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered traveler for lost, damaged, or stolen checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Primary coverage for damage or theft on most rental cars, up to $60,000.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Primary coverage. Decline the rental company's collision coverage to activate.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-purchase-protection",
+      "name": "Purchase Protection",
+      "description": "Covers eligible new purchases for 120 days against damage or theft, up to $10,000 per item.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "united-quest-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Adds one year to eligible U.S. manufacturer warranties of three years or less.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "lastVerified": "2026-09-16"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 4,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "united_purchases"
+      ],
+      "terms": "4x miles from the card on United purchases. On eligible United flights this stacks with 6x base MileagePlus miles on the primary cardmember's fare for 10x total.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "renowned_hotels"
+      ],
+      "terms": "Prepaid stays booked through Renowned Hotels and Resorts for United Cardmembers.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "travel"
+      ],
+      "terms": "All other travel purchases outside United.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "streaming"
+      ],
+      "terms": "Select streaming services.",
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.chase.com/travel-credit-cards/united/united-quest"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-16",
     "sourceUrls": [
-      "https://www.theexplorercard.com/rewards-cards/quest-card"
+      "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
+      "https://www.chase.com/personal/credit-cards/united/united-quest-card"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "United Credit",
-        "value": 200,
-        "weight": 0.8
-      },
-      {
-        "description": "United Hotels",
-        "value": 150,
-        "weight": 0.5
-      },
-      {
-        "description": "Rideshare",
-        "value": 100,
-        "weight": 0.5
-      },
-      {
-        "description": "Instacart+",
-        "value": 180,
-        "weight": 0.5
-      },
-      {
-        "description": "Avis/Budget",
-        "value": 80,
-        "weight": 0.5
-      },
-      {
-        "description": "10k award flight discount",
-        "value": 10000,
-        "weight": 0.8,
-        "currency": "UNITED"
-      },
-      {
-        "description": "2x Checked Bags",
-        "value": 150,
-        "weight": 0.8
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/chase-united-quest.png"
 }
