@@ -9,14 +9,19 @@
     "currency": "USD",
     "waivedFirstYear": false
   },
-  "status": "active",
+  "status": "discontinued",
+  "discontinuedDate": "2026-02-07",
   "benefits": [],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-14",
     "sourceUrls": [
-      "https://www.biltrewards.com/card"
+      "https://www.biltrewards.com/card",
+      "https://www.cnbc.com/select/bilt-credit-card-comparison/",
+      "https://upgradedpoints.com/news/bilt-new-credit-card-details/",
+      "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
     ],
     "updatedBy": "agent"
   },
-  "imageUrl": "data/assets/cards/wells-fargo-bilt.png"
+  "imageUrl": "data/assets/cards/wells-fargo-bilt.png",
+  "_note": "Sunset 2026-02-07 when Bilt moved its card program from Wells Fargo to Cardless and split it into three tiers (cardless-bilt-blue / -obsidian / -palladium). Existing cardholders kept their card numbers and were transitioned to a Cardless-issued card; those declining the switch were issued a Wells Fargo Autograph instead. benefits[] was never filled in before the sunset and is intentionally left empty rather than backfilled from the 2.0 lineup, whose terms differ."
 }

@@ -1,0 +1,25 @@
+{
+  "cardId": "cardless-bilt-palladium",
+  "currentOffers": [
+    {
+      "offerType": "public",
+      "rewardAmount": 50000,
+      "rewardUnit": "points",
+      "spendRequirement": 4000,
+      "timeframeDays": 90,
+      "additionalPerks": [
+        "$300 Bilt Cash on approval",
+        "Bilt Rewards Gold elite status after the qualifying spend"
+      ],
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    }
+  ],
+  "history": [],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-09-14",
+    "sourceUrls": [
+      "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    ],
+    "updatedBy": "agent"
+  }
+}

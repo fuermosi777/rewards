@@ -1,0 +1,173 @@
+{
+  "id": "cardless-bilt-palladium",
+  "issuerId": "cardless",
+  "name": "Bilt Palladium",
+  "network": "Mastercard",
+  "variant": "personal",
+  "annualFee": {
+    "amount": 495,
+    "currency": "USD",
+    "waivedFirstYear": false
+  },
+  "status": "active",
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "bilt-palladium-housing-points",
+      "name": "Points on Rent and Mortgage Payments",
+      "description": "Earn points on rent or mortgage paid through Bilt, with any landlord or lender.",
+      "benefitType": "points_multiplier",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Housing earning is conditional, and sources disagree on the exact mechanics: Doctor of Credit describes 1x points where a 3% transaction fee applies unless offset by Bilt Cash, while CNBC Select describes up to 1.25x with no transaction fee subject to minimum everyday-spend thresholds scaled to your monthly payment. Verify against Bilt's own current terms before relying on a specific rate.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "bilt-palladium-hotel-credit",
+      "name": "$400 Bilt Travel Hotel Credit",
+      "description": "Up to $400 per year in Bilt Travel hotel credits, issued as two $200 credits.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 200,
+        "currency": "USD",
+        "splitEligible": true
+      },
+      "terms": "Two $200 credits per year (one per half-year); must be booked through Bilt Travel. Unused credit does not carry over between halves.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "bilt-palladium-annual-bilt-cash",
+      "name": "$200 Annual Bilt Cash Credit",
+      "description": "$200 in Bilt Cash deposited into your account each year.",
+      "benefitType": "statement_credit",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 200,
+        "currency": "USD"
+      },
+      "terms": "Paid as Bilt Cash rather than a statement credit; Bilt Cash expires yearly with a maximum of $100 carrying over.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "bilt-palladium-priority-pass",
+      "name": "Priority Pass Lounge Membership",
+      "description": "Priority Pass Select membership with guest access.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "loungeAccessDetail": {
+        "networks": [
+          "Priority Pass"
+        ],
+        "guestPolicy": "Cardholder plus up to 2 guests."
+      },
+      "terms": "Authorized users (a $95 fee is reported) receive their own Priority Pass membership.",
+      "sourceUrl": "https://upgradedpoints.com/news/bilt-new-credit-card-details/",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "bilt-palladium-gold-status",
+      "name": "Bilt Rewards Gold Elite Status",
+      "description": "Automatic Bilt Rewards Gold elite status.",
+      "benefitType": "elite_status",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Reported as automatic Gold status for a year by Upgraded Points, while Doctor of Credit ties Gold to a qualifying spend threshold ($4,000 in 90 days) as part of the welcome offer — confirm which applies on an ongoing basis.",
+      "sourceUrl": "https://upgradedpoints.com/news/bilt-new-credit-card-details/",
+      "lastVerified": "2026-09-14"
+    },
+    {
+      "id": "bilt-palladium-bilt-cash",
+      "name": "4% Back in Bilt Cash on Purchases",
+      "description": "All card spending earns 4% back in Bilt Cash in addition to points.",
+      "benefitType": "other",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Bilt Cash expires yearly, with a maximum of $100 carrying over. Points do not expire. Gift cards, tax payments, and person-to-person payments are excluded from earning.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/",
+      "lastVerified": "2026-09-14"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "bilt_partner_dining"
+      ],
+      "terms": "Dining at Bilt partner restaurants.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "bilt_partner_fitness"
+      ],
+      "terms": "Bilt partner fitness studios.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "lyft"
+      ],
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "walgreens"
+      ],
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "2x points on all everyday spending — the card's headline feature, with no category management required.",
+      "sourceUrl": "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/"
+    }
+  ],
+  "sourceMeta": {
+    "lastReviewedDate": "2026-09-14",
+    "sourceUrls": [
+      "https://www.doctorofcredit.com/three-brand-new-bilt-2-0-cards-blue-obsidian-palladium/",
+      "https://www.cnbc.com/select/bilt-credit-card-comparison/",
+      "https://upgradedpoints.com/news/bilt-new-credit-card-details/",
+      "https://www.nerdwallet.com/credit-cards/news/bilt-launches-blue-obsidian-palladium"
+    ],
+    "updatedBy": "agent"
+  },
+  "imageUrl": "data/assets/cards/cardless-bilt-palladium.png",
+  "_note": "Added 2026-09-14 from the Bilt Card 2.0 launch (live 2026-02-07); replaces the discontinued wells-fargo-bilt. Card art is the genuine MaxRewards CDN asset (slug 'bilt-palladium') and confirms World Legend Mastercard (metal card). Rate figures come from reputable secondary coverage, not Bilt's own terms page (biltrewards.com 403s automated fetches); re-verify the housing rate and whether Gold status is automatic or spend-gated. A $95 authorized user fee is reported but is not representable in the current schema."
+}
