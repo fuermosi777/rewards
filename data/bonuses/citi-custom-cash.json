@@ -1,14 +1,6 @@
 {
   "cardId": "citi-custom-cash",
-  "currentOffers": [
-    {
-      "offerType": "public",
-      "rewardAmount": 200,
-      "rewardUnit": "cashback_usd",
-      "spendRequirement": 1500,
-      "timeframeDays": 180
-    }
-  ],
+  "currentOffers": [],
   "history": [
     {
       "rewardAmount": 200,
@@ -24,7 +16,7 @@
     }
   ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-15",
     "sourceUrls": [
       "https://www.citi.com/credit-cards/citi-custom-cash-credit-card"
     ],
