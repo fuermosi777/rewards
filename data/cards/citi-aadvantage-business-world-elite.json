@@ -10,23 +10,127 @@
     "waivedFirstYear": true
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "aa-biz-first-checked-bag",
+      "name": "First Checked Bag Free",
+      "description": "First checked bag free on domestic American Airlines itineraries for the cardholder and up to four companions on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "terms": "Domestic American Airlines itineraries only.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "aa-biz-preferred-boarding",
+      "name": "Preferred Boarding",
+      "description": "Group 5 preferred boarding on American Airlines flights for the cardholder and up to four companions on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "aa-biz-inflight-savings",
+      "name": "25% Savings on Inflight Purchases",
+      "description": "25% savings, as a statement credit, on inflight food, beverage, and Wi-Fi purchases on American Airlines flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "terms": "Savings are 25% of each qualifying purchase, with no fixed annual dollar cap stated.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "aa-biz-companion-certificate",
+      "name": "Companion Certificate After $30,000 Annual Spend",
+      "description": "A companion certificate for a domestic American Airlines economy flight after spending $30,000 in a cardmembership year and renewing the card.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires $30,000 in purchases each cardmembership year plus card renewal. Companion pays a $99 ticketing fee plus applicable taxes and fees.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "aa-biz-loyalty-points",
+      "name": "Loyalty Points Toward AAdvantage Status",
+      "description": "Earn 1 Loyalty Point for every eligible AAdvantage mile earned from purchases, counting toward AAdvantage elite status.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card",
+      "lastVerified": "2026-09-16"
+    },
+    {
+      "id": "aa-biz-employee-cards",
+      "name": "Employee Cards at No Additional Cost",
+      "description": "Additional employee cards at no additional cost, with no limit on the number issued.",
+      "benefitType": "other",
+      "category": "other",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card",
+      "lastVerified": "2026-09-16"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "american_airlines_purchases"
+      ],
+      "terms": "Eligible American Airlines purchases.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "car_rental"
+      ],
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "gas_stations"
+      ],
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "internet_cable_phone"
+      ],
+      "terms": "Telecommunications merchants, cable and satellite providers.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-16",
     "sourceUrls": [
+      "https://www.citi.com/credit-cards/citi-aadvantage-business-credit-card",
       "https://creditcards.aa.com/credit-cards/citi-business-card-american-airlines-direct/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "First checked bag free",
-        "value": 50,
-        "weight": 0.5
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/citi-aadvantage-business-world-elite.png"
 }
