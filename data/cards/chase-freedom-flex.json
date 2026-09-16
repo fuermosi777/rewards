@@ -21,14 +21,28 @@
       "renewalPeriod": {
         "unit": "quarter",
         "count": 1,
-        "anchor": "calendar"
+        "anchor": "fixed_dates",
+        "fixedDates": [
+          "2026-07-01",
+          "2026-10-01"
+        ]
       },
       "bonusCategoryDetail": {
         "multiplier": 5,
         "rewardUnit": "cashback_percent",
-        "eligibleCategories": [
-          "rotating"
-        ],
+        "categorySelection": {
+          "mode": "issuer_rotating",
+          "options": [
+            "gas_stations",
+            "ev_charging",
+            "public_transit",
+            "live_entertainment",
+            "charitable_donations"
+          ],
+          "currentCycle": "2026-Q3",
+          "selectCount": 5,
+          "changeableEachCycle": false
+        },
         "spendCap": {
           "amount": 1500,
           "period": {

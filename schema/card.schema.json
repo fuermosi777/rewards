@@ -226,7 +226,46 @@
         "eligibleCategories": {
           "type": "array",
           "items": { "type": "string" },
-          "description": "e.g. [\"gas_stations\", \"grocery_stores\"]. For rotating categories, pair with renewalPeriod.anchor = fixed_dates."
+          "description": "Categories that ALL earn the multiplier, e.g. [\"gas_stations\", \"grocery_stores\"]. For rotating categories, pair with renewalPeriod.anchor = fixed_dates. If the cardholder (or the issuer, per cycle) instead picks a subset from a menu, leave this out and use categorySelection — the two are mutually exclusive."
+        },
+        "categorySelection": {
+          "type": "object",
+          "required": ["mode", "options"],
+          "properties": {
+            "mode": {
+              "type": "string",
+              "enum": ["user_choice", "issuer_rotating", "automatic_top_category"],
+              "description": "How the earning category gets picked each cycle. user_choice = cardholder actively selects (BoA Customized Cash). issuer_rotating = issuer announces the category per cycle (Chase Freedom Flex, Discover it); pair with requiresActivation and renewalPeriod.anchor = fixed_dates, and set currentCycle. automatic_top_category = issuer applies it to the cardholder's highest-spend eligible category with no action needed (Citi Custom Cash)."
+            },
+            "options": {
+              "type": "array",
+              "items": { "type": "string" },
+              "minItems": 1,
+              "description": "The menu of category slugs that MAY be selected — not categories that all earn simultaneously. Use the same reusable slugs as eligibleCategories so cross-card comparison still works."
+            },
+            "currentCycle": {
+              "type": "string",
+              "description": "Which cycle `options` describes, e.g. \"2026-Q3\". REQUIRED when mode = issuer_rotating, because that menu is only valid for one announced cycle and is wrong the moment the next one starts. Consumers MUST check it against the current date and treat a lapsed entry as unresolved — neither still-earning nor zero. Omit for user_choice and automatic_top_category, where the menu is a standing card term."
+            },
+            "selectCount": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1,
+              "description": "How many of `options` apply at once. Defaults to 1; set it explicitly when a card grants more than one bonus category simultaneously (an issuer_rotating quarter usually activates its whole list)."
+            },
+            "changeableEachCycle": {
+              "type": "boolean",
+              "description": "True if the selection can be changed every renewalPeriod (BoA allows a monthly change). False/absent means the choice is fixed once made, or is out of the cardholder's hands entirely."
+            }
+          },
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": { "properties": { "mode": { "const": "issuer_rotating" } }, "required": ["mode"] },
+              "then": { "required": ["currentCycle"] }
+            }
+          ],
+          "description": "Present when the multiplier applies to a SUBSET of categories chosen from a menu, rather than to every category listed. Records only the menu and how selection works — which option a given cardholder actually picked is per-user state and deliberately lives in the consuming app, not here (same boundary as benefit redemption state). Consumers that ignore this key should treat the benefit as unresolved rather than crediting every option at once."
         },
         "spendCap": {
           "type": "object",
@@ -242,7 +281,12 @@
           "description": "True if the cardholder must manually opt in each cycle (common for rotating categories)."
         }
       },
-      "additionalProperties": false
+      "additionalProperties": false,
+      "not": { "required": ["eligibleCategories", "categorySelection"] },
+      "anyOf": [
+        { "required": ["eligibleCategories"] },
+        { "required": ["categorySelection"] }
+      ]
     },
     "loungeAccessDetail": {
       "type": "object",

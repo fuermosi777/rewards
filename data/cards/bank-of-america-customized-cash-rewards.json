@@ -26,15 +26,20 @@
       "bonusCategoryDetail": {
         "multiplier": 3,
         "rewardUnit": "cashback_percent",
-        "eligibleCategories": [
-          "gas_stations",
-          "ev_charging",
-          "online_shopping",
-          "dining",
-          "travel",
-          "drug_stores",
-          "home_improvement"
-        ],
+        "categorySelection": {
+          "mode": "user_choice",
+          "selectCount": 1,
+          "options": [
+            "gas_stations",
+            "ev_charging",
+            "online_shopping",
+            "dining",
+            "travel",
+            "drug_stores",
+            "home_improvement"
+          ],
+          "changeableEachCycle": true
+        },
         "spendCap": {
           "amount": 2500,
           "period": {
