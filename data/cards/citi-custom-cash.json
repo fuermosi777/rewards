@@ -9,14 +9,75 @@
     "currency": "USD",
     "waivedFirstYear": false
   },
-  "status": "active",
-  "benefits": [],
+  "status": "discontinued",
+  "discontinuedDate": "2026-05-28",
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "ccc-top-category-bonus",
+      "name": "5% Cash Back on Top Eligible Spend Category",
+      "description": "5 ThankYou Points per dollar (5% cash back equivalent) on the cardholder's highest-spend eligible category each billing cycle, on up to $500 in that category; 1% thereafter. No enrollment or selection — Citi determines the top category automatically.",
+      "benefitType": "bonus_category",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 5,
+        "rewardUnit": "points",
+        "categorySelection": {
+          "mode": "automatic_top_category",
+          "selectCount": 1,
+          "options": [
+            "dining",
+            "gas_stations",
+            "grocery_stores",
+            "streaming",
+            "travel",
+            "transit",
+            "home_improvement",
+            "fitness_clubs",
+            "live_entertainment",
+            "drugstores"
+          ],
+          "changeableEachCycle": false
+        },
+        "spendCap": {
+          "amount": 500,
+          "period": {
+            "unit": "month",
+            "count": 1,
+            "anchor": "calendar"
+          }
+        },
+        "requiresActivation": false
+      },
+      "terms": "Applies automatically to whichever eligible category the cardholder spent the most in during that billing cycle — there is nothing to select or activate, and the category can differ every cycle. Capped at $500 of spend per billing cycle (max 2,500 bonus points, i.e. $25), after which that category earns 1%. Citi's eligible categories are restaurants, gas stations, grocery stores, select travel, select transit, select streaming services, drugstores, home improvement stores, fitness clubs and live entertainment; the \"select\" qualifiers mean merchant-code eligibility within those categories is narrower than the slug suggests. Rewards accrue as ThankYou Points, redeemable for cash back at 1 cent per point.",
+      "sourceUrl": "https://www.citigroup.com/global/news/press-release/2021/citi-launches-custom-cash-a-next-gen-cash-back-credit-card",
+      "lastVerified": "2026-09-15"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "1 ThankYou Point per dollar on all purchases outside the top eligible category, and on top-category spend above the $500 monthly cap.",
+      "sourceUrl": "https://www.citigroup.com/global/news/press-release/2021/citi-launches-custom-cash-a-next-gen-cash-back-credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-15",
     "sourceUrls": [
-      "https://www.citi.com/credit-cards/citi-custom-cash-credit-card"
+      "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
+      "https://www.citigroup.com/global/news/press-release/2021/citi-launches-custom-cash-a-next-gen-cash-back-credit-card"
     ],
     "updatedBy": "agent"
   },
+  "_note": "Closed to new applicants 2026-05-28 (Citi's product page states this; there was no press release). Existing cardholders keep the card and its earning structure, which is why benefits[] is populated rather than emptied. The 5% category list is corroborated by Citi's own 2021 launch press release and the current product page; re-verify against cardholder terms if Citi changes terms for the closed-to-new-applicants population.",
   "imageUrl": "data/assets/cards/citi-custom-cash.png"
 }
