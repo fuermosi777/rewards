@@ -65,6 +65,25 @@ Full field definitions live in `schema/*.json` (they're written with inline `des
   - `anchor: "fixed_dates"` — irregular, issuer-announced windows (e.g. rotating 5% categories). Use the literal `fixedDates` array; don't try to compute this from `unit`/`count` — those are just descriptive here, the actual dates are the source of truth.
 - `statementCreditDetail.splitEligible: true` means the annual total is actually disbursed in smaller chunks (e.g. Amex Uber Cash is $200/year but paid out as $15-20/month) — pair with the smaller `renewalPeriod` cycle, which is what's actually set on the benefit.
 
+### `bonusCategoryDetail`: `eligibleCategories` vs `categorySelection`
+
+These are mutually exclusive, and confusing them will make a card look far more rewarding than it is:
+
+- **`eligibleCategories`** — every listed category earns the multiplier, simultaneously and always.
+- **`categorySelection`** — the multiplier applies to a *subset chosen from a menu*. `options` is the menu, **not** a list of categories that all earn. `selectCount` says how many apply at once (usually 1; US Bank Cash+ picks 2). A card listing seven `options` at 3% earns 3% on *one* of them, not all seven.
+
+`mode` tells you who picks and whether you need to ask the user:
+
+| `mode` | Who picks | What your app should do |
+|---|---|---|
+| `user_choice` | The cardholder, in the issuer's app | Ask the user which one they've selected, and store it — see below |
+| `issuer_rotating` | The issuer, per cycle | Usually paired with `requiresActivation` and `anchor: "fixed_dates"`; remind the user to activate |
+| `automatic_top_category` | Applied automatically to the user's highest-spend eligible category | Nothing to ask — but you can't know which one it landed on without the user's own spend data |
+
+**Which option a given cardholder actually selected is per-user state and is deliberately not in this repo** — same boundary as benefit redemption state. This repo tells you the choice slot exists and what's on the menu; storing the user's pick (and prompting them to keep it current, since `changeableEachCycle` cards drift) is your app's job.
+
+If you ignore `categorySelection`, treat the benefit as **unresolved** rather than crediting every option — silently assuming all of them earn is the one failure mode that produces confidently wrong recommendations.
+
 ### Sign-up bonuses (`data/bonuses/<id>.json`)
 
 - `currentOffers[]` is what's live now; `history[]` is an append-only archive of past observed offers (useful if you want to show "this card's offer has been getting better/worse over time").
@@ -93,11 +112,23 @@ async function getCard(id) {
   return { card, bonus };
 }
 
-// Recommend a card for a purchase category from the user's held cards:
+// Recommend a card for a purchase category from the user's held cards.
+//
+// Two things this example does NOT do, both of which matter for a real recommender:
+//
+// 1. It compares `multiplier` directly, but multipliers are not comparable across
+//    rewardUnits — 7x hotel points can be worth less per dollar than 3% cashback, since
+//    co-brand points are often ~0.5c against ~1-1.25c for transferable bank points. Sorting
+//    raw multipliers tends to crown whichever card has the WEAKEST currency. Convert to an
+//    estimated cents-per-dollar first, using your own point valuations (this repo records
+//    what a card earns; what a point is worth is an opinion and stays out of here).
+// 2. It only reads `earningRates[]`, so it misses `benefits[]` entries with
+//    `benefitType: "bonus_category"` — which is where choice/rotating categories live, and
+//    is often a card's single best rate (see the `categorySelection` section above).
 function bestCardFor(category, heldCards) {
   return heldCards
     .flatMap(c => (c.earningRates || []).map(r => ({ card: c, rate: r })))
-    .filter(({ rate }) => rate.eligibleCategories.includes(category))
+    .filter(({ rate }) => (rate.eligibleCategories || []).includes(category))
     .sort((a, b) => b.rate.multiplier - a.rate.multiplier)[0];
 }
 ```

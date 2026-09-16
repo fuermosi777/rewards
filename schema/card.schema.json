@@ -226,7 +226,36 @@
         "eligibleCategories": {
           "type": "array",
           "items": { "type": "string" },
-          "description": "e.g. [\"gas_stations\", \"grocery_stores\"]. For rotating categories, pair with renewalPeriod.anchor = fixed_dates."
+          "description": "Categories that ALL earn the multiplier, e.g. [\"gas_stations\", \"grocery_stores\"]. For rotating categories, pair with renewalPeriod.anchor = fixed_dates. If the cardholder (or the issuer, per cycle) instead picks a subset from a menu, leave this out and use categorySelection — the two are mutually exclusive."
+        },
+        "categorySelection": {
+          "type": "object",
+          "required": ["mode", "options"],
+          "properties": {
+            "mode": {
+              "type": "string",
+              "enum": ["user_choice", "issuer_rotating", "automatic_top_category"],
+              "description": "How the earning category gets picked each cycle. user_choice = cardholder actively selects (BoA Customized Cash, US Bank Cash+). issuer_rotating = issuer announces the category per cycle (Chase Freedom Flex, Discover it); pair with requiresActivation and renewalPeriod.anchor = fixed_dates. automatic_top_category = issuer applies it to the cardholder's highest-spend eligible category with no action needed (Citi Custom Cash)."
+            },
+            "options": {
+              "type": "array",
+              "items": { "type": "string" },
+              "minItems": 1,
+              "description": "The menu of category slugs that MAY be selected — not categories that all earn simultaneously. Use the same reusable slugs as eligibleCategories so cross-card comparison still works."
+            },
+            "selectCount": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1,
+              "description": "How many of `options` apply at once, e.g. 2 for US Bank Cash+ (two 5% categories per quarter)."
+            },
+            "changeableEachCycle": {
+              "type": "boolean",
+              "description": "True if the selection can be changed every renewalPeriod (BoA allows a monthly change). False/absent means the choice is fixed once made, or is out of the cardholder's hands entirely."
+            }
+          },
+          "additionalProperties": false,
+          "description": "Present when the multiplier applies to a SUBSET of categories chosen from a menu, rather than to every category listed. Records only the menu and how selection works — which option a given cardholder actually picked is per-user state and deliberately lives in the consuming app, not here (same boundary as benefit redemption state). Consumers that ignore this key should treat the benefit as unresolved rather than crediting every option at once."
         },
         "spendCap": {
           "type": "object",
@@ -242,7 +271,8 @@
           "description": "True if the cardholder must manually opt in each cycle (common for rotating categories)."
         }
       },
-      "additionalProperties": false
+      "additionalProperties": false,
+      "not": { "required": ["eligibleCategories", "categorySelection"] }
     },
     "loungeAccessDetail": {
       "type": "object",
