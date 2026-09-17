@@ -10,11 +10,116 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "att-points-plus-wireless-discount",
+      "name": "AT&T Wireless Bill Discount",
+      "description": "$10 per month per wireless phone line discount on AT&T bills when enrolled in both paperless billing and AutoPay with a bank account or this card. Reduced to $5/month per line if AutoPay is set up with a debit card; no discount with other credit cards.",
+      "benefitType": "statement_credit",
+      "category": "wireless",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "AT&T"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Requires AutoPay and paperless billing enrollment with AT&T. $10/month per line with bank account AutoPay or this card; $5/month per line with debit card AutoPay; no discount with other credit cards.",
+      "sourceUrl": "https://www.att.com/deals/att-points-plus-citi/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "att-points-plus-internet-discount",
+      "name": "AT&T Internet Bill Discount",
+      "description": "$10 per month discount on eligible AT&T Internet service ($5/month for AT&T Internet Air) when enrolled in paperless billing and AutoPay with a bank account or this card.",
+      "benefitType": "statement_credit",
+      "category": "wireless",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "AT&T"
+        ],
+        "splitEligible": true
+      },
+      "terms": "AT&T Internet Air is discounted $5/month regardless of payment method. Requires AutoPay and paperless billing enrollment.",
+      "sourceUrl": "https://www.att.com/deals/att-points-plus-citi/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "att-points-plus-spend-credit",
+      "name": "Monthly Spend Statement Credit",
+      "description": "$20 statement credit for each billing cycle in which purchases total $1,000 or more, up to $240 per year.",
+      "benefitType": "statement_credit",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 20,
+        "currency": "USD"
+      },
+      "terms": "Requires $1,000+ in purchases per billing cycle. Capped at $240 in statement credits per year.",
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/what-are-the-benefits-of-the-att-points-plus-card",
+      "lastVerified": "2026-09-17"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging"
+      ],
+      "sourceUrl": "https://www.att.com/deals/att-points-plus-citi/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "at_and_t"
+      ],
+      "terms": "AT&T products and services.",
+      "sourceUrl": "https://www.att.com/deals/att-points-plus-citi/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "online_groceries",
+        "grocery_stores"
+      ],
+      "sourceUrl": "https://www.att.com/deals/att-points-plus-citi/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.att.com/deals/att-points-plus-citi/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-17",
     "sourceUrls": [
-      "https://www.att.com/deals/att-points-plus-citi/"
+      "https://www.att.com/deals/att-points-plus-citi/",
+      "https://www.citi.com/credit-cards/credit-card-rewards/what-are-the-benefits-of-the-att-points-plus-card"
     ],
     "updatedBy": "agent"
   },

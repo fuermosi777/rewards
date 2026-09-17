@@ -10,11 +10,130 @@
     "waivedFirstYear": true
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "aa-platinum-select-checked-bag",
+      "name": "First Checked Bag Free",
+      "description": "First checked bag free on domestic American Airlines itineraries for the cardmember plus up to 4 companions on the same reservation, a savings of up to $500 per round trip.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-platinum-select-preferred-boarding",
+      "name": "Preferred Boarding",
+      "description": "Complimentary priority boarding on American Airlines flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-platinum-select-inflight-discount",
+      "name": "Inflight Food & Beverage Discount",
+      "description": "25% savings on inflight food and beverage purchases on American Airlines flights when paying with this card.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-platinum-select-flight-discount",
+      "name": "Annual Flight Discount",
+      "description": "$125 American Airlines flight discount earned after spending $20,000+ in a cardmembership year, applied upon renewal.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 125,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "American Airlines"
+        ]
+      },
+      "terms": "Requires $20,000+ in purchases during the cardmembership year; discount is issued upon renewal.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-platinum-select-turo-credit",
+      "name": "Turo Credit",
+      "description": "Up to $30 in statement credits for each eligible Turo trip, up to $180 total, for trips completed October 19, 2025 through October 18, 2026.",
+      "benefitType": "statement_credit",
+      "category": "travel",
+      "isOneTime": true,
+      "statementCreditDetail": {
+        "amount": 180,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Turo"
+        ]
+      },
+      "terms": "Promotional offer for trips completed Oct. 19, 2025 through Oct. 18, 2026 per current terms; confirm this window is still current before relying on it. Requires linking card to Turo account.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "gas_stations"
+      ],
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "american_airlines"
+      ],
+      "terms": "Eligible American Airlines purchases.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-17",
     "sourceUrls": [
-      "https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/"
+      "https://creditcards.aa.com/credit-cards/citi-platinum-card-american-airlines-direct/",
+      "https://upgradedpoints.com/credit-cards/reviews/citi-aadvantage-platinum-select-mastercard/"
     ],
     "updatedBy": "agent"
   },
