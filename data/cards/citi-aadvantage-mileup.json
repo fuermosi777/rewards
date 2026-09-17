@@ -10,11 +10,56 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "aa-mileup-inflight-discount",
+      "name": "Inflight Food & Beverage Discount",
+      "description": "25% savings on inflight food and beverage purchases on American Airlines flights when paying with this card.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://creditcards.aa.com/citi-mileup-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "online_groceries",
+        "grocery_stores"
+      ],
+      "terms": "Grocery stores, including grocery delivery services.",
+      "sourceUrl": "https://creditcards.aa.com/citi-mileup-card-american-airlines-direct/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "american_airlines"
+      ],
+      "terms": "Eligible American Airlines purchases.",
+      "sourceUrl": "https://creditcards.aa.com/citi-mileup-card-american-airlines-direct/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.aa.com/citi-mileup-card-american-airlines-direct/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-17",
     "sourceUrls": [
-      "https://creditcards.aa.com/citi-mileup-card-american-airlines-direct/"
+      "https://creditcards.aa.com/citi-mileup-card-american-airlines-direct/",
+      "https://money.usnews.com/credit-cards/citi/american-airlines-aadvantage-mileup"
     ],
     "updatedBy": "agent"
   },

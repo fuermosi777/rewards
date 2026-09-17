@@ -10,11 +10,226 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "aa-exec-admirals-club",
+      "name": "Admirals Club Membership",
+      "description": "Complimentary Admirals Club membership, valued up to $1,400, with unlimited lounge visits for the cardmember plus up to 2 guests or immediate family.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Admirals Club"
+        ],
+        "guestPolicy": "Cardmember plus up to 2 guests or immediate family per visit."
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-exec-inflight-admirals-credit",
+      "name": "Inflight & Admirals Club Purchase Credit",
+      "description": "Up to $100 in statement credits per calendar year on inflight purchases and eligible Admirals Club purchases.",
+      "benefitType": "statement_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "American Airlines inflight purchases",
+          "Admirals Club"
+        ]
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-exec-vacations-credit",
+      "name": "AA Vacations Statement Credit",
+      "description": "Up to $500 annual statement credit on eligible American Airlines Vacations packages, split into two $250 windows (January-June and July-December).",
+      "benefitType": "statement_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 500,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "American Airlines Vacations"
+        ]
+      },
+      "terms": "Split into two $250 semiannual windows: January-June and July-December.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-exec-trusted-traveler-credit",
+      "name": "Global Entry / TSA PreCheck Credit",
+      "description": "Statement credit up to $120 every 4 years for a Global Entry or TSA PreCheck application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-exec-avis-budget-credit",
+      "name": "Avis/Budget Prepaid Rental Credit",
+      "description": "Up to $120 annual statement credit on eligible prepaid Avis or Budget car rentals booked directly through avis.com or budget.com.",
+      "benefitType": "statement_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Avis",
+          "Budget"
+        ]
+      },
+      "terms": "Rentals must be prepaid and booked directly through avis.com or budget.com.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-exec-lyft-credit",
+      "name": "Lyft Credit",
+      "description": "$15 statement credit after 3 eligible Lyft rides in a calendar month, up to $180 annually.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 15,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Lyft"
+        ]
+      },
+      "terms": "Requires 3 eligible Lyft rides per calendar month to earn the $15 credit; capped at $180 total per year.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-exec-avis-presidents-club",
+      "name": "Avis President's Club Status",
+      "description": "Complimentary enrollment in Avis President's Club, Avis's top loyalty tier.",
+      "benefitType": "elite_status",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Enrollment available through Aug. 31, 2028 per current terms; confirm this deadline is still current before relying on it.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-exec-checked-bag",
+      "name": "First Checked Bag Free",
+      "description": "First checked bag free on domestic American Airlines itineraries for the cardmember plus up to 8 companions on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-exec-priority-boarding",
+      "name": "Priority Check-in, Screening & Boarding",
+      "description": "Priority check-in, airport screening, and priority boarding on American Airlines flights for the cardmember plus up to 8 companions.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-exec-loyalty-points-bonus",
+      "name": "Loyalty Points Milestone Bonus",
+      "description": "Up to 40,000 additional AAdvantage Loyalty Points annually, earned as 10,000-point bonuses at four milestone thresholds during the qualification year.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "membership_year"
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 12,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "aadvantage_hotels",
+        "aadvantage_cars"
+      ],
+      "terms": "Eligible bookings through AAdvantage Hotels and AAdvantage Cars.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "american_airlines"
+      ],
+      "terms": "Eligible American Airlines purchases. Increases to 5x after $150,000 in calendar-year spend, for the remainder of that year.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-executive-card-american-airlines-direct/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-17",
     "sourceUrls": [
-      "https://creditcards.aa.com/citi-executive-card-american-airlines-direct/"
+      "https://creditcards.aa.com/citi-executive-card-american-airlines-direct/",
+      "https://thepointsguy.com/credit-cards/reviews/citi-aadvantage-executive-review"
     ],
     "updatedBy": "agent"
   },

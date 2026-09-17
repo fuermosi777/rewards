@@ -10,38 +10,226 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "aa-globe-admirals-club-passes",
+      "name": "Admirals Club Globe Passes",
+      "description": "Four Admirals Club Globe Passes annually, each granting single-visit access to nearly 50 Admirals Club lounges. Valued at $300+ combined.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Admirals Club"
+        ]
+      },
+      "terms": "Four single-visit passes per calendar year, usable at nearly 50 Admirals Club lounges.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-globe-splurge-credit",
+      "name": "Splurge Credit",
+      "description": "Up to $100 in statement credits on two selected brands: 1stDibs, AAdvantage Hotels, Future Personal Training, or Live Nation.",
+      "benefitType": "statement_credit",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "1stDibs",
+          "AAdvantage Hotels",
+          "Future Personal Training",
+          "Live Nation"
+        ]
+      },
+      "terms": "Requires selecting two eligible brands.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-globe-turo-credit",
+      "name": "Turo Credit",
+      "description": "Up to $240 in statement credits annually, up to $30 per Turo trip for up to 8 trips.",
+      "benefitType": "statement_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 240,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Turo"
+        ]
+      },
+      "terms": "Requires linking card to Turo account. Capped at $30 per trip, up to 8 trips per year.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-globe-inflight-credit",
+      "name": "Inflight Purchase Credit",
+      "description": "Up to $100 in statement credits per calendar year on inflight purchases on American Airlines flights.",
+      "benefitType": "statement_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "American Airlines inflight purchases"
+        ]
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-globe-trusted-traveler-credit",
+      "name": "Global Entry / TSA PreCheck Credit",
+      "description": "Statement credit up to $120 every 4 years for a Global Entry or TSA PreCheck application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-globe-companion-certificate",
+      "name": "American Airlines Companion Certificate",
+      "description": "Starting in year 2, a companion certificate upon card renewal: a companion ticket for $99 plus taxes and fees.",
+      "benefitType": "companion_ticket",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Awarded starting with the second-year renewal, not the first year.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-globe-checked-bag",
+      "name": "First Checked Bag Free",
+      "description": "First checked bag free on domestic American Airlines itineraries for the cardmember plus up to 8 companions on the same reservation.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-globe-preferred-boarding",
+      "name": "Preferred Boarding",
+      "description": "Preferred boarding on American Airlines flights for the cardmember plus up to 8 companions.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    },
+    {
+      "id": "aa-globe-flight-streak-bonus",
+      "name": "Flight Streak Bonus",
+      "description": "5,000 Loyalty Points after every 4 qualifying flights, up to 15,000 Loyalty Points annually.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Capped at 15,000 Loyalty Points per calendar year.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/",
+      "lastVerified": "2026-09-17"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "aadvantage_hotels"
+      ],
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "american_airlines"
+      ],
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "transportation"
+      ],
+      "terms": "Rides and Rails: transit, rideshare, and taxis.",
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-17",
     "sourceUrls": [
-      "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/"
+      "https://creditcards.aa.com/credit-cards/citi-globe-card-american-airlines-direct/",
+      "https://www.cnbc.com/select/citi-aadvantage-globe-mastercard-review/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Lounge Access",
-        "value": 300,
-        "weight": 0.25
-      },
-      {
-        "description": "'Splurge' Credit",
-        "value": 100,
-        "weight": 0.9
-      },
-      {
-        "description": "Turo Credit",
-        "value": 240,
-        "weight": 0.25
-      },
-      {
-        "description": "In-Flight Purchase Credit",
-        "value": 100,
-        "weight": 0.25
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/citi-aadvantage-globe.png"
 }
