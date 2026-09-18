@@ -10,48 +10,247 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "citi-strata-elite-hotel-benefit",
+      "name": "Annual Hotel Benefit",
+      "description": "Up to $300 off a hotel stay of 2 nights or more booked through cititravel.com.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 300,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Citi Travel"
+        ]
+      },
+      "terms": "Requires a hotel stay of 2 nights or more booked through cititravel.com.",
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-elite-splurge-credit",
+      "name": "Splurge Credit",
+      "description": "Up to $200 in statement credits per year on purchases with up to 2 selected brands: 1stDibs, American Airlines, Best Buy, Future Personal Training, or Live Nation.",
+      "benefitType": "statement_credit",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 200,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "1stDibs",
+          "American Airlines",
+          "Best Buy",
+          "Future Personal Training",
+          "Live Nation"
+        ]
+      },
+      "terms": "Requires enrollment/selection of up to 2 brands at citi.com/splurgecredit. Selection can be changed at any time.",
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-elite-blacklane-credit",
+      "name": "Blacklane Credit",
+      "description": "Up to $200 in statement credits per year for Blacklane chauffeur bookings, split into two $100 halves.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 6,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Blacklane"
+        ],
+        "splitEligible": true
+      },
+      "terms": "Up to $100 on Blacklane purchases January through June, and up to $100 July through December.",
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-elite-trusted-traveler-credit",
+      "name": "TSA PreCheck / Global Entry Credit",
+      "description": "Statement credit for a TSA PreCheck or Global Entry application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "TSA PreCheck",
+          "Global Entry"
+        ]
+      },
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-elite-priority-pass",
+      "name": "Priority Pass Select Membership",
+      "description": "Complimentary access to 1,500+ airport lounges worldwide for the primary cardmember, authorized users, and two guests.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Priority Pass Select"
+        ],
+        "guestPolicy": "Primary cardmember, authorized users, and two guests included."
+      },
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-elite-admirals-club",
+      "name": "Admirals Club Passes",
+      "description": "4 Admirals Club Citi Strata Elite passes per year for access to nearly 50 Admirals Club lounges.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Admirals Club"
+        ]
+      },
+      "terms": "4 single-use passes per year, valued over $300 total.",
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-elite-trip-delay",
+      "name": "Trip Delay Protection",
+      "description": "Reimbursement for reasonable expenses when a trip is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-elite-trip-cancellation",
+      "name": "Trip Cancellation & Interruption Protection",
+      "description": "Reimbursement for prepaid, non-refundable travel expenses when a trip is cancelled or interrupted.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-elite-lost-luggage",
+      "name": "Lost or Damaged Luggage Protection",
+      "description": "Reimbursement for lost or damaged checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-elite-rental-coverage",
+      "name": "MasterRental Coverage",
+      "description": "Rental car damage/theft coverage when the rental is paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-elite-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits",
+      "lastVerified": "2026-09-18"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 12,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "citi_travel_hotels",
+        "citi_travel_car_rentals",
+        "citi_travel_attractions"
+      ],
+      "terms": "Hotels, car rentals, and attractions booked through cititravel.com.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card"
+    },
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "air_travel"
+      ],
+      "terms": "Air travel booked through cititravel.com.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card"
+    },
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Restaurants during Citi Nights, Friday-Saturday 6 PM-6 AM ET.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Restaurants outside of Citi Nights hours.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-elite-credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-18",
     "sourceUrls": [
-      "https://www.citi.com/credit-cards/citi-strata-elite-credit-card"
+      "https://www.citi.com/credit-cards/citi-strata-elite-credit-card",
+      "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-elite-benefits"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "PreCheck Credit",
-        "value": 100,
-        "weight": 0.4
-      },
-      {
-        "description": "Lounge Access",
-        "value": 469,
-        "weight": 0.25
-      },
-      {
-        "description": "American Airlines Lounge Access",
-        "value": 150,
-        "weight": 0.25
-      },
-      {
-        "description": "Hotel Credit",
-        "value": 300,
-        "weight": 0.9
-      },
-      {
-        "description": "\"Splurge\" Credit (1stDibs, American Airlines, Best Buy, Future Personal Training, Live Nation)",
-        "value": 200,
-        "weight": 0.3
-      },
-      {
-        "description": "Blacklane Credit",
-        "value": 200,
-        "weight": 0.2
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/citi-strata-elite.png"
 }

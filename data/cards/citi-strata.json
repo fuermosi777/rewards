@@ -10,11 +10,89 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "citi-strata-self-select-category",
+      "name": "Self-Select Bonus Category",
+      "description": "3x points on a category the cardholder selects, changeable once per calendar quarter.",
+      "benefitType": "bonus_category",
+      "category": "other",
+      "bonusCategoryDetail": {
+        "multiplier": 3,
+        "rewardUnit": "points",
+        "categorySelection": {
+          "mode": "user_choice",
+          "options": [
+            "fitness_clubs",
+            "streaming",
+            "live_entertainment",
+            "cosmetics_and_barber",
+            "pet_supply_stores"
+          ],
+          "selectCount": 1,
+          "changeableEachCycle": true
+        }
+      },
+      "terms": "Default category is Select Streaming Services until changed. May be changed once per calendar quarter.",
+      "sourceUrl": "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-eligible-self-select-category",
+      "lastVerified": "2026-09-18"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "citi_travel_hotels",
+        "citi_travel_car_rentals",
+        "citi_travel_attractions"
+      ],
+      "terms": "Hotels, car rentals, and attractions booked through cititravel.com.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-credit-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "grocery_stores"
+      ],
+      "terms": "Supermarkets.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-credit-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging",
+        "transit"
+      ],
+      "terms": "Select transit and gas & EV charging stations.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-credit-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-credit-card"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-18",
     "sourceUrls": [
-      "https://www.citi.com/credit-cards/citi-strata-credit-card"
+      "https://www.citi.com/credit-cards/citi-strata-credit-card",
+      "https://www.citi.com/credit-cards/credit-card-rewards/citi-strata-eligible-self-select-category"
     ],
     "updatedBy": "agent"
   },

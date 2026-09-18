@@ -10,9 +10,43 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "citi-double-cash-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties, secondary coverage through AIG.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
+      "lastVerified": "2026-09-18"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "citi_travel_hotels",
+        "citi_travel_car_rentals",
+        "citi_travel_attractions"
+      ],
+      "terms": "3% cash back on hotels, car rentals, and attractions booked through Citi Travel (5% total when combined with the base 2%).",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-double-cash-credit-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "1% cash back on purchases, plus 1% as you pay off those purchases. No caps.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-double-cash-credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-18",
     "sourceUrls": [
       "https://www.citi.com/credit-cards/citi-double-cash-credit-card"
     ],
