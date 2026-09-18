@@ -10,23 +10,134 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "citi-strata-premier-hotel-benefit",
+      "name": "Annual Hotel Benefit",
+      "description": "$100 off a single hotel stay of $500 or more (excluding taxes and fees) booked through cititravel.com or by phone.",
+      "benefitType": "statement_credit",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Citi Travel"
+        ]
+      },
+      "terms": "Requires a single hotel stay of $500 or more (excluding taxes and fees) booked through cititravel.com or by phone. Applied instantly at booking. Once per calendar year.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-premier-trip-cancellation",
+      "name": "Trip Cancellation & Interruption Protection",
+      "description": "Reimbursement for prepaid, non-refundable travel expenses on common carrier tickets when a trip is cancelled or interrupted.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-premier-trip-delay",
+      "name": "Trip Delay Protection",
+      "description": "Reimbursement for reasonable expenses when a trip is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-premier-lost-luggage",
+      "name": "Lost or Damaged Luggage Protection",
+      "description": "Reimbursement for lost or damaged checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
+      "lastVerified": "2026-09-18"
+    },
+    {
+      "id": "citi-strata-premier-rental-coverage",
+      "name": "MasterRental Coverage",
+      "description": "Rental car damage/theft coverage when the rental is paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
+      "lastVerified": "2026-09-18"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 10,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "citi_travel_hotels",
+        "citi_travel_car_rentals",
+        "citi_travel_attractions"
+      ],
+      "terms": "Hotels, car rentals, and attractions booked through cititravel.com.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "air_travel",
+        "hotels"
+      ],
+      "terms": "Air travel and other hotel purchases not booked through cititravel.com.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "grocery_stores"
+      ],
+      "terms": "Supermarkets.",
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging"
+      ],
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-18",
     "sourceUrls": [
       "https://www.citi.com/credit-cards/citi-strata-premier-credit-card"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "Hotel Credit ($500 min purchase)",
-        "value": 100,
-        "weight": 0.9
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/citi-strata-premier.png"
 }

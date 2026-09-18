@@ -10,11 +10,73 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "aaa-daily-advantage-visa-signature-benefits",
+      "name": "Visa Signature Benefits",
+      "description": "Visa Zero Liability, 24/7 travel & emergency assistance, emergency card replacement, and emergency cash disbursement.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://mwg.aaa.com/credit-card",
+      "lastVerified": "2026-09-18"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "grocery_stores"
+      ],
+      "spendCap": {
+        "amount": 500,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "Combined with gas stations and wholesale clubs, capped at $500 in cash back per calendar year across all three categories combined; drops to 1% after the cap. Discount stores, superstores, and convenience stores no longer qualify as grocery stores effective 5/15/26.",
+      "sourceUrl": "https://www.doctorofcredit.com/comenity-aaa-daily-advantage-travel-advantage-credit-cards-review-100-signup-bonus-5-gas-grocery/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging",
+        "wholesale_clubs",
+        "streaming",
+        "pharmacy",
+        "aaa_purchases"
+      ],
+      "spendCap": {
+        "amount": 500,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "Gas stations and wholesale clubs share the combined $500/year cap with groceries; streaming, pharmacy, EV charging, and AAA purchases are uncapped at 3%.",
+      "sourceUrl": "https://mwg.aaa.com/credit-card"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://mwg.aaa.com/credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-18",
     "sourceUrls": [
-      "https://www.ace.aaa.com/financial/aaa-credit-card.html"
+      "https://mwg.aaa.com/credit-card",
+      "https://www.doctorofcredit.com/comenity-aaa-daily-advantage-travel-advantage-credit-cards-review-100-signup-bonus-5-gas-grocery/"
     ],
     "updatedBy": "agent"
   },
