@@ -10,11 +10,74 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "agr-onboard-food-beverage-rebate",
+      "name": "Onboard Food & Beverage Rebate",
+      "description": "10% rebate, as a statement credit, on Amtrak onboard food and beverage purchases.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "10% rebate on onboard food and beverage purchases, credited as a statement credit; can take up to 8 weeks to post. No fixed dollar cap identified in sourcing; modeled as an ongoing per-purchase rebate rather than a capped periodic credit.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amtrak-guest-rewards-mastercard/",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "agr-points-redemption-rebate",
+      "name": "Amtrak Travel Redemption Rebate",
+      "description": "Rebate of points back when redeeming Amtrak Guest Rewards points for Amtrak travel.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "5% of redeemed points rebated back to the account when points are redeemed for Amtrak travel.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amtrak-guest-rewards-mastercard/",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "agr-points-no-expiration",
+      "name": "Points Don't Expire",
+      "description": "Amtrak Guest Rewards points earned on the card don't expire as long as the card account remains open and in good standing.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amtrak-guest-rewards-mastercard/",
+      "lastVerified": "2026-09-19"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "amtrak"
+      ],
+      "terms": "Amtrak travel purchases, including onboard purchases.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amtrak-guest-rewards-mastercard/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amtrak-guest-rewards-mastercard/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/amtrak-guest-rewards-mastercard/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-19",
     "sourceUrls": [
-      "https://www.amtrak.com/Apply"
+      "https://www.amtrak.com/Apply",
+      "https://upgradedpoints.com/credit-cards/reviews/amtrak-guest-rewards-mastercard/",
+      "https://media.amtrak.com/2022/10/amtrak-and-first-national-bank-of-omaha-launch-two-new-amtrak-guest-rewards-mastercards/"
     ],
     "updatedBy": "agent"
   },

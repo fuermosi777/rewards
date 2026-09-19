@@ -2,20 +2,123 @@
   "id": "fidelity-rewards-visa-signature",
   "imageUrl": "data/assets/cards/fidelity-rewards-visa-signature.png",
   "issuerId": "fidelity",
-  "name": "Fidelity\u00ae Rewards Visa Signature\u00ae Card",
+  "name": "Fidelity® Rewards Visa Signature® Card",
   "network": "Visa",
   "variant": "personal",
   "annualFee": {
     "amount": 0,
     "currency": "USD"
   },
-  "foreignTransactionFee": true,
+  "foreignTransactionFee": false,
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "fidelity-visa-global-entry-tsa",
+      "name": "Global Entry or TSA PreCheck Application Fee Credit",
+      "description": "Reward points (or a statement credit for cardholders who don't earn points) for a Global Entry or TSA PreCheck application fee paid with the card.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
+      },
+      "terms": "Eligible cardholders earn up to 10,000 reward points per eligible account; cardholders who don't earn points instead get up to a $100 statement credit. Must pay the Global Entry or TSA PreCheck application fee directly with the card. Once every 4 years, based on the date of the first qualifying transaction. Allow 2-3 billing cycles to post.",
+      "sourceUrl": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/fidelity/Fidelity-Visa-Signature-Card-Guide-to-Benefits.pdf",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "fidelity-visa-purchase-security",
+      "name": "Purchase Security",
+      "description": "Replaces, repairs, or reimburses new retail purchases damaged or stolen within 90 days of purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Up to $500 per claim, $50,000 per cardholder. Covers fire, vandalism, weather, and theft (except from vehicles). Excess coverage over any other applicable insurance. Effective January 1, 2027, this benefit will no longer be available per the issuer's current Guide to Benefits.",
+      "sourceUrl": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/fidelity/Fidelity-Visa-Signature-Card-Guide-to-Benefits.pdf",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "fidelity-visa-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Reimbursement for theft or collision damage to most rental vehicles, up to $75,000.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage if you have personal auto insurance (reimburses your deductible); primary if you have none, or if renting outside your country of residence. Decline the rental company's own CDW/LDW to activate. Rental periods up to 31 consecutive days.",
+      "sourceUrl": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/fidelity/Fidelity-Visa-Signature-Card-Guide-to-Benefits.pdf",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "fidelity-visa-travel-accident-insurance",
+      "name": "$250,000 Worldwide Automatic Travel Accident Insurance",
+      "description": "Coverage for accidental loss of life, limb, sight, speech, or hearing while riding as a passenger on a licensed common carrier, when the entire passenger fare is charged to the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Full $250,000 benefit for loss of life; partial amounts for lesser losses. No cost, automatic when the full fare is charged to the card.",
+      "sourceUrl": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/fidelity/Fidelity-Visa-Signature-Card-Guide-to-Benefits.pdf",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "fidelity-visa-lost-luggage",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Reimbursement for checked or carry-on luggage lost or stolen by a common carrier on a trip paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Up to $3,000 per covered trip ($2,000 per bag for New York residents). Supplemental to any other collectible insurance. Effective January 1, 2027, this benefit will no longer be available per the issuer's current Guide to Benefits.",
+      "sourceUrl": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/fidelity/Fidelity-Visa-Signature-Card-Guide-to-Benefits.pdf",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "fidelity-visa-emergency-medical-dental",
+      "name": "Emergency Medical/Dental Coverage",
+      "description": "Reimbursement for emergency medical or dental treatment while on a covered trip booked through a travel agency, booking portal, or common carrier.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Up to $2,500, subject to a $50 deductible, plus up to $75/day (max 5 days) for a hotel stay if a physician recommends recovery before returning home. Trip must be 3-60 days and at least 100 miles from residence (NY residents exempt from the mileage requirement). Payable on an excess basis over other insurance.",
+      "sourceUrl": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/fidelity/Fidelity-Visa-Signature-Card-Guide-to-Benefits.pdf",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "fidelity-visa-signature-concierge",
+      "name": "Visa Signature Concierge & Travel Benefits",
+      "description": "Complimentary 24-hour concierge service, travel and emergency assistance services, emergency card replacement/cash disbursement, Roadside Dispatch, and access to the Visa Signature Luxury Hotel Collection.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Cardmembers are responsible for the cost of any goods or services arranged through the concierge. Travel and Emergency Assistance Services provide assistance/referral only; all actual medical, legal, or transportation costs are the cardholder's responsibility.",
+      "sourceUrl": "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/fidelity/Fidelity-Visa-Signature-Card-Guide-to-Benefits.pdf",
+      "lastVerified": "2026-09-19"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Unlimited 2% back on all eligible purchases, but the 2% value applies only when points are redeemed for a deposit into an eligible Fidelity account (brokerage, IRA, HSA, 529, etc.). Other redemption options are worth less. Certain transactions are excluded (cash advances, balance transfers, gift cards, etc.).",
+      "sourceUrl": "https://www.cnbc.com/select/fidelity-rewards-visa-signature-credit-card-review/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-07",
+    "lastReviewedDate": "2026-09-19",
     "sourceUrls": [
-      "https://www.fidelity.com/go/visa-signature-rewards-card"
+      "https://www.fidelity.com/go/visa-signature-rewards-card",
+      "https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/fidelity/Fidelity-Visa-Signature-Card-Guide-to-Benefits.pdf",
+      "https://www.cnbc.com/select/fidelity-rewards-visa-signature-credit-card-review/"
     ],
     "updatedBy": "agent"
   }
