@@ -10,11 +10,138 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "agr-preferred-companion-coupon",
+      "name": "Round-Trip Companion Coupon",
+      "description": "A round-trip companion coupon for Amtrak travel, issued upon account opening and on each card anniversary.",
+      "benefitType": "companion_ticket",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Issued upon account opening and again on each card anniversary.",
+      "sourceUrl": "https://www.amtrak.com/guestrewards/member-benefits/preferred-mastercard-benefits",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "agr-preferred-class-upgrade",
+      "name": "One-Class Upgrade Certificate",
+      "description": "A certificate to upgrade to the next-highest cabin class on an Amtrak trip, issued upon account opening and on each card anniversary.",
+      "benefitType": "other",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "One certificate per year, issued upon account opening and again on each card anniversary. Upgrades to the next-highest cabin class only.",
+      "sourceUrl": "https://www.amtrak.com/guestrewards/member-benefits/preferred-mastercard-benefits",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "agr-preferred-station-lounge-pass",
+      "name": "Station Lounge Pass",
+      "description": "A pass granting entry to any Amtrak metropolitan lounge location, issued upon account opening and on each card anniversary.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Amtrak Metropolitan Lounge"
+        ]
+      },
+      "terms": "One pass per year, issued upon account opening and again on each card anniversary.",
+      "sourceUrl": "https://www.amtrak.com/guestrewards/member-benefits/preferred-mastercard-benefits",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "agr-preferred-onboard-food-beverage-rebate",
+      "name": "Onboard Food & Beverage Rebate",
+      "description": "20% rebate, as a statement credit, on Amtrak onboard food and beverage purchases.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "20% rebate on onboard food and beverage purchases, credited as a statement credit. No fixed dollar cap identified in sourcing; modeled as an ongoing per-purchase rebate rather than a capped periodic credit.",
+      "sourceUrl": "https://www.amtrak.com/guestrewards/member-benefits/preferred-mastercard-benefits",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "agr-preferred-points-redemption-rebate",
+      "name": "Amtrak Travel Redemption Rebate",
+      "description": "Rebate of points back when redeeming Amtrak Guest Rewards points for Amtrak travel.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "5% of redeemed points rebated back to the account when points are redeemed for Amtrak travel.",
+      "sourceUrl": "https://www.amtrak.com/guestrewards/member-benefits/preferred-mastercard-benefits",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "agr-preferred-accelerated-tier-status",
+      "name": "Accelerated Tier Qualifying Points",
+      "description": "Earn 1,000 Tier Qualifying Points (TQPs) toward Amtrak Guest Rewards elite status for every $5,000 in qualifying card purchases.",
+      "benefitType": "elite_status",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "1,000 TQPs per $5,000 spent on the card, helping cardholders reach Amtrak Guest Rewards Select/Select Plus/Select Executive status faster.",
+      "sourceUrl": "https://www.amtrak.com/guestrewards/member-benefits/preferred-mastercard-benefits",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "agr-preferred-points-no-expiration",
+      "name": "Points Don't Expire",
+      "description": "Amtrak Guest Rewards points earned on the card don't expire as long as the card account remains open and in good standing.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://www.amtrak.com/guestrewards/member-benefits/preferred-mastercard-benefits",
+      "lastVerified": "2026-09-19"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "amtrak"
+      ],
+      "terms": "Amtrak travel purchases, including onboard purchases.",
+      "sourceUrl": "https://www.amtrak.com/guestrewards/member-benefits/preferred-mastercard-benefits"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "travel",
+        "transit"
+      ],
+      "terms": "Dining, other travel purchases, transit, and rideshare.",
+      "sourceUrl": "https://www.amtrak.com/guestrewards/member-benefits/preferred-mastercard-benefits"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.amtrak.com/guestrewards/member-benefits/preferred-mastercard-benefits"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-19",
     "sourceUrls": [
-      "https://www.amtrak.com/Apply"
+      "https://www.amtrak.com/Apply",
+      "https://www.amtrak.com/guestrewards/member-benefits/preferred-mastercard-benefits",
+      "https://upgradedpoints.com/credit-cards/reviews/amtrak-guest-rewards-preferred-mastercard/"
     ],
     "updatedBy": "agent"
   },

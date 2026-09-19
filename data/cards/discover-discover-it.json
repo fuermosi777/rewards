@@ -10,11 +10,81 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "discover-it-rotating-5-percent",
+      "name": "5% Cash Back Rotating Categories",
+      "description": "5% cash back on up to $1,500 in combined purchases per quarter in categories Discover announces each quarter, after activation.",
+      "benefitType": "bonus_category",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "fixed_dates",
+        "fixedDates": [
+          "2026-07-01",
+          "2026-10-01"
+        ]
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 5,
+        "rewardUnit": "cashback_percent",
+        "categorySelection": {
+          "mode": "issuer_rotating",
+          "options": [
+            "gas_stations",
+            "ev_charging",
+            "drugstores",
+            "public_transit",
+            "flights"
+          ],
+          "currentCycle": "2026-Q3",
+          "selectCount": 5,
+          "changeableEachCycle": false
+        },
+        "spendCap": {
+          "amount": 1500,
+          "period": {
+            "unit": "quarter",
+            "count": 1,
+            "anchor": "calendar"
+          }
+        },
+        "requiresActivation": true
+      },
+      "terms": "Must activate each quarter; not retroactive. 1% cash back on spending in the category beyond the $1,500 quarterly cap, and 1% on the category before activation. Q3 2026 (Jul 1 - Sep 30) categories: gas stations, EV charging, drug stores, public transportation, and flights.",
+      "sourceUrl": "https://www.bankrate.com/credit-cards/cash-back/guide-to-discover-it-cash-back-bonus-categories/",
+      "lastVerified": "2026-09-19"
+    },
+    {
+      "id": "discover-it-cashback-match",
+      "name": "Cashback Match",
+      "description": "Discover automatically matches all cash back earned during the cardholder's first 12 billing months, dollar for dollar, with no cap.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "terms": "New cardmembers only. Automatic at the end of the first 12 billing months; no minimum spend or application required.",
+      "sourceUrl": "https://www.discover.com/credit-cards/cash-back/it-card.html",
+      "lastVerified": "2026-09-19"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.discover.com/credit-cards/cash-back/it-card.html"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-19",
     "sourceUrls": [
-      "https://www.discover.com/credit-cards/"
+      "https://www.discover.com/credit-cards/cash-back/it-card.html",
+      "https://www.bankrate.com/credit-cards/cash-back/guide-to-discover-it-cash-back-bonus-categories/",
+      "https://www.hustlermoneyblog.com/discover-it-third-quarter-5-cash-back-categories/"
     ],
     "updatedBy": "agent"
   },
