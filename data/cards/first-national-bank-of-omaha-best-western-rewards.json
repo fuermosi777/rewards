@@ -10,11 +10,42 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "bwr-gold-elite-status",
+      "name": "Best Western Rewards Gold Elite Status",
+      "description": "Automatic Gold Elite status, including a 10% points bonus on eligible stays, no blackout dates on award redemptions, points upon arrival, complimentary water, and early check-in/late checkout when available.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Automatic for cardholders; no enrollment or minimum spend required.",
+      "sourceUrl": "https://financebuzz.com/best-western-rewards-mastercard-review",
+      "lastVerified": "2026-09-20"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "best_western_stays"
+      ],
+      "sourceUrl": "https://financebuzz.com/best-western-rewards-mastercard-review"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://financebuzz.com/best-western-rewards-mastercard-review"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-20",
     "sourceUrls": [
-      "https://www.bestwestern.com/en_US/offers/hotel-discounts/best-western-rewards-visa.html"
+      "https://www.bestwestern.com/en_US/offers/hotel-discounts/best-western-rewards-visa.html",
+      "https://financebuzz.com/best-western-rewards-mastercard-review"
     ],
     "updatedBy": "agent"
   },

@@ -10,11 +10,126 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "ppr-cell-phone-protection",
+      "name": "Cell Phone Protection",
+      "description": "Coverage for cell phone damage or theft when the monthly bill is paid with the card.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Requires paying the monthly cell phone bill with the card.",
+      "sourceUrl": "https://www.cnbc.com/select/penfed-platinum-rewards-card-review/",
+      "lastVerified": "2026-09-20"
+    },
+    {
+      "id": "ppr-purchase-security",
+      "name": "Purchase Security",
+      "description": "Coverage against damage or theft for eligible new purchases for a limited period after purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://www.cnbc.com/select/penfed-platinum-rewards-card-review/",
+      "lastVerified": "2026-09-20"
+    },
+    {
+      "id": "ppr-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Accidental death and dismemberment coverage while traveling on a common carrier paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.cnbc.com/select/penfed-platinum-rewards-card-review/",
+      "lastVerified": "2026-09-20"
+    },
+    {
+      "id": "ppr-roadside-dispatch",
+      "name": "Roadside Dispatch",
+      "description": "On-demand roadside assistance (towing, tire change, fuel delivery, etc.) dispatched for a service fee.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.cnbc.com/select/penfed-platinum-rewards-card-review/",
+      "lastVerified": "2026-09-20"
+    },
+    {
+      "id": "ppr-visa-signature-concierge",
+      "name": "Visa Signature Concierge",
+      "description": "Complimentary concierge service for travel bookings, dining reservations, and event tickets.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://www.cnbc.com/select/penfed-platinum-rewards-card-review/",
+      "lastVerified": "2026-09-20"
+    },
+    {
+      "id": "ppr-visa-signature-hotels",
+      "name": "Visa Signature Hotels Benefits",
+      "description": "Complimentary upgrades and perks (e.g. room upgrades, late checkout) at participating Visa Signature Hotels properties.",
+      "benefitType": "other",
+      "category": "hotel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.cnbc.com/select/penfed-platinum-rewards-card-review/",
+      "lastVerified": "2026-09-20"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging"
+      ],
+      "terms": "5x points at the pump on gas and EV charging.",
+      "sourceUrl": "https://www.cnbc.com/select/penfed-platinum-rewards-card-review/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "grocery_stores"
+      ],
+      "terms": "Includes most Walmart and Target locations, unlike many competing grocery cards that exclude them.",
+      "sourceUrl": "https://www.cnbc.com/select/penfed-platinum-rewards-card-review/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Restaurants and fast food.",
+      "sourceUrl": "https://www.cnbc.com/select/penfed-platinum-rewards-card-review/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "streaming"
+      ],
+      "terms": "TV, radio, cable, and streaming services.",
+      "sourceUrl": "https://www.cnbc.com/select/penfed-platinum-rewards-card-review/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.cnbc.com/select/penfed-platinum-rewards-card-review/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-20",
     "sourceUrls": [
-      "https://www.penfed.org/credit-cards/platinum-rewards-visa"
+      "https://www.penfed.org/credit-cards/platinum-rewards-visa",
+      "https://www.cnbc.com/select/penfed-platinum-rewards-card-review/"
     ],
     "updatedBy": "agent"
   },
