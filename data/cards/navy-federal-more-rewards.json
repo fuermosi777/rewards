@@ -2,7 +2,7 @@
   "id": "navy-federal-more-rewards",
   "imageUrl": "data/assets/cards/navy-federal-more-rewards.png",
   "issuerId": "navy-federal-credit-union",
-  "name": "Navy Federal More Rewards American Express\u00ae Credit Card",
+  "name": "Navy Federal More Rewards American Express® Credit Card",
   "network": "Amex",
   "variant": "personal",
   "annualFee": {
@@ -11,9 +11,98 @@
   },
   "foreignTransactionFee": false,
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "nfmr-car-rental-discount",
+      "name": "Car Rental Discount",
+      "description": "Up to 25% discount on car rentals from major rental companies.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Discount applies at participating major rental car companies; must book through the Amex/Navy Federal discount program.",
+      "sourceUrl": "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html",
+      "lastVerified": "2026-09-20"
+    },
+    {
+      "id": "nfmr-hotel-discount",
+      "name": "Hotel Discount via Booking.com",
+      "description": "Up to 30% off select hotel properties booked through Booking.com.",
+      "benefitType": "other",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Applies only to select participating properties booked through Booking.com.",
+      "sourceUrl": "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html",
+      "lastVerified": "2026-09-20"
+    },
+    {
+      "id": "nfmr-car-rental-insurance",
+      "name": "Car Rental Loss and Damage Insurance",
+      "description": "Coverage for loss or damage on most rental cars.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html",
+      "lastVerified": "2026-09-20"
+    },
+    {
+      "id": "nfmr-roadside-assistance",
+      "name": "24/7 Roadside Assistance",
+      "description": "Complimentary roadside assistance including towing, vehicle replacement, and journey continuation.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html",
+      "lastVerified": "2026-09-20"
+    },
+    {
+      "id": "nfmr-entertainment-access",
+      "name": "American Express Entertainment Access",
+      "description": "Early ticket access and presales for shows, sports, and concerts via American Express cardholder benefits.",
+      "benefitType": "other",
+      "category": "entertainment",
+      "isOneTime": true,
+      "sourceUrl": "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html",
+      "lastVerified": "2026-09-20"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "food_delivery"
+      ],
+      "sourceUrl": "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "grocery_stores"
+      ],
+      "sourceUrl": "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "transit"
+      ],
+      "sourceUrl": "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-07",
+    "lastReviewedDate": "2026-09-20",
     "sourceUrls": [
       "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html"
     ],
