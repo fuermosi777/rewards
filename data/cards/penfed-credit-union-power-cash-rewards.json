@@ -10,11 +10,67 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "penfed-pcr-cell-phone-protection",
+      "name": "Cell Phone Protection",
+      "description": "Coverage for damage to or theft of your cell phone when you pay your monthly wireless bill with this card.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Coverage begins the calendar month after paying your wireless bill with the card. Supplemental to any other insurance; subject to a deductible per claim.",
+      "sourceUrl": "https://www.penfed.org/credit-cards/power-cash-rewards-visa",
+      "lastVerified": "2026-09-21"
+    },
+    {
+      "id": "penfed-pcr-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Accidental death and dismemberment coverage up to $250,000 when the entire common carrier fare is purchased with this card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.penfed.org/credit-cards/power-cash-rewards-visa",
+      "lastVerified": "2026-09-21"
+    },
+    {
+      "id": "penfed-pcr-visa-signature-concierge",
+      "name": "Visa Signature Concierge",
+      "description": "Complimentary 24/7 concierge service for travel, dining, and event bookings, available on accounts with a credit line of $5,000 or more (Visa Signature tier).",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "terms": "Only available on accounts that qualify for Visa Signature (credit line $5,000+); accounts below that line get Visa Traditional benefits instead.",
+      "sourceUrl": "https://www.penfed.org/credit-cards/power-cash-rewards-visa",
+      "lastVerified": "2026-09-21"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "requiresActivation": true,
+      "terms": "2% cash back requires Honors Advantage eligibility: being the primary owner of both this card and a PenFed checking account, and maintaining either a $500+ daily balance or $500+/month in direct deposits (or qualifying active/veteran military status). Without Honors Advantage, the rate is 1.5%.",
+      "sourceUrl": "https://www.penfed.org/credit-cards/power-cash-honors-advantage"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Base rate for cardholders who do not qualify for PenFed Honors Advantage. No category restrictions, no caps.",
+      "sourceUrl": "https://www.penfed.org/credit-cards/power-cash-rewards-visa"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-21",
     "sourceUrls": [
-      "https://www.penfed.org/credit-cards/power-cash-rewards-visa"
+      "https://www.penfed.org/credit-cards/power-cash-rewards-visa",
+      "https://www.penfed.org/credit-cards/power-cash-honors-advantage"
     ],
     "updatedBy": "agent"
   },

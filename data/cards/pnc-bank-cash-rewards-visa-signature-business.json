@@ -10,11 +10,89 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "pnc-crbiz-purchase-security-extended-protection",
+      "name": "Purchase Security / Extended Protection",
+      "description": "New retail purchases are covered against theft or damage for the first 90 days; eligible manufacturer warranties of 3 years or less are extended by up to 1 additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "terms": "Purchase Security: up to $10,000 per claim, $50,000 per cardholder. Extended Protection: adds up to 1 year to warranties of 3 years or less, same per-claim/per-cardholder caps. Excess coverage over any other applicable insurance.",
+      "sourceUrl": "https://www.pnc.com/content/dam/pnc-com/pdf/smallbusiness/CreditCards/BSIGN_Business_Guide_to_Benefits.pdf",
+      "lastVerified": "2026-09-21"
+    },
+    {
+      "id": "pnc-crbiz-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Reimburses damage from theft or collision on most rental cars, up to the vehicle's actual cash value, when the entire rental is paid with this card and the rental company's own CDW is declined.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Primary coverage when the rental is for business purposes; secondary (supplemental to personal auto insurance) when for personal use. Rental periods up to 31 consecutive days. Excludes exotic/antique cars, vans, trucks, motorcycles, and a few other vehicle classes.",
+      "sourceUrl": "https://www.pnc.com/content/dam/pnc-com/pdf/smallbusiness/CreditCards/BSIGN_Business_Guide_to_Benefits.pdf",
+      "lastVerified": "2026-09-21"
+    },
+    {
+      "id": "pnc-crbiz-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Accidental death and dismemberment coverage with a $250,000 principal sum when the entire common carrier fare is charged to this card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.pnc.com/content/dam/pnc-com/pdf/smallbusiness/CreditCards/BSIGN_Business_Guide_to_Benefits.pdf",
+      "lastVerified": "2026-09-21"
+    },
+    {
+      "id": "pnc-crbiz-lost-luggage-reimbursement",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Reimburses the gap between the common carrier's payout and the actual value of checked or carry-on luggage lost or misdirected by the carrier, when the trip is paid for with this card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Up to $3,000 per covered trip ($2,000 per bag for New York residents). Excess coverage over any other applicable insurance.",
+      "sourceUrl": "https://www.pnc.com/content/dam/pnc-com/pdf/smallbusiness/CreditCards/BSIGN_Business_Guide_to_Benefits.pdf",
+      "lastVerified": "2026-09-21"
+    },
+    {
+      "id": "pnc-crbiz-visa-signature-concierge",
+      "name": "Visa Signature Concierge",
+      "description": "Complimentary 24/7 concierge service for booking travel, dining reservations, event tickets, and more.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "terms": "Cardholder is responsible for the cost of any goods/services booked through the concierge.",
+      "sourceUrl": "https://www.pnc.com/content/dam/pnc-com/pdf/smallbusiness/CreditCards/BSIGN_Business_Guide_to_Benefits.pdf",
+      "lastVerified": "2026-09-21"
+    },
+    {
+      "id": "pnc-crbiz-roadside-dispatch",
+      "name": "Roadside Dispatch",
+      "description": "Pay-per-use roadside assistance (towing, tire change, jump start, lockout, fuel delivery, winching) available 24/7 in the U.S. at a pre-negotiated flat service-call rate.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Not free — a per-service-call fee applies ($79.95 as of the 10/2025 guide), plus mileage over 5 towed miles. No membership or pre-enrollment required.",
+      "sourceUrl": "https://www.pnc.com/content/dam/pnc-com/pdf/smallbusiness/CreditCards/BSIGN_Business_Guide_to_Benefits.pdf",
+      "lastVerified": "2026-09-21"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Unlimited 1.5% cash back on all net purchases. No category restrictions, no caps.",
+      "sourceUrl": "https://www.pnc.com/en/small-business/borrowing/business-credit-cards/pnc-cash-rewards-visa-signature-business-credit-card.html"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-21",
     "sourceUrls": [
-      "https://www.pnc.com/en/small-business/borrowing/business-credit-cards/pnc-cash-rewards-visa-signature-business-credit-card.html"
+      "https://www.pnc.com/en/small-business/borrowing/business-credit-cards/pnc-cash-rewards-visa-signature-business-credit-card.html",
+      "https://www.pnc.com/content/dam/pnc-com/pdf/smallbusiness/CreditCards/BSIGN_Business_Guide_to_Benefits.pdf"
     ],
     "updatedBy": "agent"
   },

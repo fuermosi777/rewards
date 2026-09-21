@@ -2,7 +2,7 @@
   "id": "synchrony-cathay-pacific",
   "issuerId": "synchrony",
   "name": "Cathay Pacific",
-  "network": "Visa",
+  "network": "Mastercard",
   "variant": "personal",
   "annualFee": {
     "amount": 99,
@@ -10,11 +10,79 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "cathay-priority-checkin-boarding",
+      "name": "Priority Check-In and Boarding",
+      "description": "Priority check-in at Premium Economy counters and priority boarding (boards with Premium Economy passengers) on Cathay Pacific flights.",
+      "benefitType": "other",
+      "category": "airline",
+      "isOneTime": true,
+      "sourceUrl": "https://www.synchrony.com/partner/cathay",
+      "lastVerified": "2026-09-21"
+    },
+    {
+      "id": "cathay-status-points",
+      "name": "Cathay Status Points Earning",
+      "description": "Earn Status Points toward Cathay elite membership tiers based on card spend.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "10 Status Points for every $5,000 in eligible purchases per month, capped at 100 Status Points per calendar year.",
+      "sourceUrl": "https://www.synchrony.com/partner/cathay",
+      "lastVerified": "2026-09-21"
+    },
+    {
+      "id": "cathay-asia-miles-redemption-discount",
+      "name": "Asia Miles Redemption Discount",
+      "description": "10% discount when redeeming Asia Miles for hotels, experiences, and car rentals, and 10% off Gift Miles and mileage transfer fees.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.synchrony.com/partner/cathay",
+      "lastVerified": "2026-09-21"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "cathay_pacific",
+        "hk_express"
+      ],
+      "terms": "Cathay Pacific and HK Express purchases, including in-flight purchases.",
+      "sourceUrl": "https://www.synchrony.com/partner/cathay"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Dining and eligible dining delivery services.",
+      "sourceUrl": "https://www.synchrony.com/partner/cathay"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "All other purchases, worldwide where Mastercard is accepted.",
+      "sourceUrl": "https://www.synchrony.com/partner/cathay"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-21",
     "sourceUrls": [
-      "https://pay.cathaypacific.com/en_US/offers/uscreditcard.html"
+      "https://pay.cathaypacific.com/en_US/offers/uscreditcard.html",
+      "https://www.synchrony.com/partner/cathay"
     ],
     "updatedBy": "agent"
   },

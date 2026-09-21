@@ -11,10 +11,24 @@
   },
   "status": "active",
   "benefits": [],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "amazon",
+        "whole_foods"
+      ],
+      "requiresActivation": true,
+      "terms": "5% back requires an active Amazon Prime membership; without Prime, purchases on this card earn no rewards. Rewards accrue as a dollar balance redeemable as a statement credit or toward Amazon.com purchases. Amazon Pay purchases (at non-Amazon merchants) do not earn rewards. Special/promotional financing on qualifying purchases of $149+ was discontinued for new purchases starting the week of Feb. 16, 2026.",
+      "sourceUrl": "https://www.amazon.com/Synchrony-Bank-Amazon-com-Store-Card/dp/B008A0GNA8"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-21",
     "sourceUrls": [
-      "https://www.amazon.com/Synchrony-Bank-Amazon-com-Store-Card/dp/B008A0GNA8"
+      "https://www.amazon.com/Synchrony-Bank-Amazon-com-Store-Card/dp/B008A0GNA8",
+      "https://www.nerdwallet.com/credit-cards/learn/making-the-most-of-amazon-com-prime-store-card"
     ],
     "updatedBy": "agent"
   },
