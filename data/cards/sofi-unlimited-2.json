@@ -11,11 +11,59 @@
   },
   "foreignTransactionFee": false,
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "sofi-unlimited-cell-phone-protection",
+      "name": "Cell Phone Protection",
+      "description": "Coverage for cell phone theft or damage when you pay your monthly wireless bill with this card.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Up to $1,000 in coverage per year, $800 max per claim, maximum 2 claims per year. Mastercard World Elite benefit.",
+      "sourceUrl": "https://www.sofi.com/credit-card/unlimited/",
+      "lastVerified": "2026-09-21"
+    },
+    {
+      "id": "sofi-unlimited-id-theft-protection",
+      "name": "Mastercard ID Theft Protection",
+      "description": "Identity theft monitoring and resolution assistance, available via registration.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "terms": "Requires registration at mastercardus.idprotectiononline.com.",
+      "sourceUrl": "https://www.sofi.com/credit-card/unlimited/",
+      "lastVerified": "2026-09-21"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "sofi_travel_portal"
+      ],
+      "terms": "Bookings made through the SoFi Travel Portal (powered by Expedia).",
+      "sourceUrl": "https://www.sofi.com/credit-card/unlimited/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "2 points per dollar on all other eligible purchases; points redeem at 1 cent each toward SoFi checking, savings, credit card, loans, or travel.",
+      "sourceUrl": "https://www.sofi.com/credit-card/unlimited/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-07",
+    "lastReviewedDate": "2026-09-21",
     "sourceUrls": [
-      "https://www.sofi.com/credit-card/"
+      "https://www.sofi.com/credit-card/",
+      "https://www.sofi.com/credit-card/unlimited/"
     ],
     "updatedBy": "agent"
   }
