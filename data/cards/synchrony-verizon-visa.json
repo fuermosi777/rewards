@@ -9,12 +9,98 @@
     "currency": "USD",
     "waivedFirstYear": false
   },
+  "foreignTransactionFee": false,
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "verizon-visa-autopay-discount",
+      "name": "Verizon Auto Pay Discount",
+      "description": "Monthly bill discount for enrolling eligible Verizon lines or Fios service in Auto Pay with the card.",
+      "benefitType": "statement_credit",
+      "category": "wireless",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "statementCreditDetail": {
+        "amount": 10,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Verizon"
+        ],
+        "splitEligible": false
+      },
+      "terms": "Up to $10/month per eligible wireless line (maximum 12 lines), or up to $20/month for Fios service. Requires enrollment in Auto Pay and paperless billing. Discount amount varies by plan.",
+      "sourceUrl": "https://www.verizon.com/support/verizon-visa-card-faqs/",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "verizon-visa-device-financing",
+      "name": "0% APR Device Financing",
+      "description": "Interest-free financing over 36 equal monthly payments on eligible Verizon device purchases made with the card.",
+      "benefitType": "other",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "Applies to select device purchases for Verizon wireless customers using the Verizon Visa Card.",
+      "sourceUrl": "https://www.verizon.com/financial-services/verizon-visa-card/",
+      "lastVerified": "2026-09-22"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 4,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "grocery_stores",
+        "gas_stations",
+        "ev_charging"
+      ],
+      "terms": "Earned as Verizon Dollars. No cap on earnings.",
+      "sourceUrl": "https://www.verizon.com/support/verizon-visa-card-faqs/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Restaurant purchases including take-out and delivery. Earned as Verizon Dollars.",
+      "sourceUrl": "https://www.verizon.com/support/verizon-visa-card-faqs/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "verizon_purchases"
+      ],
+      "terms": "Verizon purchases excluding bill payment. Earned as Verizon Dollars.",
+      "sourceUrl": "https://www.verizon.com/support/verizon-visa-card-faqs/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "verizon_bill_payment"
+      ],
+      "terms": "Verizon wireless account bill or Verizon Fios account bill payment. Earned as Verizon Dollars.",
+      "sourceUrl": "https://www.verizon.com/support/verizon-visa-card-faqs/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Earned as Verizon Dollars. Verizon Dollars do not expire, but are forfeited if the card account is closed.",
+      "sourceUrl": "https://www.verizon.com/support/verizon-visa-card-faqs/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-22",
     "sourceUrls": [
-      "https://www.verizon.com/financial-services/verizon-visa-card/"
+      "https://www.verizon.com/financial-services/verizon-visa-card/",
+      "https://www.verizon.com/support/verizon-visa-card-faqs/"
     ],
     "updatedBy": "agent"
   },

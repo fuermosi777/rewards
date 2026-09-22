@@ -11,11 +11,129 @@
   },
   "foreignTransactionFee": true,
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "td-cash-3pct-chosen-category",
+      "name": "3% Cash Back on Chosen Spend Category",
+      "description": "Unlimited 3% Cash Back in one spend category selected by the cardholder from a fixed menu.",
+      "benefitType": "bonus_category",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 3,
+        "rewardUnit": "cashback_percent",
+        "categorySelection": {
+          "mode": "user_choice",
+          "options": [
+            "dining",
+            "entertainment",
+            "gas_stations",
+            "grocery_stores",
+            "travel"
+          ],
+          "selectCount": 1,
+          "changeableEachCycle": true
+        }
+      },
+      "terms": "Cardholder selects the category and may switch it each calendar quarter. Defaults to dining at account opening. No cap on 3% earnings. Superstore and warehouse club purchases earn 1% regardless of the selected category. Cash equivalents, money orders, and gift card purchases/reloads are ineligible.",
+      "sourceUrl": "https://www.td.com/us/en/personal-banking/credit-cards/cash-card",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "td-cash-2pct-chosen-category",
+      "name": "2% Cash Back on Chosen Spend Category",
+      "description": "Unlimited 2% Cash Back in a second spend category selected by the cardholder from a fixed menu.",
+      "benefitType": "bonus_category",
+      "category": "other",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 2,
+        "rewardUnit": "cashback_percent",
+        "categorySelection": {
+          "mode": "user_choice",
+          "options": [
+            "dining",
+            "entertainment",
+            "gas_stations",
+            "grocery_stores",
+            "travel"
+          ],
+          "selectCount": 1,
+          "changeableEachCycle": true
+        }
+      },
+      "terms": "Cardholder selects a second category, distinct from the 3% category, and may switch it each calendar quarter. Defaults to grocery stores at account opening. No cap on 2% earnings. Superstore and warehouse club purchases earn 1% regardless of the selected category.",
+      "sourceUrl": "https://www.td.com/us/en/personal-banking/credit-cards/cash-card",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "td-cash-cell-phone-protection",
+      "name": "Cell Phone Protection",
+      "description": "Coverage against damage or theft of an eligible cell phone when the monthly mobile bill is paid with the card.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "Requires paying the monthly wireless bill with the card. Visa benefit; see the Guide to Benefits for coverage limits and deductible.",
+      "sourceUrl": "https://www.td.com/us/en/personal-banking/credit-cards/my-td-cash-credit-card",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "td-cash-id-navigator",
+      "name": "ID Navigator Powered by NortonLifeLock",
+      "description": "Identity theft monitoring and restoration support for cardholders.",
+      "benefitType": "membership",
+      "category": "other",
+      "isOneTime": true,
+      "terms": "Requires enrollment.",
+      "sourceUrl": "https://www.td.com/us/en/personal-banking/credit-cards/my-td-cash-credit-card",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "td-cash-roadside-dispatch",
+      "name": "Visa Roadside Dispatch",
+      "description": "Pay-per-use roadside assistance referral service available 24/7.",
+      "benefitType": "membership",
+      "category": "transportation",
+      "isOneTime": true,
+      "terms": "Service is arranged at a set fee per dispatch; the fee is not waived by the card.",
+      "sourceUrl": "https://www.td.com/us/en/personal-banking/credit-cards/my-td-cash-credit-card",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "td-cash-emergency-card-replacement",
+      "name": "Emergency Card Replacement",
+      "description": "Emergency replacement of a lost or stolen card while traveling.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.td.com/us/en/personal-banking/credit-cards/my-td-cash-credit-card",
+      "lastVerified": "2026-09-22"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Unlimited 1% Cash Back on all purchases outside the two selected spend categories. Superstore and warehouse club purchases always earn this base rate.",
+      "sourceUrl": "https://www.td.com/us/en/personal-banking/credit-cards/cash-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-07",
+    "lastReviewedDate": "2026-09-22",
     "sourceUrls": [
-      "https://www.td.com/us/en/personal-banking/credit-cards/cash-card"
+      "https://www.td.com/us/en/personal-banking/credit-cards/cash-card",
+      "https://www.td.com/us/en/personal-banking/credit-cards/my-td-cash-credit-card"
     ],
     "updatedBy": "agent"
   }
