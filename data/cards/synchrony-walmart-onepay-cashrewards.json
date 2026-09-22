@@ -10,10 +10,70 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "onepay-walmart-plus-5pct",
+      "name": "5% Cash Back at Walmart for Walmart+ Members",
+      "description": "Walmart+ members earn 5% cash back at Walmart instead of the standard 3%.",
+      "benefitType": "bonus_category",
+      "category": "shopping",
+      "bonusCategoryDetail": {
+        "multiplier": 5,
+        "rewardUnit": "cashback_percent",
+        "eligibleCategories": [
+          "walmart"
+        ],
+        "requiresActivation": true
+      },
+      "terms": "Requires an active paid Walmart+ membership ($98/year). Without Walmart+, Walmart purchases earn the standard 3% rate.",
+      "sourceUrl": "https://www.onepay.com/credit-card",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "onepay-credit-score",
+      "name": "OnePay Credit Score Access",
+      "description": "Free access to the cardholder's credit score through the OnePay app.",
+      "benefitType": "membership",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://www.onepay.com/credit-card",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "onepay-mastercard-world-benefits",
+      "name": "Mastercard World Benefits",
+      "description": "Mastercard World tier benefits and offers available to cardholders.",
+      "benefitType": "membership",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://www.onepay.com/credit-card",
+      "lastVerified": "2026-09-22"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "walmart"
+      ],
+      "terms": "Unlimited 3% cash back at Walmart for all cardholders. Walmart+ members earn 5% instead — see the Walmart+ benefit.",
+      "sourceUrl": "https://www.onepay.com/credit-card"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Unlimited 1.5% cash back on all other purchases. Rewards require a minimum of 25 points before redemption; redeemable as a statement credit or a deposit to a OnePay account.",
+      "sourceUrl": "https://www.onepay.com/credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-22",
     "sourceUrls": [
+      "https://www.onepay.com/credit-card",
       "https://www.walmart.com/cp/onepay-cashrewards-mastercard/9569366376"
     ],
     "updatedBy": "agent"

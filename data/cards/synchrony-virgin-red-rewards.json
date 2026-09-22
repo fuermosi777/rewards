@@ -9,12 +9,144 @@
     "currency": "USD",
     "waivedFirstYear": false
   },
+  "foreignTransactionFee": false,
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "virgin-red-anniversary-points",
+      "name": "Annual Renewal Bonus",
+      "description": "5,000 Virgin Points awarded to the primary accountholder each year the account is renewed.",
+      "benefitType": "points_multiplier",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Primary accountholder only.",
+      "sourceUrl": "https://www.synchrony.com/partner/virgin-red-rewards-card/benefits",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "virgin-red-personal-perks",
+      "name": "Personal Perks",
+      "description": "Choice of one Personal Perk from Virgin Atlantic, Virgin Hotels, or Virgin Voyages after $15,000 in annual spend, and a second perk after $30,000.",
+      "benefitType": "other",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Spend $15,000 in a card year to choose one perk; spend $30,000 to choose two. Perk options include Virgin Atlantic companion vouchers or cabin upgrades, Virgin Hotels extra nights or suite upgrades, and Virgin Voyages bar credits or packages.",
+      "sourceUrl": "https://www.synchrony.com/partner/virgin-red-rewards-card/benefits",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "virgin-red-hotels-third-night-free",
+      "name": "Virgin Hotels Third Night Free",
+      "description": "Book two nights and get the third night free at participating Virgin Hotels properties, once a year.",
+      "benefitType": "free_night_award",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "freeNightAwardDetail": {
+        "hotelProgram": "Virgin Hotels"
+      },
+      "terms": "Valid at participating Virgin Hotels properties. Redeemable once per year.",
+      "sourceUrl": "https://www.synchrony.com/partner/virgin-red-rewards-card/benefits",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "virgin-red-tier-points",
+      "name": "Virgin Atlantic Flying Club Tier Points",
+      "description": "Earn 25 Flying Club Tier Points for every $2,500 spent in a month, up to 50 Tier Points per month.",
+      "benefitType": "elite_status",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "25 Tier Points per $2,500 of monthly spend, capped at 50 Tier Points per month.",
+      "sourceUrl": "https://www.synchrony.com/partner/virgin-red-rewards-card/benefits",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "virgin-red-authorized-user-bonus",
+      "name": "Authorized User Bonus Points",
+      "description": "2,500 Virgin Points for each additional cardholder added to the account.",
+      "benefitType": "points_multiplier",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "2,500 points per added authorized user, up to 10,000 points total.",
+      "sourceUrl": "https://www.synchrony.com/partner/virgin-red-rewards-card/benefits",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "virgin-red-mastercard-id-theft-protection",
+      "name": "Mastercard ID Theft Protection",
+      "description": "Identity theft monitoring and notification services.",
+      "benefitType": "membership",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://www.synchrony.com/partner/virgin-red-rewards-card/benefits",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "virgin-red-world-elite-concierge",
+      "name": "World Elite Concierge",
+      "description": "Mastercard World Elite concierge service for travel, dining, and entertainment requests.",
+      "benefitType": "membership",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Available at concierge.mastercard.com.",
+      "sourceUrl": "https://www.synchrony.com/partner/virgin-red-rewards-card/benefits",
+      "lastVerified": "2026-09-22"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "virgin_atlantic",
+        "virgin_hotels",
+        "virgin_voyages"
+      ],
+      "terms": "3 Virgin Points per $1 on Virgin Atlantic, Virgin Hotels, and Virgin Voyages purchases.",
+      "sourceUrl": "https://www.synchrony.com/partner/virgin-red-rewards-card/benefits"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "grocery_stores",
+        "dining",
+        "streaming",
+        "ev_charging"
+      ],
+      "terms": "2 Virgin Points per $1. Streaming limited to select services.",
+      "sourceUrl": "https://www.synchrony.com/partner/virgin-red-rewards-card/benefits"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "1 Virgin Point per $1 everywhere Mastercard is accepted. Points do not expire.",
+      "sourceUrl": "https://www.synchrony.com/partner/virgin-red-rewards-card/benefits"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-22",
     "sourceUrls": [
-      "https://www.virgin.com/en-us/virgin-red/rewards-credit-card"
+      "https://www.synchrony.com/partner/virgin-red-rewards-card/benefits",
+      "https://www.synchrony.com/partner/virgin-red-rewards-card"
     ],
     "updatedBy": "agent"
   },

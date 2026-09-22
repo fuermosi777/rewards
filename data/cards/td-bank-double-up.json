@@ -2,7 +2,7 @@
   "id": "td-bank-double-up",
   "imageUrl": "data/assets/cards/td-bank-double-up.png",
   "issuerId": "td-bank",
-  "name": "TD Double Up\u2120 Credit Card",
+  "name": "TD Double Up℠ Credit Card",
   "network": "Visa",
   "variant": "personal",
   "annualFee": {
@@ -11,11 +11,56 @@
   },
   "foreignTransactionFee": true,
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "td-double-up-cell-phone-protection",
+      "name": "Cell Phone Protection",
+      "description": "Coverage against damage or theft of an eligible cell phone when the monthly mobile bill is paid with the card.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "Requires paying the monthly wireless bill with the card. Visa benefit; see the Guide to Benefits for coverage limits and deductible.",
+      "sourceUrl": "https://www.td.com/us/en/personal-banking/credit-cards/special-offers/td-doubleup",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "td-double-up-roadside-dispatch",
+      "name": "Visa Roadside Dispatch",
+      "description": "Pay-per-use roadside assistance referral service available 24/7.",
+      "benefitType": "membership",
+      "category": "transportation",
+      "isOneTime": true,
+      "terms": "Service is arranged at a set fee per dispatch; the fee is not waived by the card.",
+      "sourceUrl": "https://www.td.com/us/en/personal-banking/credit-cards/special-offers/td-doubleup",
+      "lastVerified": "2026-09-22"
+    },
+    {
+      "id": "td-double-up-emergency-card-replacement",
+      "name": "Emergency Card Replacement",
+      "description": "Emergency replacement of a lost or stolen card while traveling.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.td.com/us/en/personal-banking/credit-cards/special-offers/td-doubleup",
+      "lastVerified": "2026-09-22"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Unlimited 2% Cash Back on all eligible purchases. No rotating spend categories, no caps, as long as the account is open and in good standing.",
+      "sourceUrl": "https://www.td.com/us/en/personal-banking/credit-cards/special-offers/td-doubleup"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-07",
+    "lastReviewedDate": "2026-09-22",
     "sourceUrls": [
-      "https://www.td.com/us/en/personal-banking/credit-cards/double-up-card"
+      "https://www.td.com/us/en/personal-banking/credit-cards/special-offers/td-doubleup",
+      "https://www.td.com/us/en/personal-banking/credit-cards/cash-back"
     ],
     "updatedBy": "agent"
   }
