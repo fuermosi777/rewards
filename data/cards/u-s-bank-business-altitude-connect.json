@@ -10,13 +10,105 @@
     "waivedFirstYear": true
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "biz-alt-connect-priority-pass",
+      "name": "Priority Pass Digital Membership",
+      "description": "Annual Priority Pass Digital membership with four complimentary lounge visits per membership year.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "membership_year"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Priority Pass"
+        ]
+      },
+      "terms": "Enroll at prioritypass.com/usbankbizconnect.",
+      "sourceUrl": "https://www.usbank.com/business-banking/business-credit-cards/business-altitude-connect-credit-card.html",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "biz-alt-connect-rideshare-credit",
+      "name": "Rideshare Credit",
+      "description": "$25 statement credit after at least one taxi or rideshare purchase per month for 3 consecutive months.",
+      "benefitType": "statement_credit",
+      "category": "transportation",
+      "statementCreditDetail": {
+        "amount": 25,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Uber",
+          "Lyft",
+          "Taxi services"
+        ]
+      },
+      "terms": "Purchases must be made directly with a rideshare provider such as Uber or Lyft, or a taxi service. The credit posts the month after the third consecutive month. A new 3-month qualifying run can start the month after that. Credit is applied within 1-2 billing cycles.",
+      "sourceUrl": "https://www.usbank.com/business-banking/business-credit-cards/business-altitude-connect-credit-card.html",
+      "lastVerified": "2026-09-23"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "us_bank_travel_center_hotels",
+        "us_bank_travel_center_car_rentals"
+      ],
+      "terms": "Prepaid hotel and car rental reservations booked in the U.S. Bank Travel Center with this card. These don't also earn the 4X travel rate.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/BizAltitudeConnectMEBenefits/program-rules"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "travel",
+        "gas_stations",
+        "ev_charging"
+      ],
+      "spendCap": {
+        "amount": 150000,
+        "period": {
+          "unit": "year",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "Travel purchases made directly with airlines, hotels, car rental companies, taxis, limousines, passenger trains, and cruise lines, plus gas stations and EV charging (excluding wholesale clubs and discount stores/supercenters). First $150,000 combined each calendar year, then 1X.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/BizAltitudeConnectMEBenefits/program-rules"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "wireless"
+      ],
+      "terms": "Restaurants, fast food, and bars (including takeout and delivery), and cell phone providers. No cap.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/BizAltitudeConnectMEBenefits/program-rules"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/BizAltitudeConnectMEBenefits/program-rules"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-23",
     "sourceUrls": [
-      "https://www.usbank.com/business-banking/business-credit-cards/business-altitude-connect-world-elite-mastercard.html"
+      "https://www.usbank.com/business-banking/business-credit-cards/business-altitude-connect-credit-card.html",
+      "https://rewards.usbank.com/benefits/card/BizAltitudeConnectMEBenefits/program-rules"
     ],
     "updatedBy": "agent"
   },
-  "imageUrl": "data/assets/cards/u-s-bank-business-altitude-connect.png"
+  "imageUrl": "data/assets/cards/u-s-bank-business-altitude-connect.png",
+  "_note": "network is recorded as Mastercard (legacy World Elite Mastercard version), but U.S. Bank now issues new accounts as a Visa Signature card. The old world-elite-mastercard URL redirects to the Visa Signature product page, and U.S. Bank's benefits center lists both versions. The earning rates were checked against both the Mastercard and Visa Program Rules pages, which are identical. The Priority Pass and rideshare credit come from the current (Visa Signature) product page. Network-provided insurance (the product page names auto rental CDW, lost luggage, and travel assistance but gives no limits) differs between the two networks and is left out until a per-network Guide to Benefits is found. The network field was left as-is to avoid an out-of-scope identity change and needs a separate decision."
 }

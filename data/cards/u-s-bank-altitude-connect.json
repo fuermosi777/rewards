@@ -10,11 +10,150 @@
     "waivedFirstYear": true
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "alt-connect-priority-pass",
+      "name": "Priority Pass Select Membership",
+      "description": "Complimentary 12-month Priority Pass Select membership with 4 free lounge visits per membership year.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "membership_year"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Priority Pass Select"
+        ],
+        "guestPolicy": "Each member visit and each accompanying guest visit counts against the 4 free visits; after that, a per-visit fee is charged to the card."
+      },
+      "terms": "Enroll at prioritypass.com/usbankaltitudeconnect. One cardholder per account (including authorized users) enrolled without a membership fee. Membership auto-renews while the benefit is offered.",
+      "sourceUrl": "https://mycardgtb.com/altitudeconnect",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-connect-trusted-traveler-credit",
+      "name": "TSA PreCheck / Global Entry Credit",
+      "description": "Up to $100 in statement credits toward a TSA PreCheck or Global Entry application fee once every four years.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "TSA PreCheck",
+          "Global Entry"
+        ]
+      },
+      "terms": "Pay the application fee with the card. The 4-year period is based on the date of the first qualifying transaction, not the card anniversary.",
+      "sourceUrl": "https://mycardgtb.com/altitudeconnect",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-connect-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption",
+      "description": "Up to $2,000 per insured person for non-refundable common carrier tickets when a trip is cancelled or interrupted for a covered reason.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Covered reasons are death, accidental injury, or illness of the cardholder or an immediate family member, or carrier default from financial insolvency. Trip must be charged to the card or paid with its rewards.",
+      "sourceUrl": "https://mycardgtb.com/altitudeconnect",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-connect-trip-delay",
+      "name": "Trip Delay Reimbursement",
+      "description": "Up to $300 per purchased ticket for reasonable expenses when a covered trip is delayed more than 12 hours.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "One claim per covered trip. Trip must be charged to the card or paid with its rewards.",
+      "sourceUrl": "https://mycardgtb.com/altitudeconnect",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-connect-travel-accident",
+      "name": "Travel Accident Insurance",
+      "description": "Up to $1,000 for accidental loss of life, limb, sight, speech, or hearing while traveling on a common carrier.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Common carrier fare must be charged to the card.",
+      "sourceUrl": "https://mycardgtb.com/altitudeconnect",
+      "lastVerified": "2026-09-23"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "us_bank_travel_center_hotels",
+        "us_bank_travel_center_car_rentals"
+      ],
+      "terms": "Prepaid hotel and car rental reservations booked in the U.S. Bank Travel Center with this card. These don't also earn the 4X travel rate.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/AltitudeConnectBenefits/program-rules"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "travel"
+      ],
+      "terms": "Purchases made directly with airlines, hotels, car rental companies, taxis, limousines, passenger trains, and cruise lines.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/AltitudeConnectBenefits/program-rules"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging"
+      ],
+      "spendCap": {
+        "amount": 1000,
+        "period": {
+          "unit": "quarter",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "First $1,000 in combined gas station and EV charging purchases each quarter, then 1X. Excludes discount stores/supercenters, wholesale clubs, and grocery stores.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/AltitudeConnectBenefits/program-rules"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "grocery_stores",
+        "streaming"
+      ],
+      "terms": "Restaurants, fast food, and bars; grocery stores and supermarkets (excluding wholesale clubs and discount stores/supercenters such as Target and Walmart); qualifying streaming subscriptions per the Program Rules merchant list.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/AltitudeConnectBenefits/program-rules"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/AltitudeConnectBenefits/program-rules"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-23",
     "sourceUrls": [
-      "https://www.usbank.com/credit-cards/altitude-connect-visa-signature-credit-card.html"
+      "https://www.usbank.com/credit-cards/altitude-connect-visa-signature-credit-card.html",
+      "https://rewards.usbank.com/benefits/card/AltitudeConnectBenefits/program-rules",
+      "https://mycardgtb.com/altitudeconnect"
     ],
     "updatedBy": "agent"
   },
