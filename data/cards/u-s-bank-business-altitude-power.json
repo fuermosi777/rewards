@@ -10,13 +10,76 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "biz-alt-power-priority-pass",
+      "name": "Priority Pass Digital Membership",
+      "description": "Annual Priority Pass Digital membership with access to airport lounges and experiences worldwide.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "membership_year"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Priority Pass"
+        ]
+      },
+      "terms": "Enroll at prioritypass.com/usbankbizpower. The product page doesn't say how many complimentary visits are included; check the enrollment terms before relying on free visits.",
+      "sourceUrl": "https://www.usbank.com/business-banking/business-credit-cards/business-altitude-power-credit-card.html",
+      "lastVerified": "2026-09-23"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 6,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "us_bank_travel_center_hotels",
+        "us_bank_travel_center_car_rentals"
+      ],
+      "terms": "Prepaid hotel and car rental reservations booked in the U.S. Bank Travel Center with this card.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/BizAltitudePowerMEBenefits/program-rules"
+    },
+    {
+      "multiplier": 2.5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "mobile_wallet",
+        "virtual_card"
+      ],
+      "spendCap": {
+        "amount": 5000,
+        "period": {
+          "unit": "quarter",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "First $5,000 in combined mobile wallet (Apple Pay, Samsung Pay, Google Wallet, Garmin Pay) and U.S. Bank Spend Management virtual card purchases each calendar quarter, then 2X. Google Pay may not qualify. A transaction that is both earns only once.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/BizAltitudePowerMEBenefits/program-rules"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "No caps or limits on total rewards earned.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/BizAltitudePowerMEBenefits/program-rules"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-23",
     "sourceUrls": [
-      "https://www.usbank.com/business-banking/business-credit-cards/business-altitude-power-world-elite-mastercard.html"
+      "https://www.usbank.com/business-banking/business-credit-cards/business-altitude-power-credit-card.html",
+      "https://rewards.usbank.com/benefits/card/BizAltitudePowerMEBenefits/program-rules"
     ],
     "updatedBy": "agent"
   },
-  "imageUrl": "data/assets/cards/u-s-bank-business-altitude-power.png"
+  "imageUrl": "data/assets/cards/u-s-bank-business-altitude-power.png",
+  "_note": "network is recorded as Mastercard (legacy World Elite Mastercard version), but U.S. Bank now issues new accounts as a Visa Signature card. The old world-elite-mastercard URL redirects to the Visa Signature product page, and U.S. Bank's benefits center lists both versions. The earning rates were checked against both the Mastercard and Visa Program Rules pages, which are identical. The Priority Pass benefit comes from the current (Visa Signature) product page. Network-provided insurance is left out until a per-network Guide to Benefits is found. The network field was left as-is to avoid an out-of-scope identity change and needs a separate decision."
 }

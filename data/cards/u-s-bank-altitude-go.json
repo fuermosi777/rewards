@@ -10,11 +10,77 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "alt-go-streaming-credit",
+      "name": "Streaming Credit",
+      "description": "Automatic $15 statement credit per 12-month period after 11 consecutive calendar months of eligible streaming service purchases.",
+      "benefitType": "statement_credit",
+      "category": "streaming",
+      "statementCreditDetail": {
+        "amount": 15,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Netflix",
+          "Hulu",
+          "Apple Music",
+          "Spotify",
+          "Apple TV",
+          "Amazon Prime Video",
+          "ESPN+",
+          "YouTube Premium",
+          "Disney+"
+        ]
+      },
+      "terms": "$15 per 12-month period, applied within 2 billing cycles after 11 consecutive calendar months of eligible streaming purchases. Account must be in good standing. The official merchant list is in the Program Rules and may change. Issuer terms don't say what date the 12-month period starts from, so renewalPeriod is left out.",
+      "sourceUrl": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+      "lastVerified": "2026-09-23"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "spendCap": {
+        "amount": 2000,
+        "period": {
+          "unit": "quarter",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "Restaurants, fast food, and bars, including takeout and restaurant delivery. First $2,000 each quarter, then 1X.",
+      "sourceUrl": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "grocery_stores",
+        "gas_stations",
+        "ev_charging",
+        "streaming"
+      ],
+      "terms": "Excludes wholesale clubs and discount stores/supercenters such as Target and Walmart. Grocery stores don't earn the gas/EV rate. Streaming means qualifying subscriptions per the Program Rules merchant list.",
+      "sourceUrl": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-23",
     "sourceUrls": [
-      "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html"
+      "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+      "https://rewards.usbank.com/benefits/card/AltitudeGoBenefits/program-rules"
     ],
     "updatedBy": "agent"
   },

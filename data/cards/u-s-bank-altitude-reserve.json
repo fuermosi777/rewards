@@ -10,13 +10,208 @@
     "waivedFirstYear": true
   },
   "status": "discontinued",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "alt-reserve-priority-pass",
+      "name": "Priority Pass Select Membership",
+      "description": "Complimentary 12-month Priority Pass Select membership with 8 free lounge visits per membership year.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "membership_year"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Priority Pass Select"
+        ],
+        "guestPolicy": "Each member visit and each accompanying guest visit counts against the 8 free visits; after that, a per-visit fee is charged to the card."
+      },
+      "terms": "Enroll at prioritypass.com/usbankaltitudereserve. Membership auto-renews while the benefit is offered.",
+      "sourceUrl": "https://mycardgtb.com/altitudereserve",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-reserve-trusted-traveler-credit",
+      "name": "TSA PreCheck / Global Entry Credit",
+      "description": "Up to $120 in statement credits toward a TSA PreCheck or Global Entry application fee once every four years.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "TSA PreCheck",
+          "Global Entry"
+        ]
+      },
+      "terms": "Pay the application fee with the card. The 4-year period is based on the date of the first qualifying transaction, not the card anniversary.",
+      "sourceUrl": "https://mycardgtb.com/altitudereserve",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-reserve-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Primary coverage for theft or collision damage, up to the actual cash value of rental vehicles with an original MSRP up to $75,000.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Primary coverage. Decline the rental company's CDW and pay for the whole rental with the card. Covers rentals of up to 15 consecutive days in your home country and 31 days abroad.",
+      "sourceUrl": "https://mycardgtb.com/altitudereserve",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-reserve-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption",
+      "description": "Up to $2,000 per insured person for non-refundable common carrier tickets when a trip is cancelled or interrupted for a covered reason.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://mycardgtb.com/altitudereserve",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-reserve-trip-delay",
+      "name": "Trip Delay Reimbursement",
+      "description": "Up to $500 per purchased ticket for reasonable expenses when a covered trip is delayed more than 6 hours or requires an overnight stay.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "One claim per covered trip.",
+      "sourceUrl": "https://mycardgtb.com/altitudereserve",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-reserve-lost-luggage",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per covered trip, minus the common carrier's payment, for lost checked or carry-on luggage.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "New York residents are limited to $2,000 per bag.",
+      "sourceUrl": "https://mycardgtb.com/altitudereserve",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-reserve-emergency-evacuation",
+      "name": "Emergency Evacuation & Repatriation",
+      "description": "Up to $10,000 for emergency evacuation and transportation, and up to $1,000 for repatriation of remains, on a covered trip.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://mycardgtb.com/altitudereserve",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-reserve-travel-accident",
+      "name": "Travel Accident Insurance",
+      "description": "Accidental death and dismemberment coverage with a $500,000 principal sum on covered trips.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://mycardgtb.com/altitudereserve",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-reserve-purchase-security",
+      "name": "Purchase Security",
+      "description": "Covers new purchases for 90 days, up to $10,000 per claim and $50,000 per cardholder.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://mycardgtb.com/altitudereserve",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-reserve-return-protection",
+      "name": "Return Protection",
+      "description": "Reimburses the purchase price, up to $300 per item and $1,000 per year per account, if a retailer won't take back an item within 90 days of purchase.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://mycardgtb.com/altitudereserve",
+      "lastVerified": "2026-09-23"
+    },
+    {
+      "id": "alt-reserve-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extends eligible U.S. manufacturer warranties of 3 years or less by an additional year.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://mycardgtb.com/altitudereserve",
+      "lastVerified": "2026-09-23"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 10,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "us_bank_travel_center_hotels",
+        "us_bank_travel_center_car_rentals"
+      ],
+      "terms": "Prepaid hotel and car rental reservations booked in the U.S. Bank Travel Center with this card.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/AltitudeReserveBenefits/program-rules"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "us_bank_travel_center_flights"
+      ],
+      "terms": "Prepaid flights booked in the U.S. Bank Travel Center with this card.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/AltitudeReserveBenefits/program-rules"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "mobile_wallet"
+      ],
+      "spendCap": {
+        "amount": 5000,
+        "period": {
+          "unit": "month",
+          "count": 1,
+          "anchor": "card_anniversary"
+        }
+      },
+      "terms": "Apple Pay, Google Wallet, and Samsung Pay purchases. First $5,000 each billing cycle, then 1X. Google Pay may not qualify, depending on how the transaction is completed. A purchase that is both mobile wallet and travel earns only once, and is counted as mobile wallet.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/AltitudeReserveBenefits/program-rules"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "travel"
+      ],
+      "terms": "Purchases made directly with airlines, hotels, car rental companies, taxis, limousines, passenger trains, and cruise lines.",
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/AltitudeReserveBenefits/program-rules"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://rewards.usbank.com/benefits/card/AltitudeReserveBenefits/program-rules"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-23",
     "sourceUrls": [
-      "https://www.nerdwallet.com/article/credit-cards/u-s-bank-altitude-reserve-closed-to-new-applications"
+      "https://rewards.usbank.com/benefits/card/AltitudeReserveBenefits/program-rules",
+      "https://mycardgtb.com/altitudereserve"
     ],
     "updatedBy": "agent"
   },
-  "imageUrl": "data/assets/cards/u-s-bank-altitude-reserve.png"
+  "imageUrl": "data/assets/cards/u-s-bank-altitude-reserve.png",
+  "_note": "The card's annual travel/dining statement credit ($325 per cardmember year on the pre-2025 terms) is deliberately left out of benefits[]. Secondary coverage (NerdWallet, Upgraded Points) reports that since 2025-12-15 it applies only to U.S. Bank Travel Center purchases. No official U.S. Bank source for the current terms could be reached: the Program Rules and the Guide to Benefits (effective 5/1/26) don't cover it, and the product page is gone. Add it once an official source confirms the amount and eligible merchants. Also unresolved: annualFee is recorded as $0 with waivedFirstYear true, which looks wrong for this premium card, but no official current fee source was checked in this pass, so it was left unchanged."
 }
