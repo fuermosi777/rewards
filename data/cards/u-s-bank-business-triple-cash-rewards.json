@@ -2,7 +2,7 @@
   "id": "u-s-bank-business-triple-cash-rewards",
   "issuerId": "u-s-bank",
   "name": "Business Triple Cash Rewards",
-  "network": "Mastercard",
+  "network": "Visa",
   "variant": "business",
   "annualFee": {
     "amount": 0,
@@ -10,9 +10,65 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "usb-triple-cash-software-credit",
+      "name": "Software Credit",
+      "description": "Automatic $100 statement credit per 12-month period after 11 consecutive months of eligible software service purchases.",
+      "benefitType": "statement_credit",
+      "category": "other",
+      "statementCreditDetail": {
+        "amount": 100,
+        "currency": "USD"
+      },
+      "terms": "$100 per 12-month period, applied within 1-2 statement billing cycles after 11 consecutive months of recurring software service purchases made directly with a software service provider. Eligible providers are identified by Merchant Category Code; purchases through discount/retail stores or online retailers may not qualify. Issuer terms don't say what date the 12-month period starts from, so renewalPeriod is left out.",
+      "sourceUrl": "https://www.usbank.com/business-banking/business-credit-cards/business-triple-cash-back-credit-card.html",
+      "lastVerified": "2026-09-24"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "us_bank_travel_center_hotels",
+        "us_bank_travel_center_car_rentals"
+      ],
+      "terms": "Prepaid hotel and car reservations booked directly in the U.S. Bank Travel Center (1% base + 4% additional).",
+      "sourceUrl": "https://www.usbank.com/business-banking/business-credit-cards/business-triple-cash-back-credit-card.html"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging"
+      ],
+      "terms": "Excludes wholesale clubs and discount stores/supercenters. Gas or EV charging purchases greater than $200 are not treated as automotive fuel and earn 1%.",
+      "sourceUrl": "https://www.usbank.com/business-banking/business-credit-cards/business-triple-cash-back-credit-card.html"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining",
+        "office_supply_stores",
+        "wireless"
+      ],
+      "terms": "Restaurants and restaurant delivery, office supply stores, and cell phone service providers.",
+      "sourceUrl": "https://www.usbank.com/business-banking/business-credit-cards/business-triple-cash-back-credit-card.html"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.usbank.com/business-banking/business-credit-cards/business-triple-cash-back-credit-card.html"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-24",
     "sourceUrls": [
       "https://www.usbank.com/business-banking/business-credit-cards/business-triple-cash-back-credit-card.html"
     ],
