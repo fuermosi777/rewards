@@ -10,9 +10,108 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "usb-cash-plus-5pct-categories",
+      "name": "5% Cash Back on Two Chosen Categories",
+      "description": "5% cash back on the first $2,000 in combined eligible purchases each quarter in two categories the cardholder chooses.",
+      "benefitType": "bonus_category",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 5,
+        "rewardUnit": "cashback_percent",
+        "categorySelection": {
+          "mode": "user_choice",
+          "options": [
+            "wireless",
+            "department_stores",
+            "electronics_stores",
+            "fast_food",
+            "furniture_stores",
+            "ground_transportation",
+            "fitness_clubs",
+            "utilities",
+            "movie_theaters",
+            "clothing_stores",
+            "sporting_goods_stores",
+            "tv_internet_streaming"
+          ],
+          "selectCount": 2,
+          "changeableEachCycle": true
+        },
+        "spendCap": {
+          "amount": 2000,
+          "period": {
+            "unit": "quarter",
+            "count": 1,
+            "anchor": "calendar"
+          }
+        },
+        "requiresActivation": true
+      },
+      "terms": "Cardmember must enroll each quarter into categories of their choice, or all purchases earn no more than 1%. $2,000 cap is combined across both 5% categories; purchases over the cap earn 1%. Menu per issuer: cell phone, department stores, electronics stores, fast food, furniture stores, ground transportation, gym/fitness centers, home utilities, movie theaters, select clothing stores, sporting goods, and TV/internet/streaming.",
+      "sourceUrl": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
+      "lastVerified": "2026-09-24"
+    },
+    {
+      "id": "usb-cash-plus-2pct-everyday-category",
+      "name": "2% Cash Back on One Everyday Category",
+      "description": "2% cash back, uncapped, on one everyday category the cardholder chooses each quarter.",
+      "benefitType": "bonus_category",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "quarter",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "bonusCategoryDetail": {
+        "multiplier": 2,
+        "rewardUnit": "cashback_percent",
+        "categorySelection": {
+          "mode": "user_choice",
+          "options": [
+            "gas_stations",
+            "grocery_stores",
+            "dining"
+          ],
+          "selectCount": 1,
+          "changeableEachCycle": true
+        },
+        "requiresActivation": true
+      },
+      "terms": "Selected alongside the 5% categories during quarterly enrollment; without enrollment all purchases earn no more than 1%. The gas option also covers EV charging stations. Excludes discount stores/supercenters and wholesale clubs. No cap on 2% earnings.",
+      "sourceUrl": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
+      "lastVerified": "2026-09-24"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "us_bank_travel_center_flights",
+        "us_bank_travel_center_hotels",
+        "us_bank_travel_center_car_rentals"
+      ],
+      "terms": "Prepaid air, hotel, and car reservations booked in the U.S. Bank Travel Center (1% base + 4% additional).",
+      "sourceUrl": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-24",
     "sourceUrls": [
       "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html"
     ],
