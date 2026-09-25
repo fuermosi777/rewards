@@ -10,11 +10,102 @@
     "waivedFirstYear": true
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "usb-leverage-top-two-categories",
+      "name": "2X Points on Top Two Spending Categories",
+      "description": "2 points per $1 (1 base + 1 additional) on eligible net purchases in the two categories where the business spends the most each month, applied automatically from a list of 48 merchant categories.",
+      "benefitType": "bonus_category",
+      "category": "other",
+      "bonusCategoryDetail": {
+        "multiplier": 2,
+        "rewardUnit": "points",
+        "categorySelection": {
+          "mode": "automatic_top_category",
+          "selectCount": 2,
+          "options": [
+            "advertising",
+            "airlines",
+            "apparel_stores",
+            "car_rental",
+            "automotive_dealers",
+            "automotive_parts_stores",
+            "automotive_repair",
+            "cable_satellite_tv_radio",
+            "charitable_organizations",
+            "furniture_stores",
+            "commercial_equipment",
+            "computer_services",
+            "computer_stores",
+            "construction_materials",
+            "medical_equipment",
+            "department_stores",
+            "direct_marketers",
+            "discount_stores_wholesale_clubs",
+            "drugstores",
+            "durable_goods",
+            "entertainment",
+            "florists_garden_stores",
+            "freight_transport",
+            "funeral_services",
+            "gas_stations",
+            "grocery_stores",
+            "healthcare",
+            "home_improvement",
+            "hotels",
+            "industrial_supplies",
+            "insurance",
+            "membership_organizations",
+            "nondurable_goods",
+            "testing_labs",
+            "personal_services",
+            "pet_stores",
+            "plumbing_hvac",
+            "postal_courier",
+            "professional_services",
+            "publishers_printers",
+            "dining",
+            "schools_government",
+            "office_supply_stores",
+            "telecom_equipment",
+            "telecom_services",
+            "utilities",
+            "veterinarians",
+            "wholesale_goods"
+          ]
+        }
+      },
+      "terms": "Top two categories are determined each month from 48 MCC-based categories (full MCC list at usbank.com/leveragecategories). Excludes gas station, EV charging station and grocery purchases made at wholesale clubs and discount stores/supercenters such as Target and Walmart. No cap on points. Issuer terms say 'each month' without specifying calendar month vs. billing cycle, so renewalPeriod is left out.",
+      "sourceUrl": "https://www.usbank.com/leveragecategories",
+      "lastVerified": "2026-09-25"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "us_bank_travel_center_hotels",
+        "us_bank_travel_center_car_rentals"
+      ],
+      "terms": "Prepaid hotel and car reservations booked directly in the U.S. Bank Travel Center (1 base + 4 additional points). These bookings are not treated as travel-category merchant transactions for the top-two-categories bonus.",
+      "sourceUrl": "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Points expire five years from the end of the calendar quarter in which they were earned.",
+      "sourceUrl": "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-25",
     "sourceUrls": [
-      "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html"
+      "https://www.usbank.com/business-banking/business-credit-cards/business-leverage-rewards-credit-card.html",
+      "https://www.usbank.com/leveragecategories"
     ],
     "updatedBy": "agent"
   },

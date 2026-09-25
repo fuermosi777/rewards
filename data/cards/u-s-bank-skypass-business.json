@@ -10,28 +10,91 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "skypass-biz-lounge-vouchers",
+      "name": "Korean Air Lounge Vouchers",
+      "description": "Two complimentary Korean Air Lounge vouchers each year.",
+      "benefitType": "lounge_access",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Korean Air Lounge"
+        ]
+      },
+      "terms": "Issued to the primary cardmember after account opening and each anniversary date after the annual fee is paid on time. Vouchers are valid for 1 year from the date of issue.",
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaBusinessCard.do",
+      "lastVerified": "2026-09-25"
+    },
+    {
+      "id": "skypass-biz-korean-air-discount",
+      "name": "5% Korean Air Ticket Discount",
+      "description": "One 5% discount coupon on Korean Air tickets each year, usable for the cardmember and a companion.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Primary cardmember receives one 5% discount coupon at account opening and each account anniversary year. Applies to qualified Korean Air ticket purchases on koreanair.com made within one year from the date the coupon is deposited.",
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaBusinessCard.do",
+      "lastVerified": "2026-09-25"
+    },
+    {
+      "id": "skypass-biz-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Insurance coverage for car rentals made with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "terms": "Certain terms, conditions and exclusions apply; see the Visa Guide to Benefits for coverage details.",
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaBusinessCard.do",
+      "lastVerified": "2026-09-25"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "korean_air"
+      ],
+      "terms": "Eligible Korean Air ticket purchases made through Korean Air ticket agents or koreanair.com. Excludes award tickets, upgrade awards, and tickets that include other airlines' flights.",
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaBusinessCard.do"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging",
+        "dining",
+        "office_supply_stores",
+        "wireless"
+      ],
+      "terms": "Gas stations, EV charging stations, office supply stores, cell phone service providers, restaurants, fast-food restaurants and bars (including takeout and restaurant delivery).",
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaBusinessCard.do"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaBusinessCard.do"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-25",
     "sourceUrls": [
       "https://www.skypassvisa.com/credit/visaBusinessCard.do"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "PreCheck Credit",
-        "value": 100,
-        "weight": 0.4
-      },
-      {
-        "description": "Korean Air credit",
-        "value": 50,
-        "weight": 0.8
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/u-s-bank-skypass-business.png"
 }
