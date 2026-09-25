@@ -5,14 +5,34 @@
   "network": "Visa",
   "variant": "personal",
   "annualFee": {
-    "amount": 95,
+    "amount": 0,
     "currency": "USD",
     "waivedFirstYear": false
   },
   "status": "active",
   "benefits": [],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "streaming",
+        "rideshare"
+      ],
+      "terms": "Rideshare (e.g. Uber, Lyft) and streaming subscription services (e.g. Netflix, Spotify), as classified by merchant category.",
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaSkyBlueCard.do"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaSkyBlueCard.do"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-25",
     "sourceUrls": [
       "https://www.skypassvisa.com/credit/visaSkyBlueCard.do"
     ],
