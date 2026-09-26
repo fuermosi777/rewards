@@ -2433,7 +2433,7 @@
       "network": "Visa",
       "variant": "personal",
       "annualFee": {
-        "amount": 95,
+        "amount": 99,
         "currency": "USD",
         "waivedFirstYear": false
       },
@@ -2451,7 +2451,7 @@
         "currency": "USD",
         "waivedFirstYear": false
       },
-      "status": "discontinued",
+      "status": "active",
       "imageUrl": "data/assets/cards/u-s-bank-smartly.png"
     },
     {

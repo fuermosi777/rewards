@@ -5,28 +5,94 @@
   "network": "Visa",
   "variant": "personal",
   "annualFee": {
-    "amount": 95,
+    "amount": 99,
     "currency": "USD",
     "waivedFirstYear": false
   },
+  "foreignTransactionFee": false,
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "skypass-korean-air-discount",
+      "name": "5% Korean Air Ticket Discount",
+      "description": "One 5% discount coupon on Korean Air tickets each year, usable for the cardmember and one companion.",
+      "benefitType": "other",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Primary cardmember receives one 5% discount coupon in their SKYPASS account at account opening and each anniversary year. Valid one year from deposit. Usable for a reservation of up to two travelers (primary cardmember and one companion). Applies to base fares on koreanair.com only; excludes taxes and fees.",
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaSignatureCard.do",
+      "lastVerified": "2026-09-26"
+    },
+    {
+      "id": "skypass-korean-air-lounge-vouchers",
+      "name": "Korean Air Lounge Vouchers",
+      "description": "Two complimentary Korean Air Lounge vouchers each year.",
+      "benefitType": "lounge_access",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "loungeAccessDetail": {
+        "networks": [
+          "Korean Air Lounge"
+        ]
+      },
+      "terms": "Issued to the primary cardmember after account opening and each anniversary date after the annual fee is paid. Valid for 1 year from issue, one-time use each. Access limited to Korean Air owned lounges in Los Angeles, New York, and Honolulu, and the Korean Air Prestige Lounge in Incheon, Korea.",
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaSignatureCard.do",
+      "lastVerified": "2026-09-26"
+    },
+    {
+      "id": "skypass-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Insurance coverage for car rentals made with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "terms": "Certain terms, conditions and exclusions apply; see the Visa Guide to Benefits for coverage details.",
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaSignatureCard.do",
+      "lastVerified": "2026-09-26"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "korean_air"
+      ],
+      "terms": "Eligible Korean Air ticket purchases where Korean Air is the merchant of record, such as tickets purchased through Korean Air ticket agents or koreanair.com.",
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaSignatureCard.do"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "hotels",
+        "dining"
+      ],
+      "terms": "Eligible net purchases at hotels, restaurants, fast-food restaurants, or bars (including takeout and restaurant delivery).",
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaSignatureCard.do"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "miles",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://www.skypassvisa.com/credit/visaSignatureCard.do"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-26",
     "sourceUrls": [
       "https://www.skypassvisa.com/credit/visaSignatureCard.do"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "$50 Korean Air credit",
-        "value": 50,
-        "weight": 0.8
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/u-s-bank-skypass.png"
 }
