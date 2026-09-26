@@ -9,10 +9,37 @@
     "currency": "USD",
     "waivedFirstYear": false
   },
-  "status": "discontinued",
-  "benefits": [],
+  "status": "active",
+  "benefits": [
+    {
+      "id": "usb-smartly-earning-bonus",
+      "name": "Smartly Earning Bonus",
+      "description": "Relationship bonus that raises the earn rate on the first $10,000 in eligible net purchases each billing cycle to 2.5, 3, or 4 points per $1, depending on the cardholder's qualifying U.S. Bank deposit balance.",
+      "benefitType": "points_multiplier",
+      "category": "shopping",
+      "renewalPeriod": {
+        "unit": "month",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "Requires a U.S. Bank Smartly Savings account plus qualifying balances in U.S. Bank Smartly Checking and/or Safe Debit account(s). Qualifying balance is the 30-day average balance of all qualifying accounts. Tiers: $10,000-$49,999.99 = 25% bonus (2.5 points/$1); $50,000-$99,999.99 = 50% bonus (3 points/$1); $100,000+ = 100% bonus (4 points/$1). Bonus applies to a maximum of $10,000 in eligible Net Purchases each card billing cycle; purchases above that earn the base 2 points/$1.",
+      "sourceUrl": "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html",
+      "lastVerified": "2026-09-26"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "2 points per $1 on eligible net purchases, uncapped. Points redeem at 1 cent each (2% back) into eligible U.S. Bank deposit accounts. Balance-tiered Smartly Earning Bonus is tracked separately in benefits[].",
+      "sourceUrl": "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-26",
     "sourceUrls": [
       "https://www.usbank.com/credit-cards/bank-smartly-visa-signature-credit-card.html"
     ],
