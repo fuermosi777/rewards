@@ -10,11 +10,62 @@
     "waivedFirstYear": false
   },
   "status": "active",
+  "foreignTransactionFee": false,
   "benefits": [],
+  "earningRates": [
+    {
+      "multiplier": 4,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "gas_stations",
+        "ev_charging",
+        "transit",
+        "rideshare"
+      ],
+      "spendCap": {
+        "amount": 300,
+        "period": {
+          "unit": "month",
+          "count": 1,
+          "anchor": "calendar"
+        }
+      },
+      "terms": "4% back on gas, EV charging, transit, taxis, and rideshare on up to $300 in combined spend per month, then 1% for the rest of that month; resets on the first day of the following month. Rewards are paid in crypto (Bitcoin or another supported cryptocurrency of the cardholder's choice).",
+      "sourceUrl": "https://www.gemini.com/credit-card"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "dining"
+      ],
+      "terms": "Rewards are paid in crypto.",
+      "sourceUrl": "https://www.gemini.com/credit-card"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "grocery_stores"
+      ],
+      "terms": "Rewards are paid in crypto.",
+      "sourceUrl": "https://www.gemini.com/credit-card"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Rewards are paid in crypto.",
+      "sourceUrl": "https://www.gemini.com/credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-27",
     "sourceUrls": [
-      "https://www.gemini.com/credit-card"
+      "https://www.gemini.com/credit-card",
+      "https://www.gemini.com/blog/the-gemini-credit-card-now-offers-4-back-on-transit-taxi-and-ridesharing"
     ],
     "updatedBy": "agent"
   },
