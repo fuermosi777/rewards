@@ -10,9 +10,84 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": true,
+  "benefits": [
+    {
+      "id": "wf-active-cash-cell-phone-protection",
+      "name": "Cellular Telephone Protection",
+      "description": "Up to $600 of cell phone protection against damage or theft when the monthly cell phone bill is paid with the card.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "Up to $600 per approved claim, subject to a $25 deductible; maximum two paid claims per 12-month period. Cell phone bills must be paid with an eligible Wells Fargo consumer credit card. Does not cover phones that are lost (mysteriously disappear).",
+      "sourceUrl": "https://creditcards.wellsfargo.com/active-cash-credit-card/",
+      "lastVerified": "2026-09-27"
+    },
+    {
+      "id": "wf-active-cash-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Reimbursement for covered damage or theft of a rental car paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Pay the full cost of the rental with the card and decline the rental company's collision coverage. Certain vehicles are not covered; a maximum benefit amount and other restrictions apply (see the Wells Fargo Guide to Benefits).",
+      "sourceUrl": "https://creditcards.wellsfargo.com/active-cash-credit-card/",
+      "lastVerified": "2026-09-27"
+    },
+    {
+      "id": "wf-active-cash-travel-emergency-assistance",
+      "name": "Travel and Emergency Assistance Services",
+      "description": "Emergency assistance while traveling anywhere in the world.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.wellsfargo.com/active-cash-credit-card/",
+      "lastVerified": "2026-09-27"
+    },
+    {
+      "id": "wf-active-cash-roadside-dispatch",
+      "name": "Roadside Dispatch",
+      "description": "24/7 roadside dispatch service (e.g. towing) with no membership required.",
+      "benefitType": "other",
+      "category": "transportation",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.wellsfargo.com/active-cash-credit-card/",
+      "lastVerified": "2026-09-27"
+    },
+    {
+      "id": "wf-active-cash-emergency-card-replacement",
+      "name": "Emergency Cash and Card Replacement",
+      "description": "Emergency cash advance disbursement or card replacement within one to three business days.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.wellsfargo.com/active-cash-credit-card/",
+      "lastVerified": "2026-09-27"
+    },
+    {
+      "id": "wf-active-cash-visa-signature-concierge",
+      "name": "Visa Signature Concierge",
+      "description": "Complimentary 24/7 Visa Signature Concierge for event tickets, travel bookings, dinner reservations, and more.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.wellsfargo.com/active-cash-credit-card/",
+      "lastVerified": "2026-09-27"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Unlimited 2% cash rewards on purchases.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/active-cash-credit-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-27",
     "sourceUrls": [
       "https://creditcards.wellsfargo.com/active-cash-credit-card/"
     ],
