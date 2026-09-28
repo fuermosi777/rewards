@@ -10,24 +10,159 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "wf-autograph-journey-airline-credit",
+      "name": "$50 Annual Airline Statement Credit",
+      "description": "One-time $50 statement credit each year when the card is used for the first airline purchase of at least $50.",
+      "benefitType": "statement_credit",
+      "category": "airline",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 50,
+        "currency": "USD"
+      },
+      "terms": "Triggered by the first airline purchase of at least $50 each year (no partial credit). Airline purchases are those at merchants whose merchant category code is airline or air carrier. Available from account opening, then renews annually on the first of the month following the account anniversary date.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+      "lastVerified": "2026-09-28"
+    },
+    {
+      "id": "wf-autograph-journey-trip-cancellation",
+      "name": "Trip Cancellation and Interruption Protection",
+      "description": "Reimbursement of up to $15,000 of nonrefundable trip expenses (lodging, flights, activities) if the trip is cancelled or interrupted for a covered reason.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage. The entire trip cost, less redeemable certificates, vouchers, or coupons, must be paid with the card. Maximum benefit $15,000; other restrictions and limitations apply.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+      "lastVerified": "2026-09-28"
+    },
+    {
+      "id": "wf-autograph-journey-travel-accident",
+      "name": "Travel Accident Insurance",
+      "description": "Up to $1,000,000 of coverage for accidental loss of life, limb, sight, speech, or hearing while on a covered trip.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Common carrier fare must be paid in full with the card and/or the associated rewards program.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+      "lastVerified": "2026-09-28"
+    },
+    {
+      "id": "wf-autograph-journey-lost-luggage",
+      "name": "Lost Luggage Reimbursement",
+      "description": "Up to $3,000 per trip in luggage reimbursement if bags are lost due to theft or misdirection by the common carrier.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage. Loss must result from theft or misdirection of the baggage by the common carrier during the trip.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+      "lastVerified": "2026-09-28"
+    },
+    {
+      "id": "wf-autograph-journey-cell-phone-protection",
+      "name": "Cellular Telephone Protection",
+      "description": "Up to $1,000 of cell phone protection against damage, theft, or unintended separation when the monthly cell phone bill is paid with the card.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "Up to $1,000 per approved claim, subject to a $25 deductible; maximum two paid claims per 12-month period. Cell phone bills must be paid with an eligible Wells Fargo consumer credit card.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+      "lastVerified": "2026-09-28"
+    },
+    {
+      "id": "wf-autograph-journey-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Reimbursement for covered damage or theft of a rental car paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Pay the full cost of the rental with the card and decline the rental company's collision coverage. Certain vehicles are not covered; a maximum benefit amount and other restrictions apply (see the Wells Fargo Guide to Benefits).",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+      "lastVerified": "2026-09-28"
+    },
+    {
+      "id": "wf-autograph-journey-roadside-dispatch",
+      "name": "Roadside Dispatch",
+      "description": "24/7 roadside dispatch service (e.g. towing) with no membership required.",
+      "benefitType": "other",
+      "category": "transportation",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+      "lastVerified": "2026-09-28"
+    },
+    {
+      "id": "wf-autograph-journey-emergency-card-replacement",
+      "name": "Emergency Cash and Card Replacement",
+      "description": "Emergency cash disbursement or card replacement.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+      "lastVerified": "2026-09-28"
+    },
+    {
+      "id": "wf-autograph-journey-visa-signature-concierge",
+      "name": "Visa Signature Concierge",
+      "description": "Complimentary 24/7 Visa Signature Concierge.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+      "lastVerified": "2026-09-28"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "hotels"
+      ],
+      "terms": "5X Wells Fargo Rewards points on net purchases at merchants whose merchant category code is classified as hotels.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/"
+    },
+    {
+      "multiplier": 4,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "airline"
+      ],
+      "terms": "4X points on net purchases at merchants whose merchant category code is classified as airlines.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "travel"
+      ],
+      "terms": "3X points on restaurants and other travel (travel purchases not already earning 5X on hotels or 4X on airlines).",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "1X point on other purchases.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-28",
     "sourceUrls": [
-      "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card"
+      "https://creditcards.wellsfargo.com/autograph-journey-visa-credit-card/",
+      "https://upgradedpoints.com/credit-cards/reviews/wells-fargo-autograph-journey-card/airline-credit/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "$50 Credit for $50+ Airline Purchase",
-        "value": 50,
-        "weight": 0.7,
-        "currency": "USD"
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/wells-fargo-autograph-journey.png"
 }
