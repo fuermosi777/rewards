@@ -10,13 +10,118 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "wf-attune-cell-phone-protection",
+      "name": "Cellular Telephone Protection",
+      "description": "Up to $600 per claim of cell phone protection against damage, theft, or involuntary and accidental parting when the monthly cell phone bill is paid with the card.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "Up to $600 per claim, subject to a $25 deductible per claim; maximum 2 paid claims and $1,200 per 12-month period. Lost phones and cosmetic damage are not covered.",
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/attune/guide-to-benefits/",
+      "lastVerified": "2026-09-29"
+    },
+    {
+      "id": "wf-attune-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Up to $50,000 of coverage for damage or theft of a rental vehicle paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage in the United States; primary outside the U.S. where available. Rental periods up to 15 consecutive days in the U.S. or 31 consecutive days outside the U.S. Excludes exotic and antique (20+ years) vehicles, most vans, trucks, motorcycles, and vehicles with open cargo beds.",
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/attune/guide-to-benefits/",
+      "lastVerified": "2026-09-29"
+    },
+    {
+      "id": "wf-attune-mastercard-id-theft-protection",
+      "name": "Mastercard ID Theft Protection",
+      "description": "Monitoring of the surface, dark, and deep web for compromised credentials, plus resolution services for identity theft victims.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "terms": "No charge. Enrollment required at mastercardus.idprotectiononline.com.",
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/attune/guide-to-benefits/",
+      "lastVerified": "2026-09-29"
+    },
+    {
+      "id": "wf-attune-mastercard-global-service",
+      "name": "Mastercard Global Service",
+      "description": "24-hour assistance with lost and stolen card reporting and emergency card replacement worldwide.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/attune/guide-to-benefits/",
+      "lastVerified": "2026-09-29"
+    },
+    {
+      "id": "wf-attune-concierge",
+      "name": "Mastercard Concierge Service",
+      "description": "24/7/365 personal concierge for travel planning, dining and entertainment access, and reminder services.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "terms": "The cost of any goods or services provided by the concierge is billed to the card.",
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/attune/guide-to-benefits/",
+      "lastVerified": "2026-09-29"
+    },
+    {
+      "id": "wf-attune-mastercard-travel-lifestyle-services",
+      "name": "Mastercard Travel & Lifestyle Services",
+      "description": "Self-service travel booking platform for hotels, air travel, tours, cruises, and car rentals, including the Mastercard Lowest Hotel Rate Guarantee and Hotel Stay Guarantee.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/attune/guide-to-benefits/",
+      "lastVerified": "2026-09-29"
+    },
+    {
+      "id": "wf-attune-mastercard-golf",
+      "name": "Mastercard Golf",
+      "description": "Access to TPC clubs, golf travel packages, private course tee times, and PGA TOUR event access for World Elite cardholders.",
+      "benefitType": "other",
+      "category": "entertainment",
+      "isOneTime": true,
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/attune/guide-to-benefits/",
+      "lastVerified": "2026-09-29"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 4,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "fitness_clubs",
+        "salons_spas",
+        "live_entertainment",
+        "gardening_floral_stores",
+        "pet_supply_stores",
+        "pet_services",
+        "transit",
+        "ev_charging",
+        "thrift_stores"
+      ],
+      "terms": "4% cash rewards on fitness and wellness (gym memberships, exercise classes, salons and spas); select sports, recreation, and entertainment (live shows and sporting events, gardening and floral stores, pet supplies, boarding and grooming); and purchases like public transit, EV charging stations, and select thrift stores. Earned based on the merchant's category code.",
+      "sourceUrl": "https://newsroom.wf.com/news-releases/news-details/2024/Wells-Fargo-Introduces-the-New-Attune-World-Elite-Mastercard/default.aspx"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "1% cash rewards on other purchases.",
+      "sourceUrl": "https://newsroom.wf.com/news-releases/news-details/2024/Wells-Fargo-Introduces-the-New-Attune-World-Elite-Mastercard/default.aspx"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-29",
     "sourceUrls": [
-      "https://creditcards.wellsfargo.com/attune-world-elite-mastercard-credit-card"
+      "https://newsroom.wf.com/news-releases/news-details/2024/Wells-Fargo-Introduces-the-New-Attune-World-Elite-Mastercard/default.aspx",
+      "https://www.wellsfargo.com/credit-cards/attune/guide-to-benefits/"
     ],
     "updatedBy": "agent"
   },
+  "_note": "Wells Fargo's Attune product page (creditcards.wellsfargo.com/attune-world-elite-mastercard-credit-card) returned 404 on 2026-09-29, and UpgradedPoints reports the card closed to new applicants (updated 2026-07-01). Not yet confirmed by an official Wells Fargo announcement, so status is left as active; revisit and set status: discontinued once confirmed.",
   "imageUrl": "data/assets/cards/wells-fargo-attune.png"
 }
