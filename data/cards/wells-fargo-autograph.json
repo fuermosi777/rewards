@@ -10,11 +10,114 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "wf-autograph-cell-phone-protection",
+      "name": "Cellular Telephone Protection",
+      "description": "Up to $600 of cell phone protection against damage or theft when the monthly cell phone bill is paid with the card.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "Up to $600 per approved claim, subject to a $25 deductible; maximum two paid claims per 12-month period. Cell phone bill must be paid with the card.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
+      "lastVerified": "2026-09-29"
+    },
+    {
+      "id": "wf-autograph-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Secondary reimbursement for covered damage or theft of a rental car paid for with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage. Pay for the rental with the card and decline the rental company's collision coverage. Other restrictions and limitations apply (see the Wells Fargo Guide to Benefits).",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
+      "lastVerified": "2026-09-29"
+    },
+    {
+      "id": "wf-autograph-travel-emergency-assistance",
+      "name": "Travel and Emergency Assistance",
+      "description": "Assistance and referral services while traveling.",
+      "benefitType": "other",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Assistance and referral only; the cardholder is responsible for the cost of any actual services provided.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
+      "lastVerified": "2026-09-29"
+    },
+    {
+      "id": "wf-autograph-roadside-dispatch",
+      "name": "Roadside Dispatch",
+      "description": "24/7 roadside dispatch service (e.g. towing) with no membership required.",
+      "benefitType": "other",
+      "category": "transportation",
+      "isOneTime": true,
+      "terms": "Pay-per-use; the cardholder pays for the dispatched service.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
+      "lastVerified": "2026-09-29"
+    },
+    {
+      "id": "wf-autograph-emergency-card-replacement",
+      "name": "Emergency Cash and Card Replacement",
+      "description": "Emergency cash disbursement or a replacement card, typically within one to three business days after approval.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "terms": "Emergency cash is a cash advance; standard cash advance fees apply.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
+      "lastVerified": "2026-09-29"
+    },
+    {
+      "id": "wf-autograph-visa-signature-concierge",
+      "name": "Visa Signature Concierge",
+      "description": "Complimentary 24/7 Visa Signature Concierge for event tickets, travel booking, and dinner reservations.",
+      "benefitType": "other",
+      "category": "other",
+      "isOneTime": true,
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
+      "lastVerified": "2026-09-29"
+    },
+    {
+      "id": "wf-autograph-visa-signature-luxury-hotel-collection",
+      "name": "Visa Signature Luxury Hotel Collection",
+      "description": "Premium benefits when booking stays at select properties in the Visa Signature Luxury Hotel Collection.",
+      "benefitType": "other",
+      "category": "hotel",
+      "isOneTime": true,
+      "terms": "Some restrictions and limitations may apply.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/",
+      "lastVerified": "2026-09-29"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "dining",
+        "travel",
+        "gas_stations",
+        "transit",
+        "streaming",
+        "wireless"
+      ],
+      "terms": "Unlimited 3X Wells Fargo Rewards points on restaurants, travel, gas, transit, popular streaming services, and phone plans.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "1X point on other purchases.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/autograph-visa-credit-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-29",
     "sourceUrls": [
-      "https://creditcards.wellsfargo.com/autograph-visa-credit-card"
+      "https://creditcards.wellsfargo.com/autograph-visa-credit-card/"
     ],
     "updatedBy": "agent"
   },
