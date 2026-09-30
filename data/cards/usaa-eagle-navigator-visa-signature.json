@@ -2,7 +2,7 @@
   "id": "usaa-eagle-navigator-visa-signature",
   "imageUrl": "data/assets/cards/usaa-eagle-navigator-visa-signature.png",
   "issuerId": "usaa",
-  "name": "USAA Eagle Navigator\u2122 Visa Signature\u00ae Credit Card",
+  "name": "USAA Eagle Navigator™ Visa Signature® Credit Card",
   "network": "Visa",
   "variant": "personal",
   "annualFee": {
@@ -11,11 +11,139 @@
   },
   "foreignTransactionFee": false,
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "usaa-eagle-navigator-annual-bonus-points",
+      "name": "Annual 10,000 Bonus Points",
+      "description": "10,000 bonus points (equal to $100 in travel) each year after booking an eligible hotel or car through the USAA Rewards Center.",
+      "benefitType": "other",
+      "category": "travel",
+      "terms": "Requires completing an eligible hotel or rental car booking through the USAA Rewards Center. Whether the year resets on the calendar or the account anniversary is not stated in available sources; confirm against USAA's terms before relying on the reset date.",
+      "sourceUrl": "https://frequentmiler.com/USAAEagleNavigator/",
+      "lastVerified": "2026-09-30"
+    },
+    {
+      "id": "usaa-eagle-navigator-trusted-traveler-credit",
+      "name": "TSA PreCheck / Global Entry Credit",
+      "description": "Statement credit of up to $120 for a TSA PreCheck or Global Entry application fee, every four years.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "TSA PreCheck",
+          "Global Entry"
+        ]
+      },
+      "sourceUrl": "https://frequentmiler.com/USAAEagleNavigator/",
+      "lastVerified": "2026-09-30"
+    },
+    {
+      "id": "usaa-eagle-navigator-auto-rental-coverage",
+      "name": "Auto Rental Coverage",
+      "description": "Secondary collision damage waiver coverage for eligible rental cars.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage. Decline the rental company's collision coverage and pay with the card.",
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/usaa-eagle-navigator/",
+      "lastVerified": "2026-09-30"
+    },
+    {
+      "id": "usaa-eagle-navigator-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Coverage",
+      "description": "Reimbursement up to $1,500 per covered person for prepaid, non-refundable travel expenses.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/usaa-eagle-navigator/",
+      "lastVerified": "2026-09-30"
+    },
+    {
+      "id": "usaa-eagle-navigator-baggage-delay",
+      "name": "Baggage Delay Reimbursement",
+      "description": "Up to $100 a day for up to 3 days for essential purchases when checked baggage is delayed.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/usaa-eagle-navigator/",
+      "lastVerified": "2026-09-30"
+    },
+    {
+      "id": "usaa-eagle-navigator-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Accidental death and dismemberment coverage when common-carrier fare is charged to the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/usaa-eagle-navigator/",
+      "lastVerified": "2026-09-30"
+    },
+    {
+      "id": "usaa-eagle-navigator-cell-phone-protection",
+      "name": "Cell Phone Protection",
+      "description": "Up to $500 of coverage against damage or theft when the monthly cell phone bill is paid with the card.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/usaa-eagle-navigator/",
+      "lastVerified": "2026-09-30"
+    },
+    {
+      "id": "usaa-eagle-navigator-purchase-security",
+      "name": "Purchase Security",
+      "description": "Covers new purchases against damage or theft, up to $1,000 per claim.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://upgradedpoints.com/credit-cards/reviews/usaa-eagle-navigator/",
+      "lastVerified": "2026-09-30"
+    },
+    {
+      "id": "usaa-eagle-navigator-extended-warranty",
+      "name": "Extended Warranty Protection",
+      "description": "Extended warranty protection on eligible U.S. manufacturers' warranties.",
+      "benefitType": "insurance",
+      "category": "shopping",
+      "isOneTime": true,
+      "sourceUrl": "https://frequentmiler.com/USAAEagleNavigator/",
+      "lastVerified": "2026-09-30"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "travel",
+        "transit"
+      ],
+      "terms": "Travel and transit, including air, hotel, car and vacation rentals, rideshare, and tolls.",
+      "sourceUrl": "https://frequentmiler.com/USAAEagleNavigator/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://frequentmiler.com/USAAEagleNavigator/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-07",
+    "lastReviewedDate": "2026-09-30",
     "sourceUrls": [
-      "https://www.usaa.com/inet/wc/bank-credit-card-eagle-navigator"
+      "https://www.usaa.com/inet/wc/bank-credit-card-eagle-navigator",
+      "https://frequentmiler.com/USAAEagleNavigator/",
+      "https://upgradedpoints.com/credit-cards/reviews/usaa-eagle-navigator/",
+      "https://maxrewards.com/credit-cards/usaa-eagle-navigator-visa-signature",
+      "https://www.thepointsguy.com/credit-cards/reviews/usaa-eagle-navigator-credit-card-review/"
     ],
     "updatedBy": "agent"
   }
