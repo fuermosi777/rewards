@@ -9,14 +9,18 @@
     "currency": "USD",
     "waivedFirstYear": true
   },
-  "status": "active",
+  "status": "discontinued",
+  "discontinuedDate": "2026-06-22",
   "benefits": [],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-30",
     "sourceUrls": [
-      "https://www.usbank.com/credit-cards/shopper-cash-rewards-visa-signature-credit-card.html"
+      "https://www.doctorofcredit.com/u-s-bank-shopper-cash-no-longer-accepting-new-applications-discontinued/",
+      "https://www.nerdwallet.com/credit-cards/news/us-bank-shopper-cash-rewards-closes-to-new-applicants",
+      "https://cardrewards.usbank.com/ShopperCashRewards_HTML/B/ShopperCashRewards_Calc.html"
     ],
     "updatedBy": "agent"
   },
-  "imageUrl": "data/assets/cards/u-s-bank-shopper-cash-rewards.png"
+  "imageUrl": "data/assets/cards/u-s-bank-shopper-cash-rewards.png",
+  "_note": "Closed to new applicants 2026-06-22; U.S. Bank says existing cardholders keep their cards and terms. benefits[]/earningRates[] left empty: the issuer's product page (and its footnoted list of eligible 6% retailers) is no longer published, and the only complete retailer lists found date from the 2022 launch (e.g. still include Bed Bath & Beyond). The 3% everyday menu (bills and home utilities / gas and EV charging stations / wholesale clubs) is confirmed on U.S. Bank's own rewards calculator page. Fill in once a current retailer list can be sourced, e.g. from the Guide to Benefits / cardmember agreement."
 }

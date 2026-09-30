@@ -2381,7 +2381,7 @@
         "currency": "USD",
         "waivedFirstYear": true
       },
-      "status": "active",
+      "status": "discontinued",
       "imageUrl": "data/assets/cards/u-s-bank-shopper-cash-rewards.png"
     },
     {
@@ -2555,7 +2555,7 @@
       "id": "wells-fargo-choice-privileges-select",
       "name": "Choice Privileges Select",
       "issuerId": "wells-fargo",
-      "network": "Visa",
+      "network": "Mastercard",
       "variant": "personal",
       "annualFee": {
         "amount": 95,

@@ -2,7 +2,7 @@
   "id": "wells-fargo-choice-privileges-select",
   "issuerId": "wells-fargo",
   "name": "Choice Privileges Select",
-  "network": "Visa",
+  "network": "Mastercard",
   "variant": "personal",
   "annualFee": {
     "amount": 95,
@@ -10,11 +10,108 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "wfcps-anniversary-bonus-points",
+      "name": "Anniversary Bonus Points",
+      "description": "30,000 Choice Privileges bonus points every account anniversary.",
+      "benefitType": "other",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "No spend requirement stated on the issuer page.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards",
+      "lastVerified": "2026-09-30"
+    },
+    {
+      "id": "wfcps-platinum-elite-status",
+      "name": "Choice Privileges Platinum Elite Status",
+      "description": "20 Elite Qualifying Nights each calendar year, guaranteeing Choice Privileges Platinum Elite status.",
+      "benefitType": "elite_status",
+      "category": "hotel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards",
+      "lastVerified": "2026-09-30"
+    },
+    {
+      "id": "wfcps-trusted-traveler-credit",
+      "name": "Global Entry / TSA PreCheck Credit",
+      "description": "One statement credit of up to $120 every four years as reimbursement for a Global Entry or TSA PreCheck application or renewal fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
+      },
+      "sourceUrl": "https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards",
+      "lastVerified": "2026-09-30"
+    },
+    {
+      "id": "wfcps-cell-phone-protection",
+      "name": "Cell Phone Protection",
+      "description": "Up to $800 of protection against damage or theft when the monthly cell phone bill is paid with the card.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "Subject to a $25 deductible; maximum of 2 claims per 12-month period.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards",
+      "lastVerified": "2026-09-30"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 10,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "choice_hotels"
+      ],
+      "terms": "Stays at participating Choice Hotels properties, plus Choice Privileges point purchases.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards"
+    },
+    {
+      "multiplier": 5,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "gas_stations",
+        "grocery_stores",
+        "home_improvement",
+        "wireless"
+      ],
+      "terms": "Gas stations, grocery stores, home improvement stores, and phone plan services (landline and cell phone providers considered telecommunication services).",
+      "sourceUrl": "https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards"
+    },
+    {
+      "multiplier": 1,
+      "rewardUnit": "points",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "sourceUrl": "https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-09-30",
     "sourceUrls": [
-      "https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards"
+      "https://creditcards.wellsfargo.com/wells-fargo-choice-privileges-credit-cards",
+      "https://www.nerdwallet.com/credit-cards/reviews/choice-privileges-select-card",
+      "https://frequentmiler.com/ChoiceSelect"
     ],
     "updatedBy": "agent"
   },
