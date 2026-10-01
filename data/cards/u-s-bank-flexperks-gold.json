@@ -18,5 +18,6 @@
     ],
     "updatedBy": "agent"
   },
-  "imageUrl": "data/assets/cards/u-s-bank-flexperks-gold.png"
+  "imageUrl": "data/assets/cards/u-s-bank-flexperks-gold.png",
+  "_note": "benefits[]/earningRates[] left empty (reviewed 2026-10-01): U.S. Bank closed the FlexPerks line to new applicants in 2020 and no longer publishes a product page or Guide to Benefits for the Gold card; the only sources found are 2020-era news posts that don't describe current terms for remaining cardholders. Fill in only if a current cardmember agreement / Guide to Benefits can be sourced."
 }

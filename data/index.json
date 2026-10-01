@@ -2569,7 +2569,7 @@
       "id": "wells-fargo-choice-privileges",
       "name": "Choice Privileges",
       "issuerId": "wells-fargo",
-      "network": "Visa",
+      "network": "Mastercard",
       "variant": "personal",
       "annualFee": {
         "amount": 0,
