@@ -10,28 +10,144 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "wfokp-anniversary-onekeycash",
+      "name": "Anniversary OneKeyCash Bonus",
+      "description": "$100 in OneKeyCash deposited into the linked One Key account each cardholder anniversary.",
+      "benefitType": "other",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "card_anniversary"
+      },
+      "terms": "OneKeyCash is not redeemable for cash and can only be used on Expedia, Hotels.com and Vrbo.",
+      "sourceUrl": "https://awardwallet.com/credit-cards/hotels/one-key-plus-card/",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "id": "wfokp-one-key-gold-status",
+      "name": "One Key Gold Tier Status",
+      "description": "Automatic Gold tier status in the One Key loyalty program (Expedia, Hotels.com, Vrbo).",
+      "benefitType": "elite_status",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "sourceUrl": "https://frequentmiler.com/wells-fargo-one-key-credit-card-review/",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "id": "wfokp-trusted-traveler-credit",
+      "name": "Global Entry / TSA PreCheck Credit",
+      "description": "One statement credit of up to $120 every four years as reimbursement for a Global Entry or TSA PreCheck application fee.",
+      "benefitType": "trusted_traveler_credit",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 4,
+        "anchor": "card_anniversary"
+      },
+      "statementCreditDetail": {
+        "amount": 120,
+        "currency": "USD",
+        "eligibleMerchants": [
+          "Global Entry",
+          "TSA PreCheck"
+        ]
+      },
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/guide-to-benefits/onekeyplus/",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "id": "wfokp-cell-phone-protection",
+      "name": "Cellular Telephone Protection",
+      "description": "Up to $1,000 per claim against damage or theft when the monthly cell phone bill is paid with the card.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "$25 deductible per claim; maximum of 2 paid claims and $2,000 per 12-month period.",
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/guide-to-benefits/onekeyplus/",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "id": "wfokp-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Coverage up to $50,000 for damage/theft of a rental vehicle paid with the card; primary within the United States (except New York).",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Rental periods up to 31 consecutive days. Decline the rental company's collision damage waiver.",
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/guide-to-benefits/onekeyplus/",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "id": "wfokp-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Protection",
+      "description": "Reimbursement up to $5,000 per covered traveler per trip for prepaid, non-refundable travel expenses, up to $20,000 per 12-month period.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/guide-to-benefits/onekeyplus/",
+      "lastVerified": "2026-10-01"
+    },
+    {
+      "id": "wfokp-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Up to $1,000,000 per account of common carrier travel accident coverage when the fare is paid with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/guide-to-benefits/onekeyplus/",
+      "lastVerified": "2026-10-01"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "expedia",
+        "hotels_com",
+        "vrbo"
+      ],
+      "terms": "Earned as OneKeyCash, which can only be redeemed on Expedia, Hotels.com and Vrbo (not for cash).",
+      "sourceUrl": "https://awardwallet.com/credit-cards/hotels/one-key-plus-card/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "gas_stations",
+        "grocery_stores",
+        "dining"
+      ],
+      "terms": "Earned as OneKeyCash, which can only be redeemed on Expedia, Hotels.com and Vrbo (not for cash).",
+      "sourceUrl": "https://awardwallet.com/credit-cards/hotels/one-key-plus-card/"
+    },
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Earned as OneKeyCash, which can only be redeemed on Expedia, Hotels.com and Vrbo (not for cash).",
+      "sourceUrl": "https://awardwallet.com/credit-cards/hotels/one-key-plus-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-10-01",
     "sourceUrls": [
-      "https://www.expedia.com/one-key-cards"
+      "https://www.wellsfargo.com/credit-cards/guide-to-benefits/onekeyplus/",
+      "https://awardwallet.com/credit-cards/hotels/one-key-plus-card/",
+      "https://frequentmiler.com/wells-fargo-one-key-credit-card-review/",
+      "https://www.expedia.com/newsroom/expedia-group-wells-fargo-and-mastercard-announce-new-suite-of-one-key-credit-cards/"
     ],
     "updatedBy": "agent"
-  },
-  "_scaffoldHints": {
-    "note": "Raw hints from credit-card-bonuses-api's 'credits' field (unstructured, not schema-validated, not verified). Use only as a starting lead when filling in real benefits[] entries, then delete this key.",
-    "raw": [
-      {
-        "description": "PreCheck Credit",
-        "value": 100,
-        "weight": 0.4
-      },
-      {
-        "description": "$100 anniversary bonus",
-        "value": 100,
-        "weight": 0.9
-      }
-    ]
   },
   "imageUrl": "data/assets/cards/wells-fargo-expedia-one-key-2.png"
 }
