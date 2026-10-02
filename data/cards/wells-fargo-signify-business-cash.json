@@ -10,11 +10,73 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "benefits": [
+    {
+      "id": "wfsbc-priority-pass",
+      "name": "Priority Pass Membership",
+      "description": "Complimentary Priority Pass membership with access to 1,300+ participating airport lounges worldwide; a per-visit fee applies.",
+      "benefitType": "lounge_access",
+      "category": "travel",
+      "isOneTime": true,
+      "loungeAccessDetail": {
+        "networks": [
+          "Priority Pass"
+        ],
+        "guestPolicy": "Pay-as-you-go: per-visit fees apply to the cardholder and guests; current rates at prioritypass.com/wellsfargosignify."
+      },
+      "terms": "Enrollment required. Membership is free but lounge visits are not.",
+      "sourceUrl": "https://www.wellsfargo.com/biz/business-credit/credit-cards/signify-business-cash-guide-to-benefits/",
+      "lastVerified": "2026-10-02"
+    },
+    {
+      "id": "wfsbc-masterrental-cdw",
+      "name": "MasterRental Insurance / Collision Damage Waiver",
+      "description": "Primary coverage worldwide for physical damage and theft of a rental vehicle paid with the card, up to the lesser of repair cost or the vehicle's wholesale market value.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Rental periods up to 31 consecutive days. Loss-of-use up to $500 per incident. Includes personal effects coverage up to $1,000 per covered person / $2,000 per rental period.",
+      "sourceUrl": "https://www.wellsfargo.com/biz/business-credit/credit-cards/signify-business-cash-guide-to-benefits/",
+      "lastVerified": "2026-10-02"
+    },
+    {
+      "id": "wfsbc-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Up to $250,000 per account of common carrier travel accident coverage when the ticket is purchased with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.wellsfargo.com/biz/business-credit/credit-cards/signify-business-cash-guide-to-benefits/",
+      "lastVerified": "2026-10-02"
+    },
+    {
+      "id": "wfsbc-baggage-delay",
+      "name": "Baggage Delay Reimbursement",
+      "description": "Up to $300 per covered traveler per trip for essential purchases when checked baggage is not delivered within 4 hours of arrival.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.wellsfargo.com/biz/business-credit/credit-cards/signify-business-cash-guide-to-benefits/",
+      "lastVerified": "2026-10-02"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 2,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Unlimited 2% cash rewards on business purchases, no caps or categories. Excludes cash advances, money orders, prepaid gift cards, wire transfers, fees and gambling transactions.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/business-credit-cards/signify-business-cash-credit-card"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-10-02",
     "sourceUrls": [
-      "https://creditcards.wellsfargo.com/business-credit-cards/signify-business-cash-credit-card"
+      "https://creditcards.wellsfargo.com/business-credit-cards/signify-business-cash-credit-card",
+      "https://www.wellsfargo.com/biz/business-credit/credit-cards/signify-business-cash-guide-to-benefits/",
+      "https://cardsetup.wf.com/signifybusiness"
     ],
     "updatedBy": "agent"
   },

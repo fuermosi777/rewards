@@ -10,11 +10,106 @@
     "waivedFirstYear": false
   },
   "status": "active",
-  "benefits": [],
+  "foreignTransactionFee": false,
+  "benefits": [
+    {
+      "id": "wfok-one-key-silver-status",
+      "name": "One Key Silver Tier Status",
+      "description": "Automatic Silver tier status in the One Key loyalty program (Expedia, Hotels.com, Vrbo), including member savings of 15% or more on over 10,000 hotels worldwide.",
+      "benefitType": "elite_status",
+      "category": "travel",
+      "renewalPeriod": {
+        "unit": "year",
+        "count": 1,
+        "anchor": "calendar"
+      },
+      "terms": "Gold tier requires $15,000 in annual card spend.",
+      "sourceUrl": "https://creditcards.wellsfargo.com/one-key-credit-card/",
+      "lastVerified": "2026-10-02"
+    },
+    {
+      "id": "wfok-cell-phone-protection",
+      "name": "Cellular Telephone Protection",
+      "description": "Up to $1,000 per claim against damage, theft or loss when the monthly cell phone bill is paid with the card.",
+      "benefitType": "insurance",
+      "category": "wireless",
+      "isOneTime": true,
+      "terms": "$25 deductible per claim; maximum of 2 paid claims and $2,000 per 12-month period. Excludes cracked screens/cosmetic damage, tablets and smartwatches.",
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/guide-to-benefits/onekey/",
+      "lastVerified": "2026-10-02"
+    },
+    {
+      "id": "wfok-auto-rental-cdw",
+      "name": "Auto Rental Collision Damage Waiver",
+      "description": "Coverage up to $50,000 for damage/theft of a rental vehicle paid with the card; primary coverage (secondary for New York residents).",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Rental periods up to 31 consecutive days, U.S. and international. Pay the full rental with the card and decline the rental company's collision damage waiver.",
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/guide-to-benefits/onekey/",
+      "lastVerified": "2026-10-02"
+    },
+    {
+      "id": "wfok-trip-cancellation-interruption",
+      "name": "Trip Cancellation & Interruption Protection",
+      "description": "Reimbursement up to $5,000 per covered traveler per trip for prepaid, non-refundable travel expenses, up to $20,000 per account per 12-month period.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "terms": "Secondary coverage.",
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/guide-to-benefits/onekey/",
+      "lastVerified": "2026-10-02"
+    },
+    {
+      "id": "wfok-travel-accident-insurance",
+      "name": "Travel Accident Insurance",
+      "description": "Up to $1,000,000 per account of common carrier travel accident coverage when the entire fare is paid with the card.",
+      "benefitType": "insurance",
+      "category": "travel",
+      "isOneTime": true,
+      "sourceUrl": "https://www.wellsfargo.com/credit-cards/guide-to-benefits/onekey/",
+      "lastVerified": "2026-10-02"
+    }
+  ],
+  "earningRates": [
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "expedia",
+        "hotels_com",
+        "vrbo"
+      ],
+      "terms": "Earned as OneKeyCash, which can only be redeemed on Expedia, Hotels.com and Vrbo (not for cash).",
+      "sourceUrl": "https://creditcards.wellsfargo.com/one-key-credit-card/"
+    },
+    {
+      "multiplier": 3,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "gas_stations",
+        "grocery_stores",
+        "dining"
+      ],
+      "terms": "Earned as OneKeyCash, which can only be redeemed on Expedia, Hotels.com and Vrbo (not for cash).",
+      "sourceUrl": "https://creditcards.wellsfargo.com/one-key-credit-card/"
+    },
+    {
+      "multiplier": 1.5,
+      "rewardUnit": "cashback_percent",
+      "eligibleCategories": [
+        "everything_else"
+      ],
+      "terms": "Earned as OneKeyCash, which can only be redeemed on Expedia, Hotels.com and Vrbo (not for cash).",
+      "sourceUrl": "https://creditcards.wellsfargo.com/one-key-credit-card/"
+    }
+  ],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-10-02",
     "sourceUrls": [
-      "https://www.expedia.com/one-key-cards"
+      "https://creditcards.wellsfargo.com/one-key-credit-card/",
+      "https://www.wellsfargo.com/credit-cards/guide-to-benefits/onekey/",
+      "https://frequentmiler.com/wells-fargo-one-key-mastercard-review/"
     ],
     "updatedBy": "agent"
   },
