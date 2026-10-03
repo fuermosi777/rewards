@@ -12,12 +12,12 @@
   "status": "discontinued",
   "benefits": [],
   "sourceMeta": {
-    "lastReviewedDate": "2026-08-04",
+    "lastReviewedDate": "2026-10-03",
     "sourceUrls": [
       "https://www.usbank.com/credit-cards/flexperks-gold-american-express-credit-card.html"
     ],
     "updatedBy": "agent"
   },
   "imageUrl": "data/assets/cards/u-s-bank-flexperks-gold.png",
-  "_note": "benefits[]/earningRates[] left empty (reviewed 2026-10-01): U.S. Bank closed the FlexPerks line to new applicants in 2020 and no longer publishes a product page or Guide to Benefits for the Gold card; the only sources found are 2020-era news posts that don't describe current terms for remaining cardholders. Fill in only if a current cardmember agreement / Guide to Benefits can be sourced."
+  "_note": "benefits[]/earningRates[] left empty (reviewed 2026-10-01): U.S. Bank closed the FlexPerks line to new applicants in 2020 and no longer publishes a product page or Guide to Benefits for the Gold card; the only sources found are 2020-era news posts that don't describe current terms for remaining cardholders. Fill in only if a current cardmember agreement / Guide to Benefits can be sourced. Re-checked 2026-10-03: the old cardholder benefits URL (usbank.com/flexperksgoldbenefits) now 301-redirects to the Altitude Go benefits page, so U.S. Bank no longer hosts FlexPerks Gold benefit terms."
 }
