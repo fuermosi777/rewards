@@ -63,6 +63,7 @@ fi
 # 2026-08-05's manual run: "Credit balance is too low"). This job should
 # always run against the logged-in claude.ai session, not a metered API key.
 env -u ANTHROPIC_API_KEY claude -p "$(cat "$PROMPT_FILE")" \
+  --model sonnet \
   --permission-mode acceptEdits \
   --allowedTools "Read,Write,Edit,Bash(git *),Bash(node *),Bash(npm *),Bash(gh *),WebSearch,WebFetch" \
   --add-dir "$REPO_DIR"
